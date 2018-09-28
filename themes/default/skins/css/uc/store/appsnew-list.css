@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.appsnew-item {
+	padding: 13px 0 11px;
+	border-bottom: 1px dashed #D0D0D0;
+}
+.appsnew-item.last {
+	border-bottom: 0 none;
+}
+.appsnew-icon {
+	display: block;
+	width: 49px;
+	height: 49px;
+	float: left;
+}
+.appsnew-cont {
+	margin-left: 58px;
+}
+.appsnew-title {
+	height: 24px;
+	line-height: 24px;
+}
+.appsnew-title .txt {
+	float: left;
+	font-size: 14px;
+}
+.appsnew-title .star-grade {
+	margin-left: 5px;
+	*vertical-align: -1px;
+}
+.appsnew-title .count {
+	float: right;
+	color: #999;
+}
+.appsnew-desc {
+	height: 24px;
+	line-height: 24px;
+	padding-right: 68px;
+}
+.appsnew-desc .intro {
+	display: block;
+	color: #999;
+	margin-right: 2em;
+}

@@ -1,0 +1,83 @@
+.poplayer-tagBox-taglist li.select {
+padding: 0 24px 0 14px;
+position: relative;
+}
+.poplayer-tagBox-taglist li {
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border: 1px solid #52B8ED;
+background: #52B8ED;
+color: #FFF;
+cursor: pointer;
+float: left;
+height: 20px;
+line-height: 20px;
+padding: 0 14px;
+margin: 0 4px 7px 0;
+white-space: nowrap;
+}
+.poplayer-tagBox-taglist li.select .close {
+-webkit-border-radius: 0 12px 12px 0;
+-moz-border-radius: 0 12px 12px 0;
+border-radius: 0 12px 12px 0;
+position: absolute;
+top:0;
+right: 0;
+height:20px;
+width: 20px;
+}
+.poplayer-tagBox-taglist li.tag-trigger{
+border: 1px solid #ddd;
+color:#666;
+background: #fff;
+}
+.poplayer-tagBox-taglist li span {
+position: relative;
+padding-right: 10px;
+}
+.poplayer-tagBox-taglist li i {
+font-size: 16px;
+font-style: normal;
+position: absolute;
+top:2;
+margin-left:4px;
+}
+.poplayer-tagBox-taglist li.tag-trigger:hover {
+border: 1px solid #52B8ED;
+color:#fff;
+background: #52B8ED;
+}
+.poplayer-tagBox-taglist li.select .close em:hover {
+background: #26A3E6;
+}
+.poplayer-tagBox-taglist li.select .close em{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+background: #52B8ED;
+color: #FFF;
+font-size: 16px;
+position: absolute;
+right: 6px;
+top: 3px;
+line-height: 13px;
+height: 13px;
+width: 13px;
+text-align: center;
+*top:0px;
+*height:15px;
+*line-height:15px;
+}
+ul.poplayer-tagBox-taglist{
+width:460px;
+}
+td{
+font-size: 14px;
+color: #666;
+}
+span.tip{
+	font-size: 14px;
+    color: #666;
+    margin-left:68px
+}

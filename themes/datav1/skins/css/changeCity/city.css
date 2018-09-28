@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+body {
+	text-align: left;
+	margin: 0px;
+	font-size: 14px;
+	font-family: Arial, "宋体", sans-serif;
+}
+
+a:active {
+	color: rgb(64, 64, 64)
+} /* 选定的链接 */
+.header {
+	background: url("../../img/changeCity/banner2_city.jpg") top center;
+	height: 258px;
+}
+
+.citys {
+	line-height: 33px;
+	padding: 5px 5px;
+}
+
+.chcitys {
+	line-height: 35px;
+	padding: 5px 6px;
+	cursor: pointer;
+	color: blue;
+	text-decoration: none;
+}
+
+.change_city li a:hover {
+	background-color: #C6E8FF;
+}
+
+#clist {
+	width: 990px;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+	zoom: 1;
+	padding: 10px 0 10px;
+}
+
+#clist dt {
+	color: #545454;
+	float: left;
+	width: 2%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	clear: both;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px 0 3px 4px;
+	margin-left: 5px;
+}
+
+#clist dd {
+	float: left;
+	width: 90%;
+	margin-left: 10px;
+	padding: 3px 0;
+}
+
+#clist dd a {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #888;
+	cursor: default;
+}
+
+.clearfix {
+	line-height: 200%;
+}
+
+.hot {
+	width: 70px;
+}
+
+.city_line {
+	background: url("../../img/changeCity/dot_line.jpg") repeat-x;
+}
+
+.footer {
+	width: 990px;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	padding: 15px 0px;
+	font-size: 12px;
+	line-height: 180%;
+	overflow: hidden;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #484848;
+}
+
+.footer a:hover {
+	color: #E28C2D;
+}
+
+.citybox {
+	border: 1px solid #CCC;
+	width: 978px;
+	margin-left: 25px;
+	background-color: #F9F9F9;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	vertical-align: middle;
+	height: 36px;
+	padding-top: 8px;
+	*height: 32px;
+	*padding-bottom: 12px;
+}
+
+.enterCity {
+	margin-right: 20px;
+	background-color: rgb(255, 221, 152);
+	cursor: pointer;
+	border: 1px rgb(255, 160, 10) solid;
+	height: 20px;
+	border-radius: 3px;
+	color: rgb(155, 40, 10);
+	line-height: 100%;
+	position: relative;
+	height: 27px;
+	top: 0px;
+	top: -2px\9;
+	*top: 4px;
+	*left: 5px;
+}

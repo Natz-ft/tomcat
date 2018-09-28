@@ -1,0 +1,334 @@
+.newapplist {
+	padding: 10px 10px 0px 10px;
+	/* border-bottom: 1px solid #eee; */
+}
+.content .myapp_top{
+	padding: 0px;
+	border:1px solid #ccc;
+	background-color:#fff;
+	margin-bottom: 16px;
+}
+.content .myapp_middle{
+	padding: 0px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-bottom: 16px;
+}
+.content .myapp_bottom{
+/* 	padding: 10px 20px;
+	border:1px solid #ccc; 
+	background-color:#fff;*/
+}
+.graybd{
+	border:1px solid #E1E1E1;
+}
+.whitebk{
+	background-color:white;
+}
+.listtitle{
+	text-align: left;
+	color: #4C4C4C;
+	font-family: "Microsoft YaHei",simsun,Arial;
+	font-size: 16px;
+	line-height: 44px;
+	padding-left: 10px;
+}
+.listtitle .title_icon{
+	background: url("../images/myapp/title.png") no-repeat;
+	width:20px;
+	height:20px;
+	display:inline-block;
+}
+.newapplist .listtbk {
+	/* background: url("../images/topback.jpg") repeat-x 0 -660px; */
+	width: 620px;
+	height: 11px;
+	position: absolute;
+	right: 0px;
+	border-bottom:2px solid #009cc2;
+}
+.app-list-view li{
+	display:inline-block;
+	width:186px;
+	height:65px;
+	padding: 5px;
+	overflow:hidden;
+	/* margin:6px 4px 7px 4px;
+	_margin:6px 0px 7px 2px; */
+	position:relative;
+	*float:left;
+	margin:6px 8px;;
+	*margin:6px 8px;;
+}
+.jq-mozilla .app-list-view li{
+	height:64px;
+}
+.app-list-view .view-title {
+	display: inline-block;
+	width: 110px;
+	height: 22px;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	color:#888888;
+}
+.app-list-view .view-title:hover{
+	text-decoration: none;
+	color:#0078B6;
+}
+.app-list-view .app-tags{
+	_width: 98px;
+	width:98px;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size:13px;
+}
+.app-list-view li a.f14px,.app-list-page li a.f14px,.app-list-panel li a.f14px{
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	_width:98px;
+	font-weight:bold;
+}
+.app-list-view li a:hover .app-item-icon{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.app-list-view .app-item-icon{
+	width:64px;
+	height:64px;
+	float:left;
+	margin-right:8px;
+	border-radius:5px 5px 5px 5px;
+}
+
+.listview {
+	font-size: 14px;
+	width: 970px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.listview .sli{
+	background: #F7F7F7;
+	border: 1px solid #E1E1E1;
+	position: relative;
+	height: 76px;
+	margin-bottom: 18px;
+}
+.listview .stitle {
+	font-size: 16px;
+	font-weight: bold;
+	width: 530px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 18px 0 10px 50px;
+	overflow:hidden;
+}
+.listview .stitle a,.related_app_icon{
+	position:relative;
+	}
+.listview .sicon {
+	display: none;
+}
+.listview .soptions {
+	margin-left: 50px;
+}
+.listview .soptions li{
+	float: left;
+	margin-right: 16px;
+}
+.listview .sdept {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	width: 180px;
+	border-left: 1px solid #E1E1E1;
+	position: absolute;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+}
+.listview .scat {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	width: 200px;
+	border-left: 1px solid #E1E1E1;
+	position: absolute;
+	right: 180px;
+	top: 0;
+	overflow: hidden;
+}
+.listview .scat .scatt {
+	display: block;
+}
+.app-score {
+	display: inline-block;
+	width: 60px;
+	vertical-align: middle;
+	height: 12px;
+	overflow: hidden;
+	margin: -9px 0 4px 0;
+}
+.app-score, .app-score em {
+background: url(../images/stars.png) no-repeat 0 -27px;
+}
+.app-score em {
+	background-position: 0 -15px;
+	display: block;
+	height: 12px;
+	overflow: hidden;
+}
+.collect_tip{
+	padding-left: 20px;
+	font-size: 16px;
+	color: red;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+.bold {
+font-weight: bold;
+}
+.f14 {
+font-size: 14px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.recommendappList{
+	padding: 10px 14px 0px 14px;
+}
+.recommendappList .rec_app_list{
+	padding: 10px;
+	padding-top: 20px;
+}
+.recommendappList .gallery_item {
+	display: inline-block;
+	height: 330px;
+	width: 190px;
+	padding: 0px 10px 16px 10px;
+}
+.recommendappList .mobile_cover_container {
+	position: relative;
+	height: 250px;
+}
+.recommendappList .cover_shadow {
+	position: relative;
+	width: 190px;
+	height: 250px;
+	margin: -2px -4px 0 -2px;
+	padding: 2px 4px 0 2px;
+	background: url(../images/myapp/mobile_cover_shadow.jpg);
+	overflow: hidden;
+}
+.recommendappList .cover_mask_bottom {
+	position: absolute;
+	width: 195px;
+	height: 12px;
+	background: url(../images/myapp/mobile_cover_bottom_mask.png) no-repeat;
+	left: -2px;
+	bottom: -2px;
+	z-index: 30;	
+}
+.recommendappList .mobile_cover {
+	width: 190px;
+	height: 250px;
+}
+.recommendappList .gallery_app {
+	padding-top: 10px;
+}
+.app_cover_container {
+	float: left;
+	width: 64px;
+	margin-right: 10px;
+}
+.app_content {
+	overflow: hidden;
+	color: #808080;
+	zoom: 1;
+}
+.app_cover {
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.app_name_line {
+	padding-top: 3px;
+	padding-bottom:5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.app_name_line a{
+	color:#000;
+}
+.app_name_line a:hover{
+	text-decoration: none;
+	color:#0078B6;
+}
+.recapp_left{
+	/* width: 676px;
+	_width: 655px; */
+	background-color: #fff;
+	border: 1px solid #D7D7D7;
+	float: left;
+}
+.app_title{
+	text-align:left;
+	border-bottom: 1px solid #D7D7D7;
+	color: #4C4C4C;
+	font-family: "Microsoft YaHei",simsun,Arial;
+	font-size: 16px;
+	line-height: 44px;
+	padding: 0 12px 0 20px;
+	background-color: #F3F3F3;
+	background: -moz-linear-gradient(center top , #FAFAFA, #F1F1F1) repeat scroll 0 0 transparent;
+}
+.recapp_left .app_box{
+	height:560px;
+	overflow:hidden;
+	padding: 10px 10px;
+	background-color: #fff;
+}
+.app-list-view .app_li{
+	float: left;
+	width: 260px;
+	height:75px;
+	margin: 4px 0px 4px 4px;
+}
+.app-list-view .app_li .view-title{
+	width:140px;
+	margin-right: 20px;
+}
+.app-list-view .app_li .app-score{
+	margin: -7px 0 4px 0;
+}
+.hotapp_right{
+	width: 265px;
+	background-color: #fff;
+	border: 1px solid #D7D7D7;
+	float: right;
+}
+.hotapp_right .app_box{
+	height:560px;
+	overflow:hidden;
+	padding: 10px 12px;
+	background-color: #fff;
+}
+.hotapp_right .app_box .app-list-view li{
+	width:212px;
+}
+.hotapp_right .app_box .app-list-view li .view-title{
+	width:140px;
+}
+

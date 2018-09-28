@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+.title_img{
+	width: 10px;
+	height: 12px;
+	float: right;
+	margin: 16px;
+	background: url("./img/arrows.png") no-repeat;
+	background-position: -16px -8px;
+}
+.left_nav{
+	float: left;
+  	width: 190px;
+    min-height: 300px;
+}
+
+.left_nav .left_box{
+	margin-bottom:10px;
+	border: 1px solid #D7D7D7;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.left_box .wi-title {
+    background-color: #999999;
+    border-radius: 5px 5px 0 0;
+    color: #FFFFFF;
+    font-family: "Microsoft YaHei",simsun,Arial;
+    font-size: 16px;
+    line-height: 36px;
+	_height:36px;
+    padding: 0 12px 0 20px;
+}
+
+.wi-title .pcap-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: -2px ;
+    *vertical-align: 2px;
+    background: url("./img/icons-sprites.png") no-repeat scroll -20px 0 transparent
+}
+.wi-title span{
+	line-height:35px;
+	height:35px;
+	display:block;
+}
+.left_box .wi-body {
+    background-color: #FAFAFA;
+    border-radius: 0 0 5px 5px;
+}
+
+.wi-body .sub_group_list img{
+	float:left;
+}
+
+.wi-body .sub_group_list a{
+	display: block;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 30px;
+}
+
+.wi-body .sub_group_list .sub_nav_link {
+	color: #333333;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    /*padding: 10px 10px 10px 20px;*/
+}
+
+.wi-body ul.sub_group_list img {
+    float: left;
+    margin: 10px 8px 1px 1px;
+}
+
+.wi-body ul.sub_group_list .on{
+	background-color:#D9D9D9;
+}
+
+.wi-body ul.sub_group_list .on{
+	cursor:auto;
+	background-color:#CFCFCF;
+}
+.wi-body ul.sub_group_list li.on_white{
+	cursor:auto;
+	background-color:#FFFFFF;
+}
+.wi-body ul.sub_group_list .on_grey{
+	cursor:auto;
+	background-color:#CFCFCF;
+}
+
+.wi-body ul.sub_group_list a:hover{
+	text-decoration: none;
+	background-color: #f0f0f0;
+}
+
+.wi-body ul.sub_group_list .on:hover{
+	background-color: #CFCFCF;
+}
+
+/* .left_box .sub_group_list .on{
+	cursor: auto;
+}
+
+.left_box .sub_group_list .on:hover{
+	cursor: auto;
+	text-decoration: none;
+} */
+
+/*最新应用、安装量排名等迷你Widget*/
+.mini_widget_box{
+	/* width: 260px; */
+	width:100%;
+	/* height: 420px; */
+    overflow: hidden;
+    padding-bottom:20px;
+}
+.mini_widget_box .sub_top {
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 10px 10px 5px 20px;
+    position: relative;
+    white-space: nowrap;
+    width: 225px;
+}
+.mini_widget_box .app-item-icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.mini_widget_box li .app-name {
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+	width: 150px;
+   /*  padding-bottom: 3px; */
+    text-overflow: ellipsis;
+}
+.mini-width{
+	/* width:262px;
+	_width:261px; */
+	width:99%;
+}
+.W_btn_b {
+cursor: pointer;
+background: url(./img/btn.gif) no-repeat;
+color: white;
+display: inline-block;
+padding: 0 0 0 2px;
+height: 24px;
+line-height: 23px;
+line-height: 24px	9;
+text-decoration: none;
+}
+.W_btn_b span {
+cursor: pointer;
+display: inline-block;
+background: url(./img/btn.gif);
+height: 24px;
+line-height: 23px;
+line-height: 24px	9;
+background-position: right -24px;
+background-position-x: 100%;
+background-position-y: -24px;
+padding: 0 6px 0 5px;
+min-width: 37px;
+text-align: center;
+}
+.W_btn_b:hover span {
+background-position: right -72px;
+}
+.detail_a{
+	padding-left:2px;
+}
+.detail_a:hover{
+	color:#0995E0;
+}
+.app-score-default-p{
+	height: 24px;
+	display: block;
+	width: 180px;
+	line-height:24px;
+}
+.jq-ie7 .app-score-default-p{
+	width:110px;
+}
+
+/*收藏、查看等图标*/
+.btn_b, .btn_w,.btn_wg,.btn_wo, .add_atn, .btn_relation, .N_but, .btn_o, 
+.btn_g, .btn_relation2, .add_atn_small, .btn_relation_small,
+.btn_relation span, .btn_relation2 span, .btn_b_disable, .btn_green,
+.so_btn, .btn_green_w121, .btn_reg, .btn_b_disable, .btn_group, .btn_create,
+.btn_download, .btn_search_big, .btn_upload_file {
+	display: inline-block;
+    background: url("./img/icons-bg.png") no-repeat scroll left top transparent;
+}
+
+.btn_o {
+    background-position: 0 -25px;
+}
+.btn_b, .btn_w, .add_atn, .N_but, .btn_o, .btn_g,.btn_wg,.btn_wo {
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 69px;
+}
+.btn_b, .btn_w, .add_atn, .N_but, .btn_o, .btn_g {
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: center;
+}
+.btn_o:hover{
+	background-position: -70px -25px;
+}
+.btn_b:hover{
+	background-position: -70px 0px;
+}
+.btn_w, .btn_wo, .btn_wg {
+    background-position: 0 -75px;
+    color: #333333;
+}
+.btn_wo:hover,.btn_wg:hover{
+	background-position: -70px -50px;
+}
+
+
+.btn_wo:hover,.btn_wg:hover,.btn_b:hover,.btn_o:hover{
+	text-decoration: none;
+}
+

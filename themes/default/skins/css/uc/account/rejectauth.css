@@ -1,0 +1,47 @@
+.cause-tips{
+	width: 650px;
+	height: 123px;
+	margin: 50px auto;
+	background: url("../../images/bj.png") 0 0;
+	border: 1px solid #e5e5e5;
+	background-repeat: repeat-x;
+	font-size: 14px;
+}
+.explain-contain{
+	width: 750px;
+	margin: 0px auto;
+	padding: 0px;
+	padding-bottom:40px;
+}
+.reject-img{
+	width:94px;
+	height:88px;
+	float:left;
+	margin:15px 20px;
+}
+.tip-cause{
+	display:block;
+	float:left;
+	line-height:24px;
+	width:500px;
+	margin-top:35px;
+}
+.cause-detail{
+	color:#F17303;
+	display:inline-block;
+	max-width:180px;
+	_width:100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height:24px;
+}
+.cause-explain{
+	font-size:14px;
+	line-height:26px;
+	margin:0;
+	padding:0;
+}
+.jq-mozilla .cause-detail,.jq-ie9 .cause-detail,.jq-ie8 .cause-detail{
+	vertical-align:-6px;
+}

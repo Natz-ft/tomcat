@@ -1,0 +1,174 @@
+body{background-color: #ccebff;}
+img{border: 0;}
+a{text-decoration: none;}
+.rela_banbg{width: 100%;height: 213px;background-color: #ccebff;}
+.rela_banbg .rela_banner{width: 980px;height: 213px;background-image: url("../../img/analysis/banner_glfx.jpg");margin: 0 auto;}
+.rela_main{width: 980px;margin: 0 auto 20px auto;}
+.rela_main .rela_content{width: 980px;font-family: "微软雅黑";}
+
+/**切换卡**/
+.rela_main .rela_content .rela_tab{ width: 980px; height: 40px; background: url(../../img/analysis/lab-bg.png); }
+.rela_main .rela_content .rela_tab ul{padding: 0;margin: 0;list-style: none;}
+.rela_main .rela_content .rela_tab ul li{ float: left; cursor: pointer; width:112px; height: 16px; padding: 12px 0; text-align: center; font-size: 14px; position:relative; background: url(../../img/analysis/label-bg.png); color: #fff;}
+.rela_main .rela_content .rela_tab ul li:hover{background-color: #009ae2;color: #fff;}
+
+.rela_main .rela_content .rela_tab .rela_tabon{color:#fff; background: url(../../img/analysis/label_bg.PNG); }
+/**筛选条件**/
+
+/**搜索关联**/
+.rela_main .rela_content .rela_screen{ background: #f9f9f9 url(../../img/analysis/sousuo_bg.png) no-repeat scroll 0 0; padding-top: 18px; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; border-right: 1px solid #ccc; margin-bottom: 20px; min-height: 65px; padding-bottom: 25px; width: 978px; }
+.rela_main .rela_content .rela_screen .rela_srch{ width: 600px; height: 55px; background-color: #cde6fe; float:left; }
+.rela_main .rela_content .rela_screen .rela_srch .rela_input{ float: left;  height: 40px; border: 1px solid #11a0e4; margin-top: 6px; margin-bottom: 10px; margin-left: 6px; }
+.rela_main .rela_content .rela_screen .rela_srch .rela_input input{width: 479px;height: 38px;padding-left:10px;border: 0;font-size: 14px;font-family: "微软雅黑";}
+.rela_main .rela_content .rela_screen .rela_srch a{color: #fff;}
+.rela_main .rela_content .rela_screen .rela_srch .rela_btn{ float: left; width: 90px; height: 42px; padding-left:0; background: #009ae2 0px center; margin-top: 6px; margin-bottom: 10px; }
+.rela_main .rela_content #rela_scr1 .rela_ss { float: left; margin-left: 80px; margin-right: 15px;  margin-top: 5px; }
+.rela_main .rela_content #rela_scr1 .rela_srch a .rela_btn img {
+    margin-left: 25px;
+    margin-top: 3px;
+}
+/**维度关联**/
+.rela_main .rela_content .rela_screen .rela_demen{ font-size: 14px;  width: 960px;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deleft{margin-left:35px; float: left;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deleft span{display: inline-block;text-align: right;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deright{float: left;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deup{overflow: hidden; float: left;  margin-bottom: 15px;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deup .rela_deul{display: block;float: left;float: right;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deup .rela_deul ul{width: 880px;padding: 0;margin: 0;list-style: none;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deup .rela_deul li{display: inline-block;background-color: #ccc;padding: 5px;}
+.rela_main .rela_content .rela_screen .rela_demen  select{width: 150px;height: 30px;padding: 4px 6px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;background-image: none;border: 1px solid #11a0e4;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;font-family: "微软雅黑";}
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_dedtita .rela_dedtit #rela_wdinput{height: 20px;padding: 4px 5px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;background-image: none;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;font-family: "微软雅黑"; } 
+.rela_main .rela_content .rela_screen .rela_demen .rela_deup em{margin-left: 5px;margin-right: 3px;font-style: normal;color: red;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_deup .rela_notice{color: #666;font-family: "宋体";font-size: 12px;}
+
+.rela_main .rela_content .rela_screen .rela_demen  .rela_dedtit{margin-left: 39px;margin-bottom: 20px;}
+.rela_main .rela_content .rela_screen .rela_demen  .rela_dedtit input{width: 390px;}
+.rela_main .rela_content .rela_screen .rela_demen  p{padding-left: 65px;}
+.rela_main .rela_content .rela_screen .rela_demen  .rela_deoptn{margin:0 20px 15px 155px;overflow: hidden;}
+.rela_main .rela_content .rela_screen .rela_demen  .rela_deoptn span{display: block;float: left;}
+.rela_main .rela_content .rela_screen .rela_demen  .rela_deoptn ul{float: left;list-style: none;padding: 0;margin: 0;margin-left: 20px;}
+.rela_main .rela_content .rela_screen .rela_demen  .rela_deoptn ul li{display: inline-block;*display: inline;min-width: 80px;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_debutton{float: right; margin-right: 90px;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_debutton span{display: inline-block;width: 180px;height: 30px;padding-top: 7px;background-color: #009ae2;color: #fff;cursor: pointer;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_debutton span:hover{background-color: #00BFFF;}
+.rela_main .rela_content .rela_screen .rela_demen .rela_debutton span:active{border: 3px solid #AEEEEE;border-left: none;border-bottom: none;}
+.rela_debutton img{cursor: pointer;}
+/**筛选结果**/
+.rela_main .rela_content .rela_result{width: 980px;height: 250px;}
+.rela_main .rela_content .rela_result .rela_rleft{float: left;width: 480px;height: 248px;				background-color: #f9f9f9;}
+.rela_main .rela_content .rela_result .rela_rright{float: right;width: 480px;height: 248px;				background-color: #f9f9f9;}
+.rela_main .rela_content .rela_result .rela_rtitle{float: left;width: 30px;height: 238px;padding-top: 10px;background-color: #009ae2;text-align: center;color: #fff;}
+.rela_main .rela_content .rela_result .rela_rmain{float: left;width: 430px;height: 228px;padding: 10px;}
+.rela_main .rela_content .rela_result .rela_rmain ul{padding: 0;margin: 0;list-style: none;font-size: 14px;}
+.rela_main .rela_content .rela_result .rela_rleft ul li{height: 26px;}
+.rela_main .rela_content .rela_result .rela_rleft ul li:hover{background-color: #e6e6e6;}
+.rela_main .rela_content .rela_result .rela_rleft ul li a{color: #333;}
+.rela_main .rela_content .rela_result .rela_rleft ul li a:hover{color: #009ae2;}
+.rela_main .rela_content .rela_result .rela_rleft ul li span{display: inline-block;max-width: 380px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.rela_main .rela_content .rela_result .rela_rleft ul li .rela_plus{width: 20px;height: 20px;margin-right: 3px;cursor: pointer;background:url("../../img/analysis/plusico2.png") no-repeat center; float: right; }
+.rela_main .rela_content .rela_result .rela_rmain .rela_page{text-align: center;}
+.rela_main .rela_content .rela_result .rela_rmain .rela_page span{font-size: 12px;}
+
+.rela_main .rela_content .rela_result .rela_rright ul li{height: 21px;padding:5px 0;padding-right: 0;position: relative;}
+.rela_main .rela_content .rela_result .rela_rright ul li:hover{background-color: #e6e6e6;}
+.rela_main .rela_content .rela_result .rela_rright ul li a{color: #333;}
+.rela_main .rela_content .rela_result .rela_rright ul li a:hover{color: #009ae2;}
+.rela_main .rela_content .rela_result .rela_rright ul li span{display: inline-block;max-width: 300px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.rela_main .rela_content .rela_result .rela_rright ul li .rela_minu{width: 20px;height: 20px;margin-right: 3px;cursor: pointer;background:url("../../img/analysis/minuico2.png") no-repeat center;  float: right; }
+.rela_main .rela_content .rela_result .rela_rright ul li .rela_minu_main{width: 20px;height: 20px;margin-right: 3px;cursor: pointer;background:url("../../img/analysis/minuico2.png") no-repeat center;  float: right; }
+.rela_main .rela_content .rela_result .rela_rright ul li .rela_lead{position: absolute;right: 30px;top: 8px;font-size: 12px;width: 0;cursor: pointer;color: #1E90FF; }
+.rela_main .rela_content .rela_result .rela_rright ul li .rela_lead:hover{color: #009ae2;}
+.rela_main .rela_content .rela_result .rela_rright ul li .rela_dataico{display: inline-block;width: 60px;height: 20px;margin-right: 5px;padding: 3px 10px;padding-bottom: 0;font-size: 12px;font-weight: bold;color: #fff;text-align: center;vertical-align: top;border-radius: 3px;}
+.rela_main .rela_content .rela_result .rela_rright ul li .dataico0{background-color: #009ae2;}
+.rela_main .rela_content .rela_result .rela_rright ul li .dataico1{background-color: #B22222;}
+.rela_main .rela_content .rela_result .rela_rright ul li .dataico2{background-color: #FF8C00;}
+.rela_main .rela_content .rela_result .rela_rright ul li .dataico3{background-color: #3CB371;}
+.rela_main .rela_content .rela_result .rela_rright ul li .dataico4{background-color: #A020F0;}
+.rela_main .rela_content .rela_result .rela_rmain .rela_notice{font-size: 14px;padding-left: 4px;margin-top: 5px;}
+.rela_main .rela_content .rela_result .rela_rmain .rela_contrast{margin-top: 10px;text-align: center;}
+.rela_main .rela_content .rela_result .rela_rmain .rela_contrast span{display: inline-block;width: 120px;height: 30px;padding-top: 7px;background-color: #009ae2;color: #fff;cursor: pointer;}
+.rela_main .rela_content .rela_result .rela_rmain .rela_contrast span:hover{background-color: #00BFFF;}
+.rela_main .rela_content .rela_result .rela_rmain .rela_contrast span:active{border: 3px solid #AEEEEE;border-left: none;border-bottom: none;}
+.rela_main .rela_content .rela_result .rela_rmain .nowidth{}
+/**对比表格**/
+.rela_main .rela_content .rela_conpare{width: 980px;margin-top: 20px;}
+.rela_main .rela_content .rela_conpare .rela_table{width: 980px;font-size: 14px;border-collapse: collapse;border: 1px solid #aaa;}
+.rela_main .rela_content .rela_conpare .rela_table .rela_caption{background-color: #dcdcdc;border-right: 1px solid #aaa;border-bottom: 0;}
+.rela_main .rela_content .rela_conpare .rela_table caption{font-weight: bold;}
+.rela_main .rela_content .rela_conpare .rela_table thead tr{background-color: #f1f0f0;border-bottom: 1px solid #aaa;}
+.rela_main .rela_content .rela_conpare .rela_table tbody tr{background-color: #f8f8f8;}
+.rela_main .rela_content .rela_conpare .rela_table tbody tr:hover{background-color: #87CEEB;}
+.rela_main .rela_content .rela_conpare .rela_table tbody th{background-color: #f1f0f0;border-right: 1px solid #aaa;  padding: 5px;}
+.rela_main .rela_content .rela_conpare .rela_table th{width: 163.3px;padding:5px 0;text-align: center;  border: 1px solid #aaa;}
+.rela_main .rela_content .rela_conpare .rela_table td{ width: 153.3px; padding:5px; text-align: center; border-right:1px dashed #aaa; border-bottom:1px dashed #aaa; font-family: "宋体"; font-size: 12px; color: #008dd5; }
+
+
+
+
+/**可视化展现**/
+.rela_main .rela_content .rela_draw{width: 980px;margin-top: 20px;border: 1px solid #ccc; background:#fff;}
+.rela_main .rela_content .rela_draw .rela_dtitle{width: 980px;height: 40px; 		background-color: #009ae2;}
+.rela_main .rela_content .rela_draw .rela_dtitle span{float: left;width: 100px;height: 20px;padding: 10px 20px;background-color: #009ae2;text-align: center;font-size: 16px;color: #fff;}
+.rela_main .rela_content .rela_draw .rela_dtitle ul{float: left;padding: 0;margin: 0;list-style: none;}
+.rela_main .rela_content .rela_draw .rela_dtitle ul li{position: relative; border-right: 1px solid #fff;  cursor: pointer; float: left; font-size: 14px; height: 21px; line-height: 24px; margin-top: 5px; padding: 7px 0; text-align: center; width: 96px; background:#d2f6ff;  }
+.rela_main .rela_content .rela_draw .rela_dtitle ul li:hover{background-color: #8fd3f2;}
+.rela_main .rela_content .rela_draw .rela_dtitle .current{background-color: #8fd3f2;}
+.rela_main .rela_content .rela_draw .rela_dmain{width: 980px;height: 350px;	padding-top: 10px; background-color: #f9f9f9;}
+.rela_deoptn ul{ list-style: none;  margin: auto;}  
+.rela_main .rela_content .rela_draw .rela_dtitle ul #rela_dtab1 img { margin-right: 5px; }
+.rela_main .rela_content .rela_draw .rela_dtitle ul #rela_dtab2 img { margin-right: 5px;  }
+.rela_main .rela_content .rela_conpare .rela_table thead tr th .color1 { float: left; height: 15px; width: 15px; margin-left: 30px; background: #f33151; margin-right: 10px; margin-top: 2px; }
+.rela_main .rela_content .rela_conpare .rela_table thead tr th .color2 { float: left; height: 15px; width: 15px; margin-left: 30px; background: #f0c328; margin-right: 10px;margin-top: 2px; }
+.rela_main .rela_content .rela_conpare .rela_table thead tr th .color3 { float: left; height: 15px; width: 15px; margin-left: 30px; background: #28d2f0; margin-right: 10px; margin-top: 2px;}
+.rela_main .rela_content .rela_conpare .rela_table thead tr th .color4 { float: left; height: 15px; width: 15px; margin-left: 30px; background: #33e565; margin-right: 10px;margin-top: 2px; }
+.rela_main .rela_content .rela_conpare .rela_table thead tr th .color5 { float: left; height: 15px; width: 15px; margin-left: 30px; background: #936df4; margin-right: 10px;margin-top: 2px; }
+
+.rela_main .rela_content .rela_conpare .rela_table thead tr th .ralalabel1 { float: left; }
+.rela_main .rela_content .rela_draw .rela_dtitle ul #rela_dtab3 img { margin-right: 5px; }
+ .jiantou { position: absolute; height: 9px; width: 26px; background: url(../../img/analysis/jiantou.png); left:43px;  bottom: -8px;}
+ .jiantou-1 { position: absolute; height: 8px; width: 26px; background: url(../../img/analysis/jiantou-1.png); left:35px;  bottom: 27px;}
+.rela_main .rela_content #rela_scr2 .nub .nub_4 { float: left; line-height: 60px; padding-left: 10px; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_dedtita  .rela_wdlist .rala_xzwd {  border-bottom: 3px solid #e0e0e1; color: #0e71cd; font-family: "宋体"; font-size: 16px; font-weight: bold; line-height: 30px; width: 320px;  margin-bottom: 10px;} 
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_dedtita #rela_xz .rela_wdlist .rala_xzwd .rela_qd { height: 18px; width: 58px; border: 1px solid #eb9104; background: #ffbc1b; font-size: 12px; color: #FFF; line-height: 20px; text-align: center; float: right; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_dedtita #rela_xz .rela_wdlist .rala_xzwd .rela_bx { height: 18px; width: 58px; border: 1px solid #9bcfff; background: #cde6fe; font-size: 12px; color: #008dd5; line-height: 20px; text-align: center; float: right; margin-right:10px;}.rela_main .rela_content #rela_scr3 .rela_demen .rela_nub1 { background: url(../../img/analysis/quan_bg.png) no-repeat; height: 30px; width: 200px; margin-left: 100px; float:left;}
+.rela_main .rela_content .rela_result .rela_rright .rela_rmain .rela_notice #addable { color: #fd574f; font-weight: bold; }
+
+.rela_content #rela_scr3 .rela_demen .rela_nub2 { background: url(../../img/analysis/quan_bg2.png) no-repeat; height: 30px; width: 225px; margin-left: 570px; }
+.rela_keyw{height: 20px;padding: 4px 5px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;background-image: none;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;font-family: "微软雅黑";  width: 310px;  border: 1px solid #11a0e4; margin-left:50px; margin-bottom: 15px;} .rela_main .rela_content #rela_scr3 .rela_demen .rela_dedown .rela_deleft #countclass { width: 200px; }
+
+
+.rela_demen1{ font-size: 14px; font-family: "微软雅黑"; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_deleft { float: left; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_dedtita  .rela_wdlist .rela_deoptn {overflow:hidden; font-size: 12px; margin-top: 10px;  width: 270px;}
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_dedtita  .rela_wdlist .rela_deoptn ul li { float: left; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_dedtita .rela_dedown {   background: none repeat scroll 0 0 #fff;
+    border: 3px solid #9bcfff;
+    margin-left: 35px;
+    padding: 15px 30px;
+    position: absolute;
+    z-index: 1000; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_dedtita .rela_dedtit #rela_wdinput { border: 1px solid #11a0e4; width: 220px; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_deleft { margin-left: 35px; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_deup .rela_deleft select { background-color: #fff;
+    background-image: none;
+    border: 1px solid #11a0e4;
+    color: #555;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 30px;
+    line-height: 1.429;
+    padding: 4px 6px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 150px; }
+
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_dedtita  .rela_wdlist .rela_deoptn span { float: left; }
+.rela_main .rela_content #rela_scr2 #rela_wdmain .rela_dedtita { float: left;  margin-left: 35px; width: 350px;  position: relative;}
+.rela_main .rela_content #rela_scr2 .nub{margin-bottom:70px;}
+
+.rela_main .rela_content #rela_scr2 .nub .nub_1 { margin-left: 85px; float: left; }
+
+
+.rela_main .rela_content #rela_scr2 .nub .nub_2 { margin-left: 120px; float: left; }
+
+.rela_main .rela_content #rela_scr2 .nub .nub_3 { margin-left: 140px; float: left; }
+.rela_main .rela_content #rela_scr2 .rela_debutton { margin-left:35px;float: left;}

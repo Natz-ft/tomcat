@@ -1,0 +1,298 @@
+/*----页面布局相关 开始----*/
+/* 上侧图片div */
+.img-contain{
+	position:relative;
+	float:left;
+	width:100%;
+	height:160px;
+	margin:0px;
+}
+/* 下侧主要内容 */
+.home-show-contain{
+	position:relative;
+	float:left;
+	width:100%;
+	height:700px;
+	margin:0px;
+}
+/* 左侧导航栏 */
+.service-list-column{
+	position:relative;
+	float:left;
+	/*width:150px*/;
+	width:170px;
+    height:350px;
+	background-color:#f4f4f4;
+    /*border:1px solid #eeefef*/;
+    /*border-radius:5px*/;
+}
+.avatar-contain img{
+	position:relative;
+	float:left;
+    padding:15px;
+    width:110px;
+    padding-left:30px;
+}
+.service-list-column .service-list{
+	position:relative;
+	float:left;
+    /*width:120px*/;
+    width:100%;
+}
+.service-list-column .service-list ul{
+	padding:10px;
+ 	font: 14px/1.5 "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun;
+	text-align:center
+}
+.service-list-column .service-list ul li{
+	padding:5px 0px;
+}
+
+
+.icon_nav_list{
+	width:16px;
+	height:18px;
+	vertical-align:top;
+}
+.service-list-column .icon_nav_list{
+	background:url(../images/main/icon_nav_list_home.png) no-repeat 0px 0px;
+	margin-right:12px;
+}
+.service-list-column .edit{
+	background-position: 1px 2px;
+}
+.service-list-column .photo{
+	background-position: -16px 2px;
+}
+
+.service-list-column .mob{
+	background-position: -32px 2px;
+}
+
+.service-list-column .pwd{
+	background-position: -48px 2px;
+}
+.service-list-column .service-list a:hover{
+	color:#fe640a;
+}
+.info-detail a:hover,.get-pwd a:hover{
+	color:#fe640a;
+}
+/* 右侧内容显示 */
+.content-detail-column{
+	position:relative;
+	float:right;
+	width:760px;
+    min-height:650px;
+	background-color:#f4f4f4;
+	padding:5px;
+}
+/* 右上：用户基本资料显示 */
+.user-info{
+	margin:0px 15px;
+	position:relative;
+	float:left;
+	width:730px;
+	padding:10px;
+}
+.user-info .title,.m_secu_lvl .title{
+	border-bottom: 1px solid #BAD0DB;
+    font-weight: bold;
+    margin-top: 4px;
+    line-height:36px;
+    font-size:14px;
+}
+
+  
+/*用户基本资料显示:左，基本信息详情 */
+.info-detail{
+	position:relative;
+	float:left;
+	width:350px;
+	padding:5px 2px 5px 20px;
+    height: 150px;
+    font-size:14px;
+}
+.info-detail dl,.get-pwd dl{
+	color:#444444;	
+	text-align:left;
+	float:left;
+	width:100%;
+    padding-top:10px;
+    font-size: 13px;
+}
+.info-detail dt,.get-pwd dt{
+	float:left;
+	font-weight:bold;
+}
+.info-detail dd,.get-pwd dd{
+	float:left;
+	margin-left:2px;
+}
+.info-detail .bind-mail{
+	width: 160px; 
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+
+/*账号安全度*/
+.chart-security-level{
+	background-image:url(../images/main/v4_main.png);
+	background-repeat:no-repeat;
+	width:78px;
+	height:10px;
+}
+.safe-state-low {
+	background-position:-4px 0px;
+}
+ .safe_state_mid .chart-security-level{
+	background-position:-3px -13px ;
+}
+.safe_state_good .chart-security-level{
+	background-position:-3px -28px;
+}
+.safe_state_vrhigh .chart-security-level{
+	background-position:-3px -41px ;
+}
+ .safe_state_high .chart-security-level{
+	background-position:-3px -55px ;
+}
+/*用户基本资料显示:右，找回密码 */
+.get-pwd{
+	position:relative;
+	float:right;
+	width:320px;
+	padding:5px;
+    min-height: 160px;
+    font-size:13px;
+}
+.get-pwd ul{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-top:15px;
+	padding-top:5px;
+	border-top:1px dotted #5EC6DD;
+}
+.get-pwd ul li{
+	float:left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.panel{
+	min-height:180px;
+}
+.get-pwd a.btn-sec-set{
+	text-align:center;
+	padding:3px 10px ;
+	float:left;
+	color:#567B8B;
+	background:#EEF9FF;
+	border:1px solid #B9D2E0;
+	border-radius:3px;
+}
+.get-pwd a.btn-sec-set:hover{
+	text-decoration:none;
+	background:#DDF3FF;
+}
+.get-pwd a.btn-sec-set img{
+	width:16px;
+    height:18px;
+    vertical-align:middle;
+    background:url(../images/main/icon-sec-set.png) no-repeat 0px 0px;
+    margin-right:3px;
+}
+.get-pwd .btn-sec-set img.mail{
+	background-position:0px 0px ;
+}
+.get-pwd .btn-sec-set img.phone{
+	background-position:-16px 0px ;
+}
+.get-pwd .btn-sec-set img.answer{
+	background-position:-32px 0px ;
+}
+
+/* 账号安全信息资料显示 */
+.m_secu_lvl{
+	position:relative;
+	float:left;
+	width:700px;
+	padding:10px;
+	margin: 0px 15px;
+	border-top:0px;
+}
+/*----右侧下方账号风险 开始----*/
+.m_secu_lvl .sec_sum {
+	font-size: 14px;
+	padding: 0px 0px 5px 15px; 
+	font-size-adjust: none; font-stretch: normal;
+}
+.m_secu_lvl .sec_sum span {
+	padding: 0px 6px; color: rgb(218, 8, 37); font-size: 26px;
+}
+.m_secu_lvl dl {
+	padding: 12px 0px; 
+	margin-top: -1px; 
+	border-top:1px dotted #bad0db;
+}
+.m_secu_lvl dl:hover {
+	background: #f4f4f4;
+}
+.m_secu_lvl .warn {
+	/*background: rgb(254, 255, 229)*/;
+}
+.m_secu_lvl dt {
+	font: bold 14px/26px "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun; 
+	width: 135px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.m_secu_lvl dd {
+	font: 14px/26px "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun; 
+	width: 600px; 
+	float: left; font-size-adjust: none; font-stretch: normal;
+}
+.m_secu_lvl .opt_wrap {
+	font-size: 12px;
+	float: right;
+	postion:relative;
+}
+.m_secu_lvl .opt_wrap .opt_link{
+	font-size:14px;
+	margin-right:25px;
+}
+.m_secu_lvl .opt_tip {
+	color: rgb(153, 153, 153); line-height: 14px; font-size: 12px;
+}
+.m_secu_lvl .warn_wrap {
+	border: 0px; 
+	overflow: hidden;
+	position: relative;
+}
+.m_secu_lvl span.sec_item_text{
+	position:relative;
+	top:-4px;
+	left:0px;
+}
+.icon_warn,.icon_veri{
+	width: 22px; 
+	height: 22px; 
+	margin-right: 12px;
+	vertical-align: middle;
+	background:url(../images/main/nav_list_icon.png);
+	_background: url("../images/main/nav_list_icon.gif");
+	background-repeat: no-repeat;
+}
+.icon_warn {
+	background-position: 5px -444px;
+	margin: 0px 5px 0px 10px; width: 35px; height: 35px;
+}
+.icon_veri {
+	background-position: 5px -498px;
+	margin: 0px 5px 0px 10px; width: 35px; height: 35px;
+}
+.warn_wrap dd{
+	position:relative;
+	float:left;
+	width:550px;
+}
+/*----右侧下方账号风险 结束----*/

@@ -1,0 +1,288 @@
+body {
+	font-size: 14px;
+	font-family: '微软雅黑';
+}
+
+.app_center {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.app_main .app_center .app_banner {
+	width: 980px;
+	height: 237px;
+	background:
+		url('../../../../img/appcenter/app/analysetax/bannertax.png');
+}
+
+.app_main .app_center .tax_main {
+	position: relative;
+	overflow: hidden;
+}
+
+.app_main .app_center .tax_main .tax_charts {
+	overflow: hidden;
+	border: 1px solid #ddd;
+	padding-bottom: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title {
+	background-color: #5cb85c;
+	border: 1px solid #4cae4c;
+	color: #fff;
+	padding: 5px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title span {
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title #date_checked
+	{
+	margin-left: 0;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title ul {
+	position: relative;
+	float: right;
+	padding: 0;
+	margin: 0;
+	margin-top: -1px;
+	*margin-top: -30px;
+	*margin-right: 5px;
+	border: 1px solid #e1e1e1;
+	border-right: none;
+	list-style: none;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title ul li {
+	float: left;
+	padding: 3px;
+	width: 60px;
+	text-align: center;
+	background-color: #fff;
+	border-right: 1px solid #e1e1e1;
+	color: #333;
+	cursor: pointer;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_bar {
+	width: 100%;
+	height: 400px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_pie {
+	width: 100%;
+	height: 350px;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank {
+	position: absolute;
+	right: 25px;
+	bottom: 10px;
+	width: 220px;
+	padding-bottom: 10px;
+	z-index: 1000;
+	border-radius: 3px;
+	border: 1px solid #f7f7f7;
+	cursor: default;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_title {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #fff;
+	background-color: #5cb85c;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content {
+	padding: 10px;
+	padding-top: 0;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul
+	{
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding: 0;
+	margin: 0;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul li
+	{
+	line-height: 27px;
+	border-bottom: 1px dashed #ccc;
+	padding: 0 5px;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul li:hover
+	{
+	background-color: #f7f7f9;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul li span
+	{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 1px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title ul .chart_checked
+	{
+	background: #e8edf4;
+	color: #4284e2;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title .chart_timepicker
+	{
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 333px;
+	height: 22px;
+	padding: 2px;
+	background-color: #5cb85c;
+	z-index: 1000;
+	text-align: left;
+	color: #fff;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title .chart_timepicker input
+	{
+	width: 65px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title .chart_timepicker a
+	{
+	cursor: pointer;
+	text-decoration: none;
+	color: #333;
+	padding: 3px 10px;
+	background-color: #e8edf4;
+	margin-left: 5px;
+}
+
+.app_main .app_center .tax_main .tax_table {
+	float: left;
+	width: 45%;
+	margin-bottom: 20px;
+}
+
+.app_main .app_center .tax_main .tax_table table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr {
+	background-color: #d9edf7;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr th {
+	vertical-align: bottom;
+	border: 1px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	padding: 8px;
+	line-height: 1.42857143;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr th span {
+	margin-left: 10px;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr th span img {
+	width: 20px;
+	height: 20px;
+	vertical-align: text-bottom;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr td span img {
+	width: 20px;
+	height: 20px;
+	vertical-align: text-bottom;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr td {
+	padding: 8px;
+	line-height: 1.42857143;
+	border: 1px solid #ddd;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr:hover {
+	background-color: #f9f9f9;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr:hover .tax_average span
+	{
+	background-color: #f9f9f9;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody  .tax_average em
+	{
+	font-style: normal;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody  .tax_add {
+	text-align: center;
+	padding: 0;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody  .tax_add span {
+	cursor: pointer;
+	display: block;
+	padding: 8px 0;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody  .tax_add span:hover
+	{
+	background-color: #008dd5;
+	color: #fff;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody  .tax_added {
+	background-color: #ccc;
+	color: #333;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody  .tax_added:hover
+	{
+	background-color: #ccc !important;
+	color: #333;
+}
+
+.app_main .app_center .tax_main .tax_contrast {
+	float: right;
+	width: 520px;
+	height: 668px;
+	padding-left: 19px;
+	margin-bottom: 20px;
+}
+
+.app_main .app_center .tax_main .tax_contrast .tax_conline {
+	width: 518px;
+	height: 330px;
+	border: 1px solid #ddd;
+	margin-bottom: 4px;
+}
+
+.app_main .app_center .tax_main .tax_contrast .tax_conbar {
+	width: 518px;
+	height: 330px;
+	border: 1px solid #ddd;
+}

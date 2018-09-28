@@ -1,0 +1,153 @@
+/*应用明细*/
+a, .m-link a, a.m-link {
+    color: #FF9600;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.mainbox {
+    min-height: 400px;
+}
+.mainbox .app-detail-info {
+	width: 100%;
+    padding: 20px;
+}
+.app-detail-info .detail-icon {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.app-detail-info .app_name h3 {
+    color: #000000;
+    display: inline;
+    font-size: 18px;
+    line-height: 33px;
+    font-family: "Microsoft YaHei",simsun,Arial;
+}
+.app-detail-info .app_intro, .app-detail-info .app_btns, .app-detail-info .app-scores {
+    margin-top: 4px;
+}
+.app-detail-info dl {
+    height: 25px;
+    line-height: 25px;
+}
+.app-h-space {
+    margin-left: 25px;
+}
+.app-des-box {
+    padding: 0 20px;
+}
+.app-detail-info .app_name a {
+    margin-left: 10px;
+}
+.app_info_title {
+    color: #2C2C2C;
+    font-family: "Microsoft YaHei",simsun,Arial;
+    font-size: 16px;
+    line-height: 44px;
+    margin-top: 10px;
+}
+.app_info_desc {
+    color: #333333;
+    font-size: 14px;
+}
+
+.preview_pics {
+    height: 300px;
+    padding: 10px 0;
+    position: relative;
+    border: 1px solid #D7D7D7;
+}
+
+.preview_pics .preview_pic {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.preview_pics .preview_pic img {
+    max-height: 298px;
+    max-width: 944px;
+}
+.app-detail-info dl {
+    line-height: 25px;
+}
+.app-detail-info dt, .app-detail-info dd {
+    float: left;
+}
+.app_info_title {
+	font-size: 16px;
+	line-height: 44px;
+	color: #2c2c2c;
+	font-family: "Microsoft YaHei",simsun,Arial;
+	margin-top: 10px;
+}
+.app-detail-info .app_score_box{
+	width:500px;
+}
+.empty-pic{
+	color: #333;
+	font-size: 14px;
+}
+.preview_pics {
+	position: relative;
+	height: 300px;
+	border: 1px solid #d7d7d7;
+	padding:10px 0;
+}
+.preview_pics .preview_pic {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.preview_pics .preview_pic img{
+	max-height:298px;
+	max-width:944px;
+}
+.preview_pics .slidesjs-navigation{
+	position: absolute;
+	display: block;
+	top: 40%;
+	left: 0;
+	width: 25px;
+	height: 47px;
+	background: url(img/detail_slide_btn.png) no-repeat 0 0;
+	_background: url(img/detail_slide_btn.gif) no-repeat 0 0;
+	overflow: hidden;
+	z-index:10000;
+}
+.preview_pics .slidesjs-navigation:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.preview_pics .slidesjs-navigation.slidesjs-next {
+	background-position: 0 -47px;
+}
+.preview_pics .slidesjs-navigation.slidesjs-next{
+	left:auto;
+	right:0;
+}
+.preview_pic {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.preview_pic img{
+	max-height:698px;
+	max-width:944px;
+}
+.comment_widget{
+	width:100%;
+}
+.btn_o,.btn_b{
+	color: #FFF;
+	background: #23B2DA;
+}
+.btn_o:hover,.btn_b:hover{
+	color:#fff;
+	filter:alpha(opacity=80); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.8; /*Firefox私有，透明度50%*/
+	opacity:0.8;/*其他，透明度50%*/;
+}

@@ -1,0 +1,39 @@
+.error{
+		margin-left: 2px;
+		color: red;
+		font-size: 12px;
+		text-align: left;
+		background-color: #FFE7E7;
+	}
+label.error{
+	background: transparent;
+}
+.form-body dd {
+	float: left;
+	text-align: left;
+	font-weight: normal;
+}
+.form-body .input{
+	width:220px;
+}
+.form-body dl{
+	padding-left:110px;
+}
+.form-signup-body .dd-input{
+	width:auto;
+}
+.form-submit{
+	width:87%;
+}
+
+.m_form .fm_slect{
+	font: 12px/1.5 "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun;
+	color: #666;
+	width:228px;
+	padding:0px;
+}
+.form-signup-body dd.check_rule{
+	line-height: 23px;
+	height: 21px;
+}
+

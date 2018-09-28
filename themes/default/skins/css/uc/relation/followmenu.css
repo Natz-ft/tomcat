@@ -1,0 +1,81 @@
+.m_nav li{
+	color:#fff;
+}
+.m_nav li.level2{
+	color:#4892c5;
+}
+.m_nav li a{
+	display:inline-block;
+	text-align:left;
+	margin-left:25px;
+}
+.m_nav li.level2{
+	font-weight:normal;
+	height:32px;
+}
+.m_nav li.level2 a{
+	height:32px;
+	line-height:32px;
+	padding:0px 0px;
+	margin:0px;
+	width:100%;
+	
+	text-decoration:none;
+}
+.m_nav li.level2 a span{
+	display:inline-block;
+	height:32px;
+	line-height:32px;
+	
+	max-width:57px;
+	_width:57px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	
+	padding-left:57px;
+	
+	cursor:default;
+}
+.m_nav li.level2 a span.count{
+	padding-left:0px;
+}
+
+.m_nav .level2-cur,.m_nav .level2 a:hover{
+	background:#C5E7F4;
+}
+.m_nav .level2-cur a{
+	color:#4892c5;
+}
+
+.level2-temp{
+	display:none;
+}
+.m_nav li.level2 a.groupmore{
+	color:orange;
+	margin-left:57px;
+}
+.m_nav li.level2 a.groupmore:hover{
+	background:none;
+	text-decoration:underline;
+}
+.m_nav li.level2 a.menu_comm_btn{
+	background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #D1D1D1;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 8px;
+    width:70px;
+    text-align:center;
+    margin: 4px 0px 4px 45px;
+}
+.m_nav li.level2 a.menu_comm_btn:hover{
+	background:#ffa00a;
+	color:#fff;
+	text-decoration:none;
+}
+.color-red{
+	color:red;
+	font-weight:bold;
+}

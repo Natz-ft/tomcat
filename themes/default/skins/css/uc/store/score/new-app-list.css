@@ -1,0 +1,68 @@
+.left {
+	float: left;
+}
+
+.no-radius-r {
+	border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+.wi-wtitle {
+	border-bottom: 1px solid #D7D7D7;
+	color: #4C4C4C;
+	font-family: "Microsoft YaHei", simsun, Arial;
+	font-size: 16px;
+	line-height: 34px;
+	padding: 0 12px 0 20px;
+	background-color: #F3F3F3;
+	background: -moz-linear-gradient(center top, #FAFAFA, #F1F1F1) repeat
+		scroll 0 0 transparent;
+}
+
+.mini_widget_box {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.mini_widget_box .sub_top {
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 10px 10px 5px 20px;
+	position: relative;
+	white-space: nowrap;
+	width: 225px;
+}
+
+.mini_widget_box .app-item-icon {
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.mini_widget_box .app-item-icon:hover {
+	filter: alpha(opacity = 80); /*IE滤镜，透明度50%*/
+	-moz-opacity: 0.8; /*Firefox私有，透明度50%*/
+	opacity: 0.8; /*其他，透明度50%*/
+}
+
+.mini_widget_box li .app-name {
+	color: #333333;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	width: 150px;
+	/* padding-bottom: 3px; */
+	text-overflow: ellipsis;
+}
+
+.app-score-default-p {
+	height: 24px;
+	display: block;
+	width: 180px;
+	line-height: 24px;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <module name="oam" description="服务"> -->
+<module name="oam" description="服务" protocol="netty" ip="178.27.2.14" port="1205">
+<!-- <module name="oam" description="服务" protocol="netty" ip="10.110.1.106" port="2260" > -->
+        <!-- 获取服务-->
+        <reference id="iServiceManageService" interface="com.inspur.paas.api.oam.IServiceManageService"/>
+        
+        <reference id="ServiceGroup" interface="com.inspur.paas.api.oam.IServiceGroupManageService" />
+        
+        <!-- 广州需要用，重新打开 -->
+        <reference id="ServiceMonitor" interface="com.inspur.paas.api.oam.IMonitorItemService" />
+        <reference id="iServiceSubscriptionService" interface="com.inspur.paas.api.oam.IServiceSubscriptionService"/>
+		<reference id="ServiceSubscription" interface="com.inspur.paas.api.oam.IServiceSubscriptionService" />
+		<reference id="serviceErrorCodeService" interface="com.inspur.paas.api.oam.IServiceErrorCodeService"/>
+		<reference id="serviceRespTimeReport" interface="com.inspur.paas.api.oam.IServiceRespTimeReport" />
+		
+		<reference id="serviceLevelManage" interface="com.inspur.paas.api.oam.IServiceLevelManage" />
+		
+		<!-- 广州需要用，新增-->
+		<reference id="serviceDocManageService" interface="com.inspur.paas.api.oam.IServiceDocManageService" />
+		
+		<!-- devweb合并进来需要用 -->
+		<reference id="serviceUsageReport" interface="com.inspur.paas.api.oam.IServiceUsageReport" />
+		<reference id="serviceLevelManage" interface="com.inspur.paas.api.oam.IServiceLevelManage" />
+		<reference id="serviceGroupManageService" interface="com.inspur.paas.api.oam.IServiceGroupManageService" />
+		<reference id="developerService" interface="com.inspur.api.ac.IDeveloperService"   serviceName="AppDeveloperService"/>
+		<reference id="serviceStatisticDayService" interface="com.inspur.paas.api.oam.IServiceStatisticDayService"/>
+</module>

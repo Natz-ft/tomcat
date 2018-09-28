@@ -1,0 +1,467 @@
+body, html {
+	margin: 0;
+	height: 100%;
+	/*background-image: url("../../img/changeCity/bg1.jpg") ;*/
+	background-image: url("../../img/changeCity/bg-kj_4d6c383.png");
+	background-size: 100% 100%;
+	/*background-color:#000;*/
+}
+
+html, body {
+	height: 100%;
+}
+
+img {
+	border: 0;
+}
+
+.qhcs_header .sy_flash {
+	float: left;
+	width: 381px;
+	height: 60px;
+	margin-left: 3%;
+}
+
+.qhcs_header .sy_flash object {
+	margin-top: -20px;
+}
+
+.qhcs_header img {
+	vertical-align: middle;
+}
+
+.qhcs_header {
+	width: 100%;
+	height: 6%;
+	min-width: 1024px;
+	min-height: 60px;
+	padding: 10px 64px;
+	position: relative;
+	display: table;
+	background-image: url("../../img/changeCity/title-bg.png");
+}
+
+.qhcs_header {
+	padding-top: 20px;
+}
+
+.qhcs_header .header_right {
+	width: 22%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	display: table;
+	*position: absolute;
+	*right: 0;
+	*top: 30%;
+	padding: 10px 0;
+}
+
+.qhcs_header .header_right .hright_text {
+	vertical-align: middle;
+	display: table-cell;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.qhcs_header .header_right .hright_text a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.qhcs_header .header_right .hright_text a:hover {
+	color: #fff;
+}
+
+.qhcs_body {
+	width: 100%;
+	height: 90%;
+	min-width: 1024px;
+}
+
+.qhcs_left {
+	float: left;
+	width: 79%;
+	height: 100%;
+	position: relative;
+	font-family: "微软雅黑";
+}
+
+.qleft_hide {
+	left: 10%;
+}
+
+.qhcs_left .qhcs_draw {
+	width: 100%;
+	height: 100%;
+	background-image: url("../../img/changeCity/mapbg.png");
+	background-size: 100% 100%;
+}
+
+.qhcs_left .qhcs_drawpro {
+	background-image: url("../../img/changeCity/mapbg-a.png");
+}
+
+.qleft_modal {
+	position: absolute;
+	z-index: 100;
+	width: 20%;
+	padding: 1%;
+	font-size: 16px;
+	color: #313131;
+	left: 3%;
+}
+
+.qleft_modal div {
+	margin: 5% 0 5% 5%;
+}
+
+.qleft_modal span {
+	display: inline-block;
+	font-size: 2em;
+	font-family: "微软雅黑";
+}
+
+.qleft_modal a {
+	text-decoration: none;
+	color: #313131;
+}
+
+.qleft_modal a:hover {
+	color: #63B8FF;
+}
+
+.qleft_modal .qleft_city {
+	margin-top: 0;
+}
+
+.qleft_modal .qleft_city .qleft_click {
+	font-size: 15px;
+}
+
+.qleft_modal .qleft_tit {
+	color: #313131;
+	border-left: 5px solid #0099cc;
+	padding-left: 5%;
+	font-size: 14px;
+}
+
+.qleft_modal .qleft_pai {
+	background-color: #0099cc;
+	color: #fff;
+	padding: 2px 5px 2px 5px;
+	text-align: center
+}
+
+#gov_amount {
+	color: #008dd5;
+}
+
+.qhcs_left .qleft_return {
+	position: absolute;
+	z-index: 200;
+	width: 10%;
+	min-width: 100px;
+	padding: 1%;
+	font-size: 1em;
+	color: #fff;
+	top: 2%;
+	right: 2%;
+	background-color: #008dd5;
+	text-align: center;
+	cursor: pointer;
+}
+
+.qhcs_left .qleft_return:hover {
+	background-color: #1E90FF;
+}
+
+.qhcs_right {
+	float: right;
+	width: 20%;
+	height: 100%;
+	background-color: #3a8fde;
+	border-left: 1px solid #333;
+	position: relative;
+	font-family: "微软雅黑";
+}
+
+.qright_hide {
+	width: 0;
+	min-width: 0;
+}
+
+.qhcs_right {
+	scrollbar-3dlight-color: #3a8fde;
+	scrollbar-highlight-color: #3a8fde;
+	scrollbar-face-color: #011f45;
+	scrollbar-arrow-color: #3a8fde;
+	scrollbar-shadow-color: #011f45;
+	scrollbar-dark-shadow-color: #000;
+	scrollbar-base-color: #fff;
+	scrollbar-track-color: #3a8fde;
+}
+
+#scroll-1::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+#scroll-1::-webkit-scrollbar-button {
+	background-color: #3a8fde;
+}
+
+#scroll-1::-webkit-scrollbar-track {
+	background: #FF66D5;
+}
+
+#scroll-1::-webkit-scrollbar-track-piece {
+	background: #3a8fde;
+}
+
+#scroll-1::-webkit-scrollbar-thumb {
+	background: #104E8B;
+	border-radius: 4px;
+}
+
+#scroll-1::-webkit-scrollbar-corner {
+	background: #82AFFF;
+}
+
+#scroll-1::-webkit-scrollbar-resizer {
+	background: #FF0BEE;
+}
+
+#scroll-1 {
+	scrollbar-face-color: #104E8B;
+} /*IE8下滚动条颜色调整*/
+.qhcs_right .qright_btn {
+	position: absolute;
+	width: 25px;
+	height: 90px;
+	top: 40%;
+	left: -26px;
+	background: #3a8fde url("../../img/changeCity/sjtp_ico_hide-arrow.png")
+		no-repeat center;
+	cursor: pointer;
+}
+
+.qright_btnhide {
+	background-image: url("../../img/changeCity/sjtp_ico_show-arrow.png")
+		!important;
+}
+
+.qhcs_right .qright_main {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.qhcs_right .qright_tab {
+	width: 100%;
+	height: 4%;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 1%;
+	margin-bottom: 5%;
+}
+
+.qhcs_right .qright_tab div:hover {
+	color: #fff;
+}
+
+.qhcs_right .qright_tab div {
+	width: 50%;
+	height: 100%;
+	padding-top: 3%;
+}
+
+.qhcs_right .qright_tab #qright_t1 {
+	float: left;
+	cursor: default;
+	width: 100%
+}
+
+.qhcs_right .qright_tab #qright_t2 {
+	float: right;
+}
+
+.qhcs_right .qright_tab .qright_t1 {
+	background-color: #3a8fde;
+	color: #fff;
+	border-top: 3px solid #FFD700
+}
+
+.qhcs_right .qright_tab .qright_t2 {
+	background-color: #011f45;
+	color: #666;
+}
+
+.qhcs_right .qright_main .qright_t1con {
+	width: 90%;
+	height: 95%;
+	margin: 0 auto;
+}
+
+.qhcs_right .qright_main .qright_srch {
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+
+.qhcs_right .qright_main .qright_srch input {
+	width: 85%;
+	height: 100%;
+	border: 0;
+	color: #ccc;
+	font-family: "微软雅黑";
+	padding: 0 10% 0 5%;
+	font-size: 14px;
+	/*background-image: url("../../img/changeCity/b7.png");background-size: 100% 100%;*/
+}
+
+.qhcs_right .qright_main .qright_submit {
+	position: absolute;
+	width: 8%;
+	height: 60%;
+	top: 22%;
+	right: 2%;
+	z-index: 999;
+	cursor: pointer;
+	background-image: url("../../img/changeCity/srch1.png");
+	background-size: 100% 100%;
+}
+
+.qhcs_right .qright_main .qright_submit:hover {
+	background-image: url("../../img/changeCity/srchover1.png");
+}
+
+.qhcs_right .qright_main .qright_city {
+	width: 100%;
+	height: 85%;
+	font-size: 14px;
+	overflow: auto;
+}
+
+.qhcs_right .qright_main .qright_city ul {
+	padding: 3%;
+	list-style: none;
+	*margin: 0;
+}
+
+.qhcs_right .qright_main .qright_city ul li {
+	padding: 4% 0 4% 0;
+}
+
+.qhcs_right .qright_main .qright_city ul li div {
+	display: inline-block;
+	*float: left;
+}
+
+.qhcs_right .qright_main .qright_city .qright_num {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Microsoft YaHei';
+	vertical-align: 1px;
+	background: url('../../img/layout/number_bg1.png');
+}
+
+.qhcs_right .qright_main .qright_city .qright_numten {
+	background: url('../../img/layout/number_bg.png');
+}
+
+.qhcs_right .qright_main .qright_city .qright_cityname {
+	color: #eee;
+	width: 30%;
+	margin-left: 2%;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: sub;
+}
+
+.qhcs_right .qright_main .qright_city .qright_citynum {
+	width: 50%;
+	height: 20px;
+	background: url("../../img/changeCity/ciryline.png") no-repeat left
+		center;
+	vertical-align: middle;
+}
+
+.qhcs_right .qright_main .qright_share {
+	width: 100%;
+	height: 10%;
+	font-size: 14px;
+	color: #999;
+}
+
+.qhcs_right .qright_main .qright_share span {
+	float: left;
+	display: block;
+	padding-top: 7%;
+}
+
+.qhcs_right .qright_main .qright_share ul {
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.qhcs_right .qright_main .qright_share ul li {
+	float: left;
+	margin-right: 7px;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+	*margin-top: 18px;
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh1 {
+	background-image: url("../../img/changeCity/bdnorm.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh1:hover {
+	background-image: url("../../img/changeCity/bdhover.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh2 {
+	background-image: url("../../img/changeCity/wbnorm.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh2:hover {
+	background-image: url("../../img/changeCity/wbhover.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh3 {
+	background-image: url("../../img/changeCity/qqnorm.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh3:hover {
+	background-image: url("../../img/changeCity/qqhover.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh4 {
+	background-image: url("../../img/changeCity/morenorm.png");
+}
+
+.qhcs_right .qright_main .qright_share .qright_sh4:hover {
+	background-image: url("../../img/changeCity/morehover.png");
+}
+
+.sy_content {
+	width: 80% !important;
+	min-width: 980px;
+}
+/*
+.hright_text {vertical-align: middle;display: table-cell;color: #333!important;}
+.hright_text a{color: #333!important;}
+.header_right {width: 22%;height: 100%;float: right;text-align: center;display: table;}
+*/

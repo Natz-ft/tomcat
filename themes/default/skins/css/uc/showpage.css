@@ -1,0 +1,40 @@
+.page-hold{
+	margin:5px;
+	padding:2px;
+	position:relative;
+	float:left;
+	width:97%;
+	font-size:13px;
+}
+.page-hold a{
+	color:#444;
+}
+.page-contain{
+	margin:0px;
+	padding:0px;
+	position:relative;
+	float:right;
+	min-width:180px;
+}
+.nowpage-contain{
+	min-width:20px;
+	padding:5px;
+	margin:2px 2px;
+	float:left;
+}
+.nowpage-contain span{
+	width:10px;
+	padding:5px;
+	margin:0px 0px;
+}
+.pre-page,.next-page{
+	width:40px;
+	padding:3px 0px;
+	margin:5px 5px;
+	float:left;
+}
+.now-page-on{
+ 	background-color:#DDDDDD;
+ 	font-size:14px;
+ 	font-weight:bold;
+}

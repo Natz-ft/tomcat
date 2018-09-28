@@ -1,0 +1,894 @@
+body {
+	font-size: 14px;
+	font-family: '微软雅黑';
+}
+
+.app_center {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.app_main .app_center .app_banner {
+	width: 980px;
+	height: 180px;
+	background: url('../../../../img/appcenter/app/queueTax/banner.jpg');
+}
+
+.app_main .app_center .tax_main {
+	position: relative;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+.app_main .app_center .tax_main .tax_title, .charts_title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.app_main .app_center .tax_main .tax_title span {
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.app_main .app_center .tax_main .tax_refresh {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	width: 100px;
+	padding: 7px;
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+}
+
+.app_main .app_center .tax_main .tax_refresh:hover {
+	background-color: #3071a9;
+	border-color: #285e8e;
+}
+
+.app_main .app_center .tax_main .tax_refresh img {
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+
+.app_main .app_center .tax_main .tax_table {
+	margin-top: 20px;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_table .table_label {
+	width: 258px;
+	height: 35px;
+	padding: 8px;
+	position: absolute;
+	top: -52px;
+	right: 118px;
+	font-size: 12px;
+	border-bottom: none;
+}
+
+.app_main .app_center .tax_main .tax_table .table_label ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 3px;
+	list-style: none;
+}
+
+.app_main .app_center .tax_main .tax_table .table_label ul li {
+	float: left;
+	width: 50px;
+	height: 20px;
+	padding-top: 2px;
+	text-align: center;
+	color: #fff;
+	margin-right: 1px;
+}
+
+.app_main .app_center .tax_main .tax_table table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr {
+	background-color: #d9edf7;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr th {
+	vertical-align: bottom;
+	border: 1px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	padding: 8px;
+	line-height: 1.42857143;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr th span {
+	margin-left: 10px;
+}
+
+.app_main .app_center .tax_main .tax_table table thead tr th span img {
+	width: 20px;
+	height: 20px;
+	vertical-align: text-bottom;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr td span img {
+	width: 20px;
+	height: 20px;
+	vertical-align: text-bottom;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr td {
+	padding: 8px;
+	line-height: 1.42857143;
+	border: 1px solid #ddd;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr:hover {
+	background-color: #f9f9f9;
+}
+
+.app_main .app_center .tax_main .tax_table table tbody tr:hover .tax_average span
+	{
+	background-color: #f9f9f9;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_name {
+	text-align: center;
+	width: 33%;
+	cursor: pointer;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_name span {
+	display: none;
+	margin-left: 10px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_name:hover {
+	color: #00B2EE;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_name:hover span {
+	display: inline-block;
+	padding: 3px;
+	background-color: #008dd5;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_name span:hover {
+	background-color: #48D1CC;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_end {
+	text-align: right;
+	width: 28%;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_end span {
+	position: absolute;
+	display: block;
+	right: 45px;
+	top: 8px;
+	min-width: 20px;
+	max-width: 200px;
+	overflow: hidden;
+	height: 20px;
+	background: url('../../../../img/appcenter/app/queueTax/txend.png')
+		repeat;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_wait {
+	text-align: left;
+	width: 28%;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_wait span {
+	position: absolute;
+	left: 40px;
+	top: 8px;
+	min-width: 20px;
+	max-width: 200px;
+	overflow: hidden;
+	height: 20px;
+	background: url('../../../../img/appcenter/app/queueTax/txwait.png')
+		repeat;
+}
+
+.app_main .app_center .tax_num .num0 {
+	display: none;
+}
+
+.app_main .app_center .tax_num .num1 {
+	width: 20px;
+}
+
+.app_main .app_center .tax_num .num2 {
+	width: 40px;
+}
+
+.app_main .app_center .tax_num .num3 {
+	width: 60px;
+}
+
+.app_main .app_center .tax_num .num4 {
+	width: 80px;
+}
+
+.app_main .app_center .tax_num .num5 {
+	width: 100px;
+}
+
+.app_main .app_center .tax_num .num6 {
+	width: 120px;
+}
+
+.app_main .app_center .tax_num .num7 {
+	width: 140px;
+}
+
+.app_main .app_center .tax_num .num8 {
+	width: 160px;
+}
+
+.app_main .app_center .tax_num .num9 {
+	width: 180px;
+}
+
+.app_main .app_center .tax_num .num10 {
+	width: 200px;
+}
+
+.app_main .app_center .tax_num .num11 {
+	width: 220px;
+}
+
+.app_main .app_center .tax_num .num12 {
+	width: 240px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_on {
+	background-color: #f7f7f9;
+	color: #008dd5;
+	border-right: none;
+	font-weight: bold;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_average {
+	text-align: right;
+	width: 14%;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_average div {
+	position: relative;
+	height: 20px;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_average span {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url('../../../../img/appcenter/app/queueTax/waitbg.png')
+		repeat;
+	width: 115px;
+	height: 20px;
+}
+
+.app_main .app_center .tax_main .tax_table .tax_average em {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 105px;
+	height: 20px;
+	font-style: normal;
+	padding-left: 10px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click {
+	position: absolute;
+	left: 324px;
+	top: 1px;
+	z-index: 9999;
+	width: 654px;
+	height: 667px;
+	*height: 682px;
+	background-color: #f9f9f9;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_left {
+	width: 326px;
+	height: 667px;
+	float: left;
+	border-right: 1px solid #ddd;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_right {
+	width: 326px;
+	height: 667px;
+	float: right;
+	border-left: 1px solid #ddd;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_title {
+	border-bottom: 2px solid #ddd;
+	padding: 8px;
+	line-height: 1.5;
+	background-color: #d9edf7;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_title div
+	{
+	float: right;
+	*margin-top: -33px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_title span
+	{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_title img
+	{
+	width: 20px;
+	height: 20px;
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content {
+	padding: 10px;
+	overflow: hidden;
+	max-height: 580px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul
+	{
+	padding: 0;
+	margin: 0px;
+	border-left: 1px solid #ddd;
+	list-style: none;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li
+	{
+	position: relative;
+	list-style: none;
+	margin-left: -5px;
+	padding-left: 15px;
+	line-height: 40px;
+	background-image:
+		url("../../../../img/appcenter/app/queueTax/cloud-icon.png");
+	background-repeat: no-repeat;
+	background-position: -292px 9px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li:hover
+	{
+	background-color: #fff;
+	opacity: .9;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li .click_average
+	{
+	display: inline-block;
+	min-width: 20px;
+	max-width: 200px;
+	overflow: hidden;
+	height: 20px;
+	background: url('../../../../img/appcenter/app/queueTax/tx3.png') repeat;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li .tax_datetime
+	{
+	display: inline-block;
+	width: 40px;
+	font-style: normal
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li .click_over
+	{
+	display: inline-block;
+	*margin-top: -10px;
+	min-width: 20px;
+	max-width: 300px;
+	overflow: hidden;
+	height: 20px;
+	background: url('../../../../img/appcenter/app/queueTax/txend.png')
+		repeat;
+	vertical-align: sub;
+	margin-right: 20px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li .table_bar
+	{
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	width: 115px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li .table_bar span
+	{
+	display: block;
+	background: url('../../../../img/appcenter/app/queueTax/waitbg.png')
+		repeat;
+	width: 115px;
+	height: 20px;
+	float: right;
+	line-height: 20px;
+	text-align: right;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li .table_bar em
+	{
+	font-style: normal;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	z-index: 9999;
+}
+
+.app_main .app_center .tax_main .tax_table .table_click .click_content ul li:hover .table_bar em
+	{
+	display: block;
+}
+
+.app_main .app_center .tax_main .tax_charts {
+	margin: 20px 0;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title {
+	background-color: #5cb85c;
+	border: 1px solid #4cae4c;
+	color: #fff;
+	padding: 5px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title span {
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title #date_checked
+	{
+	margin-left: 0;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title ul {
+	position: relative;
+	float: right;
+	padding: 0;
+	margin: 0;
+	margin-top: -1px;
+	*margin-top: -30px;
+	*margin-right: 5px;
+	border: 1px solid #e1e1e1;
+	border-right: none;
+	list-style: none;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title ul li {
+	float: left;
+	padding: 3px;
+	width: 60px;
+	text-align: center;
+	background-color: #fff;
+	border-right: 1px solid #e1e1e1;
+	color: #333;
+	cursor: pointer;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_bar {
+	width: 100%;
+	height: 400px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_pie {
+	width: 100%;
+	height: 350px;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank {
+	position: absolute;
+	right: 25px;
+	bottom: 10px;
+	width: 220px;
+	padding-bottom: 10px;
+	z-index: 1000;
+	border-radius: 3px;
+	border: 1px solid #f7f7f7;
+	cursor: default;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_title {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #fff;
+	background-color: #5cb85c;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content {
+	padding: 10px;
+	padding-top: 0;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul
+	{
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding: 0;
+	margin: 0;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul li
+	{
+	line-height: 27px;
+	border-bottom: 1px dashed #ccc;
+	padding: 0 5px;
+	position: relative;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul li:hover
+	{
+	background-color: #f7f7f9;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_rank .rank_content ul li span
+	{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 1px;
+}
+
+.average_line {
+	height: 600px;
+	width: 2px;
+	border-right: 2px dashed #008dd5;
+	position: absolute;
+	top: 47px;
+	z-index: 1000;
+}
+
+.line_num1 {
+	left: 74px;
+}
+
+.line_num2 {
+	left: 94px;
+}
+
+.line_num3 {
+	left: 114px;
+}
+
+.line_num4 {
+	left: 134px;
+}
+
+.line_num5 {
+	left: 154px;
+}
+
+.line_num6 {
+	left: 174px;
+}
+
+.line_num7 {
+	left: 194px;
+}
+
+.line_num8 {
+	left: 214px;
+}
+
+.line_num9 {
+	left: 234px;
+}
+
+.line_num10 {
+	left: 254px;
+}
+
+.line_average {
+	margin-left: 5px;
+	padding-left: 5px;
+	display: inline-block;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title ul .chart_checked
+	{
+	background: #e8edf4;
+	color: #4284e2;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title .chart_timepicker
+	{
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 333px;
+	height: 22px;
+	padding: 2px;
+	background-color: #5cb85c;
+	z-index: 1000;
+	text-align: left;
+	color: #fff;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title .chart_timepicker input
+	{
+	width: 65px;
+}
+
+.app_main .app_center .tax_main .tax_charts .charts_title .chart_timepicker a
+	{
+	cursor: pointer;
+	text-decoration: none;
+	color: #333;
+	padding: 3px 10px;
+	background-color: #e8edf4;
+	margin-left: 5px;
+}
+
+.modal_screen {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .3;
+	z-index: 9999;
+	display: none
+}
+
+.modal {
+	width: 617px;
+	height: 300px;
+	background-color: #fff;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	z-index: 9999;
+	border-radius: 5px;
+	display: none;
+	background-color: #f7f7f7;
+}
+
+.modal .modal_title {
+	padding: 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.modal .modal_title .modal_titletxt {
+	vertical-align: top;
+	display: block;
+	float: left;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.modal .modal_title ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 37px;
+	position: relative;
+	border-radius: 2px;
+	background: #ccc;
+	margin-top: 5px;
+}
+
+.modal .modal_title ul li {
+	float: left;
+	background:
+		url('../../../../img/appcenter/app/queueTax/app_progress_bk.png')
+		no-repeat right -1px;
+	text-align: right;
+	line-height: 37px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	width: 120px;
+}
+
+.modal .modal_title ul li span {
+	display: inline-block;
+	width: 93px;
+	text-align: center;
+	margin-right: 30px;
+	cursor: default;
+}
+
+.modal .modal_title .step {
+	position: absolute;
+}
+
+.modal .modal_title .step_1 {
+	background-position: 0px 0px;
+	z-index: 10000;
+}
+
+.modal .modal_title .step_2 {
+	background-position: -9px 0px;
+	width: 240px;
+	z-index: 9999;
+}
+
+.modal .modal_title .step_3 {
+	background-position: 109px 0px;
+	width: 360px;
+	z-index: 9998;
+}
+
+.modal .modal_title .step_4 {
+	background-position: 223px 0px;
+	width: 480px;
+	z-index: 9997;
+}
+
+.modal .modal_title .step_1suc {
+	background-position: right -51px;
+}
+
+.modal .modal_title .step_2suc {
+	background-position: right -101px;
+}
+
+.modal .modal_title .step_3suc {
+	background-position: right -151px;
+}
+
+.modal .modal_title .step_4suc {
+	background-position: 223px -201px;
+}
+
+.modal .modal_body {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.modal .modal_body .modal_left {
+	background-color: #fff;
+	width: 40%;
+	float: left;
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+	border-left-color: #5bc0de;
+}
+
+.modal .modal_body .modal_left ul {
+	list-style: none;
+	padding: 0;
+}
+
+.modal .modal_body .modal_left ul li {
+	line-height: 20px;
+}
+
+.modal .modal_body .modal_step {
+	width: 50%;
+	float: right;
+	margin: 20px 0;
+}
+
+.modal .modal_body .modal_step4 {
+	width: 100%;
+}
+
+.modal .modal_body .modal_step select {
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.modal .modal_body .modal_step input {
+	display: block;
+	width: 89%;
+	height: 20px;
+	padding: 6px 12px;
+	margin: 5px 0 10px 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.modal .modal_body .modal_confirm {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.modal .modal_body .button {
+	display: inline-block;
+	*display: inline;
+	width: 118px;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin: 10px auto 0 auto;
+}
+
+.modal .modal_body .button:hover {
+	background-color: #3071a9;
+	border-color: #285e8e;
+}
+
+.modal .modal_body .btn_next1 {
+	display: block;
+}
+
+.modal .modal_body .button_finish {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: block;
+}

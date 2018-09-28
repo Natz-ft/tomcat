@@ -1,0 +1,290 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8" buffer="none" %>
+<%@page import="com.inspur.ucweb.utils.ConfUtil"%>
+<%@ taglib uri="/tags/website" prefix="website"%>
+<%@ taglib uri="/tags/website-function" prefix="fn"%>
+<website:style href="css/uc/blockui_css.css"/>
+<style>
+.form-body  dd.form-tip{
+	width:140px;
+}
+.form-body  dd.form-tip span{
+	line-height: 15px;
+}
+.common-page-home .uc-header-logo-img {
+	height: auto;
+	cursor: default !important;
+}
+</style>
+<script>
+	$(document).ready(function(){
+	    $(".common-page-home a").attr('href',"javascript:void(0)")
+	})
+</script>
+<!-- action需要使用全局变量然后加控制器 -->
+<link href="${fn:getLink('css/uc/index/signup.css')}" rel="stylesheet" type="text/css" />
+<div style="width:100%;" class="clearfix">
+	<div class="form-contain">
+	<div style="width:650px; margin:0 auto;">
+		<div class="form-type">
+			<input type="button" class="btn-per btn-per-hover" id="btn-per"
+				style="margin-left: 40px;" value="个人注册">
+			<input type="button" class="btn-org" id="btn-org" value="单位注册">
+		</div>
+		<div class="form_per_contain" id="form_per_contain">
+			<form
+				action="${fn:getLink('uc/index/signUp.do?method=signUp') }"
+				method="post" id="register_form_per">
+			<!-- 	<div class="m_warn" style="margin-right:0px;margin-top:10px;border:1px solid #FF0000;background:#FFE2CF;color:#FFf0000">
+				本账号是您享受全面的城市咨询及服务的网上通行证，请确保账号的唯一性以及资料的准确性！
+				</div>  -->
+				<div class="form-body form-signup-body">
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;登录邮箱：
+						</dt>
+						<dd>
+							<input id="email_per" name="login_email" type="text"
+								class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule" >该邮箱用于账号激活及登录。</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;个人登录用户名：
+						</dt>
+						<dd>
+							<input id="login_name_per" name="login_name" type="text"
+								class="input" />
+						</dd>
+						<dd class="form-tip" ></dd>
+						<dd class="check_rule">以字母开头，允许使用字母数字下划线，5-20位组成</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;昵称：
+						</dt>
+						<dd>
+							<input id="nick_per" name="nick" type="text"
+								class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule">不能超过20个字符串，汉字算一个字符</dd>
+					</dl>
+
+					<dl style="width:640px;">
+						<dt>
+							<em>*</em>&nbsp;登录密码：
+						</dt>
+						<dd>
+							<input id="password_per" name="password" type="password"
+								class="input " />
+						</dd>
+						<dd class="form-tip" style="width:180px;line-height:20px;"></dd>
+						<dd class="check_rule">密码由6-15位字母、数字或特殊符号组成</dd>
+					</dl>
+
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;确认密码：
+						</dt>
+						<dd>
+							<input id="confirm_password_per" name="confirm_password"
+								type="password" class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule">请再次输入您设置的密码</dd>
+					</dl>
+
+					<dl style="display: none;">
+						<select name="user_type" id="user_type_per" class="select">
+							<option value="11" checked="true">个人</option>
+						</select>
+					</dl>
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;验证码：
+						</dt>
+						<dd>
+							<input id="checknum_per" name="checknum" type="text"
+								class="input" style="width: 100px; padding: 0px 0px 0px 2px;" />
+							&nbsp <a href="javascript:changeVerify_per();"
+								hideFocus="hidefocus"> <img
+								src="${fn:getLink('uc/index/verify.jsp')}"
+								id="verifyImg_per" alt="换一张" /></a>&nbsp; <a
+								href="javascript:changeVerify_per();" style="font-size: 12px;"
+								hideFocus="hidefocus">看不清楚可换一个</a>
+								<input id="verifycode_hid_p" type="hidden" value="" />
+						</dd>
+						<dd class="form-tip"></dd>
+					</dl>
+
+					<dl style="display: none">
+						<dt></dt>
+						<dd style="margin-left: -20px;">
+							<input id="login_allow_per" name="login_allow" type="checkbox"
+								class="checkbox" checked="checked"/>&nbsp;&nbsp;我已阅读并同意 <a href="${fn:getConfValue('global.index.odweb')}/uc/register.html" target='_blank'
+								class="m-link" hideFocus="hidefocus">《浪潮IOP网络服务使用协议》</a> <label
+								for="login_allow" class="error" generated="true"></label>
+						</dd>
+						<dd class="form-tip" style="width:120px;"></dd>
+						<input id="passwordStrength_per" name="passwordStrength"
+							type="text" class="input" style="display: none" />
+					</dl>
+				</div>
+				<div class="form-submit">
+					<dl>
+						<dd style="text-align: center;">
+							<input type="button" class="btn-reg" id="btn-submit_per">
+						</dd>
+					</dl>
+				</div>
+			</form>
+		</div>
+		<div class="form_org_contain" style="display: none;"
+			id="form_org_contain">
+			<form
+				action="${fn:getLink('uc/index/signUp.do?method=signUp')}"
+				method="post" id="register_form_org">
+				<!-- <div class="m_warn" style="margin-right:0px;margin-top:10px;border:1px solid #FF0000;background:#FFE2CF;color:#FFf0000">
+				本账号是您享受全面的城市咨询及服务的网上通行证，请确保账号的唯一性以及资料的准确性！
+				</div>  -->
+				<div class="form-body form-signup-body">
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;登录邮箱：
+						</dt>
+						<dd>
+							<input id="email_org" name="login_email" type="text"
+								class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule" >该邮箱用于账号激活及登录。</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;单位登录用户名：
+						</dt>
+						<dd>
+							<input id="login_name_org" name="login_name" type="text"
+								class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule">以字母开头，允许使用字母数字下划线，5-20位组成</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;昵称：
+						</dt>
+						<dd>
+							<input id="nick_org" name="nickname" type="text"
+								class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule">不能超过20个字符串，汉字算一个字符</dd>
+					</dl>
+
+					<dl style="width:640px;">
+						<dt>
+							<em>*</em>&nbsp;登录密码：
+						</dt>
+						<dd>
+							<input id="password_org" name="password" type="password"
+								class="input " />
+						</dd>
+						<dd class="form-tip" style="width:180px;line-height:20px;"></dd>
+						<dd class="check_rule">密码由6-15位字母、数字或特殊符号组成</dd>
+					</dl>
+
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;确认密码：
+						</dt>
+						<dd>
+							<input id="confirm_password_org" name="confirm_password"
+								type="password" class="input" />
+						</dd>
+						<dd class="form-tip"></dd>
+						<dd class="check_rule">请再次输入您设置的密码</dd>
+					</dl>
+
+					<dl style="display: none;">
+						<select name="user_type" id="user_type_org" class="select">
+							<option value="21" checked="true">单位</option>
+						</select>
+					</dl>
+					<dl>
+						<dt>
+							<em>*</em>&nbsp;验证码：
+						</dt>
+						<dd>
+							<input id="checknum_org" name="checknum" type="text"
+								class="input" style="width: 100px; padding: 0px 0px 0px 2px;" />
+							&nbsp <a href="javascript:changeVerify_org();"
+								hideFocus="hidefocus"> <img
+								src="${fn:getLink('uc/index/verify.jsp') }"
+								id="verifyImg_org" alt="换一张" /></a>&nbsp; <a
+								href="javascript:changeVerify_org();" style="font-size: 12px;"
+								hideFocus="hidefocus">看不清楚可换一个</a>
+								<input id="verifycode_hid_o" type="hidden" value="" />
+						</dd>
+						<dd class="form-tip"></dd>
+					</dl>
+
+					<dl style="display: none">
+						<dt></dt>
+						<dd style="margin-left: -20px;">
+							<input id="login_allow_org" name="login_allow" type="checkbox"
+								class="checkbox" checked="checked" />&nbsp;&nbsp;我已阅读并同意 <a href="${fn:getConfValue('global.index.odweb')}/uc/register.html" target='_blank'
+								class="m-link" hideFocus="hidefocus">《浪潮IOP网络服务使用协议》</a> <label
+								for="login_allow" class="error" generated="true"></label>
+						</dd>
+						<dd class="form-tip" style="width:120px;"></dd>
+						<input id="passwordStrength_org" name="passwordStrength"
+							type="text" class="input" style="display: none" />
+					</dl>
+				</div>
+				<div class="form-submit">
+					<dl>
+						<dd style="text-align: center;">
+							<input type="button" class="btn-reg" id="btn-submit_org">
+						</dd>
+					</dl>
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+	<div class="tip-box-contain" style="border-left:1px solid #D9EEF8">
+		<div class="title">
+		<h1><strong>说明</strong></h1>
+		</div>
+		<div class="content">
+			<ul>
+				<li style="padding-top: 0px;"><span>1. 注册的账号需要通过邮件激活之后才能使用，请正确填写您的邮箱。</span></li>
+				<li><span>2. 可以使用用户名、手机号、邮箱任意一个进行登录。</span></li>
+				<li><span>3. 昵称是登录后显示的用户名，账号申请成功后可以修改昵称。 </span></li>
+                <li><span>4. 以上信息对于保护您的账号安全极为重要，请您慎重填写并牢记。 </span></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="${fn:getLink('js/uc/jquery.form.js')}"></script>
+<script language="javascript" src="${fn:getLink('js/uc/jquery.validate.js')}"></script>
+<script language="javascript" src="${fn:getLink('js/uc/jquery.validate.ext.js')}"></script>
+<script language="javascript" src="${fn:getLink('js/uc/passwordStrength.js')}"></script>
+<script language="javascript" src="${fn:getLink('js/uc/md5.js')}"></script>
+<website:script src="js/uc/jquery.blockUI.js"/>
+<website:script src="js/uc/dialog.js"/>
+<website:style href="css/uc/common/easydialog.css"/>
+
+<script type="text/javascript">
+	var checkLoginNameUrl = "${fn:getLink('uc/index/index.do?method=checkLoginName')}";
+	var checkEmailUrl = "${fn:getLink('uc/index/index.do?method=checkEmail')}";
+	var getVerifyCodeUrl = "${fn:getLink('uc/index/index.do?method=getVerifyCode')}";
+	var activateEmailUrl = "${fn:getLink('uc/index/registerActivateEmail.jsp?flag=1')}";
+</script>
+<script language="javascript"
+	src="${fn:getLink('js/uc/index/signup.js')}"></script>

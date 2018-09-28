@@ -1,0 +1,27 @@
+.detail-img img {
+	max-width: 100%;
+}
+
+.right-title {
+	border-bottom: 1px solid #ececec;
+	/* min-height:114px; */
+}
+
+.detail-icon {
+	float: left;
+	margin-right: 20px;
+}
+
+.detail-icon i {
+	font-size: 80px;
+	color: #306688;
+}
+
+.detail-share {
+	margin-left: 15px;
+}
+
+.container .detail-right .right-title .detail-operation .detail-collection
+	{
+	margin-left: 15px;
+}

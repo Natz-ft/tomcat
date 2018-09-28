@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+body {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.main {
+	width: 950px;
+	float: right;
+	border: 1px solid #f0f0f0;
+	padding-bottom: 20px;
+}
+
+.main .wdyy_b {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	line-height: 36px;
+	padding-left: 20px;
+	height: 36px;
+	background-image: url(../../img/img/b_3.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.main .wdyy_b .wdyy_b1 {
+	float: left;
+	line-height: 34px;
+}
+
+.main .sd_detailleft {
+	width: 900px;
+	float: right;
+}
+
+.main  .sd_detailleft .sd_detaillist {
+	background-image: url(../../../img/img/tjzy_shadow.png);
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+.main  .sd_detailleft .sd_detaillist ul {
+	padding: 0px;
+	margin-left: -10px;
+}
+
+.main  .sd_detailleft .sd_detaillist .li1 {
+	list-style: none;
+	width: 700px;
+	height: 75px;
+	padding-top: 20px;
+	background-image: url(../../../img/img/right_bg.png);
+}
+
+.main  .sd_detailleft .sd_detaillist .li1:hover {
+	background-image: url(../../../img/img/tjzy_td_on.jpg);
+}
+
+.main  .sd_detailleft .sd_detaillist .li1 img {
+	padding: 0 0 20px 15px;
+	float: left;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent {
+	float: right;
+	width: 610px;
+	/* height: 101px; */
+	line-height: 20px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop {
+	width: 610px;
+	height: 25px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft a {
+	text-decoration: none;
+	color: #000;
+}
+
+.main .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft a:hover {
+	color: #008dd5;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopright {
+	float: right;
+	margin: 3px 15px 0 0;
+}
+
+.pinglun {
+	margin: 0 auto;
+	background-image: url(../../../img/img/pl_6.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 279px;
+	width: 523px;
+}
+
+.pinglun .pl_n {
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 20px;
+	width: 480px;
+}
+
+.pinglun .pl_n ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.pinglun .pl_n .pl_n1 {
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-left: 15px;
+}
+
+.pinglun .pl_n .pl_n1 .n1_tx {
+	float: left;
+}
+
+.pinglun .pl_n .pl_n1 .n1_n {
+	margin-left: 45px;
+	line-height: 24px;
+	color: #999999;
+}
+
+.pinglun .ye {
+	height: 20px;
+	margin-top: 10px;
+	float: right;
+}
+
+.pinglun .ye ul {
+	padding: 0;
+	text-align: center;
+}
+
+.pinglun .ye ul li {
+	list-style: none;
+	float: left;
+	min-width: 18px;
+	height: 18px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #fff;
+	padding: 2px 2px 0 2px;
+	line-height: 20px;
+}
+
+.pinglun .ye .rpage {
+	border-right: 1px solid #ccc;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle {
+	width: 610px;
+	height: 25px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle .sd_conmiddleleft {
+	color: #666;
+	float: left;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle .sd_conmiddleright {
+	float: right;
+	margin-right: 15px;
+}
+
+.main .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle .sd_conmiddleright img {
+	float: right;
+	padding: 0 2px 0 2px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conbottom {
+	color: #666;
+}
+
+.main .sd_detailleft .pageye {
+	height: 67px;
+	padding-left: 200px;
+	padding-top: 10px;
+	width: 500px;
+}
+
+.main .sd_detailleft  .pageye ul {
+	padding: 0;
+	text-align: center;
+}
+
+.main .sd_detailleft .pageye ul li {
+	list-style: none;
+	float: left;
+	min-width: 25px;
+	height: 25px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #fff;
+	padding: 5px 2px 0 2px;
+}
+
+.main .sd_detailleft  .pageye .rpage {
+	border-right: 1px solid #ccc;
+}

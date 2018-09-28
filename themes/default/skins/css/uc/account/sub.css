@@ -1,0 +1,49 @@
+.m_sum{
+	margin-bottom:0;
+	padding-bottom:5px;
+}
+
+.parent_now_children_account_contain{
+	margin: 20px 55px;
+	padding: 0px 10px;
+	line-height: 36px;
+	font-size: 14px;
+	height:auto;
+	background-color: #F8F9FB;
+}
+#sub_account_list{
+	margin: 20px 55px;
+}
+#sub_account_list .m_table{width:100%;}
+.parent_now_account_contain{
+	padding-left:5px;margin-bottom:5px;
+}
+.children_account_contain{
+	border-top:1px dotted #E8E8E8;
+	padding: 0px 5px 10px;
+	width:650px;
+	font-size:13px;
+	margin-left: 75px;
+}
+.parent_now_children_account_contain a{
+	display: inline-block;
+	line-height:30px;
+	margin:0 5px;
+	color: rgb(40,135,218);
+	padding: 0 10px 0 0;
+}
+.parent_now_children_account_contain a:hover 
+{
+	color:black;
+	text-decoration: underline;
+}
+.children_account_contain span{
+	max-width:160px;
+	min-width:40px;
+	_width:160px;
+	display: inline-block;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+}

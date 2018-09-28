@@ -1,0 +1,337 @@
+body {
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+table {
+	table-layout: fixed;
+	white-space: normal;
+}
+
+.app_button {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: bottom;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.app_button:hover {
+	background-color: #3071a9;
+	border-color: #285e8e;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+.btn-small {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.app_center {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.app_main .app_banner {
+	width: 100%;
+	height: 188px;;
+	background: url("../../../../img/appcenter/app/jsyd/appbanner.png");
+	background-color: #eee;
+	text-align: left;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 2em;
+}
+
+.app_main .app_content {
+	padding: 20px;
+	border: 1px solid #e8e8e8;
+	border-top: 3px solid #1d7ad9;
+}
+
+.app_main .app_content h4 {
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.app_main .app_content .app_search {
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.app_main .app_content .app_search .search_left {
+	float: left;
+}
+
+.app_main .app_content .app_search .app_button {
+	padding: 20px;
+	margin-left: 5px;
+}
+
+.app_main .app_content .app_search span {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.app_main .app_content .app_search input {
+	height: 15px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.app_main .app_content .app_explain {
+	float: right;
+	width: 570px;
+	font-size: 12px;
+	color: #808080;
+}
+
+.app_main .app_content .app_table {
+	margin: 20px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.app_main .app_content .app_table table {
+	width: 100%;
+	font-size: 12px;
+	border: 1px solid #e8e8e8;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.app_main .app_content .app_table table .tr_maxwidth {
+	max-width: 300px;
+}
+
+.app_main .app_content .app_table table thead tr {
+	border: 2px solid #357ebd;
+	background-color: #428bca;
+	color: #fff;
+}
+
+.app_main .app_content .app_table table tbody tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.app_main .app_content .app_table table tbody tr:hover {
+	background-color: #f7f7f9;
+}
+
+.app_main .app_content .app_table table tr th {
+	padding: 8px;
+	line-height: 1.42857143;
+	border: 1px solid #357ebd;
+}
+
+.app_main .app_content .app_table table tr td {
+	padding: 8px;
+	line-height: 1.42857143;
+	border: 1px solid #e8e8e8;
+}
+
+.app_main .app_content .app_table .table_body {
+	max-height: 250px;
+	overflow: auto;
+}
+
+.app_main .app_content .app_map {
+	overflow: hidden;
+}
+
+.app_main .app_content .app_map .map_title {
+	font-size: 14px;
+	padding: 5px;
+}
+
+.app_main .app_content .app_map .map_left {
+	width: 680px;
+	float: left;
+	border: 1px solid #e8e8e8;
+}
+
+.app_main .app_content .app_map .map_title {
+	color: #eee;
+	background-color: #428bca;
+}
+
+.app_main .app_content .app_map .map_left .map_title span {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.app_main .app_content .app_map .map_left .map_draw {
+	width: 100%;
+	height: 465px;
+}
+
+.app_main .app_content .app_map .map_right {
+	width: 250px;
+	float: right;
+	border: 1px solid #e8e8e8;
+}
+
+.app_main .app_content .app_map .map_right .map_title {
+	color: #fff;
+}
+
+.app_main .app_content .app_map .map_right .map_list ul {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+}
+
+.app_main .app_content .app_map .map_right .map_list ul li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.app_main .app_content .app_map .map_right .map_list ul li:hover {
+	background-color: #63B8FF;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.app_main .app_content .app_map .map_right .map_list .map_on {
+	background-color: #63B8FF;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.app_main .app_content .app_map .map_right .map_assess {
+	padding-top: 5px;
+	margin-top: 5px;
+	border-top: 1px solid #e8e8e8;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .map_title {
+	color: #333;
+	background-color: transparent;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .map_title span {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .map_title select
+	{
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list ul {
+	padding: 0;
+	list-style: none;
+	*margin-left: 0px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list ul li
+	{
+	padding: 0px 10px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list ul li:hover
+	{
+	background-color: #f7f7f9;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list ul li img
+	{
+	margin-right: 5px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list ul li span
+	{
+	vertical-align: 10px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus
+	{
+	display: inline-block;
+	*float: right;
+	*margin-top: -35px;
+	overflow: hidden;
+	width: 162px
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus div
+	{
+	float: left;
+	height: 30px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus div span
+	{
+	display: block;
+	width: 18px;
+	height: 30px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus .plus
+	{
+	margin-left: 1px;
+	width: 80px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus .plus span
+	{
+	background-color: #5cb85c;
+	float: left;
+	margin-right: 2px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus .minus
+	{
+	margin-right: 1px;
+	width: 80px;
+}
+
+.app_main .app_content .app_map .map_right .map_assess .assess_list .plus_minus .minus span
+	{
+	background-color: #d9534f;
+	float: right;
+	margin-left: 2px;
+}

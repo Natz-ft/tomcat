@@ -1,0 +1,179 @@
+@charset "utf-8";
+body {  background-color:#FFFFFF; margin:0 auto; font-family: "Microsoft YaHei";
+	font-size: 14px;}
+a{ text-decoration:none; color:#333333; }
+.head {
+     margin:0 auto;
+	height: 183px;
+	background-image: url(../img/catalog/head.png);
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top:15px;
+	overflow:hidden;
+}
+.content .side{
+	width:240px;
+	float:left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8dd9e8;
+	background-color:#edf5f5;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #8dd9e8;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8dd9e8;
+
+}
+.content .side .tx{
+	height:150px;
+	background-color:#8dd9e8;
+}
+.content .side .tx .tx_1{
+  padding-top:15px; 
+  text-align:center;
+}
+.content .side .tx .tx_2{
+  font-size:14px;
+  text-align:center;
+  color:#FFFFFF;
+}
+.content .side .tx .tx_2 a{
+  color:#FFFFFF;
+}
+.content .side .ce_xuxiang{
+  margin-top:15px;
+  margin-bottom:40px;
+}
+
+.content .side .ce_xuxiang .ce_n1{
+  padding-left:45px;
+  
+}
+
+.content .side .ce_xuxiang .ce_n1 .tb{
+  float:left;
+  height: 20px;
+margin-top: 6px;
+}
+.content .side .ce_xuxiang .ce_n1 .gd{
+ float:right; margin-right:60px; margin-top:2px;
+}
+
+
+
+.content .side .ce_xuxiang .ce_n1:hover{
+  background-image:url(../img/catalog/c_2.png);
+}
+.content .side .ce_xuxiang ul{
+  list-style:none;
+  padding:0px;
+}
+.content .side .ce_xuxiang ul li{
+     height:55px;
+    line-height:55px;
+	font-size:14px;
+	height:55px;
+	line-height:55px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e7e8e8;
+}
+.content .side .ce_xuxiang ul li a{
+  color:#458ae7;
+}
+
+.szn{
+  margin:0 auto;
+ font-size:14px;
+ line-height:32px;
+}
+
+.szn .zhsz_1:hover{
+  background-image:url(../img/catalog/c_2.png);
+}
+
+.szn .zhsz_1 .tb1{ float:left; margin-left:65px; margin-top:1px;margin-top: 5px;height: 20px;}
+.szn ul{
+   list-style:none;
+  padding:0px;
+}
+.szn ul li{
+   height:35px;
+    line-height:35px;
+	font-size:14px;
+
+}
+img{
+	border:none;
+}
+.side img{
+	border:none;
+}
+.divbg{
+	background-image:url(../img/catalog/c_2.png);
+}
+
+/* ce*/
+ .kfz_title{font-family: "微软雅黑";line-height: 40px;padding-left: 20px;font-size: 16px;}
+
+.kfz_left{width: 207px;float: left;height: 100%;background-color: #FAFAFA;border: 1px solid #e5e5e5;}
+.kfz_left .kfz_user{height: 171px;width: 207px;padding-bottom: 15px;background: #269DBD;text-align: center;}
+.kfz_left .kfz_user .kfz_head{margin: 0 auto;}
+.kfz_left .kfz_user .kfz_head img{width: 207px;height: 174px;border-radius: 5px;}
+.kfz_left .kfz_user .kfz_name{color: #f5f6f7;display: block;font-size: 14px;line-height: 18px;margin: 15px auto 0;max-width: 160px;overflow: hidden;text-align: center;text-overflow: ellipsis;white-space: nowrap;}
+.kfz_left .kfz_user .kfz_name:hover{color: #fff;}
+.kfz_left .kfz_menu	.kfz_menutitle{cursor: pointer;border-top: 1px solid #E5E5E5;border-bottom: 1px solid #E5E5E5;background-color: #eeeeee;font-family: "Microsoft YaHei",simsun,Arial;font-size: 16px;line-height: 36px;_height: 36px;padding: 0 12px 0 20px;}
+.kfz_left .kfz_menu	.kfz_menutitle:hover{background-color: #A4D3EE;}
+.kfz_left .kfz_menu	.kfz_menudetail{padding-bottom: 10px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist{padding: 0;margin: 0;list-style: none;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist li:hover{background-color: #D3D3D3;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist a{display: block;font-size: 14px;height: 35px;line-height: 35px;padding-left: 20px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon{background-image: url(../img/layout/menu_on.png);}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon a{color: #fff;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon3{background-position: -26px -50px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon4{background-position: -28px -48px;}
+
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon6{background-position: -28px -99px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon8{background-position: -28px -150px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon9{background-position: -28px -176px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon10{background-position: -28px -248px;}
+.kfz_left .kfz_menu	.icon{height: 18px;width: 22px;display: inline-block;margin: 9px 10px 0 10px;float: left;
+background-image: url(../img/layout/icon1.png);}
+.kfz_left .kfz_menu	.icon1{background-position: 0px 0px;}
+.kfz_left .kfz_menu	.icon2{background-position: 0px -4px;}
+.kfz_left .kfz_menu	.icon02{background-position: 0px -178px;}
+.kfz_left .kfz_menu	.icon3{background-position: 0px -50px;}
+.kfz_left .kfz_menu	.icon03{background-position: 0px -127px;}
+.kfz_left .kfz_menu	.icon4{background-position: 0px -48px;}
+.kfz_left .kfz_menu	.icon5{background-position: -50px -24px;}
+.kfz_left .kfz_menu	.icon05{background-position: 0px -100px;}
+.kfz_left .kfz_menu	.icon6{background-position: 0px -99px;}
+.kfz_left .kfz_menu	.icon7{background-position: 0px -125px;}
+.kfz_left .kfz_menu	.icon8{background-position: 0px -76px;}
+.kfz_left .kfz_menu	.icon08{background-position: 0px -152px;}
+.kfz_left .kfz_menu	.icon9{background-position: 0px -176px;}
+.kfz_left .kfz_menu	.icon10{background-position: 0px -247px;}
+.kfz_left .kfz_menu	.icon11{background-position: 0px -302px;}
+.kfz_left .kfz_menu	.icon005{background-position: 0px -202px;}
+.kfz_left .kfz_menu	.icon003{background-position: 0px -228px;}
+.kfz_left .kfz_menu	.icon008{background-position: 0px -252px;}
+.kfz_left .kfz_menu	.icon006{background-position: 0px -278px;}
+.kfz_left .kfz_menu	.icon15{background-position: 0px -328px;}
+.kfz_left .kfz_menu	.icon13{background-position: 0px -354px;}
+.kfz_left .kfz_menu	.icon18{background-position: 0px -378px;}
+.kfz_left .kfz_menu	.icon16{background-position: 0px -404px;}
+.kfz_left .kfz_menu	.icon20{background-position: 0px -427px;}
+.kfz_left .kfz_menu	.icon21{background-position: 0px -448px;}
+.kfz_left .kfz_menu	.icon22{background-position: 0px -472px;}
+.kfz_left .kfz_menu	.icon23{background-position: 0px -496px;}
+.kfz_left .kfz_menu	.icon24{background-position: 0px -518px;}
+

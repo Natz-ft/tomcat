@@ -1,0 +1,105 @@
+/*----左边导航菜单样式 开始-----*/
+.m_nav {
+	background: tranparent;
+	overflow: hidden;
+	margin: 20px 0px;
+}
+.m_nav ul {
+	margin-top: -1px; _margin-top: 0;
+}
+.m_nav li {
+	font-weight: bold;
+	font-size:14px;
+	height:40px;
+	overflow:hidden;
+	position:relative;
+}
+.m_nav li a{
+	display:block;
+	height:24px;
+	padding: 8px 0px;
+	color:#4892c5;
+	text-align: center;
+}
+.m_nav li:hover {
+	/*background: #7bc4ee*/;
+}
+.m_nav li:hover a{
+	/*color:#939393*/;
+}
+.m_nav .cur {
+	background: #7bc4ee;
+}
+.m_nav .cur a{
+	color:#fff;
+}
+/*----左边导航菜单样式 结束-----*/
+
+/*----左侧导航菜单图标 开始-----*/
+.icon_nav_list{
+	width: 22px; 
+	height: 22px; 
+	margin-right: 12px;
+	vertical-align: middle;
+	background-image: url("../images/main/nav_list_icon.png"); 
+	_background-image: url("../images/main/nav_list_icon.gif"); 
+	background-repeat: no-repeat;
+}
+.info{
+	background-position: 5px -55px;
+}
+.edu{
+	background-position: 5px -84px;
+}
+.job{
+	background-position: 5px -113px;
+}
+.address{
+	background-position: 5px -142px;
+}
+.family{
+	background-position: 5px -171px;
+}
+.personality{
+	background-position: 5px -200px;
+}
+/*----左侧导航菜单图标 结束----*/
+/*----头部说明 开始----*/
+.m_sum {
+	/*background:url(../images/bg/bd-bg.jpg) repeat scroll 0px 0px*/; 
+	margin: 10px; 
+	padding: 10px; 
+	line-height: 36px; 
+	font-size: 14px;
+	/*border-bottom: 1px solid #bad0db*/;
+}
+.m_sum dl {
+	clear: both;
+}
+.m_sum .title {
+	font-weight: bold;
+	border-bottom:1px solid #7dc5ed;
+}
+/*----头部说明 结束----*/
+
+/*----页面布局相关 开始 ----*/
+.info-list-column{
+	width:150px;
+	/*border: 1px solid #eeefef*/;
+	background-color:#f4f4f4; border-radius:5px;
+}
+.info-show-panel{
+	width:785px;
+	/*border:1px solid #eeefef*/;
+	margin-left:10px;background:#fff;border-radius:5px;
+}
+.info-show-panel dt,.info-show-panel dd{
+	float:left;
+}
+.form-submit dt,.form-submit dd{
+	float:none;
+}
+.prompt-contain dt,.prompt-contain.dd{
+	float:none;
+}
+/*----页面布局相关 结束 ----*/

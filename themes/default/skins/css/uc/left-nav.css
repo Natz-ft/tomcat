@@ -1,0 +1,189 @@
+.content-holder{
+	position:relative;
+	background: #edefef;
+}
+.content-holder .left-nav{
+	float:left;
+	width: 180px;
+	min-height: 400px;
+}
+.content{
+	width:900px;
+	min-height:500px;
+	margin:0 auto;
+	padding:10px 0;
+	position:relative;
+}
+
+.left-nav{
+	padding:20px 0;
+}
+
+.lnav-item .gwzl{
+	background-position: -1px -242px;
+}
+/* .lnav-item:hover  .gwzl,  */.lnav-item.on  .gwzl{
+	background-position: -32px -241px;
+}
+.lnav-item .authen{
+	background-position: 0px -291px;
+}
+/* .lnav-item:hover  .authen,  */.lnav-item.on  .authen{
+	background-position: -33px -291px;
+}
+.lnav-item .photo{
+	background-position: 0px -339px;
+}
+/* .lnav-item:hover  .photo,  */.lnav-item.on  .photo{
+	background-position: -33px -338px;
+}
+.lnav-item .bind{
+	background-position: -1px -386px;
+}
+/* .lnav-item:hover  .bind,  */.lnav-item.on  .bind{
+	background-position: -33px -384px;
+}
+.lnav-item .pers{
+	background-position: -1px -433px;
+}
+/* .lnav-item:hover  .pers, */ .lnav-item.on  .pers{
+	background-position: -34px -433px;
+}
+.lnav-item .cert{
+	background-position: -1px -533px;
+}
+/* .lnav-item:hover  .cert, */ .lnav-item.on  .cert{
+	background-position: -33px -534px;
+}
+
+
+
+.lnav-item .grzl{
+	background-position: -1px -242px;
+}
+/* .lnav-item:hover  .grzl,  */.lnav-item.on  .grzl{
+	background-position: -32px -241px;
+}
+.lnav-item .subaccount{
+	background-position: -1px -482px;
+}
+/* .lnav-item:hover  .subaccount,  */.lnav-item.on  .subaccount{
+	background-position: -33px -481px;
+}
+
+
+.lnav-item .aqzx{
+	background-position: 0px 0px;
+}
+/* .lnav-item:hover  .aqzx, */ .lnav-item.on  .aqzx{
+	background-position: -33px 0px;
+	
+}
+ .lnav-item .pwd{
+	background-position: 0px -45px;
+}
+/* .lnav-item:hover  .pwd, */ .lnav-item.on  .pwd{
+	background-position: -33px -46px;
+}
+.lnav-item .mob{
+	background-position: 0px -94px;
+}
+/* .lnav-item:hover  .mob, */ .lnav-item.on  .mob{
+	background-position: -32px -94px;
+}
+.lnav-item .mail{
+	background-position: 0px -142px;
+}
+/* .lnav-item:hover  .mail,  */.lnav-item.on  .mail{
+	background-position: -32px -143px;
+}
+.lnav-item .sve{
+	background-position: 0px -192px;
+}
+/* .lnav-item:hover  .sve, */ .lnav-item.on  .sve{
+	background-position: -32px -192px;
+} 
+
+ .lnav-item:hover {
+ 	background-color:#d7e9f5;
+ 	text-decoration: none;
+ }
+.left-nav .lnav-item{
+	display:block;
+	font-size:16px;
+	padding:0;
+	color:#333333;
+	height:38px;
+	line-height:38px;
+	margin-bottom: 4px;
+}
+.left-nav .lnav-item.next-item{
+	color:#555555;
+}
+.left-nav .lnav-item.next-item span{
+	height: 34px;
+	display: inline-block;
+	margin: 0;
+	font-size: 14px;
+	padding: 0;
+	text-align: left;
+	margin-left: 42px;
+}
+.left-nav .lnav-item.next-item.next-on{
+	color: #6699cc;
+	text-decoration: none;
+}
+
+.left-nav .lnav-item.menu-4-widget{
+	padding-left:26px;
+}
+.left-nav .lnav-item img{
+	width: 18px;
+	height: 18px;
+	margin:11px 8px 11px 15px;
+	float: left;
+}
+
+.left-nav .lnav-item.on{
+	background:#6699cc;
+	color:#fff;
+	text-decoration:none;
+}
+.lnav-item.on.dis{
+	background:transparent;
+	color:#333;
+}
+.left-nav .menu-4-widget:hover{
+}
+.content-holder .main{
+	border-left:1px solid #dbdcdc;
+	margin-left:179px;
+	background-color:#fafafa;
+}
+
+.left-nav {
+	min-height: 540px;
+	width: 182px;
+	overflow: hidden;
+	_width: 181px;
+}
+.left-nav a{
+	color:#333;
+}
+
+.left-nav .left-nav-overlay {
+	z-index: 10;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: gray;
+	_height: expression(document.getElementById ( 'left_widget_ct') .
+		offsetHeight + "px" );
+}
+.p-icon{
+	background:url('../images/user_icon.png') no-repeat transparent;
+}

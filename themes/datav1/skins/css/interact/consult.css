@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+.interact_one {
+	background: #F0F0F0;
+	height: 40px;
+	border-bottom: 2px lightgrey solid;
+	padding-bottom: 5px;
+}
+
+.interact_two {
+	font: bold 20px Microsoft YaHei;
+	color: gery;
+	float: left;
+	height: 25px;
+	width: 80px;
+	margin-left: 5px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.interact_three {
+	height: 32px;
+	float: right;
+	margin-top: 5px;
+	line-height: 40px margin-right:20px;
+}
+
+.list_header {
+	clear: both;
+	background: #FFFFFF;
+	line-height: 50px;
+	padding-bottom: 8px;
+}
+
+.list_body {
+	background: #FFFFFF;
+}
+
+.body_title_even {
+	height: 40px;
+	padding-top: 10px;
+}
+
+.body_title_odd {
+	height: 40px;
+	padding-top: 10px;
+	background: #EBEBEB;
+}
+
+.body_container {
+	margin-bottom: 10px;
+	line-height: 300%;
+	display: none;
+	padding-left: 85px;
+}
+
+.body_title:HOVER {
+	background: #D9D9D9;
+}
+
+.list_col1 {
+	width: 10%;
+	float: left;
+	clear: both;
+	text-align: center;
+	color: #666666;
+}
+
+.body_title_even {
+	width: 96%;
+	margin: auto;
+	margin-top: 15px;
+	font: 14px;
+	font-family: "宋体";
+	line-height: 36px;
+}
+
+.body_title_even ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.body_title_even ul li {
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+	margin-top: 5px;
+	background: url(../../img/news/b_3.png) no-repeat left;
+	padding-left: 20px;
+	border-bottom: 1px dotted #dbdee1;
+}
+
+.body_title_even ul li a:hover {
+	color: #008dd5;
+}
+
+.list_col2 {
+	width: 40%;
+	float: left;
+	color: #666666;
+}
+
+.list_col3 {
+	width: 10%;
+	float: right;
+	text-align: center;
+	margin-top: 5px;
+	color: #666666;
+}
+
+.list_col4 {
+	width: 10%;
+	float: right;
+	text-align: center;
+	padding-right: 20px;
+	color: #666666;
+}
+
+.list_col5 {
+	width: 10%;
+	float: right;
+	text-align: center;
+	margin-top: 5px;
+	color: #666666;
+}
+
+.list_colexamen1 {
+	float: left;
+	font-weight: bolder;
+	background: #e7f3f9;
+	width: 100%;
+	line-height: 40px;
+	padding-left: 16px;
+}
+
+.list_colexamen2 {
+	float: left;
+	font-weight: bolder;
+	width: 100%;
+	line-height: 40px;
+	padding-left: 16px;
+}
+
+.btns {
+	height: 36px;
+	padding: 0 20px;
+	background: #37b;
+	border-style: none;
+	font: 200 18px/36px Microsoft Yahei;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.list_coladvice {
+	float: left;
+	width: 100%;
+	line-height: 30px;
+	margin: 10px 0;
+}
+
+.body_container .container_col1 {
+	padding-left: 40px;
+}
+
+.body_container .container_col4 {
+	padding-left: 40px;
+}
+
+.body_container .container_col2 {
+	padding-left: 70px;
+	color: #0B73A3;
+}
+
+.body_container .container_col3 {
+	padding-left: 70px;
+	color: #EE691E;
+}
+
+#inquire {
+	height: 31px;
+	display: block;
+	background: #6ca6cd;
+	padding: 5px;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+	border-color: #2ae;
+	margin: 2px 5px 0 0;
+	border-radius: 4px;
+	width: 65px;
+	text-align: center;
+	font: bold 13px Microsoft YaHei;
+}
+
+#quest {
+	height: 31px;
+	display: block;
+	position: relative;
+	background: lightgreen;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+	border-color: lightgrey;
+	margin: 2px 5px 0 0;
+	border-radius: 4px;
+	width: 65px;
+	text-align: center;
+	font: bold 13px Microsoft YaHei;
+}
+
+#search_bar {
+	height: 25px;
+	width: 250px;
+	font-size: 15px;
+	background: #fff;
+	margin-right: 9px;
+	margin-left: 60px;
+	border-radius: 5px;
+}
+
+hr {
+	background-image: url("../../img/detail/gauze.png");
+	border: medium none;
+	height: 1px;
+}

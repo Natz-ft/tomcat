@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="dataanaly" description="行政区划" protocol="netty" ip="178.27.2.14" port="1206">
+	
+	<!-- 地图打点启用的新接口，获取行政区划信息-->
+	<reference id="regionForMapInfoService" interface="com.inspur.dataview.service.statistics.base.RegionForMapInfoService"/>
+</module>

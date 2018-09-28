@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.chinawiserv.businessLicense:business-license:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/opensource/apache-maven-3.3.9/repo/com/chinawiserv/businessLicense/business-license/1.0-SNAPSHOT/business-license-1.0-20171127.094547-21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/opensource/apache-maven-3.3.9/repo/com/chinawiserv/businessLicense/business-license/1.0-SNAPSHOT/business-license-1.0-20171127.094547-21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/opensource/apache-maven-3.3.9/repo/com/chinawiserv/businessLicense/business-license/1.0-SNAPSHOT/business-license-1.0-20171127.094547-21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

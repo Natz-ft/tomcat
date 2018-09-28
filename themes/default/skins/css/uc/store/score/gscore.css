@@ -1,0 +1,109 @@
+/*应用评分*/
+.app-star-box {
+    float: left;
+    margin-left: 15px;
+    width: 200px;
+}
+.app-star-box p {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.app-star-box p span,.app-star-box .app-score span {
+    display: block;
+    float: left;
+}
+
+.app-score {
+display: inline-block;
+width: 60px;
+vertical-align: middle;
+height: 12px;
+overflow: hidden;
+margin: 2px 0 4px 0;
+}
+.app-score, .app-score em {
+ background: url("img/score-sprites.png") no-repeat scroll 0 -27px transparent;
+}
+
+.app-score em {
+background-position: 0 -15px;
+display: block;
+height: 12px;
+overflow: hidden;
+}
+
+
+.score_word {
+	display: block;
+	position: absolute;
+	width: 83px;
+	height: 17px;
+	/* left: 60px; */
+	top: 2px;
+	text-align: center;
+	padding: 5px 10px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+
+.big_star, .big_star_index {
+	float: left;
+    width: 105px;
+    height: 17px;
+    cursor: pointer;
+    display: inline-block;
+    background: url("img/bigstar_white.png") no-repeat scroll 0 -26px transparent;
+}
+.big_star_index {
+    background-position: 0 0;
+}
+.app-star-box .app-grade {
+	width: 22px;
+    height: 17px;
+    text-align: right;
+}
+.app-star-box p {
+    float: left;
+    width: 100%;
+    margin-top: 4px;
+    position: relative;
+}
+.app_gscore b {
+    float: left;
+    width: 9px;
+    height: 17px;
+    cursor: pointer;
+    background: none repeat scroll 0 0 transparent;
+}
+.app_gscore b.odd {
+    width: 12px;
+}
+.app_gscore b.odd.last {
+    width: 9px;
+}
+.app_gscore b.star.odd {
+	background-position: -9px 0;
+}
+.app-star-box dt,.app-star-box dd{
+	float: left;
+}
+.score_num {
+	width: 18px;
+    height: 17px;
+    text-align: right;
+    display: inline-block;
+}
+.app-tags {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.app-use-amount{
+	width:80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+

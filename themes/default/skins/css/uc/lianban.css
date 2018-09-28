@@ -1,0 +1,146 @@
+.flow-head{
+	width:994px;
+	height:32px;
+	padding-left:20px;
+	padding-top:9px;
+	font-size:14px;
+	color:#666666;
+	font-weight:bold;
+	background:url(../images/themes/qingdao/flow-head-bg.png);
+}
+
+.m_nav{
+	/*border: 1px solid #CCC;*/
+	/*background:#F4F4F4;*/
+	/*border-top: 1px solid #CCC;*/
+}
+
+.lianban{
+	font-size:12px;
+	border-top: none;
+}
+.lianban ul {
+	list-style-type: none;
+}
+.lianban .li-tag {
+	background: url("../images/themes/qingdao/rjian.png") no-repeat 20px center #FFF;
+}
+.ellipsis{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.lianban .root {
+	/*border-bottom:#DDD 1px solid;
+	margin-bottom:4px;*/
+}
+.lianban .tree-leaf{
+	padding-left:36px;
+	padding-right: 10px;
+	display:block;
+    max-width:144px;
+    border-bottom:#E6E6E6 1px solid;
+    border-top:#FFF 1px solid;
+    height: 32px;
+}
+.lianban .tree-leaf a{
+	line-height:32px;
+	color: #595959;
+}
+.lianban .tree-leaf a:HOVER {
+	color:#0078B6;
+}
+
+.lianban .li-hover, .lianban .li-active{
+	/*background-color:#FFF;*/
+}
+.lianban .li-hover .tree-leaf, .lianban .li-active .tree-leaf {
+	/*border-bottom: none;*/
+}
+.lianban .li-hover .tree-leaf a, .lianban .li-active .tree-leaf a {
+	color: #0078B6;
+}
+
+.lianban .rightico {
+	float: right;
+	margin: 11px 11px 0 0;
+	width: 9px;
+	height: 9px;
+}
+.lianban .nodeico {
+	background: url("../images/themes/qingdao/ricon.png") no-repeat;
+}
+.lianban .nodedico {
+	background: url("../images/themes/qingdao/dicon.png") no-repeat;
+}
+
+
+.lianban div.tree-node{
+	width:180px;
+	display:block;
+	color: #666;
+	height:33px;
+	line-height:33px;
+	font-size:13px;
+	padding-left:10px;
+	background:url(../images/themes/qingdao/menuback.jpg) repeat-x;
+	cursor:pointer;
+	/*border-top:1px solid #ECECEC;*/
+}
+.tree-node-k{
+	background:url(../images/themes/qingdao/1-k.png) no-repeat 5px 12px;
+}
+.tree-node-b{
+	background:url(../images/themes/qingdao/1-b.png) no-repeat 5px 12px;
+}
+
+
+.app_box {
+	width: 100%;
+	background: #FAFAFA;
+	min-height:154px;
+	text-align:center;
+	vertical-align:middle;
+}
+.app_box .app_icon{
+	margin: 20px 0 0 0px;
+	width:74px;
+	height:74px;
+}
+.app_box ul{
+	text-align:center;
+}
+.app_box li {
+	padding: 2px 0;
+	text-align: left;
+	margin-top:7px;
+}
+.app_box li .app_name {
+	font-size: 14px;
+	font-weight: bold;
+	text-align:center;
+	margin-left:20px;
+	width:140px;
+}
+.line-header{
+	border:0 none;
+	font-size:14px;
+	clear:both;
+	height:29px;
+	margin:3px 0px;
+	line-height:29px;
+	border-bottom:2px solid #248bda;
+	color:#397085;
+	background-color:#f2f2f2;
+	position:relative;
+}
+.nav-titlelhbl{
+	position: absolute;
+	top:-5px;
+	display:block;
+	width:135px;
+	height:30px;
+	background:url("../images/themes/qingdao/lhbl.png") no-repeat -11px 0;
+}

@@ -1,0 +1,51 @@
+.panel-body{
+	background-color:white;
+	padding:15px;
+	margin-top:10px;
+}
+.app_count_chart {
+	height:400px;
+	width:950px;
+}
+.table-service-statistics {
+	width:100%;
+	text-align:center;
+	background-color:white;
+}
+.table-service-statistics .table-content {
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:15px;
+	width:25%;
+	border: 1px solid #ccc;
+}
+.statistics-title {
+	font-size:20px;
+	padding-bottom:10px;
+	background-color:white;
+}
+.statistics-sub-title {
+	background-color:#3498db;
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	color:white;
+}
+
+#key-target-detail {
+	margin-top:10px;
+}
+
+.time-select {
+	background-color:white;
+	width:100%;
+	text-align:right;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+.statistics-query-btn{
+	margin-right:10px;
+	margin-left:5px;
+}

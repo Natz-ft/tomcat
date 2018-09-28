@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+.content-wrap {
+	padding: 5px 25px 30px 28px;
+	min-height: 500px;
+}
+.cont-title-bold .title {
+	margin-top: 16px;
+	font-weight: normal;
+}
+.cont-title-bold .opt {
+	margin-top: 13px;
+}
+.btn-add-version {
+	display: inline-block;
+	padding: 0 12px;
+	height: 29px;
+	line-height: 29px;
+	color: #FFF;
+	font-size: 14px;
+	background: #69C1F1;
+}
+.form-box {
+	width: 690px;
+	min-height: 309px;
+	margin-top: 68px;
+}
+.form-box-title {
+	width: 250px;
+	margin-left: -125px;
+}
+
+.access-types {
+	font-size: 14px;
+	line-height: 30px;
+	padding: 30px 0 54px;
+	text-align: center;
+}
+.form-body label.labelr{
+	 margin-right: 50px;
+}
+.form-body dt {
+	width: 230px;
+}
+.form-body .input {
+	width: 244px;
+	height: 20px;
+	line-height: 20px;
+	padding: 3px 2px 2px;
+	border-color: #999;
+	-moz-box-shadow: inset 1px 1px 4px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 1px 1px 4px 0 rgba(0,0,0,.1);
+	box-shadow: inset 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+.form-body .pseudo-input {
+	width: 244px;
+	height: 20px;
+	line-height: 20px;
+	padding: 3px 2px 2px;
+	display: block;
+	font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+	border:1px solid #999;
+	-moz-box-shadow: inset 1px 1px 4px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 1px 1px 4px 0 rgba(0,0,0,.1);
+	box-shadow: inset 1px 1px 4px 0 rgba(0,0,0,.1);
+}

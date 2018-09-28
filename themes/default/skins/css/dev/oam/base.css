@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,header,footer,section,article,nav{padding:0;margin:0 }
+header,footer,section,article,nav{display:block; }
+h1, h2, h3, h4, h5, h6 {font-weight: normal;font-size: 100%;}
+table, td, tr, th {font-size:13px }
+li{list-style-type:none }
+table { border-collapse:collapse;  border:0 none;  border-spacing:0; margin:0 auto;}
+img,body,html{border:0 none }
+ol, ul{list-style:none }
+pre{white-space:pre-wrap; /* css3.0 */white-space:-moz-pre-wrap; /* Firefox */white-space:-pre-wrap; /* Opera 4-6 */white-space:-o-pre-wrap; /* Opera 7 */word-wrap:break-word; /* Internet Explorer 5.5+ */}
+caption, th{text-align:left }
+select {border: 1px solid #BDC7D8;margin-right: 5px}
+em{color:#999;font-family: Tahoma, Verdana, helvetica;font-size: 12px;font-style: normal;white-space: nowrap}
+strong { font-weight:bold; }
+abbr, acronym {border:0;}
+address, caption, cite, code, dfn, em, th, var {font-weight:normal;font-style:normal }
+textarea{resize:none;}
+a{cursor:pointer;}
+
+body{font:13px/1.5 "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun;color:#444;}
+body {background: #FFF url(img/html-bg.png) repeat 0 0;}
+
+
+a:link {text-decoration:none }
+a:visited {text-decoration:none }
+a:hover{text-decoration:none;color:#20A0E5; }
+
+a,.m-link a,a.m-link{ color:#333; }
+
+.sub-link a,a.sub-link{ color:#9abbc8 }
+
+.m-text{color:#444}
+
+
+.btn_b,.btn_w,.add_atn,.btn_relation,.N_but,.btn_o,.btn_g,
+.btn_relation2,.add_atn_small,.btn_relation_small,
+.btn_relation span,.btn_relation2 span,
+.btn_b_disable,.btn_green,.so_btn,
+.btn_green_w121,.btn_reg,.btn_b_disable,
+.btn_group,.btn_create,.btn_download,.btn_search_big,
+.btn_upload_file{background: url(../../../img/btn/cc-btn-sprites.png) no-repeat left top;_background-image:url(img/btn/cc-btn-sprites.gif);display: inline-block}
+
+
+.btn_b,.btn_w,.add_atn,.N_but,.btn_o,.btn_g{display: inline-block;height:24px;width:69px;border:0 none;line-height: 24px;text-align:center;padding:0;text-decoration:none;vertical-align:middle;cursor:pointer;color:#fff}
+
+.btn_o{background-position:0px -25px;}
+.btn_o:hover{background-position:-70px -25px;}
+.btn_o:active{background-position:-140px -25px;}
+
+.btn_b{background-position:0px 0px;}
+.btn_b:hover{background-position:-70px 0px;}
+.btn_b:active{background-position:-140px 0px;}
+
+.btn_g,.add_atn,.N_but{background-position:0px -50px;}
+.btn_g:hover,.add_atn:hover,.N_but:hover{background-position:-70px -50px;}
+.btn_g:active,.add_atn:active,.N_but:active{background-position:-140px -50px;}
+
+.btn_w{color:#333;background-position:0px -75px;}
+.btn_w:hover{background-position:-70px -75px;}
+.btn_w:active{background-position:-140px -75px;}
+
+.clear {height: 1em; line-height: 1em; clear: both}
+.c {clear:both;font-size:1px;height:0;line-height:0;visibility:hidden}
+.clearfix:after{clear:both;content:".";display:block;margin:0;padding:0;font-size:0;height:0;line-height:0;overflow:hidden}
+.clearfix{*zoom:1}
+
+.fl { float:left;}
+.fr { float: right;}
+
+.ellipse{overflow: hidden;white-space: nowrap;text-overflow: ellipsis; /* 鐜颁唬娴忚鍣�+IE6銆� inline 鍏冪礌 */}

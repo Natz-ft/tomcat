@@ -1,0 +1,51 @@
+.form-contain {
+	margin: 15px;
+	padding: 10px;
+	font-size: 14px;
+	height: auto;
+}
+.form-authenInfo dd {
+	width: 220px;
+	padding: 0px 0px 0px 2px;
+}
+.form-authenInfo .input {
+	margin: 5px;
+	width: 200px;
+	height: 20px;
+	font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+	color: #666;
+}
+.form-authenInfo dt {
+	margin-left: 20px;
+}
+.form-authenInfo .select {
+	height: 25px;
+	font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+	color: #666;
+	width: 205px;
+	margin: 5px;
+	text-align: left;
+}
+.nation-button {
+	float: left;
+	width: 60px;
+	height: 28px;
+	margin: 2px;
+}
+.form-body .btn-contain {
+	margin-top: 15px;
+}
+.form-body .check_rule{
+	left: 170px;
+}
+.form-body .form-info,.btn-contain {
+	width: 570px;
+	margin: 0 auto;
+}
+.form-authenInfo dl{
+	padding:0px;
+}
+.form-body dt, .form-body dd {
+	height: 40px;
+	line-height: 40px;
+}

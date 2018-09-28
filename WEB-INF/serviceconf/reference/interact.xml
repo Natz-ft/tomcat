@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="activity" description="互动交流" protocol="netty" ip="178.27.2.14" port="1203">
+
+	<!--客户端的引用，这里主要有两个属性一个是id，一个是对应的接口-->
+	<reference id="interactiveService" interface="com.inspur.data.user.service.InteractiveService" />
+	<reference id="commentService" interface="com.inspur.data.user.service.CommentService" />
+	<reference id="faqService" interface="com.inspur.data.user.service.FaqService" />
+	<reference id="favoriteService" interface="com.inspur.data.user.service.FavoriteService" />
+	<reference id="gradeService" interface="com.inspur.data.user.service.GradeService"/>
+	<reference id="downLoadLogService" interface="com.inspur.data.user.service.DownLoadLogService"/>
+	<reference id="visitLogService" interface="com.inspur.data.user.service.VisitLogService"/>
+	<reference id="userOperationLogService" interface="com.inspur.portal.service.user.UserOperationLogService"/>
+	
+	<!-- 用户参与问卷调查业务 ，读取问卷有效数，问卷的提交，用户是否已经提交过问卷等-->
+	<reference id="userSurveyService" interface="com.inspur.portal.service.survey.UserSurveyService"/>
+	
+	<!-- <reference id="iUserDomain" interface="com.inspur.uc.api.user.IUserDomain"/> -->
+	<!-- 问卷调查接口，获取当前的问卷信息 -->
+	<reference id="surveyService" interface="com.inspur.portal.service.survey.SurveyService"/>
+	<!-- 留言、评论信息接口 -->
+	<reference id="messageFeedBackService" interface="com.inspur.portal.service.interact.MessageFeedBackService"/>
+	
+	<!-- 问卷调查的问题列表，问卷调查问题接口 -->
+	<reference id="surveyQuestionService" interface="com.inspur.portal.service.survey.SurveyQuestionService"/>
+	<!-- 问卷调查的问题的选项列表，问卷调查选项接口 -->
+	<reference id="surveyQuestionItemService" interface="com.inspur.portal.service.survey.SurveyQuestionItemService"/>
+	
+	
+	<!-- 点赞相关服务 -->
+	<reference id="userPraiseService" interface="com.inspur.portal.service.user.UserPraiseService"/>
+	<!--用户收藏服务-->
+	<reference id="userCollectionService" interface="com.inspur.portal.service.user.UserCollectionService"/>
+	<!--用户评分服务-->
+	<reference id="userScoreService" interface="com.inspur.portal.service.user.UserScoreService"/>
+	
+	<reference id="applyAdviceService" interface="com.inspur.portal.service.interact.ApplyAdviceService"/>
+</module>

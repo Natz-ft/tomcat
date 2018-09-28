@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+/* ce*/
+.main {
+	width: 950px;
+	float: right;
+	border: 1px solid #f0f0f0;
+}
+
+.main .wdyy_b {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	line-height: 36px;
+	padding-left: 20px;
+	height: 36px;
+	background-image: url(../../img/img/b_3.png);
+	background-repeat: no-repeat;
+}
+
+.main .wdyy_b .wdyy_b1 {
+	float: left;
+	line-height: 34px;
+}
+
+.main .wdyy_b .wdyy_b2 {
+	float: right;
+	padding-right: 15px;
+	margin-top: 10px;
+}
+
+.main .wdyy_xuanxiang {
+	margin-top: 5px;
+}
+
+.main .wdyy_xuanxiang ul {
+	list-style: none;
+	padding: 0px;
+	overflow: hidden;
+	margin-left: 25px;
+}
+
+.main .wdyy_xuanxiang ul li {
+	float: left;
+	margin: 0 10px;
+	line-height: 20px;
+}
+
+.main .wdyy_xuanxiang ul li a {
+	text-decoration: none;
+}
+
+.main .wdyy_xuanxiang ul li a:hover {
+	color: #FFFFFF;
+	background-image: url(../../img/catalog/sj_1.png);
+}
+
+.current {
+	background-image: url(../../img/catalog/sj_1.png);
+	background-color: #acd6ff;
+}
+
+.main .sd_detailleft {
+	width: 900px;
+	float: right;
+}
+
+.main  .sd_detailleft .sd_detaillist {
+	background-image: url(../../img/catalog/tjzy_shadow.png);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
+
+.main  .sd_detailleft .sd_detaillist ul {
+	padding: 0 0 0 0;
+	margin: 0; /* border: 1px solid #ccc; */
+}
+
+.main  .sd_detailleft .sd_detaillist ul li {
+	list-style: none;
+	width: 700px;
+	height: 75px;
+	padding-top: 15px;
+	background-image: url(../../img/catalog/right_bg.png);
+}
+
+.main  .sd_detailleft .sd_detaillist ul li:hover {
+	background-image: url(../../img/catalog/tjzy_td_on.jpg);
+}
+
+.main  .sd_detailleft .sd_detaillist ul li img {
+	padding: 0 15px 20px 15px;
+	float: left;
+	margin-left: -45px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent {
+	float: left;
+	width: 650px;
+	height: 75px;
+	line-height: 10px;
+	margin-left: 20px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop {
+	width: 610px;
+	height: 25px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft
+	{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft .sd_constar
+	{
+	font-size: 13px;
+	color: orange;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft .sd_constar-1
+	{
+	font-size: 13px;
+	margin-left: 30px;
+	color: #666;
+	font-weight: normal;
+}
+
+.main .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft a
+	{
+	text-decoration: none;
+	color: #000;
+}
+
+.main .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopleft a:hover
+	{
+	color: #008dd5;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_contop .sd_contopright
+	{
+	float: right;
+	margin: 3px 15px 0 0;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle {
+	width: 610px;
+	height: 25px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle .sd_conmiddleleft
+	{
+	color: #666;
+	float: left;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle .sd_conmiddleright
+	{
+	float: right;
+	margin-right: 15px;
+}
+
+.main .sd_detailleft .sd_detaillist .sd_listcontent .sd_conmiddle .sd_conmiddleright img
+	{
+	float: right;
+	padding: 0 2px 0 2px;
+}
+
+.main  .sd_detailleft .sd_detaillist .sd_listcontent .sd_conbottom {
+	color: #666;
+}
+
+.pageye {
+	width: 280px;
+	height: 30px;
+	margin: 20px auto 20px 20px;
+	float: left
+}
+
+.pageye ul {
+	padding: 0;
+	text-align: center;
+}
+
+.pageye ul li {
+	list-style: none;
+	float: left;
+	min-width: 25px;
+	height: 25px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #fff;
+	padding: 5px 2px 0 2px;
+}
+
+.pageye .rpage {
+	border-right: 1px solid #ccc;
+}
+
+.pageye ul li:hover {
+	background-color: #ccc !important;
+}
+
+.pageye ul a {
+	color: #777;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.sd_detailleft .sd_detaillist ul .ym {
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+	background: url(../../img/catalog/ym_bg%20.png);
+}

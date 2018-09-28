@@ -1,0 +1,300 @@
+@charset "utf-8";
+a{ text-decoration:none; color:#333;}
+.main{
+    position: relative;
+    /*top: -2px;*/
+    padding: 0;
+    background-color: #fff;
+}
+.banner {
+    background: url("../../../../../css/dev/img/devbanner.jpg")  #3861e4 no-repeat center;
+}
+.banner .caro-main{
+    width: 1190px;
+    position: relative;
+    margin: 0 auto;
+    top: 15px;
+}
+
+.line{
+    position: relative;
+    margin: 0 auto;
+    top: 146px;
+    width: 1300px;
+    height: 2px;
+    background-color: #2e5dc5;
+}
+.leftsj{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #3861e4;
+    border-right: 15px solid transparent;
+}
+.rightsj{
+    position: absolute;
+    top: 250px;
+    left: 1310px;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #3861e4;
+    border-left: 15px solid transparent;
+}
+
+.controlContainer{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    cursor: pointer;
+    width: 109px;
+    height: 110px;
+    background: url("../../../../dist/img/developerController/kaifazhe.png") no-repeat center;
+    opacity: .5;
+}
+.controlContainer.currentControl{
+    opacity: 1;
+}
+
+.flowContainer{
+    position: absolute;
+    top: 115px;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    background:   url("../../../../dist/img/developerController/ico1.png") no-repeat center;
+}
+.infoContainer{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Microsoft YaHei", Helvetica, sansation, Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff5ee;
+    position: absolute;
+    top: 110px;
+    cursor: pointer;
+    left: 60px;
+}
+.bigdata-content {
+    margin: auto;
+    padding: 0px;
+    width: 980px;
+    overflow:hidden;
+    margin-top:20px;
+    padding-bottom:40px;
+}
+.bigdata-content .fw{
+    margin-top:15px;
+}
+.bigdata-content .fw .fw_title{
+    height:55px;
+    line-height:55px;
+    font-size:24px;
+    font-family:"微软雅黑";
+    border-bottom:solid 1px #bcdbfc;
+    text-align:center;
+}
+.bigdata-content .fw .fw_title .fw_current{
+    margin:0 auto;
+    width:115px;
+    text-align:center;
+    border-bottom:solid 2px #0d68c7;
+}
+.bigdata-content .fw .fw_item{
+    margin-top:15px;
+}
+.bigdata-content .fw .fw_item ul{
+    padding: 0;margin: 0;list-style: none;
+}
+.bigdata-content .fw .fw_item ul li{
+    float:left;
+    width:300px;
+    height:95px;
+    margin:0 12px;
+    margin-top:25px;
+}
+.bigdata-content .fw .fw_item .fw_li_icon{
+    float:left;
+    width:80px;
+}
+.bigdata-content .fw .fw_item .fw_li_right{
+    float:right;
+    width:200px;
+}
+.bigdata-content .fw .fw_item .fw_li_right	.fw_li_title{
+    line-height:56px;
+    font-size:16px;
+    font-weight:bold;
+    font-family:"微软雅黑";
+}
+.bigdata-content .fw .fw_item .fw_li_right .fw_li_detailed{
+    color:#999999;
+    font-size:14px;
+}
+
+.topbar{
+
+}
+
+.bar_left {
+    float: left;
+    word-spacing: 1px;
+    height: 36px;
+    line-height: 36px;
+    font-family: "Microsoft YaHei";
+}
+.address{
+    display: inline;
+    font-size: 14px;
+    color: #ff552e;
+    float: left;
+}
+.selecCity{
+    width: 100px;
+    margin-left: 10px;
+    outline: none;
+    height: 24px;
+}
+#ipconfig{
+    float: left;
+    margin-left: 3px;
+}
+
+.header{
+    /* height: 112px; */
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+}
+.lef_content{
+    float: left;
+    width: 585px;
+    height: 280px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Microsoft YaHei";
+}
+.viewbtn{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #048AF9;
+    cursor: pointer;
+}
+
+.content{
+    position: relative;
+    height: 300px;
+    border-bottom: 1px #dddddd  solid;
+}
+
+.section-content{
+    background-color: #f9f9f9;
+}
+.section-content .sec-header{
+    padding: 30px 0;
+    font-size: 30px;
+    color: #3861e4;
+    text-align: center;
+    background: url("../../../../../css/dev/img/sectitle.png") no-repeat center;
+}
+.section-content .feature-list>ul{
+    padding: 5px;
+    overflow: hidden;
+}
+.section-content .feature-list>ul>li{
+    float: left;
+    width: 220px;
+    height: 390px;
+    background-color: #fbfbfb;
+    border: 1px solid #ddd;
+    transition: 0.5s;
+}
+.section-content .feature-list>ul>li:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+}
+.section-content .feature-list>ul>li+li{
+    margin-left: 20px;
+}
+.section-content .feature-img{
+    display: block;
+    max-width: 70%;
+    height: 120px;
+    margin: 75px auto 30px;
+}
+.section-content .feature-name{
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+}
+.section-content .feature-btn{
+    display: block;
+    margin: 0 auto;
+    color: #3861e4;
+    background-color: #fff;
+    border: 1px solid #3861e4;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.section-content .feature-btn:hover{
+    color: #fff;
+    background-color: #3861e4;
+}
+.section-content .feature-btn a {
+    color:#3861e4;
+}
+.section-content .feature-btn:hover a{
+    color: #fff;
+}
+.section-content .dev-info{
+    padding-bottom: 50px;
+}
+.section-content .dev-info .dev-txt{
+    margin-bottom: 60px;
+    color: #999;
+    text-align: center;
+}
+.section-content .dev-info .dev-img{
+    float: left;
+    width: 325px;
+    padding-left: 50px;
+}
+.section-content .dev-info .dev-list{
+    margin-left: 325px;
+    padding-top: 20px;
+}
+.section-content .dev-info .dev-list>ul{
+    overflow: hidden;
+}
+.section-content .dev-info .dev-list>ul>li{
+    float: left;
+    width: 185px;
+    height: 80px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    color: #666;
+    line-height: 80px;
+    text-align: center;
+}
+.section-content .dev-info .dev-list>ul>li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #666;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.section-content .dev-info .dev-list>ul>li:hover a{
+    color: #fff;
+    background-color: #5e81f0;
+}

@@ -1,0 +1,56 @@
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+em{font-style:normal;}
+a,a:visited,a:hover{color:#666;text-decoration:none;}
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}/* Hides from IE-mac \*/
+*html .clearfix{height:1%;}
+.clearfix{display:block;}/* End hide from IE-mac */
+*+html .clearfix{min-height:1%;} 
+/* tag */
+.default-tag a,.default-tag a span,.plus-tag a,.plus-tag a em,.plus-tag-add a{background:url(../../img/tagbg.png) no-repeat;}
+.tagbtn a{display:block;float:left;
+height:21px;line-height:21px;overflow:hidden;margin:0px 5px 5px 0;padding:0 10px 0 5px;white-space:nowrap;}
+/* default-tag */
+.default-tag a{background-position:100% 0;}
+.default-tag a:hover{background-position:100% -22px;}
+.default-tag a span{padding:0 0 0 15px;background-position:0 -57px;}
+.default-tag a:hover span{background-position:0 -57px;}
+.default-tag a.selected{opacity:0.2;filter:alpha(opacity=60);}
+.default-tag a.selected:hover{background-position:100% 0;cursor:default;}
+.default-tag a.selected:hover span{background-position:0 -60px;}
+/* plus-tag */
+.plus-tag{padding:0 0 10px 0;}
+.plus-tag a{background-position:100% -22px;}
+.plus-tag a span{float:left;}
+.plus-tag a em{display:block;float:left;margin:5px 0 0 5px;width:13px;height:13px;overflow:hidden;background-position:-165px -100px;cursor:pointer;}
+.plus-tag a:hover em{background-position:-168px -64px;}
+/* plus-tag-add */
+.plus-tag-add li{height:33px;position:relative;}
+.plus-tag-add li .label{position:absolute;left:-110px;top:7px;display:block;}
+.plus-tag-add button{float:left;}
+.plus-tag-add a{display:inline;font-size:14px;background-position:-289px -59px;padding:0 0 0 16px;}
+.plus-tag-add a.plus{background-position:-289px -96px;}
+
+.service-tag{
+border:1px solid #ccc;
+min-height:21px;
+*min-height:21px;
+*height:auto;
+width:404px;
+*width:380px;
+padding:5px 1px 1px 5px;
+*padding:5px 1px 5px 5px;
+margin-bottom:0px;
+display:block;
+background:url(about:blank);
+}
+span.group{
+display:block;
+margin:0 0 5px 0;
+border-bottom: 1px solid #ccc;
+}
+.tag-plus{
+width:410px;
+}

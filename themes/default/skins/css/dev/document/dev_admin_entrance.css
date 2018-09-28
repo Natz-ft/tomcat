@@ -1,0 +1,375 @@
+.devbox {
+	background-color: #FAFAFA;
+	min-height: 500px;
+	width: 920px;
+	/* margin-left: 10px;
+	float: left; */
+	float: right;
+	border-radius: 5px;
+}
+
+.des-box {
+	margin: 5px 15px;
+	_margin: 5px 2px;
+	min-height:850px;
+}
+
+.des-box h3.des-title {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+
+.form-title {
+	height: 40px;
+}
+
+.form-title {
+	color: #333;
+	height: 35px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	position: relative;
+	padding-left: 5px;
+	margin-bottom: 2px;
+	border-bottom: 2px solid #ccc;
+	/*border-bottom: 1px solid #ECECEC;*/
+}
+
+.desc_catalog {
+	width: 240px;
+	margin: 30px 0;
+	background-color: #FFFFFF;
+	border: 1px solid #D4D4D4;
+}
+
+.desc_catalog .catalog_header {
+	float: left;
+	width: 230px;
+	height: 33px;
+	line-height: 30px;
+	padding: 0 5px;
+	line-height: 30px;
+	color: #555555;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #D4D4D4;
+	background-color: #DEDEDE;
+	background: url(../images/pcp/titlebg.png) repeat-x;
+}
+
+.desc_catalog ul {
+	float: left;
+	padding: 10px;
+}
+
+.desc_catalog ul li {
+	float: left;
+	width: 100%;
+}
+
+.desc_catalog li a {
+	color: #3A5FCD;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.desc_title {
+	width: 100%;
+	line-height: 30px;
+	margin: 15px 0 10px;
+	color: #4D4D4D;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+p {
+	color: #5B5B5B;
+	font-size: 15px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+.register_img {
+	background: url("./img/register_img.png") no-repeat;
+	width: 848px;
+	height: 502px;
+	float: left;
+	margin: 16px;
+}
+
+.foundApp_img1 {
+	background: url("./img/foundApp_img1.png") no-repeat;
+	width: 848px;
+	height: 136px;
+	float: left;
+	margin: 16px;
+}
+
+.foundApp_img2 {
+	background: url("./img/foundApp_img2.png") no-repeat;
+	width: 848px;
+	height: 482px;
+	float: left;
+	margin: 16px;
+}
+
+.foundApp_img3 {
+	background: url("./img/foundApp_img3.png") no-repeat;
+	width: 848px;
+	height: 400px;
+	float: left;
+	margin: 16px;
+}
+
+.auditApp_img {
+	background: url("./img/auditApp_img.png") no-repeat;
+	width: 848px;
+	height: 76px;
+	float: left;
+	margin: 16px;
+}
+
+.visitApp_img {
+	background: url("./img/visitApp_img.png") no-repeat;
+	width: 848px;
+	height: 240px;
+	float: left;
+	margin: 16px;
+}
+
+.summarizeAccess_img {
+	background: url("./img/summarizeAccess_img.png") no-repeat;
+	width: 848px;
+	height: 105px;
+	float: left;
+	margin: 16px;
+}
+
+.accessProcess_img {
+	background: url("./img/accessProcess_img.png") no-repeat;
+	width: 848px;
+	height: 185px;
+	float: left;
+	margin: 16px;
+}
+
+.accessRegister_img1 {
+	background: url("./img/accessRegister_img1.png") no-repeat;
+	width: 848px;
+	height: 355px;
+	float: left;
+	margin: 16px;
+}
+
+.accessRegister_img2 {
+	background: url("./img/accessRegister_img2.jpg") no-repeat;
+	width: 848px;
+	height: 355px;
+	float: left;
+	margin: 16px;
+}
+
+.accessRegister_img3 {
+	background: url("./img/accessRegister_img3.png") no-repeat;
+	width: 848px;
+	height: 355px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img1 {
+	background: url("./img/accessManage_img1.png") no-repeat;
+	width: 848px;
+	height: 447px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img2 {
+	background: url("./img/accessManage_img2.png") no-repeat;
+	width: 848px;
+	height: 628px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img3 {
+	background: url("./img/accessManage_img3.png") no-repeat;
+	width: 848px;
+	height: 750px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img4 {
+	background: url("./img/accessManage_img4.png") no-repeat;
+	width: 848px;
+	height: 335px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img5 {
+	background: url("./img/accessManage_img5.png") no-repeat;
+	width: 848px;
+	height: 641px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img6 {
+	background: url("./img/accessManage_img6.png") no-repeat;
+	width: 848px;
+	height: 736px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img7 {
+	background: url("./img/accessManage_img7.png") no-repeat;
+	width: 848px;
+	height: 775px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img8 {
+	background: url("./img/accessManage_img8.png") no-repeat;
+	width: 848px;
+	height: 770px;
+	float: left;
+	margin: 16px;
+}
+
+.accessManage_img9 {
+	background: url("./img/accessManage_img9.png") no-repeat;
+	width: 848px;
+	height: 700px;
+	float: left;
+	margin: 16px;
+}
+
+.applyService_img1 {
+	background: url("./img/applyService_img1.png") no-repeat;
+	width: 848px;
+	height: 343px;
+	float: left;
+	margin: 16px;
+}
+
+.applyService_img2 {
+	background: url("./img/applyService_img2.png") no-repeat;
+	width: 848px;
+	height: 402px;
+	float: left;
+	margin: 16px;
+}
+
+h3.des-title {
+	padding: 5px 10px;
+	background-color: #f4f4f4;
+	font-size: 14px;
+	width: 100%;
+}
+
+.margin_6 {
+	margin: 6px 0px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 0 none;
+	border-spacing: 0;
+	margin: 0 auto;
+	border-color: gray;
+}
+
+table a {
+	color: #52B8ED
+}
+
+.W_100 {
+	width: 100%;
+}
+
+.td_center {
+	text-align: center;
+}
+.main_desc table{
+	width: 100%;
+	clear: none;
+	color: #333333;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	border-collapse: collapse;
+    border-top: 1px solid #CCCCCC;
+}
+
+.main_desc table thead th{
+	height: 25px;
+	text-align: center;
+	background-color: #EBEBEB;
+}
+.main_desc table tbody {
+    padding: 5px;
+    border-top: 1px solid #DDDDDD;
+}
+.main_desc table tbody tr{
+	border-top: 1px solid #DDDDDD;
+}
+.main_desc table tbody td{
+	font-size: 12px;
+	text-align: center;
+	padding:10px;
+	line-height:35px;
+}
+
+.main_desc table .td_icon {
+	width: 64px;
+	float:left;
+    height: 64px;
+    border-radius: 5px;
+}
+.main_desc table .td_desc {
+    float:left;
+}
+.main_desc table .hasbg td{
+	background-color:#F0F0F0;
+}
+.main_desc table .td_name{
+	float:left;
+	font-size: 16px;
+    font-weight: bold;
+}
+.main_desc table .td_ext {
+	float: left;
+	width: 280px;
+	margin-top: 3px;
+    margin-left: 15px;
+	line-height: 20px;  
+	overflow: hidden;  
+}
+.main_desc table .td_other{
+	float: left;
+	width: 100%;
+	margin-top: 3px;
+	line-height: 20px;  
+	overflow: hidden;  
+}
+.main_desc table .td_ext p {
+	text-indent:0;
+    padding: 2px 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+.apiInvoking_img{
+	background: url("./img/apiInvoking_img.png") no-repeat;
+	width: 852px;
+	height: 666px;
+	float: left;
+	margin: 16px;
+}

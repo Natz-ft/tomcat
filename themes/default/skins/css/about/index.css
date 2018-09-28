@@ -1,0 +1,93 @@
+image {
+	float: left;
+}
+
+.body {
+	width: 100%;
+	height: 650px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border: 1px solid #dedede;
+	background-color: #ffffff;
+	box-sizing: content-box;
+}
+
+.b-left {
+	width: 220px;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #d3d3d3;
+	box-sizing: content-box;
+}
+
+.b-left ul {
+	margin-top: -4px;
+}
+
+.b-left ul li {
+	padding: 12px 30px;
+	font-size: 14px;
+	border-left: 2px solid transparent;
+}
+
+.b-left ul li.changeColor {
+	padding: 12px 30px;
+	font-size: 14px;
+	border-left-color: #3498db;
+	color: #67a3d6;
+	background-color: #ebebeb;
+}
+
+.changeColor:before {
+	content: ">";
+	float: right;
+}
+
+.b-left ul li:hover {
+	border-left-color: #3498db;
+	color: #67a3d6;
+	background-color: #ebebeb;
+	cursor: pointer;
+}
+
+.b-left ul li:hover:before {
+	content: ">";
+	float: right;
+}
+
+.b-right {
+	width: 966px;
+	height: 100%;
+	float: left;
+	padding: 0 20px;
+	background: url("../../img/about/bg.png") no-repeat 450px 330px;
+}
+
+.website {
+	height: 70px;
+	line-height: 70px;
+	font-size: 16px;
+	color: #003333;
+}
+
+.bottom-line {
+	margin-bottom: 15px;
+	border-bottom: 2px solid #3498db;
+}
+
+.content {
+	margin-top: 15px;
+	font-size: 12px;
+	color: #003333;
+	text-indent: 2em
+}
+
+.imgContainer {
+	float: left;
+}
+
+.ContactInfo {
+	float: left;
+	margin-left: 20px;
+	color: #003333;
+}

@@ -1,0 +1,100 @@
+.form-contain {
+		margin: 15px;
+		padding: 10px;
+		font-size: 14px;
+		height: auto;
+	}
+	
+	.form-baseInfo dd {
+		width: 220px;
+		padding: 0px 0px 0px 2px;
+	}
+	
+	.form-baseInfo .input {
+		margin: 5px;
+		width: 200px;
+		height: 20px;
+		font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+		color: #666;
+	}
+	
+	.form-baseInfo dt {
+		margin-left: 20px;
+	}
+	
+	.form-baseInfo .select {
+		height: 25px;
+		font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+		color: #666;
+		width: 205px;
+		margin: 5px;
+		text-align: left;
+	}
+	
+	.nation-button {
+		float: left;
+		width: 60px;
+		height: 28px;
+		margin: 2px;
+	}
+	
+	dd.birthday {
+		width: 260px;
+		height: 25px;
+	}
+	
+	.form-baseInfo .select-birthday {
+		height: 25px;
+		font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+		color: #666;
+		width:65px;
+	}
+	.form-body .btn-contain {
+		margin-top: 15px;
+	}
+	.form-body .check_rule{
+		left: 170px;
+	}
+	.form-body .form-info,.btn-contain {
+		width: 570px;
+		margin: 0 auto;
+	}
+	.form-baseInfo dl{
+		padding:0px;
+		width:100%;
+	}
+	.form-body dt, .form-body dd {
+		height: 40px;
+		line-height: 40px;
+	}
+	.detail-lable{
+		display: inline-block;
+		width: 170px;
+		text-overflow: ellipsis;
+		word-break: keep-all;
+		white-space: nowrap;
+		overflow: hidden;
+		line-height:40px;
+	}
+	.form-body dd.form-tip-ok,.form-body dd.form-tip-error{
+		float: left;
+		padding-left: 10px;
+		width: auto;
+		max-width: 330px;
+	}
+	.form-body dd.form-tip-error{
+		padding-left: 170px;
+		line-height: 10px;
+		height: 12px;
+		font-size: 12px;
+	}
+	.form-body dd.form-tip-error span{
+		padding-left: 20px;
+		height:15px;
+		height: 15px;
+	}
+	.form-body dd.is_public{
+		width:100px;
+		float:right;
+		margin-right: 15px;
+	}

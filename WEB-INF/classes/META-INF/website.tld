@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="GBK"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd"
+version="2.0">
+<tlib-version>1.0</tlib-version>
+<short-name>website</short-name>
+<!-- 定义该标签库的URI -->
+<uri>/tags/website</uri>
+<tag>
+	<name>html</name>
+	<tag-class>org.loushang.internet.tags.HtmlTag</tag-class>
+	<!-- 定义标签体为scriptless,即里面不允许出现java代码 --> 
+	<body-content>scriptless</body-content>
+	<attribute>
+		<name>namespace</name> 
+		<required>false</required>
+		<rtexprvalue>false</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>manifest</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+</tag>
+<tag>
+	<name>screenHolder</name>
+	<tag-class>org.loushang.internet.tags.ScreenInclude</tag-class>
+	<!-- 定义标签体为scriptless,即里面不允许出现java代码 --> 
+	<body-content>empty</body-content>
+</tag>
+<tag>
+	<name>widget</name>
+	<tag-class>org.loushang.internet.tags.WidgetTag</tag-class> 
+	<body-content>empty</body-content>
+	<attribute>
+		<name>path</name> 
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>lazy</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>module</name> 
+		<required>false</required>
+		<type>java.lang.String</type>
+	</attribute>
+</tag>
+<tag>
+	<name>head</name>
+	<tag-class>org.loushang.internet.tags.HeadTag</tag-class>
+</tag>
+<tag>
+	<name>title</name>
+	<tag-class>org.loushang.internet.tags.TitleTag</tag-class>
+	<body-content>scriptless</body-content>
+</tag>
+<tag>
+	<name>script</name>
+	<tag-class>org.loushang.internet.tags.ScriptTag</tag-class> 
+	<body-content>empty</body-content>
+	<attribute>
+		<name>isMerger</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>src</name> 
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>ifNotation</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>charset</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>async</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>defer</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+</tag>
+<tag>
+	<name>style</name>
+	<tag-class>org.loushang.internet.tags.StyleTag</tag-class> 
+	<body-content>empty</body-content>
+	<attribute>
+		<name>isMerger</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>rel</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>type</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>href</name> 
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>ifNotation</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>media</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+</tag>
+<tag>
+	<name>meta</name>
+	<tag-class>org.loushang.internet.tags.MetaTag</tag-class> 
+	<body-content>empty</body-content>
+	<attribute>
+		<name>name</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>httpEquiv</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>content</name> 
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+	<attribute>
+		<name>property</name> 
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<type>java.lang.String</type>
+	</attribute>
+</tag>
+<tag>
+	<name>CSRFToken</name>
+	<tag-class>org.loushang.internet.tags.CSRFTokenTag</tag-class>
+	<body-content>empty</body-content>
+</tag>
+</taglib>

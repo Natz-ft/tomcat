@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+.op_taR {
+	text-align: right;
+}
+
+.op_btn .btn_l {
+	background-position: left 0;
+}
+
+.op_btn .btn_m {
+	background-position: left -25px;
+}
+
+.op_btn .btn_r {
+	background-position: right -25px;
+}
+
+.op_btn a .curr,.op_btn a:hover .curr {
+	color: #fff;
+}
+
+.op_btn a,.op_btn a:hover,.op_btn a span,.op_btn a:hover span {
+	height: 21px;
+	line-height: 21px;
+	line-height: 22px\9;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	min-width: 35px;
+	color: #666;
+	vertical-align: top;
+}
+
+.op_btn a,.op_btn a:hover,.op_btn a .curr,.op_btn a:hover .curr {
+	background:url(img/bg_op_btn.png) no-repeat;
+}
+
+.op_btn .btn_l .curr,.op_btn .btn_l:hover .curr {
+	background-position: left -100px;
+}
+
+.op_btn .btn_m .curr,.op_btn .btn_m:hover .curr {
+	background-position: left -125px;
+}
+
+.op_btn .btn_r .curr,.op_btn .btn_r:hover .curr {
+	background-position: right -125px;
+}
+
+.op_btn a span,.op_btn a:hover span {
+	padding: 0 15px;
+}
+
+.op_btn .btn_line {
+	width: 2px;
+	height: 21px;
+	display: inline-block;
+	background:url(img/bg_op_btn.png) no-repeat 0 -150px;
+	vertical-align: top;
+}
+.search_usage {
+cursor: pointer;
+color: #ffffff;
+display: inline-block;
+padding: 0 0 0 3px;
+height: 24px;
+line-height: 25px;
+width: 50px;
+border: 0px;
+background-position-x: 100%;
+background-position-y: -125px;
+background: url('../img/oam/btn.png') no-repeat 0 -126px;
+position: absolute;
+right: 0;
+top: 1px;
+}

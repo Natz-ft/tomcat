@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="catalog" description="系统维护" protocol="netty" ip="178.27.2.14" port="1204">
+	
+	<!--客户端的引用，这里主要有两个属性一个是id，一个是对应的接口-->
+	<reference id="cataLogRegionStatisticsService" interface="com.inspur.data.statistic.service.catalog.CataLogRegionStatisticsService"/>
+	<reference id="dataCatalogStatisticService" interface="com.inspur.data.od.service.catalog.DataCatalogStatisticService"/>
+	<reference id="cataLogOrgStatisticsService" interface="com.inspur.data.statistic.service.catalog.CatalogOrgStatisticsService"/>
+	<reference id="cataLogGroupStatisticsService" interface="com.inspur.data.statistic.service.catalog.CataLogGroupStatisticsService"/>
+	<reference id="dataCatalogStatisticDayService" interface="com.inspur.data.od.service.catalog.DataCatalogStatisticDayService"/>
+	<!-- 数据标签 -->
+	<!-- <reference id="cataLogTagService" interface="com.inspur.data.od.service.catalog.CataLogTagService"/> -->
+	<!-- 标签信息 -->
+	<reference id="tagInfoService" interface="com.inspur.data.od.service.datatag.TagInfoService"/> 
+	<!-- 标签分组 -->
+	<reference id="tagGroupService" interface="com.inspur.data.od.service.datatag.TagGroupService"/> 
+	<!-- 数据表操作-->
+	<reference id="dataTableService" interface="com.inspur.data.od.service.metadata.database.rds.DataTableService"/>
+	<reference id="dataSourceService" interface="com.inspur.data.od.service.metadata.database.DataSourceService"/>
+	<reference id="dataTableService" interface="com.inspur.data.od.service.metadata.database.rds.DataTableService"/>
+	<reference id="cataLogGroupService" interface="com.inspur.data.od.service.catalog.CataLogGroupService"/>
+	
+	<!-- 数据目录与元数据接口-->
+	<reference id="metaColumnService" interface="com.inspur.data.od.service.metadata.database.rds.MetaColumnService"/>
+	
+	<!-- 文件下载统计-->
+	<reference id="cataLogOpenDownLoadLogServcie" interface="com.inspur.data.od.service.catalog.CataLogOpenDownLoadLogServcie"/>
+	
+	<!-- 数据目录新接口-->
+	<reference id="catalogServiceNew" interface="com.inspur.data.catalog.service.catalog.CatalogService"/>
+	<reference id="openCatalogService" interface="com.inspur.data.catalog.service.catalog.OpenCatalogService"/>	
+	<reference id="catalogApiService" interface="com.inspur.data.catalog.service.catalog.CatalogAPIService"/>
+	<reference id="catalogFileService" interface="com.inspur.data.catalog.service.catalog.CatalogFileService"/>
+	<reference id="catalogMetaServiceNew" interface="com.inspur.data.catalog.service.catalog.CatalogMetaService"/>
+	<reference id="openCataLogApplyService" interface="com.inspur.data.catalog.service.apply.OpenCatalogApplyService"/>
+	<reference id="catalogTagService" interface="com.inspur.data.catalog.service.catalog.CatalogTagService"/>
+	<reference id="tagGroupService" interface="com.inspur.data.od.service.datatag.TagGroupService"/>
+	
+	<!-- 开放门户启用新的接口 -->
+	<reference id="openCatalogService" interface="com.inspur.data.catalog.service.catalog.OpenCatalogService"/>
+	
+	<!-- 地图配置接口-->
+	<reference id="catalogColumnService" interface="com.inspur.data.catalog.service.catalog.CatalogColumnService"/>
+	
+	<reference id="catalogConfigureService" interface="com.inspur.data.catalog.service.catalog.CatalogConfigureService"/>
+
+
+</module>

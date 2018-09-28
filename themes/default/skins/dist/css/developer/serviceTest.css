@@ -1,0 +1,11 @@
+textarea{border: 1px solid #bdbdbd; width: 720px; height: 180px; padding: 10px; line-height: 30px;}
+.main .g-main .head{height: 45px; background: #3498db; font-size: 16px;color: #fff;line-height: 45px;padding-left: 15px;}
+.main .g-main .left{background-color: #ebebeb; width: 280px; float: left; min-height: 594px; border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc; line-height: 40px; padding: 10px 15px;}
+.main .g-main .left .text{ color: #3498db;}
+.main .g-main .right{margin-left: 230px; padding:50px 80px; background: #fff;  border: 1px solid #cccccc;}
+.service-param {  width: 250px;  height: auto;  border: 1px solid #E7E7E7;  border-radius: 3px;  background: white;  margin: 10px 0;  padding: 0 9px;  font-size: 12px;  }
+.call-service {  margin-bottom: 5px;  margin-top: 5px;  }
+.call-service input {  cursor: pointer;  color: #ffffff;  display: inline-block;  padding: 0 0 0 3px;  height: 24px;  line-height: 25px;  width: 75px;  border: 0px;  background-position-x: 100%;  background-position-y: -125px;  background: url('../../img/dy2.png');  }
+.nav .g-main .nav-list ul li .dmp-tool .switch li a{line-height: 45px; text-align: center; }
+.dmp-select .dropdown-menu { margin: 10px 0 0;}
+.nav .g-main .nav-list ul li .dmp-tool .switch li :hover { background: #3498db; color: #fff;}

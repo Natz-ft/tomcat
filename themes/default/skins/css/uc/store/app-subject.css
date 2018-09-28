@@ -1,0 +1,22 @@
+.subject-list{
+padding: 0 12px 7px;
+width:690px;
+overflow:hidden;
+}
+.subject-item{
+	float: left;
+width: 230px;
+padding: 20px 0 7px;
+text-align: center;
+}
+.subject-item .subjectpic {
+display: block;
+width: 205px;
+height: 220px;
+margin: 0 auto;
+}
+.subject-item .subject-name{
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+}

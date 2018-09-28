@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="news" description="news中心" protocol="netty" ip="178.27.2.14" port="1203">
+	<reference id="resNewsService" interface="com.inspur.portal.service.news.ResNewsService"/>
+	<reference id="newsMediaService" interface="com.inspur.portal.service.news.NewsMediaService"/>
+	<reference id="newsColumnService" interface="com.inspur.portal.service.news.NewsColumnService"/>
+</module>

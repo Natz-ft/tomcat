@@ -1,0 +1,229 @@
+@CHARSET "UTF-8";
+.body-wrap {
+	padding-top: 30px;
+}
+.content-wrap {
+	padding: 7px 0 140px;
+	margin: 14px 0 0 0;
+	min-height: 170px;
+}
+.cont-title .opt {
+	margin-right: 16px;
+}
+.search-box-wrap {
+	margin-top: 10px
+}
+.app-list {
+	/* padding: 0 16px; */
+}
+.app-list-table {
+	width: 100%;
+	margin-top: 9px;
+}
+.app-list-table td,.app-list-table th {
+	font-size: 14px;
+}
+.app-list-table tr {
+	border-bottom: 1px dashed #D8D8D8;
+}
+.app-list-table td {
+	padding: 25px 0 16px;
+	text-align: center;
+	/* font-family: "宋体", Tahoma, Arail; */
+}
+.app-list-table td.c1 {
+	text-align: left;
+}
+.app-list-table tr.thead {
+	height: 36px;
+	padding: 0;
+	background: #F8F6F7;
+	border: 1px solid #F0F0F0;
+}
+.app-list-table th {
+	text-align: center;
+	font-weight: bold;
+}
+.app-list-table .app-icon,.app-list-table .app-icon img {
+	display: block;
+	float: left;
+	width: 69px;
+	height: 69px;
+}
+.app-list-table .app-icon {
+	margin: 0 20px 0 10px;
+}
+.app-list-table .app-info {
+	float: left;
+	width: 330px;
+}
+.app-list-table .app-info,
+.app-list-table .app-name,
+.app-list-table .app-intro {
+	/*float: left;*/
+}
+.app-list-table .app-name {
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 3px;
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+}
+.app-list-table .app-intro {
+	color:  #666;
+	font: 12px/20px "宋体";
+	margin: 4px 46px 0 0;
+}
+.app-list-table .app-name:hover {
+	color: #20A0E5;
+	text-decoration: none;
+}
+.app-list-table .btn-mgr,.app-list-table .btn-del {
+	display: inline-block;
+	width: 26px;
+	height: 30px;
+}
+.app-list-table .btn-mgr {
+	background-position: -132px -306px;
+}
+.app-list-table .btn-mgr:hover {
+	background-position: -72px -306px;
+}
+.app-list-table .btn-del {
+	background-position: -132px -276px;
+}
+.app-list-table .btn-del:hover {
+	background-position: -72px -276px;
+}
+.app-list-table .c1 {
+	width: 45%;
+}
+.app-list-table .c2 {
+	width: 14%;
+}
+.app-list-table .c3 {
+	width: 17%;
+}
+.app-list-table .c4 {
+	width: 12%;
+}
+.app-list-table .c5 {
+	width: 12%;
+}
+.app-list-table .c2 {
+	width: 14%;
+}
+
+.app-all-list li {
+	padding: 23px 0 12px;
+	border-bottom: 1px dashed #DAD8D8;
+}
+.app-all-list .app-icon,.app-all-list .app-icon img {
+	display: block;
+	float: left;
+	width: 52px;
+	height: 52px;
+}
+.app-all-list .app-icon {
+	margin: 0 15px 0 10px;
+}
+.app-all-list .app-info {
+	width: 120px;
+}
+.app-all-list .app-info,
+.app-all-list .app-name,
+.app-all-list .app-intro {
+	/*float: left;*/
+}
+.app-all-list .app-name {
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	font-size: 15px;
+}
+.app-all-list .app-intro {
+	color:  #666;
+	font: 12px/24px "宋体";
+	margin-top: 4px;
+}
+.app-all-list .app-name:hover {
+	color: #20A0E5;
+	text-decoration: none;
+}
+.app-all-list .c1 {
+	float: left;
+	/* width: 460px; */
+}
+.app-all-list .c2,
+.app-all-list .app-type,
+.app-all-list .app-type .menu-icons,
+.app-all-list .app-type .txt {
+	float: right;
+}
+.app-all-list .c2 {
+	margin: 11px 150px 0 0;
+}
+.app-all-list .app-type {
+	margin-left: 30px;
+	width:100px;
+}
+.app-all-list .app-type .menu-icons {
+	width: 35px;
+	height: 30px;
+	margin-right: 8px;
+}
+.app-all-list .app-type .menu-icons.mobile {
+	width: 25px;
+	background-position: 0 -221px;
+}
+.app-all-list .app-type.on .menu-icons.mobile {
+	background-position: -35px -221px;
+}
+.app-all-list .app-type .menu-icons.inner {
+	background-position: -1px -261px;
+}
+.app-all-list .app-type.on .menu-icons.inner {
+	background-position: -36px -261px;
+}
+.app-all-list .app-type .menu-icons.outter {
+	background-position: -1px -301px;
+}
+.app-all-list .app-type.on .menu-icons.outter {
+	background-position: -36px -301px;
+}
+.app-all-list .app-type .menu-icons.pc {
+	background-position: -1px -341px;
+}
+.app-all-list .app-type.on .menu-icons.pc {
+	background-position: -36px -341px;
+}
+.app-all-list .app-type .txt {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.form-box {
+	width: 810px;
+	margin: 42px auto 0;
+	padding: 80px 0 170px;
+}
+.form-box-title {
+	width: 162px;
+	height: 45px;
+	top: -23px;
+	margin-left: -81px;
+	background-position: 0 -121px;
+}
+.empty-tip-icon {
+	width: 98px;
+	height: 98px;
+	float: left;
+	margin: 0 10px 0 185px;
+	background-position: -22px -48px;
+}
+.empty-tip-txt {
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 37px;
+}

@@ -1,0 +1,366 @@
+@CHARSET "UTF-8";
+img{border:none;}
+.animated{
+	-webkit-animation-duration:1.4s;
+	animation-duration:1.4s;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both
+}
+
+@-webkit-keyframes bounceIn{
+	0%{
+	opacity:0;
+	-webkit-transform:scale(.3);
+	transform:scale(.3)
+}
+50%{
+	opacity:1;
+	-webkit-transform:scale(1.05);
+	transform:scale(1.05)
+}
+70%{
+	-webkit-transform:scale(.9);
+	transform:scale(.9)
+}
+100%{
+	opacity:1;
+	-webkit-transform:scale(1);
+	transform:scale(1)
+}
+
+}
+@keyframes bounceIn{
+	0%{
+	opacity:0;
+	-webkit-transform:scale(.3);
+	-ms-transform:scale(.3);
+	transform:scale(.3)
+}
+50%{
+	opacity:1;
+	-webkit-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	transform:scale(1.05)
+}
+70%{
+	-webkit-transform:scale(.9);
+	-ms-transform:scale(.9);
+	transform:scale(.9)
+}
+100%{
+	opacity:1;
+	-webkit-transform:scale(1);
+	-ms-transform:scale(1);
+	transform:scale(1)
+}
+
+}
+.bounceIn{
+	-webkit-animation-name:bounceIn;
+	animation-name:bounceIn
+}
+
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+@-webkit-keyframes bounceOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+
+@keyframes bounceOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+
+.bounceOutUp {
+  -webkit-animation-name: bounceOutUp;
+  animation-name: bounceOutUp;
+}
+
+@-webkit-keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+    transform: translateX(-100%) rotate(-120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+    -ms-transform: translateX(-100%) rotate(-120deg);
+    transform: translateX(-100%) rotate(-120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+
+@-webkit-keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+    transform: perspective(400px) rotateX(-10deg);
+  }
+
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+    -ms-transform: perspective(400px) rotateX(-10deg);
+    transform: perspective(400px) rotateX(-10deg);
+  }
+
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    -ms-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+
+
+
+/*------------------- 华丽分割线 -----------------------*/
+
+#dialogBg{width:100%;height:100%;background-color:#000000;opacity:.6;filter:alpha(opacity=60);position:fixed;top:0;left:0;z-index:9999;display:none;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60)!important;}
+#dialog{width: 400px;height: 304px ;margin:0 auto;display:none;position:fixed;top:50%;left:50%;margin:-120px 0 0 -150px;z-index:10000;border-radius:10px;-webkit-border-radius:10px;box-shadow:3px 2px 4px #ccc;-webkit-box-shadow:3px 2px 4px #ccc;}
+.loginBox {
+	background-color: #FEFEFE;
+	border: 1px solid #BfD6E1;
+	border-radius: 5px;
+	color: #444;
+	font: 14px 'Microsoft YaHei','微软雅黑';
+	width: 400px;
+	height:304px;
+}
+.loginBox .loginBoxCenter {
+	height:236px;
+	border-bottom: 1px solid #DDE0E8;
+	padding:0 24px ;
+	background: url("../../../images/uc/layout/img_top.jpg") no-repeat;
+  background-position: 24px top;
+  text-align:left;
+}
+.loginBox .loginBoxCenter p {
+	margin-bottom: 10px
+}
+.loginBox .loginBoxButtons {
+	background-color: #F0F4F6;
+	border-top: 1px solid #FFF;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	line-height: 28px;
+	overflow: hidden;
+	padding: 16px 24px;
+	vertical-align: center;
+	position:relative;
+	text-align:left;
+}
+.loginBox .loginInput {
+	border: 1px solid #D2D9dC;
+	border-radius: 2px;
+	color: #444;
+	font: 12px 'Microsoft YaHei','微软雅黑';
+	padding: 8px 14px;
+	margin-bottom: 8px;
+	width: 330px;
+}
+.loginBox .loginInput:FOCUS {
+	border: 1px solid #B7D4EA;
+	box-shadow: 0 0 8px #B7D4EA;
+}
+.loginBox .loginBtn {
+	width:70px;
+	height:26px;
+	background-image: url("../../../images/uc/layout/button_dl.png") ;
+	border: 1px solid #98CCE7;
+	border-radius: 20px;
+	border/*\**/: 0;
+	color: #FFF;
+	cursor: pointer;
+	float: right;
+	*margin-top:-26px;
+}
+.loginBox .reginBtn {
+	width:70px;
+	height:25px;
+	background-image: url("../../../images/uc/layout/button_zc.png") ;
+	border: 1px solid #98CCE7;
+	border-radius: 20px;
+	border/*\**/: 0;
+	color: #FFF;
+	cursor: pointer;
+	float: right;
+	margin-left:15px;
+	margin-right:12px;
+	*margin-top:-26px;
+}
+.loginBox a.forgetLink {
+	color: #ABABAB;
+	cursor: pointer;
+	float: right;
+	font: 11px/20px Arial;
+	text-decoration: none;
+	vertical-align: middle;
+  margin-right: 14px;
+}
+.m-btn{
+	/* padding: 0px 0px; */
+	line-height: 18px;
+    transition: color 0.25s, background-color linear 0.25s, border-color linear 0.25s, box-shadow ease-in-out 0.25s;
+}
+.loginBox a.forgetLink:HOVER {
+	text-decoration: underline;
+}
+.loginBox input#remember {
+	vertical-align: middle;
+}
+.loginBox label[for="remember"] {
+	font: 11px Arial;
+}
+.loginTitle{width: 100%;height: 39px;border-bottom: 1px dashed #ccc;position:relative;}
+.closebutton{width:50px;height: 17px; cursor:pointer;text-align:right;position:absolute;top:10px;right:-10px;font-size:12px;padding-top:3px;color:#444;}
+
+.threelogin{margin-top: 10px;padding-top:2px;font-family: "宋体";font-size: 12px;border-top:1px solid #f8f8f8;}
+.threelogin span{margin-right:5px;color: #999;}
+.threelogin img{position:relative;top:7px;}

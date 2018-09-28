@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Maps Toolbar</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.16/dijit/themes/nihilo/nihilo.css">
+    <link rel="stylesheet" href="http://125.70.9.194:801/3.15/esri/css/esri.css">
+    <style>
+        html, body, #mainWindow {
+            font-family: sans-serif;
+            height: 100%;
+            width: 100%;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            height: 80px;
+            overflow: auto;
+            padding: 0.5em;
+        }
+    </style>
+    <script src="http://125.70.9.194:801/3.15/init.js">
+        <script>
+        //通过给按钮绑定点击事件，点击的时候获取按钮内容，来确定所要绘画的图形。
+        var map, toolbar, symbol, geomTask;
+        require([
+            "esri/map",
+            "esri/toolbars/draw",
+            "esri/graphic",
+            "esri/symbols/SimpleMarkerSymbol",
+            "esri/symbols/SimpleLineSymbol",
+            "esri/symbols/SimpleFillSymbol",
+            "dojo/parser", "dijit/registry",
+            "dijit/layout/BorderContainer", "dijit/layout/ContentPane",
+            "dijit/form/Button", "dijit/WidgetSet", "dojo/domReady!"
+        ], function(
+            Map, Draw, Graphic,
+            SimpleMarkerSymbol, SimpleLineSymbol, SimpleFillSymbol,
+            parser, registry
+        ) {
+            parser.parse();
+            map = new Map("map", {
+                basemap: "streets",
+                center: [-15.469, 36.428],
+                zoom: 3
+            });
+
+            map.on("load", createToolbar);
+            // loop through all dijits, connect onClick event
+            // listeners for buttons to activate drawing tools
+            registry.forEach(function(d) {
+                // d is a reference to a dijit
+                // could be a layout container or a button
+                if ( d.declaredClass === "dijit.form.Button" ) {
+                    d.on("click", activateTool);//给按钮绑定点击事件
+                }
+            });
+            function activateTool() {
+                var tool = this.label.toUpperCase().replace(/ /g, "_");//获取按钮内容
+                toolbar.activate(Draw[tool]);//绘画对应的图形
+                map.hideZoomSlider();
+            }
+            function createToolbar(themap) {
+                toolbar = new Draw(map);
+                toolbar.on("draw-end", addToMap);//图形绘画完成后的事件
+            }
+            function addToMap(evt) {
+                var symbol;
+                toolbar.deactivate();
+                map.showZoomSlider();
+                switch (evt.geometry.type) {
+                    case "point":
+                    case "multipoint":
+                        symbol = new SimpleMarkerSymbol();
+                        break;
+                    case "polyline":
+                        symbol = new SimpleLineSymbol();
+                        break;
+                    default:
+                        symbol = new SimpleFillSymbol();
+                        break;
+                }
+                var graphic = new Graphic(evt.geometry, symbol);
+                map.graphics.add(graphic);
+            }
+        });
+    </script>
+</head>
+<body class="nihilo">
+<div id="mainWindow" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline'">
+    <div id="header" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top'">
+  <span>Draw:
+</span>
+        <button data-dojo-type="dijit/form/Button">Point</button><!--画点-->
+        <button data-dojo-type="dijit/form/Button">Multi Point</button><!--画多个点-->
+        <button data-dojo-type="dijit/form/Button">Line</button><!--画线-->
+        <button data-dojo-type="dijit/form/Button">Polyline</button><!--画一条直线-->
+        <button data-dojo-type="dijit/form/Button">Polygon</button><!--画一个对边的面-->
+        <button data-dojo-type="dijit/form/Button">Freehand Polyline</button><!--画一条随意的线-->
+        <button data-dojo-type="dijit/form/Button">Freehand Polygon</button><!--画一个随意的面-->
+        <button data-dojo-type="dijit/form/Button">Arrow</button><!--画一个箭头-->
+        <button data-dojo-type="dijit/form/Button">Triangle</button><!--画一个三角形-->
+        <button data-dojo-type="dijit/form/Button">Circle</button><!--画一个圆-->
+        <button data-dojo-type="dijit/form/Button">Ellipse</button><!--画一个椭圆-->
+    </div>
+    <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,311 @@
+.main-page-home{
+	background:#D6ECF4;
+	background:url(../images/bg/bd-bg.jpg) repeat 0px 0px;
+	padding-top:165px;/*125+40*/
+}
+/*头部 开始*/
+.main-page-home .uc-header-logo-img{
+	height:auto;
+}
+.main-page-home .header-holder{
+	padding-top:0px;
+	height:165px;/*125+40*/
+	/*background:url(../images/login/uc-common-header.jpg) no-repeat center 0px*/;
+	background:url(../images/main/uc-main-header.jpg) no-repeat center 35px;
+	position:absolute;
+}
+.main-page-home .header{
+	top:125px;
+	background:#00A5CC;
+	border-bottom:1px solid #C9C6BE;
+}
+.main-page-home .header .logo{
+	position: absolute;
+    top: -90px;
+    left:0px;
+}
+.main-page-home .header .logo a{
+	cursor:pointer;
+}
+.main-page-home .content-holder{
+	/*border-bottom:1px solid #00618F;
+	*border-bottom:0px*/;
+	border-bottom:0px;
+}
+.main-page-home .footer-holder{
+	background:#00618F;
+	border-top:1px solid #5896B9;
+	margin-top:0px;
+	padding-bottom:1px;
+}
+
+/*底部字体 结束*/
+
+
+.main-page-home .header ul li.on{
+	background:url(../images/main/uc-main-on.png) repeat-x center 0px;
+}
+.main-page-home .header ul li.on .on-arrow{
+	margin:0px auto;
+	bottom:5px;background:#fff;
+	width:9px;height:5px;
+	background:url(../images/main/on-arrow.png) no-repeat center center;
+	_display:none;
+	_background:none;
+}
+.main-page-home .header .nav{
+	margin-left:0px;
+	overflow:hidden;
+}
+.main-page-home .header .nav ul li{
+	width:130px;
+	text-align: center;
+}
+.main-page-home .header .nav ul li a{
+	padding-left:0px;
+	padding-right:0px;
+}
+.main-page-home .header .application-text{
+	margin:7px auto;
+}
+.main-page-home .header .nav_sub{
+	margin-right:15px;
+}
+/*头部 结束*/
+.main-page-home .content{
+	/*border:1px solid #97D0ED*/;
+	border-top:0px;
+	margin-bottom:20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	background:url(../images/main/main-bg.png) repeat-y 0px 0px;
+	overflow:hidden;
+}
+.main-page-home .service-list-column,.main-page-home .account-list-column,
+.main-page-home .info-list-column,.main-page-home .sec-list-column,
+.main-page-home .follow-list-column{
+	background: none repeat scroll 0 0 transparent;
+    border-radius: 0 0 0 0;
+    width:165px;/*182\175*/
+    margin-left:10px;
+}
+.main-page-home .content-detail-column,.main-page-home .account-show-panel,
+.main-page-home .info-show-panel,.main-page-home .sec-show-panel,
+.main-page-home .follow-show-panel{
+	background: none repeat scroll 0 0 transparent;
+    border-radius: 0 0 0 0;
+    width: 820px;/*775px;*/
+    margin-left: 0;
+    overflow:hidden;
+}
+.main-page-home .content-detail-column{
+	padding:0px;
+}
+.main-page-home .home-show-contain{
+	height:auto;
+}
+.main-page-home .m_nav{
+	overflow:visible;
+}
+/*菜单小图标 开始*/
+.main-page-home .icon_nav_list{
+	width:16px;
+	height:18px;
+	vertical-align:top;
+}
+.main-page-home .account-list-column .icon_nav_list{
+	background:url(../images/main/icon_nav_list_account.png) no-repeat 0px 0px;
+}
+.main-page-home .account-list-column .acco{
+	background-position: 1px 2px;
+}
+.main-page-home .account-list-column .photo{
+	background-position: -16px 2px;
+}
+.main-page-home .account-list-column .pers{
+	background-position: -32px 2px;
+}
+.main-page-home .account-list-column .bind{
+	background-position: -48px 2px;
+}
+.main-page-home .account-list-column .privacy{
+	background-position: -64px 2px;
+}
+.main-page-home .account-list-column .authen{
+	background-position: 0px -32px;
+	vertical-align:-4px;
+}
+.main-page-home .account-list-column .cert{
+	background-position: -16px -31px;
+}
+.main-page-home .account-list-column .subaccount{
+	background-position: -32px -16px;
+}
+.main-page-home .info-list-column .icon_nav_list{
+	background:url(../images/main/icon_nav_list_info.png) no-repeat 0px 0px;
+}
+.main-page-home .info-list-column .info{
+	background-position: 1px 2px;
+}
+.main-page-home .info-list-column .edu{
+	background-position: -16px 2px;
+}
+.main-page-home .info-list-column .job{
+	background-position: -32px 2px;
+}
+.main-page-home .info-list-column .address{
+	background-position: -48px 2px;
+}
+.main-page-home .info-list-column .family{
+	background-position: -64px 2px;
+}
+.main-page-home .info-list-column .personality{
+	background-position: -80px 2px;
+}
+
+.main-page-home .info-list-column .contant{
+	background-position: -16px -16px;
+}
+.main-page-home .info-list-column .bank{
+	background-position: -32px -16px;
+}
+.main-page-home .info-list-column .cert{
+	background-position: -48px -16px;
+}
+.main-page-home .info-list-column .label{
+	background-position: -64px -16px;
+}
+
+
+.main-page-home .sec-list-column .icon_nav_list{
+	background:url(../images/main/icon_nav_list_sec.png) no-repeat 0px 0px;
+}
+.main-page-home .sec-list-column .core{
+	background-position: -80px 2px;
+}
+.main-page-home .sec-list-column .pwd{
+	background-position: 1px 2px;
+}
+.main-page-home .sec-list-column .mob{
+	background-position: -16px 2px;
+}
+.main-page-home .sec-list-column .mail{
+	background-position: -32px 2px;
+}
+.main-page-home .sec-list-column .sve{
+	background-position: -48px 2px;
+}
+.main-page-home .sec-list-column .warn{
+	background-position: -64px 2px;
+}
+.main-page-home .follow-list-column .icon_nav_list{
+	background:url(../images/main/icon_nav_list_follow.png) no-repeat 0px 0px;
+}
+.main-page-home .follow-list-column .follow{
+	background-position: 1px 2px;
+}
+.main-page-home .follow-list-column .fans{
+	background-position: -16px 2px;
+}
+.main-page-home .follow-list-column .search_p{
+	background-position: -32px 2px;
+}
+/*菜单小图标 结束*/
+/*底部字体 开始*/
+.uc-copyright {
+    color: #8FA9C0;
+}
+.uc-copyright .nav_sub{
+	margin-bottom:5px;
+}
+.uc-copyright .nav_sub a {
+    color: #8FA9C0;
+}
+/*-----2013.3.7header头样式修改 开始-----*/
+/* .main-page-home{
+	padding-top: 95px;
+}
+
+.main-page-home .header-holder{
+	height: 85px;
+	background:url(../images/bg/header_bg_1337.png) repeat-x 0px 0px;
+}
+.main-page-home .header{
+	top:0px;
+	background:none;
+	border-bottom:0px;
+}
+.main-page-home .header .logo {
+	position: relative;
+	top: 0px;
+}
+.main-page-home .header .nav {
+	margin-left: 10px;
+	overflow: hidden;
+	position: relative;
+	left: 10px;
+	bottom: 0px;
+	top: 45px;
+}
+.main-page-home .header .application-text{
+	font-size:16px;
+	font-weight:normal;
+	margin:1px auto;
+}
+.main-page-home .header ul li.on{
+	background:url(../images/main/uc-main-on-1337.png) no-repeat center 0px;
+}
+.main-page-home .header ul li.over{
+	   background:url(../images/main/uc-main-hover-1337.png) no-repeat center 0px;
+       text-decoration: none;
+ 	   _background:none;
+       _text-decoration: underline;
+}
+.main-page-home .header ul li a{
+	text-decoration:none;
+}
+.main-page-home .header .nav{
+	marign-left:10px;
+}
+.main-page-home .header ul li.on .on-arrow{
+	display:none;
+} */
+/*-----2013.3.7header头样式修改 结束-----*/
+
+/*---------认证样式 开始---------*/
+/* .is-verified-icon{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(../images/main/icon_verified.png) no-repeat -32px 0px;
+}
+.is-verified-icon-p{
+	background-position:0px 0px;
+}
+.is-verified-icon-o{
+	background-position:-16px 0px;
+}
+.is-g{
+	background-position:-48px 0px;
+} */
+/*---------认证样式 结束---------*/
+
+/*---------关注图标 开始---------*/
+/* .info-atten .info-atten-icon{
+	width:15px;
+	height:15px;
+	vertical-align:-2px;
+	display:inline-block;
+	background:url(../images/main/icon_nav_list_follow.png) no-repeat -64px 1px;
+}
+.info-atten .info-atten-icon-one{
+	background-position:-64px 1px;
+}
+.info-atten .info-atten-icon-two{
+	background-position:-48px 1px;
+} */
+/*---------关注图标 结束---------*/
+/*-----2013.7.4header头样式修改 开始-----*/
+/* .main-page-home{
+	padding-top: 0px;
+}
+-----2013.7.4header头样式修改 结束----- */

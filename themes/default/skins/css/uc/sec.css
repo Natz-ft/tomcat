@@ -1,0 +1,395 @@
+.m_form{
+	padding-bottom:10px;
+}
+
+/*----账号安全级别 开始----*/
+.sec_lev_wrap {
+	width: 255px; height: 24px; margin-top: 8px; 
+}
+.sec_lev {
+	width: 255px; height: 24px; float: left; margin-left: 10px; 
+	background-image: url("../../images/uc/main/sec_lev.png"); 
+	_background-image: url("../../images/uc/main/sec_lev.gif"); 
+	background-repeat: no-repeat;
+}
+.sec_lev_0 {
+	background-position: 0px -190px;
+}
+.sec_lev_1 {
+	background-position: 0px 0px;
+}
+.sec_lev_2 {
+	background-position: 0px -38px;
+}
+.sec_lev_3 {
+	background-position: 0px -76px;
+}
+.sec_lev_4 {
+	background-position: 0px -114px;
+}
+.sec_lev_5 {
+	background-position: 0px -152px;
+}
+/*----账号安全级别 结束----*/
+
+/*----左侧导航菜单样式 开始-----*/
+.m_nav {
+	background: tranparent;
+	overflow: hidden;
+	margin: 20px 0px;
+}
+.m_nav ul {
+	margin-top: -1px; _margin-top: 0;
+}
+.m_nav li {
+	font-weight: bold;
+	font-size:14px;
+	height:40px;
+	overflow:hidden;
+	position:relative;
+}
+.m_nav li a{
+	display:block;
+	height:24px;
+	padding: 8px 0px;
+	color:#4892c5;
+	text-align: center;
+}
+.m_nav li:hover {
+	/*background: #7bc4ee*/;
+}
+.m_nav li:hover a{
+	/*color:#939393*/;
+}
+.m_nav .cur {
+	background: #7bc4ee;
+}
+.m_nav .cur a{
+	color:#fff;
+}
+/*----左侧导航菜单样式 结束-----*/
+
+/*----左侧导航菜单图标 开始-----*/
+.icon_nav_list{
+	width: 22px; 
+	height: 22px; 
+	margin-right: 12px;
+	vertical-align: middle;
+	background-image: url("../../images/uc/main/nav_list_icon.png"); 
+	_background-image: url("../../images/uc/main/nav_list_icon.gif"); 
+	background-repeat: no-repeat;
+}
+.core{
+	background-position: 5px -233px;
+}
+.pwd{
+	background-position: 5px -265px;
+}
+.mob{
+	background-position: 5px -305px;
+}
+.mail{
+	background-position: 5px -340px;
+}
+.sve{
+	background-position: 5px -372px;
+}
+.warn{
+	background-position: 5px -405px;
+}
+/*----左侧导航菜单图标 结束-----*/
+
+/*----帮助栏 开始----*/
+.m_help_tips {
+	background: rgb(255, 255, 255); border-radius: 5px; 
+}
+.m_help_tips .hd {
+	background: url("../../images/uc/main/sec_btn.png") repeat-x 0px -240px; border-radius: 5px 5px 0px 0px; height: 36px; line-height: 36px;
+}
+.m_help_tips .hd h3 {
+	padding-left: 12px; font-size: 12px; font-weight: bold;
+}
+.m_help_tips .bd {
+	padding: 15px; line-height: 20px;
+}
+.m_help_tips .ft {
+	background: url("../../images/uc/main/sec_btn.png") repeat-x 0px -300px; border-radius: 0px 0px 5px 5px; height: 30px; text-align: right; line-height: 30px; padding-right: 8px;
+}
+.m_help_tips .ft span {
+	font-family: "Simsun";
+}
+/*----帮助栏 结束----*/
+
+/*----右侧头部说明信息 开始----*/
+.m_sum {
+	/*background:url(../images/bg/bd-bg.jpg) repeat scroll 0px 0px*/; 
+	margin: 10px; 
+	padding: 10px; 
+	line-height: 36px; 
+	font-size: 14px;
+}
+.m_sum .title {
+	font-weight: bold;border-bottom:1px solid #7dc5ed;
+}
+.m_sum .help_tip {
+	font-size: 12px; font-weight: normal; float: right;
+}
+.m_sum .sum_text {
+	padding: 8px 0px; line-height: 22px;
+}
+/*----右侧头部说明信息 结束----*/
+
+/*----右侧下方账号风险 开始----*/
+.m_secu_lvl {
+	margin: 0px 15px 15px;
+	padding-top:15px;
+	border-top:1px solid #bad0db;
+}
+.m_secu_lvl .sec_sum {
+	font: bold 14px/26px "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun;; 
+	padding: 0px 0px 5px 5px; 
+	font-size-adjust: none; font-stretch: normal;
+}
+.m_secu_lvl .sec_sum span {
+	padding: 0px 6px; color: rgb(218, 8, 37); font-size: 26px;
+}
+.m_secu_lvl dl {
+	padding: 12px 0px; 
+	margin-top: -1px; 
+	border-top:1px dotted #bad0db;
+}
+.m_secu_lvl dl:hover {
+	background: #f4f4f4;
+}
+.m_secu_lvl .warn {
+	/*background: rgb(254, 255, 229)*/;
+}
+.m_secu_lvl dt {
+	font: bold 14px/26px "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun; 
+	width: 135px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.m_secu_lvl dd {
+	font: 14px/26px "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun; 
+	font-size-adjust: none; font-stretch: normal;
+}
+.m_secu_lvl .opt_wrap {
+	font-size: 12px;
+	float: right;
+	postion:relative;
+}
+.m_secu_lvl .opt_wrap .opt_link{
+	font-size:14px;
+	margin-right:25px;
+}
+.m_secu_lvl .opt_tip {
+	color: rgb(153, 153, 153); line-height: 14px; font-size: 12px;
+}
+.m_secu_lvl .warn_wrap {
+	border: 0px; 
+	overflow: hidden;
+	position: relative;
+}
+.m_secu_lvl span.sec_item_text{
+	position:relative;
+	top:-4px;
+	left:0px;
+}
+.icon_warn,.icon_veri{
+	width: 22px; 
+	height: 22px; 
+	margin-right: 12px;
+	vertical-align: middle;
+	background:url(../../images/uc/main/nav_list_icon.png);
+	_background: url("../../images/uc/main/nav_list_icon.gif");
+	background-repeat: no-repeat;
+}
+.icon_warn {
+	background-position: 5px -444px;
+	margin: 0px 5px 0px 10px; width: 35px; height: 35px;
+}
+.icon_veri {
+	background-position: 5px -498px;
+	margin: 0px 5px 0px 10px; width: 35px; height: 35px;
+}
+/*----右侧下方账号风险 结束----*/
+
+/*----步骤条 开始----*/
+.m_step {
+	height:90px;
+	position:relative;
+	padding-left:0;
+	padding-right:0;
+	width:95%;
+	margin-bottom:20px;
+}
+.m_step ol{
+	height:100%;
+	overflow:hidden;
+	width:450px;
+	margin:0 auto;
+}
+.m_step.m_step2 ol{
+	height:100%;
+	overflow:hidden;
+	width:670px;
+	margin:0 auto;
+}
+.m_step li{
+	background-image: url("../../images/uc/main/step_bg.png");
+	_background-image: url("../../images/uc/main/step_bg.gif");
+	background-repeat: no-repeat;
+	height:100%;
+	float:left;
+}
+.m_step li.start{
+	background-position:0px 30px;
+	width:220px;
+}
+.m_step li.end{
+	background-position:right 5px;
+	width:440px;
+}
+.m_step li div{
+	height:100%;
+	background-image: url("../../images/uc/main/step_icon.png");
+	_background-image: url("../../images/uc/main/step_icon.gif");
+	background-repeat: no-repeat;
+}
+.m_step li div span{
+	display:block;width:100%;text-align:center;
+	font-weight:bold;
+}
+.m_step li div span.desc{
+	font-size:13px;
+	color:#838383;
+	padding-top:20px;
+}
+.m_step li.end div.end-step{
+	background-position: 85px 10px;
+}
+.m_step li div span.index{
+	font-size:18px;
+	color:#fff;
+	padding-top:22px;
+}
+.m_step li.start div{
+	background-position:85px 10px;
+}
+.m_step li.end div{
+	float:left;
+	width:50%;
+	background-position:85px -90px;
+}
+.m_step li.end div:hover,.m_step li.start div:hover{
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	opacity:0.8;
+}
+.m_step li.start div
+
+.m_step li.end div.middle{
+	background-position:85px -90px;
+}
+/*----步骤条 结束----*/
+
+/*----表格 开始----*/
+.m_table th {
+	background: url("../../images/uc/bg/table_th_bg.jpg") repeat-x 0 0 transparent; 
+	text-align: center; 
+	color: #373838;
+}
+.m_table th {
+	border: 1px solid #CCC8C3; 
+	border-top:0px;
+	border-bottom:0px;
+	height: 30px; 
+	text-align: center; 
+	font-size: 14px; 
+	border-collapse: collapse;
+}
+.m_table td {
+	border: 1px solid #CCC8C3; 
+	border-top:0px;
+	height: 33px; 
+	text-align: center; 
+	font-size: 14px; 
+	border-collapse: collapse;
+}
+.m_table th {
+	width: 157px;
+}
+.m_table th a{
+	color: rgb(255, 255, 255);
+	font-size:10px;
+	text-decoration: underline;
+}
+/*----表格 结束----*/
+/*-----底部说明小贴士 开始-----*/
+.m_tip {
+	margin: 20px 15px 15px; 
+	padding: 0px 18px; 
+	border-top:1px dashed #e5e5e5;
+	font-size: 14px;
+}
+.m_tip .title {
+	font-weight:bold;
+	padding: 18px 0px 6px; 
+	font-size-adjust: none; font-stretch: normal;
+}
+.m_tip .tip_text {
+	line-height: 20px; 
+	padding-bottom: 18px; 
+}
+/*-----底部说明小贴士 结束-----*/
+
+/*-----警告说明 开始-----*/
+.m_warn {
+	background: rgb(254, 255, 229); 
+	margin: 15px; 
+	padding: 6px; 
+	border: 1px solid rgb(249, 242, 167);
+	color: rgb(201, 0, 0); 
+	font-size: 12px; zoom: 1;
+	line-height: 18px; overflow: hidden;
+	border-radius:3px;
+}
+.m_warn_tip {
+background-color: #fcf7f0;
+margin: 20px 55px;
+padding: 10px 25px;
+border: 1px solid #f4e1c7;
+color: #fc5b03;
+font-size: 14px;
+zoom: 1;
+line-height: 24px;
+overflow: hidden;
+border-radius: 3px;
+font-family: Arial;
+}
+.m_warn .icon_secu {
+}
+/*-----警告说明 结束-----*/
+
+/*----页面布局相关 开始 ----*/
+.sec-list-column{
+	width:150px;
+	/*border:1px solid #eeefef*/;
+	background-color:#f4f4f4; border-radius:5px;
+}
+.sec-show-panel{
+	width:785px;
+	/*border:1px solid #eeefef*/;
+	margin-left:10px;background:#fff;border-radius:5px;
+}
+.form-submit dt,.form-submit dd{
+	float:none;
+}
+.prompt-contain dt,.prompt-contain.dd{
+	float:none;
+}
+/*----页面布局相关 结束 ----*/
+.login-detail{
+	
+	
+	
+}

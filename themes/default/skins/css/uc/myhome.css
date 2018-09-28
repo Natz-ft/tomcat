@@ -1,0 +1,406 @@
+.big_w{
+	width:1014px;
+}
+.header-holder{
+	position:absolute;
+}
+.footer{
+	background-color: #EEEFEF;
+    clear: both;
+    color: #333333;
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: left;
+}
+.uc-copyright {
+    height: auto;
+    margin: 0px auto;
+    color: #999;
+}
+
+.uc-header-logo-img{
+	height:40px;
+}
+.page-home-temp{
+	padding-top:146px;
+}
+.header-holder-temp{
+	background:none;
+	height:136px;
+}
+.header-temp{
+	height:136px;
+	background:url(../images/main/header-temp.png);
+}
+.title-row{
+	padding:6px;
+	margin-bottom:8px;
+	background-color: #fafafa;
+	background: #fafafa url(../images/main/w_top_bg_75.png) repeat-x 0 0;
+	
+	overflow:hidden;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+/*----页面布局相关 开始----*/
+.service-list-column{
+	width:150px;background-color:#f4f4f4; /*border:0px solid #eeefef;*/
+	background:url("../images/themes/qingdao/left-bg.png") repeat-y 0px 0px;
+}
+.service-show-panel{
+	margin-left:10px;float:right;/*border:1px solid #eeefef;*/border-radius:5px;
+}
+.service-show-panel .column1{
+	width:540px;
+}
+.service-show-panel .column2{
+	width:225px;
+}
+/*----页面布局相关 结束----*/
+
+/*----左边 开始----*/
+.left-nav{
+min-height:510px;
+}
+/*应用样式*/
+.user-app .celerity-menu {padding-botton:10px;}
+.seg-line{margin:0 10px 5px 10px;height:1px;border-top:1px solid #d8d8d8;}
+/*菜单主要的样式*/
+.user-app .celerity-menu a{text-align:left;text-decoration:none;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;word-wrap:normal;}
+.user-app .celerity-menu a{display:block;padding:5px 0px;padding-left:20px;padding-right:8px;}
+.user-app-icon,.nav-icon{width:16px;height:16px;margin-right:5px;vertical-align:-2px}
+.user-app .celerity-menu a:hover img,.user-app .celerity-menu a.on img{ transform: rotate(-30deg);-ms-transform: rotate(-30deg);-webkit-transform: rotate(-30deg);-o-transform: rotate(-30deg);-moz-transform: rotate(-30deg);}
+.user-app .celerity-menu a:hover { background: url(img/bg/left-nav-hover.png) repeat; }
+.user-app .celerity-menu a.on,.user-app .celerity-menu a.on:hover{ background-color: #47A4D1;color:#fff;}
+ .user-app .celerity-menu a.on1{background:#FFF;border-top-left-radius:5px;border-bottom-left-radius:5px}
+/*入口辅助样式*/
+.user-app .celerity-menu b {float:right;font-size:10px;font-weight:400;visibility:hidden;color:#193E5C;cursor:pointer}
+.user-app .celerity-menu a:hover b {visibility: visible}
+/*header样式*/
+.user-app .celerity-menu .app-header{color: #5e8799;border-bottom:1px solid #bad0db;overflow:hidden;text-align:left;font-weight:bold;font-size:13px;padding:5px 0px;}
+/*入口辅助样式*/
+.user-app .celerity-menu .user-app-link span.user-app-entry{font-size:12px;visibility:hidden;float:right}
+.user-app .celerity-menu .user-app-link:hover span.user-app-entry{font-size:12px;visibility: visible;cursor:pointer}
+/*应用管理和添加两个图标的样式*/
+.ico-app-manage{height:16px;width:16px;background-position:-71px -35px;margin-top:-1px;vertical-align:middle}
+.ico-app-add{height:16px;width:16px;background-position:-87px -35px;margin-top:-1px;vertical-align:middle}
+.user-app .user-app-btm{overflow:hidden;height:2px}
+
+.user-app .celerity-menu li span.li-menu-item{display:block;padding:5px 0px;}
+
+.user-info .user-info-edit{widht:14px;width:14px;background:url(../images/main/edit.png) no-repeat 0 0;}
+/*----左边 结束----*/
+
+/*----右边 开始----*/
+.panel{
+	font-size:13px;
+}
+.panel .widget .w-title{
+position: static;
+width: 100%;
+/*height: 32px*/;
+/*cursor: move*/;
+position: relative;
+}
+.panel .widget .w-top{
+position: static;
+/*background: url(../images/main/w_top_bg.png) repeat-x 0 0*/;
+width: 100%;
+height: 27px;
+/*cursor: move*/;
+position: relative;
+border-top:1px solid #e4eef0;
+padding-top:3px;
+}
+.weibo-widget .w-title,.message-widget .w-title,.email-widget .w-title {
+background-position: 0 0px;
+}
+.panel .widget h3 {
+	height:30px;
+	color:gray;
+	font-size:14px;
+	line-height:32px;
+	font-weight:bold;
+	padding-left:10px;
+	border-bottom:2px solid #248bda;
+	margin-bottom:2px;
+	position:relative;
+	background:#EDEDED;
+}
+.panel .widget h3 .w-img{
+	height:32px;
+	width:100%;
+	position:relative;
+	top:-6px;
+	left:-17px;
+}
+.panel .affair-widget h3 .w-img{
+	background: url("../images/themes/qingdao/affair.png") no-repeat 0px 0px;
+}
+.panel .question-widget h3 .w-img{
+	background: url("../images/themes/qingdao/question.png") no-repeat 0px 0px;
+}
+.panel .email-widget h3 .w-img{
+	background: url("../images/themes/qingdao/mail.png") no-repeat 0px 0px;
+}
+.panel .message-widget h3 .w-img{
+	background: url("../images/themes/qingdao/message.png") no-repeat 0px 0px;
+}
+.panel .widget .w-title div {
+float: right;
+}
+.panel .widget .w-title {
+/*cursor: move*/;
+}
+.weibo-widget .w-title a,.message-widget .w-title a,.email-widget .w-title a{
+color: #B7001E;
+}
+.panel .widget .on {
+border-color: #FBD1D8;
+}
+.panel .widget .w-cnt {
+background-color: white;
+margin-bottom: 10px;
+padding:10px;
+min-height:135px;
+overflow:hidden;
+}
+.widget .w-cnt {
+zoom: 1;
+}
+/*user info样式*/
+.user-info-holder{padding:0;_padding:30px 0 0 0;margin:10px auto 0;width:100%;}
+.user-info{font-size:13px;text-decoration:none;color:#666;width:100%;height:auto;margin:0 auto;border:0px solid #bbd9ff;border-radius:5px;margin-bottom:30px;padding-left:20px;}
+/*info样式*/
+.user-info dt{
+	float:left;
+	font-weight:bold;
+}
+.user-info dl{
+	/*margin-top:5px*/;
+	padding-top:5px;
+	clear:both;
+}
+.user-info dl dt{
+	float:left;
+	font-weight:blod;
+}
+.chart-security-level{
+	background-image:url(../images/main/v4_main.png);
+	background-repeat:no-repeat;
+	width:78px;
+	height:10px;
+}
+.user-info .safe-state-low .chart-security-level{
+	background-position:-4px 0px;
+}
+.user-info .safe_state_mid .chart-security-level{
+	background-position:-3px -13px ;
+}
+.user-info .safe_state_good .chart-security-level{
+	background-position:-3px -28px;
+}
+.user-info .safe_state_vrhigh .chart-security-level{
+	background-position:-3px -41px ;
+}
+.user-info .safe_state_high .chart-security-level{
+	background-position:-3px -55px ;
+}
+.user-info .safe-state-low strong,.user-info .safe-state-mid strong,.user-info .safe-state-high strong,.user-info .safe-state-vrhigh strong{
+	padding:0px 9px 0 6px;
+	color:#6f0f0c;
+	font-weight:bold;
+	font-style:normal;
+}
+/*----右边 结束----*/
+
+.widget{
+	border:#eeefef 1px solid;
+	background:#fafafa;
+	padding:6px;
+	padding-top:0px;
+	/*margin-bottom:10px*/;
+	
+	/*overflow:hidden*/;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.shadow{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.service-list-column{
+	overflow:hidden;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.service-show-panel{
+	border:0px;
+	background:transparent;
+}
+.user-info dd{
+	max-width:150px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.widget .w-cnt ul li{
+	/*border-bottom:1px dotted #d5d5d5*/;
+}
+.elink{
+	position:relative;display:inline-block;width:50px;height:70px;margin:10px 0px 5px 25px;
+}
+.elink img{
+	cursor: pointer;width:50px;height:50px;
+}
+.elink div{
+	width:100%;height:20px;overflow:hidden;position: absolute; text-align: center; bottom: 0px;cursor: pointer;
+}
+/*----表格 开始----*/
+.m_table {
+	font-size:13px;
+}
+.m_table th,.m_table tr{
+	height:30px;
+}
+tr,td,th{/*,.m_table tr,.m_table th,.m_table th td*/
+	font-size:13px;
+}
+.m_table th {
+	width: 157px;
+	background: #ededed; 
+	text-align: center; 
+	color: #666;
+	border: 1px solid #ddd;
+}
+.m_table th,.m_table td {
+	 height: 23px; text-align: center;border-collapse: collapse;
+	 color:#666;
+}
+.m_table th.desp {
+	width: 250px;
+}
+
+/*----表格 结束----*/
+/*----网盘 开始----*/
+IMG.disk-icon
+{
+	width: 45px;
+	height: 45px;
+	float: left;
+}
+.disk-space
+{
+	margin-top: 25px;
+	/*width: 125px*/;
+	width: 170px;
+	display: block;
+	background: #fff;
+	float: left;
+	height: 13px;
+	border:1px solid #b2b2b2;
+	border-radius:5px;
+	cursor:pointer;
+	overflow:hidden;
+}
+.disk-space-index
+{
+	position: absolute;
+	display: block;
+	/*background: #1da8e3*/;
+	background:url(../images/themes/qingdao/space-index.png) repeat-x 0px 0px;
+	height: 13px;
+}
+.disk-space-txt
+{	position: absolute;
+	display: block;
+	background: #1da8e3;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	/*width: 125px*/;
+	width: 170px;
+	background: none transparent scroll repeat 0% 0%;
+}
+.enter
+{
+	padding-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 0px;
+	background: url(../images/myhome/cc-btn-sprites.png) no-repeat -70px -75px;
+	color: black;
+	font-size: 13px;
+	padding-top: 4px;
+	margin-left: 50px;
+}
+.enter SPAN
+{
+	text-align: center;
+	width: 67px;
+	display: inline-block;
+	background-position: -72px -75px;
+}
+/*----网盘 结束----*/
+/*----邮件 开始----*/
+.widget .content_list
+{
+	line-height: 22px;
+	clear: both;
+}
+.widget .content_list LI
+{
+	padding:2px;
+	position: relative;
+}
+.widget .content_list LI a{
+	vertical-align:middle;
+}
+.widget .content_list .content_list_t
+{
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.no-enter,.widget .content_list A.no-enter
+{
+	text-overflow: ellipsis;
+	word-wrap: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+}
+.widget .content_list A
+{
+}
+.widget a:hover{
+	color: #0078B6 !important;
+}
+A.common-text,.widget .content_list A.common-text
+{
+	display:inline-block;
+	color: #666;
+}
+A.common-text:hover{
+	color: #666 !important;
+	text-decoration:none;
+}
+.widget .content_list LI .content_r
+{
+	float: right;
+}
+/*----邮件 结束----*/
+
+.m_table td.tc{
+	text-align:center;
+}
+.m_table td.tl{
+	text-align:left;
+}
+/*补充*/
+.user-app .celerity-menu .app-header{color: #333;border-bottom:0px;padding-bottom:0px;border-top:1px solid #bad0db;}
+.user-info{color:#333;}

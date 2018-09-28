@@ -1,0 +1,318 @@
+body, h1, h2, h3, ul, li, form, p, img{
+    margin: 0;
+    padding:0;
+    border: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.header{
+    height: 100px;
+    background: #ffffff;
+    position: relative;
+}
+.header .headerContainer{
+    margin:0 auto;
+    width:  1920px;
+    height: 100px;
+}
+.logo{
+    margin-left: 140px;
+}
+.logoInfo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main{
+    height: 500px;
+    margin-left:0px;
+    background: #0079D9 url("../../images/uc/background.png") center repeat-x;
+
+}
+.main .lgContainer{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height:100%;
+}
+.main .lgContainer .containerLogo{
+    margin-top: 50px;
+}
+.main .lgContainer .lgMain{
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 600px;
+    top:50px;
+}
+.main .lgContainer .lgMain .titleselect{
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    width: 175px;
+    height: 46px;
+    color: #000;
+    text-align: center;
+    line-height: 46px;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+.main .lgContainer .lgMain .titleunselect{
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    width: 175px;
+    height: 46px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 46px;
+    background-color: #00C0D3;
+    cursor:pointer;
+}
+.main .lgContainer .lgMain .maincontain{
+    height: 260px;
+    width: 330px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.main .lgContainer .lgMain .maincontain .userInfo{
+    position: absolute;
+    margin-top: 16px;
+    left: 20px;
+    padding: 3px;
+    width: 290px;
+    height: 35px;
+    right: 40px;
+    background-color: #FDFDFE;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+}
+.main .lgContainer .lgMain .maincontain .password_textInfo{
+    position: absolute;
+    margin-top: 72px;
+    left: 20px;
+    padding: 3px;
+    width: 290px;
+    height: 35px;
+    right: 40px;
+    background-color: #FDFDFE;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+}
+.main .lgContainer .lgMain .maincontain .verify_code_div{
+    position: absolute;
+    margin-top: 128px;
+    left: 20px;
+    padding: 3px;
+    width: 180px;
+    height: 35px;
+    right: 40px;
+    background-color: #FDFDFE;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+}
+.u-label{
+    position: absolute;
+    left: 41px;
+    top: 10px;
+}
+.code{
+    position: absolute;
+    left: 198px;
+    background: url("../../images/uc/code.png");
+    width: 95px;
+    height: 40px;
+}
+.other_textInfo{
+    position: absolute;
+    margin-top: 176px;
+    padding: 3px;
+    width: 290px;
+    height: 40px;
+    right: 18px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+.other_textInfotwo{
+    position: absolute;
+    margin-top: 186px;
+    padding: 3px;
+    width: 290px;
+    height: 40px;
+    right: 5px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+.wordstwo{
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+}
+.sub_btn{
+    position: absolute;
+    background-image: url("../../images/uc/login_bg.jpg");
+    background-repeat: repeat-x;
+    margin-top: 220px;
+    padding: 3px;
+    width: 290px;
+    height: 40px;;
+    line-height: 40px;
+    text-align: center;
+    right: 16px;
+    color: #FDFDFE;
+    cursor: pointer;
+}
+.sub_btntwo{
+    position: absolute;
+    background-image: url("../../images/uc/login_bg.jpg");
+    background-repeat: repeat-x;
+    margin-top: 140px;
+    padding: 3px;
+    width: 260px;
+    height: 40px;;
+    line-height: 40px;
+    text-align: center;
+    right: 32px;
+    color: #FDFDFE;
+    cursor: pointer;
+}
+.btn_text{
+    position:absolute;
+    left: 129px;
+    top: 1px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 10px;
+}
+.btn_texttwo{
+    position:absolute;
+    left: 90px;
+    top: 1px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 14px;
+}
+.question{
+    display: inline-block;
+    position: absolute;
+    background-image: url("../../images/uc/img.png");
+    background-position: -80px -123px;
+    width: 30px;
+    height: 27px;
+    right: 50px;
+    top: 0px;
+}
+.forgetPwd{
+    position: absolute;
+    right: 0px;
+    text-decoration: none;
+    color: #1A7ED4;
+}
+.inputText{
+    position: absolute;
+    left: 10px;
+    height: 22px;
+    line-height: 28px;
+    border: #ffffff;
+    width: 240px;
+}
+.inputTextshort{
+    position: absolute;
+    left: 10px;
+    height: 22px;
+    line-height: 28px;
+    border: #ffffff;
+    width: 130px;
+}
+.u-logo{
+    /*float: left;*/
+    position: absolute;
+    background-image: url("../../images/uc/img.png");
+    background-position: -4px -125px;
+    width: 30px;
+    height: 28px;
+    left: 10px;
+    top: 10px;
+    border-right: 1px solid #F4F4F4;
+}
+.p-logo{
+    /*float: left;*/
+    position: absolute;
+    background-image: url("../../images/uc/img.png");
+    background-position: -46px -123px;
+    width: 30px;
+    height: 27px;
+    left: 10px;
+    top: 8px;
+    border-right: 1px solid #F4F4F4;
+}
+.main .lgContainer .lgMain .maincontaintwo{
+    height: 260px;
+    width: 330px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    display: none;
+}
+.identify{
+    position: absolute;
+    margin-top: 72px;
+    left: 31px;
+    padding: 3px;
+    width: 260px;
+    height: 35px;
+    right: 40px;
+    background-color: #FDFDFE;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+}
+.logselect{
+    position: absolute;
+    left: 10px;
+    height: 22px;
+    line-height: 28px;
+    border: #ffffff;
+    width: 250px;
+    margin-top: 8px;
+    color: #989898;
+}
+.main .lgContainer .bottomLogo{
+    position: absolute;
+    bottom: -5px;
+    left:-25%;
+   /* margin-top: -60px;*/
+    width: 150%;
+    height: 110px;
+}
+.footer{
+    width:100%;
+    height:60px;
+    text-align: center;
+}
+.footer .wordInfo{
+    display: inline-block;
+}
+.footer .footerContainer{
+    margin:0 auto;
+    width:  1920px;
+    height: 100px;
+}
+.words{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.alink{
+    text-decoration: none;
+}
+
+.phcolor{ color:#999;}
+
+
+

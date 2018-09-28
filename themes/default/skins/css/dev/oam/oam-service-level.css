@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+div.create_level{
+	height: 40px;
+	position: relative;
+}
+
+div.create_level a{
+	display: block;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	font-size:13px;
+	background-color: #2eacda;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+.create_level_panel  .td-level-desc {
+	text-align:right;
+	padding-right:10px;
+}
+div.create_level_panel{
+	width: 560px; 
+	height: 320px;
+}
+div.create_level_panel{
+	text-align: center;
+}
+div.create_level_panel table{
+	width: 100%; 
+	height: auto;
+	margin-top: 20px;
+}
+div.create_level_panel table tr td{
+	text-align: left;
+}
+input.level_input_type{
+	width: 320px; 
+	height: 20px; 
+	line-height: 20px; 
+	margin-left: 5px; 
+	padding-left: 5px;
+	padding-top: 2px; 
+	padding-bottom: 2px;
+	border-style: groove;
+}
+textarea.level_textarea_type{
+	width: 320px; 
+	height: 100px;
+	line-height: 20px;
+	margin-left: 5px;
+	padding-left: 5px;
+	border-style: groove;
+}
+font.show_need { 
+	color: #d70601;
+	display: none; 
+}
+input.submit_level_css{
+	width: 70px; 
+	height: 28px; 
+	cursor: pointer; 
+	border: 0px;
+}
+input.submit_level_css:HOVER{ 
+	color: #ffffff; 
+	background-color: #28a9d9;
+}
+#level-list td{
+	text-align:center;
+}

@@ -1,0 +1,72 @@
+.main .num .g-main .blocks1{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    margin-left: 100px;
+    /*float: left;*/
+    /*background-color: #0a8cd2;*/
+}
+ .hlsj{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /*float: left;*/
+    /*background-color: #000;*/
+}
+.main .num .g-main .blocks1 .content{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 150px;
+    /*background-color: #fff;*/
+}
+.main .num .g-main .blocks2{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    margin-left: 600px;
+    /*background-color: #000;*/
+}
+.main .num .g-main .blocks2 .content{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 150px;
+    /*background-color: #fff;*/
+}
+.main .num .g-main .blocks3{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 100px;
+    margin-top: 150px;
+    /*background-color: #000;*/
+}
+.main .num .g-main .blocks3 .content{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 150px;
+    /*background-color: #fff;*/
+}
+.main .num .g-main .blocks4{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    /*float: left;*/
+    margin-top: 150px;
+    margin-left: 600px;
+    /*background-color: #0a8cd2;*/
+}
+.main .num .g-main .blocks4 .content{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 150px;
+    /*background-color: #fff;*/
+}

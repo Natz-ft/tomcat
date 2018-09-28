@@ -1,0 +1,300 @@
+/*搜索框图标*/
+.mini_search_box {
+    line-height: 20px;
+}
+.mini_search .s_searchwarp {
+    display: inline-block;
+    position: relative;
+}
+.mini_search .s_searchIcon {
+    top: 9px;
+    right: 4px;
+	position: absolute;    
+}
+.icons_16 {
+	width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+.icons_16.icon_zoom1 {
+    background-position: -96px -16px;
+}
+.icons_12, .icons_16, .icons_32, 
+.icons_list1, .icons_vline, .icons_hot, 
+.icons_close, .icons_huebar {
+    display: inline-block;
+    background: url("../../img/store/icons/icons2.gif") no-repeat scroll 0 0 transparent;
+}
+.mini_search .s_searchtext {
+    border: 1px solid #D3D3D3;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 0.3em;
+    padding-right: 1.5em;
+    width: 240px;
+}
+.ui_prompt_font {
+    color: #999999;
+}
+/*收起图标*/
+.shaixuan-btn,.shaixuan-btn1{
+	cursor: pointer;
+    float: left;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 20px;
+    padding-left: 25px;
+}
+.shaixuan-btn, .shaixuan-btn1 {
+    background: url("../../img/store/icons/a_up.png") no-repeat scroll 0 6px transparent;
+}
+.shaixuan-btn1{
+	background:url("../../img/store/icons/a_down.png") no-repeat 0 6px transparent;
+}
+.shaixuan-btn:hover{
+	background:url("../../img/store/icons/a_up1.png") no-repeat 0 6px transparent;
+}
+.shaixuan-btn1:hover{
+	background:url("../../img/store/icons/a_down1.png") no-repeat 0 6px transparent;
+}
+.arrow_up, .arrow_down {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+.arrow_down {
+    background: url("../../img/store/icons/arrow_down.png") no-repeat scroll 0 0 transparent;
+}
+.arrow_up {
+    background: url("../../img/store/icons/arrow_up.png") no-repeat scroll 0 0 transparent;
+}
+/*收藏、查看等图标*/
+.btn_b, .btn_w,.btn_wg,.btn_wo, .add_atn, .btn_relation, .N_but, .btn_o, 
+.btn_g, .btn_relation2, .add_atn_small, .btn_relation_small,
+.btn_relation span, .btn_relation2 span, .btn_b_disable, .btn_green,
+.so_btn, .btn_green_w121, .btn_reg, .btn_b_disable, .btn_group, .btn_create,
+.btn_download, .btn_search_big, .btn_upload_file {
+	display: inline-block;
+    background: url("../../img/store/icons/icons-bg.png") no-repeat scroll left top transparent;
+}
+.btn_o {
+    background-position: 0 -25px;
+}
+.btn_b, .btn_w, .add_atn, .N_but, .btn_o, .btn_g,.btn_wg,.btn_wo {
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 69px;
+}
+.btn_b, .btn_w, .add_atn, .N_but, .btn_o, .btn_g {
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: center;
+}
+.btn_o:hover{
+	background-position: -70px -25px;
+}
+.btn_b:hover{
+	background-position: -70px 0px;
+}
+.btn_w, .btn_wo, .btn_wg {
+    background-position: 0 -75px;
+    color: #333333;
+}
+.btn_wo:hover,.btn_wg:hover{
+	background-position: -70px -50px;
+}
+
+
+.btn_wo:hover,.btn_wg:hover,.btn_b:hover,.btn_o:hover{
+	text-decoration: none;
+}
+
+a.button.selected, a.button.selected:hover, a.button:active {
+    color: #FFFFFF;
+}
+.button.selected, .button.selected:hover {
+    border: 1px solid #0E67BB;
+    color: #FFFFFF;
+    cursor: default;
+    font-weight: bold;
+    background: url("../../../images/developer/serviceapply/page_bg.png") repeat-x scroll 0 -50px transparent;
+}
+.textinput, .select, .button {
+    margin-right: 5px;
+}
+.button {
+    color: #484848;
+    cursor: pointer;
+    display: inline;
+    font-family: "宋体";
+    overflow: hidden;
+    padding: 0.3em 0.6em;
+}
+.select, .textinput {
+    height: 1.6em;
+    line-height: 1.6em;
+}
+.button, .select, .textinput, .panel1, .panel2, .panel3, .tab1, .tab2, .simg1, .simg2, .simg3 {
+    border: 1px solid #D3D3D3;
+    /*border-radius: 3px 3px 3px 3px;*/
+}
+/*左右滑动图标*/
+.tool-icon {
+    top: 12px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: inline-block;
+    background: url("../../img/store/icons/icons-sprites.png") no-repeat scroll -174px 0 transparent;
+}
+.tool-icon:hover{
+	opacity:0.8;
+}
+.app-view-left {
+    right: 35px;
+    background-position: -174px 0;
+}
+.app-view-right {
+    right: 12px;
+    background-position: -196px 0;
+}
+
+.btn-right {
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+.btn-blue, a.btn-blue {
+	/*width: 50px;*/
+	width:auto;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	color: white;
+	font-weight: normal;
+	border: 1px solid #4690D6;
+	padding: 5px 10px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 #B1CEEA inset;
+	background: linear-gradient(top,#8AC2F0 0%,#5299E3 100%);
+	background: -webkit-gradient(linear,0 0,0 100%,from(#8AC2F0),to(#5299E3));
+	background: -moz-linear-gradient(top, #8AC2F0,#5299E3);
+	background: -ms-linear-gradient(top,#8AC2F0 0%, #5299E3 67%);
+	background: linear-gradient(top,#8AC2F0 0%,#5299E3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8AC2F0', endColorstr='#5299E3',GradientType=1 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8AC2F0', endColorstr='#5299E3',GradientType=1 );
+}
+
+.icon_succ, .icon_del, .icon_warn, .icon_ask, .icon_grey, .icon_ban, .icon_warnb, .icon_alarm {
+    width: 14px;
+    height: 14px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+    display: inline-block;
+    background: url("../../img/store/icons/icon_warn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    _background: url("../../img/store/icons/icon_warn.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ac_tips,.icon_warn, .ac_tips .icon_del, .ac_tips .icon_succ {
+    float: left;
+    margin-top: 3px;
+    margin-right: 7px;
+}
+
+.dot{
+	background: url('../../images/icons/dot.png') no-repeat 10px 5px;
+}
+
+/*标签、部门、申请等小图标*/
+.itag,.iorg,.isub,.iapply,.iapi{
+	color: #333333;
+	padding: 4px 4px 4px 20px;
+}
+.itag{
+	background: url("../../images/icons/tag.gif") no-repeat scroll 0 3px #FFFFFF;
+}
+.iorg{
+	background: url("../../images/icons/org.gif") no-repeat scroll 0 3px #FFFFFF;
+}
+.isub{
+	background: url("../../images/icons/sub.gif") no-repeat scroll 0 3px #FFFFFF;
+}
+.iapply{
+	background: url("../../images/icons/apply.gif") no-repeat scroll 0 3px #FFFFFF;
+}
+.iapi{
+	background: url("../../images/icons/api.gif") no-repeat scroll 0 3px #FFFFFF;
+}
+.dott{
+	border-bottom: 1px dotted #CCCCCC;
+}
+.tab-y{
+	background : url("../../images/icons/tab-y.jpg") repeat-x scroll 0 bottom transparent;
+}
+
+/*标准 A元素样式*/
+a.abase{
+	color:#FF7F00;
+}
+a.abase:hover{
+	text-decoration: underline;
+}
+
+
+/*提示圆角框*/
+.circle_bot { clear:both; font: 12px/1.125 Arial;position:absolute; }
+.circle_bot .s_b b, .circle_bot span.s_i i { font-size:1px; line-height:1px; overflow:hidden; display:block; clear:both; }
+.circle_bot .s_b b, .circle_bot span.s_i i, .circle_bot .info { background:#fff2f2; border:#f88 solid; }
+.circle_bot b.b1 { border-width:1px 0 0 0; margin:0 2px; height:0px; }
+.circle_bot b.b2 { border-width:0 1px; margin:0 1px; height:1px; }
+.circle_bot span.s_i i { height:1px; border-width:0 1px; }
+.circle_bot .i1 { width:0px; margin-left:36px; }
+.circle_bot .i2 { width:2px; margin-left:35px; }
+.circle_bot .i3 { width:4px; margin-left:34px; }
+.circle_bot .i4 { width:6px; margin-left:33px; }
+.circle_bot .i5 { width:8px; margin-left:32px; }
+.circle_bot .i6 { width:10px; margin-left:31px; margin-top:-1px; }
+.circle_bot .info { border-width:0 1px; color:#333; padding:10px;}
+
+/*返回顶部和反馈*/
+.jump{
+	right: 0px;
+	bottom:250px;
+    position: fixed;
+    height: 40px;
+    z-index: 1000;
+}
+.jump .top{
+	display:none;
+	background: url("../../images/icons/top.png") repeat scroll 0 0 transparent;
+}
+.jump .top:hover{
+	background: url("../../images/icons/toped.png") repeat scroll 0 0 transparent;
+}
+.jump .reply{
+	background: url("../../images/icons/reply.png") repeat scroll 0 0 transparent;
+}
+.jump .reply:hover{
+	background: url("../../images/icons/replyed.png") repeat scroll 0 0 transparent;
+}
+.jump .top,.jump .reply{
+    width: 40px;
+	height: 40px;
+	display: block;
+	cursor: pointer;
+	margin-top: 3px;
+}

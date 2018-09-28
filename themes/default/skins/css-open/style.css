@@ -1,0 +1,223 @@
+img{border: 0 none;}
+a{color: #484848;text-decoration: none;}
+.kfz_main{margin: 0 auto;overflow: hidden;}
+.kfz_main .kfz_title{font-family: "微软雅黑";line-height: 40px;padding-left: 20px;font-size: 16px;}
+
+.kfz_left{width: 207px;float: left;height: 100%;background-color: #FAFAFA;border: 1px solid #e5e5e5;}
+.kfz_left .kfz_user{height: 171px;width: 207px;padding-bottom: 15px;background: #269DBD;text-align: center;}
+.kfz_left .kfz_user .kfz_head{margin: 0 auto;}
+.kfz_left .kfz_user .kfz_name{color: #f5f6f7;display: block;font-size: 14px;line-height: 18px;margin: 15px auto 0;max-width: 160px;overflow: hidden;text-align: center;text-overflow: ellipsis;white-space: nowrap;}
+.kfz_left .kfz_user .kfz_name:hover{color: #fff;}
+.kfz_left .kfz_menu	.kfz_menutitle{cursor: pointer;border-top: 1px solid #E5E5E5;border-bottom: 1px solid #E5E5E5;background-color: #eeeeee;font-family: "Microsoft YaHei",simsun,Arial;font-size: 16px;line-height: 36px;_height: 36px;padding: 0 12px 0 20px;}
+.kfz_left .kfz_menu	.kfz_menutitle:hover{background-color: #A4D3EE;}
+.kfz_left .kfz_menu	.kfz_menudetail{padding-bottom: 10px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist{padding: 0;margin: 0;list-style: none;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist li:hover{background-color: #D3D3D3;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist a{display: block;font-size: 14px;height: 35px;line-height: 35px;padding-left: 20px;}
+/* .kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon{background-image: url("../../../img/developer/appmanage/menu_on.png");} */
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon a{color: #fff;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon3{background-position: -26px -50px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon4{background-position: -28px -48px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon5{background-position: -28px -75px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon6{background-position: -28px -99px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon8{background-position: -28px -150px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon9{background-position: -28px -176px;}
+.kfz_left .kfz_menu	.kfz_menudetail .kfz_menulist .menuon .icon10{background-position: -28px -248px;}
+.kfz_left .kfz_menu	.icon{height: 18px;width: 22px;display: inline-block;margin: 9px 10px 0 10px;float: left;/* background-image: url("../../../img/developer/appmanage/icon1.png"); */}
+.kfz_left .kfz_menu	.icon1{background-position: 0px 0px;}
+.kfz_left .kfz_menu	.icon2{background-position: 0px -4px;}
+.kfz_left .kfz_menu	.icon02{background-position: 0px -178px;}
+.kfz_left .kfz_menu	.icon3{background-position: 0px -24px;}
+.kfz_left .kfz_menu	.icon03{background-position: 0px -127px;}
+.kfz_left .kfz_menu	.icon4{background-position: 0px -48px;}
+.kfz_left .kfz_menu	.icon5{background-position: 0px -24px;}
+.kfz_left .kfz_menu	.icon05{background-position: 0px -100px;}
+.kfz_left .kfz_menu	.icon6{background-position: 0px -99px;}
+.kfz_left .kfz_menu	.icon7{background-position: 0px -125px;}
+.kfz_left .kfz_menu	.icon8{background-position: 0px -76px;}
+.kfz_left .kfz_menu	.icon08{background-position: 0px -152px;}
+.kfz_left .kfz_menu	.icon9{background-position: 0px -176px;}
+.kfz_left .kfz_menu	.icon10{background-position: 0px -247px;}
+.kfz_left .kfz_menu	.icon11{background-position: 0px -302px;}
+.kfz_left .kfz_menu	.icon005{background-position: 0px -202px;}
+.kfz_left .kfz_menu	.icon003{background-position: 0px -228px;}
+.kfz_left .kfz_menu	.icon008{background-position: 0px -252px;}
+.kfz_left .kfz_menu	.icon006{background-position: 0px -278px;}
+.kfz_left .kfz_menu	.icon15{background-position: 0px -328px;}
+.kfz_left .kfz_menu	.icon13{background-position: 0px -354px;}
+.kfz_left .kfz_menu	.icon18{background-position: 0px -378px;}
+.kfz_left .kfz_menu	.icon16{background-position: 0px -404px;}
+
+
+
+.kfz_right{width: 950px;float: right;position: relative;}
+
+.content-wrap {margin: 14px 0 0; min-height: 170px;padding: 7px 0 140px;background-color: #fff;border: 1px solid #e3e3e3;}
+.cont-title .title {font-size: 18px; line-height: 43px;padding-left: 24px;}
+.cont-title .title, .cont-title .title2 .num {color: #23b3da;}
+.num {color: #23b3da;}
+.cont-title .title, .cont-title .title2 { display: inline-block;float: left; height: 100%;}
+.cont-title .title2 { color: #555; font-size: 14px;line-height: 45px; padding-left: 22px;}
+.cont-title .opt { margin-right: 16px;}
+.cont-title .opt { float: right;}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.search-box-wrap {
+    margin-top: 10px;
+}
+.search-input-wrap, .search-filter-wrap {
+    float: left;
+    position: relative;
+}
+
+.search-input-wrap .search-icon {
+    background-position: -3px -198px;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    width: 16px;
+}
+.search-input-wrap .search-icon:hover {
+    background-position: -3px -214px;}
+.cont-title {height: 43px;}
+
+.search-input-wrap .search-input {border: 1px solid #d9d9d9;height: 22px; line-height: 22px; padding: 0 23px 0 15px;width: 152px;}
+.search-input-wrap .search-input, .search-filter-wrap, .search-filter-wrap .search-filter { border-radius: 24px;}
+.app-all-list .app-name {
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    height: 24px;
+    line-height: 24px;
+}
+.app-all-list .app-intro {
+    color: #666;
+    font: 12px/24px "宋体";
+    margin-top: 4px;
+}
+
+.ellipse {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.app-all-list .app-icon {
+    margin: 0 15px 0 10px;
+}
+.app-all-list .app-icon, .app-all-list .app-icon img {
+    display: block;
+    float: left;
+    height: 52px;
+    width: 52px;
+}
+.app-all-list .c2 {margin: 11px 38px 0 0;}
+.app-all-list .c2, .app-all-list .app-type, .app-all-list .app-type .menu-icons, .app-all-list .app-type .txt {
+    float: right;
+}
+.app-all-list .app-type {
+    margin-left: 50px;
+}
+.app-all-list {padding:0px;margin:0px 15px;}
+.app-all-list li {
+    border-bottom: 1px dashed #dad8d8;
+    padding: 23px 0 12px;
+}
+.app-all-list .app-type.on .menu-icons.mobile {
+    background-position: -35px -221px;
+}
+.app-all-list .app-type .menu-icons.mobile {
+    background-position: 0 -221px;
+    width: 25px;
+}
+.app-all-list .app-type .menu-icons {
+    height: 30px;
+    margin-right: 8px;
+    width: 35px;
+}
+/* .menu-icons {
+    background: url("../../../img/developer/appmanage/menu-icons.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+} */
+.app-all-list .app-type .txt {
+    font-size: 14px;
+    line-height: 30px; margin-top: 0;
+}
+ul, ol, li {
+    list-style: none outside none;
+}
+
+
+
+
+
+
+
+
+
+
+.kfz_createapp{width: 725px;border: 1px solid #e3e3e3;background-color: #fff;margin: 22px auto 0 auto;font-family: "微软雅黑";}
+.kfz_createtitle{width: 162px;height: 46px;top: 0;line-height: 40px;position: absolute;left: 37%;color: #777;font-size: 24px;text-align: center;background:#fff url("../../../img/developer/appmanage/text-icons.png") no-repeat 0 -75px; }
+.kfz_createtitle .appicon{display: block;width: 5px;height: 5px;position: absolute;top: 50%;margin-top: -3px;background: url("../../../img/developer/appmanage/icons.png") no-repeat -22px -32px;}
+.kfz_createtitle .appiconl{left: -2px;}
+.kfz_createtitle .appiconr{right: -2px;}
+.kfz_createdetail{padding: 53px 0 78px;}
+.kfz_createdetail dl{color: #666;_margin: 2px 0px;overflow: hidden;}
+.kfz_createdetail dt{padding-right: 5px;float: left;width: 170px;text-align: right;height: 30px;line-height: 30px;color: #666;font-size: 14px;}
+.kfz_createdetail em{font-size: 14px;color: #FC6104;padding-right: 7px;vertical-align: -3px;font-weight: normal;font-style: normal;}
+.kfz_createdetail dd{float: left;width: auto;height: auto;text-align: left;margin-top: 3px;}
+.kfz_createdetail dd input{width: 404px;height: 22px;padding: 3px 1px 1px 3px;border-color: #999;color: #333;margin: 2px;border: 1px solid #D2D2D2;}
+.kfz_main .kfz_right .kfz_righttop { border: 1px solid #e3e3e3;height: 105px; }
+
+
+.kfz_createdetail dd p{color: #999;font-size: 12px;margin-top: 2px;padding-left: 4px;line-height: 24px;}
+.kfz_main .kfz_right .kfz_righttop .txt1 { padding: 30px; float: left; font-size: 14px; line-height: 24px; margin-left: 60px; }
+.kfz_main .kfz_right .kfz_righttop ul li { float: right;  margin-right: 20px;margin-top: 10px; }
+
+
+.kfz_createdetail dd select{width: 200px;height: 30px;font: 13px "宋体";padding-right: 0;border-color: #ABADB3;color: #666;padding: 3px;margin: 3px 2px;text-align: center;}
+.kfz_createdetail dl span{font-size: 14px;}
+.kfz_createdetail .appcheckbox{display: inline-block;margin-right: 3px;vertical-align: -2px;margin-left: 42px;}
+.kfz_createdetail span a{color: #008dd5;}
+.kfz_createdetail span a:hover{color: #00BFFF;}
+.kfz_createdetail .appsubmit{color: #FFF;font: 14px "宋体";padding: 6px 15px 7px;background: #26A3E6;margin-right: 20px;}
+.kfz_createdetail .appsubmit:hover{background-color: #00BFFF;}
+.kfz_createdetail .caticon{display: inline-block;width: 35px;height: 30px;margin-right: 8px;background: url("../../../img/developer/appmanage/menu-icons.png") no-repeat;}
+.kfz_createdetail .catitle{margin-right: 20px;}
+.kfz_createdetail .mbicon{width: 18px;background-position: -7px -221px;}
+.kfz_createdetail .znicon{background-position: -1px -261px;}
+.kfz_createdetail .zwicon{background-position: -1px -301px;}
+.kfz_createdetail .appcz{text-align: center;margin-top: 40px;}.kfz_main .kfz_right #content-wrap .app-list .app-all-list .clearfix .c1 .app-info { float: left; }
+.kfz_main .kfz_right .kfz_righttop ul li div { text-align: center; }
+.app-all-list .app-type .menu-icons.inner {
+    background-position: 0 -261px;}
+.app-all-list .app-type.on .menu-icons.inner {
+    background-position: -36px -261px;}
+        
+.app-all-list .app-type .menu-icons.outter {
+    background-position: 0 -301px;}
+ .app-all-list .app-type.on .menu-icons.outter {
+    background-position: -36px -301px;}  
+    .kfz_main .kfz_right .kfz_righttop ul { font-size: 12px; line-height: 24px; margin-right: 30px; }

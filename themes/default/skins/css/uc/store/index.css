@@ -1,0 +1,33 @@
+/*首页总体布局*/
+#container-wrap{
+	width: 1000px;
+	min-height:500px;
+    border: 0 none;
+    clear: both;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+}
+.wi-wtitle {
+    border-bottom: 1px solid #D7D7D7;
+    color: #4C4C4C;
+    font-family: "Microsoft YaHei",simsun,Arial;
+    font-size: 16px;
+    line-height: 44px;
+    padding: 0 12px 0 20px;
+    background-color: #F3F3F3;
+    background: -moz-linear-gradient(center top , #FAFAFA, #F1F1F1) repeat scroll 0 0 transparent;
+}
+/*中间总容器*/
+.cont_main_c {
+	margin-right: 200px;
+	background-color: #fafafa;
+	min-height: 400px;
+}
+/*右侧总容器*/
+.cont_right {
+	float: right;
+	width: 190px;
+	border: 0 none;
+	position: relative;
+}

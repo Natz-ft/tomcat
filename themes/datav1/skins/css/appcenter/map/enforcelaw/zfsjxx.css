@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+body {
+	background: url(../../../../img/appcenter/map/enforcelaw/bg.png);
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.head {
+	margin: 0 auto;
+	height: 185px;
+	background-image: url(../../../../img/appcenter/map/enforcelaw/head.png);
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top: 10px;
+	overflow: hidden;
+}
+/* 搜索*/
+.content .top {
+	width: 980px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.content .top .top_b {
+	float: left;
+	width: 237px;
+	height: 36px;
+	background: url(../../../../img/appcenter/map/enforcelaw/zfsj_0.png);
+	margin-left: 10px;
+}
+
+.content .top .sousuo_search {
+	margin-left: 260px;
+	width: 621px;
+	height: 36px;
+	background-image: url(../../../../img/appcenter/map/enforcelaw/a_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.content .top .sousuo_schtitle {
+	float: left;
+	width: 98px;
+	height: 36px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+
+.content .top .sousuo_schtitle .sousuo_schtext {
+	float: left;
+	padding: 7px 2px 10px 10px;
+	width: 70px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schtext span {
+	margin-right: 5px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schdown {
+	position: relative;
+	width: 16px;
+	height: 36px;
+	float: right;
+	background-image:
+		url(../../../../img/appcenter/map/enforcelaw/top_arrow_search.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 16px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist {
+	position: absolute;
+	z-index: 100;
+	left: 1px;
+	border: 1px solid #a9a9a9;
+	text-align: left;
+	width: 97px;
+	background-color: #f4f4f4;
+	margin-top: 4px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul li {
+	padding: 5px 0;
+	padding-left: 12px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul a {
+	color: #333;
+	text-decoration: none;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul li:hover {
+	background-color: #ccc;
+}
+
+.content .top .sousuo_schinput {
+	float: left;
+	width: 390px;
+	height: 34px;
+	position: relative;
+	margin-left: 3px;
+}
+
+.content .top .sousuo_schinput .sousuo_inputext {
+	width: 394px;
+	height: 30px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding-left: 15px;
+}
+
+.content .top .sousuo_schbutton {
+	float: left;
+	width: 105px;
+	height: 36px;
+	position: relative;
+	left: 20px;
+}
+
+.content .top .sousuo_schbutton div {
+	width: 104px;
+	height: 36px;
+	border: 0;
+}
+
+.content .top .sy {
+	float: right;
+	width: 70px;
+	float: right;
+	margin-right: 10px;
+	font-size: 14px;
+	margin-top: -22px;
+}
+
+.content .top .sy a {
+	color: #247fd0
+}
+/* xuanze*/
+.content .chose {
+	margin-top: 45px;
+	background: #f6f6f6;
+	width: 978px;
+	height: 80px;
+	border-right: 1px #d5d5d5 solid;
+	border-top: 1px #d5d5d5 solid;
+	border-bottom: 1px #d5d5d5 solid;
+}
+
+.content .chose .chose_main {
+	height: 40px;
+}
+
+.content .chose .chose_main .chose_m_header {
+	height: 39px;
+	width: 85px;
+	background: #1D7AD9;
+	line-height: 39px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	border-bottom: : 1px solid #f6f6f6;
+}
+
+.content .chose .chose_main .chose_m_body {
+	margin-left: 105px;
+	width: 850px;
+	height: 39px;
+	border-bottom: 1px #d5d5d5 solid;
+}
+
+.content .chose .chose_main .chose_m_body .m_body_n {
+	padding: 5px 0px;
+	height: 39px;
+}
+
+.content .chose .chose_main .chose_m_body .m_body_n  ul {
+	list-style: none;
+	padding: 0px;
+	height: 24px;
+	margin-top: 3px;
+}
+
+.list_1 {
+	color: #FFF !important;
+	background-color: #1D7AD9;
+}
+
+.content .chose .chose_main .chose_m_body .m_body_n  ul li {
+	display: inline-block;
+	padding: 3px 5px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.content .chose .chose_main .chose_m_body .m_body_n  ul li:hover {
+	background-color: #1D7AD9;
+	color: #FFF;
+}
+
+.content .chose .chose_main1 {
+	height: 40px;
+}
+
+.content .chose .chose_main1 .chose_m_header1 {
+	height: 39px;
+	width: 85px;
+	background: #1D7AD9;
+	line-height: 39px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	border-bottom: : 1px solid #FFF;
+}
+
+.content .chose .chose_main1 .chose_m_body1 {
+	margin-left: 105px;
+	width: 850px;
+	height: 39px;
+}
+
+.content .chose .chose_main1 .chose_m_body1 .m_body_n1 {
+	padding: 5px 0px;
+}
+
+.content .chose .chose_main1 .chose_m_body1 .m_body_n1  ul {
+	list-style: none;
+	padding: 0px;
+	height: 24px;
+	margin-top: 3px;
+}
+
+.content .chose .chose_main1 .chose_m_body1 .m_body_n1  ul li {
+	display: inline-block;
+	padding: 3px 5px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.content .chose .chose_main1 .chose_m_body1 .m_body_n1  ul li:hover {
+	background-color: #1D7AD9;
+	color: #FFF;
+}
+
+/* main*/
+.content .main {
+	width: 978px;
+	background: #f9f9f9;
+	border: 1px #d5d5d5 solid;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.content .main .main_top {
+	height: 40px;
+	background: url(../../../../img/appcenter/map/enforcelaw/nav_1.PNG);
+	border-bottom: 2px #3385ff solid;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	padding-left: 20px;
+}
+
+.content .main  .table {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.content .main  .table table tr {
+	height: 32px;
+}
+
+.content .main  .table table td {
+	
+}
+
+.content .main  .table a {
+	color: #00F;
+}
+
+/* 页码*/
+.yema {
+	margin: 3px;
+	margin-top: 20px;
+	padding: 3px;
+	text-align: center;
+}
+
+.yema a {
+	border: #eeeeee 1px solid;
+	text-decoration: none;
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	color: #0166ab;
+}
+
+.yema a:hover {
+	border: #036cb4 1px solid;
+}
+
+.yema a:active {
+	border: #0166ab 1px solid;
+	color: #fff;
+	background-color: #036cb4;
+}
+
+.yema span.current {
+	border: #0166ab 1px solid;
+	padding: 2px 5px 2px 5px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #036cb4;
+}
+
+.yema span.disabled {
+	
+}

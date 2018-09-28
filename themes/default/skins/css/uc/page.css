@@ -1,0 +1,46 @@
+.paper {
+	text-align: center;
+}
+.button {
+	padding: .3em .6em;
+	cursor: pointer;
+	display: inline;
+	overflow: hidden; zoom:1;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: solid 1px #d3d3d3;
+	margin-right: 5px;
+}
+a.button {
+	
+}
+.button:HOVER {
+	color: #FFF;
+	border: solid 1px #f49807;
+	background: #f49807;
+}
+a.button:HOVER{
+	color: #FFF;
+}
+.button.selected, .button.selected:HOVER {
+	font-weight: bold;
+	color: #FFF;
+	border: solid 1px #0e67bb;
+	background: #0e67bb;
+	cursor: default;
+}
+a.button.selected, a.button.selected:HOVER{
+	color: #FFF;
+}
+.button.disabled {
+	/*display: none;*/
+	color: #CCC;
+	cursor: default;
+}
+.button.disabled:HOVER {
+	background: #FFF;
+	color: #CCC;
+	border: solid 1px #d3d3d3;
+	text-decoration: none;
+}

@@ -1,0 +1,38 @@
+﻿.menu-nav .menu-items{
+	width:96%;
+	margin:10px auto 15px;
+}
+
+.menu-nav .menu-items .group-title{
+	font-size: 16px;
+	height: 24px;
+	line-height: 24px;
+	padding: 6px 10px 5px;
+	border-bottom: 2px solid #F2F2F2;
+}
+
+.menu-nav .menu-items .category-list{
+	width:100%;
+	padding:10px 2px;
+}
+.menu-nav .menu-items .category-list li{
+	width:46%;
+	float:left;
+	margin-left:5px;
+}
+.menu-nav .menu-items .category-list li a{
+	width: 100%;
+	display: inline-block;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 0;
+}
+
+
+
+
+
+
+
+

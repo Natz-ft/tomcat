@@ -1,0 +1,596 @@
+﻿@CHARSET "UTF-8";
+.content-wrap {
+	padding: 5px 0 0px;
+	min-height: 500px;
+	margin-bottom:20px;
+}
+.cont-title-bold {
+	margin: 0 25px 0 28px;
+}
+.cont-title-bold .title {
+	margin-top: 16px;
+	font-weight: normal;
+}
+.cont-title-bold .opt {
+	margin-top: 13px;
+}
+.btn-add-version {
+	display: inline-block;
+	padding: 0 12px;
+	height: 29px;
+	line-height: 29px;
+	color: #FFF;
+	font-size: 14px;
+	background-color: #1E81C2;
+}
+.app-versions {
+	padding: 5px 20px 0 27px;
+}
+.app-version {
+	margin-top: 20px;
+}
+.app-version .version-title {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 17px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #F7F7F7;
+	border: 1px solid #EEE;
+}
+.app-version .btn-drop {
+	float: right;
+	font: normal 12px/40px "宋体";
+}
+.app-version .btn-drop:hover {
+	text-decoration: underline;
+}
+
+.drop-detail,.form-body {
+	padding: 5px 0px;
+}
+.drop-detail {
+	display: none;
+}
+.drop-detail dt {
+	width: 100px;
+	color: #333;
+	font-size: 16px;
+	padding-right: 9px;
+}
+.drop-detail .status-txt {
+	color: #0E8ED3;
+	font-size: 16px;
+}
+.drop-detail .btn_sgray.mr {
+	margin-right: 24px;
+}
+.drop-detail-cates {
+	width: 568px;
+}
+.drop-detail-cate {
+	margin-bottom: 31px;
+}
+.drop-detail-cate dt {
+	width: 121px;
+	color: #666;
+	font-size: 14px;
+	padding-right: 2px;
+}
+.drop-detail-cate dd.form-upimg {
+	width: 438px;
+}
+.drop-detail-cate .file-up-btn {
+	margin-right: 5px;
+}
+.drop-detail-cate .input,.drop-detail-cate .textarea {
+	width: 392px;
+	border-color: #d2d2d2;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,.1);
+	box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,.1);
+}
+.drop-detail-cate .input {
+	width: 363px;
+}
+.drop-detail-cate .textarea {
+	height: 85px;
+}
+.drop-detail-cate .cate-head {
+	cursor: default;
+	overflow: hidden;
+	*zoom: 1;
+}
+.drop-detail-cate .cate-head:focus {
+	outline: none;
+}
+.drop-detail-cate .cate-icon,.drop-detail-cate .cate-title {
+	float: left;
+}
+.drop-detail-cate .cate-icon {
+	display: block;
+	width: 34px;
+	height: 34px;
+	margin-left: 1px;
+	background-position: -80px -150px;
+}
+.drop-detail-cate .cate-head.on .cate-icon {
+	background-position: -30px -150px;
+}
+.drop-detail-cate .cate-title {
+	margin-left: 22px;
+}
+.drop-detail-cate .cate-title .txt {
+	color: #0E8ED3;
+	font-size: 16px;
+	line-height: 18px;
+}
+.drop-detail-cate .cate-title .tip {
+	color: #555;
+	line-height: 26px;
+}
+.drop-detail-cate .cate-body {
+	margin: 11px 0 0 4px;
+	padding: 24px 0 48px;
+	background: #FAFAFA;
+	border: 1px solid #E3E2E2;
+}
+
+.status-progress {
+	margin: 36px 10px;
+}
+.status-progress .progress-item {
+	float: left;
+	width: 162px;
+}
+.status-progress .progress-item .bg,.status-progress .progress-item .txt {
+	float: left;
+	width: 100%;
+}
+.status-progress .progress-item .txt {
+	position: relative;
+	color: #CFCCC4;
+	margin-top: .35em;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.status-progress .progress-item.first .txt {
+	text-align: left;
+	left: -.5em;
+}
+.status-progress .progress-item.last .txt {
+	text-align: right;
+	right: -.5em;
+}
+.status-progress .progress-item.first .txt,
+.status-progress .progress-item.current .txt
+,.status-progress .progress-item.passed .txt {
+	color: #0E8ED3;
+}
+.status-progress .progress-item .bg {
+	height: 26px;
+	background: url(img/status-progress-bg.png) no-repeat;
+}
+.status-progress .progress-item .bg {
+	background-position: center -52px;
+}
+.status-progress .progress-item.current .bg {
+	background-position: center -104px;
+}
+.status-progress .progress-item.passed .bg {
+	background-position: center -130px;
+}
+.status-progress .progress-item.first .bg {
+	background-position: 0 0;
+}
+.status-progress .progress-item.first.passed .bg {
+	background-position: 0 -26px;
+}
+.status-progress .progress-item.last .bg {
+	background-position: right -78px;
+}
+.status-progress .progress-item.last.current .bg {
+	background-position: right -156px;
+}
+
+.upload{
+	display: inline-block;
+	position: relative;
+	width: 64px;
+	height: 64px;
+	z-index: 10;
+}
+
+.upload-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+	overflow: hidden;
+	z-index: -2;
+	text-align: center;
+	border: 1px dashed #639CFB;
+	width: 62px;
+	height: 62px;
+}
+
+.upload-box-out {
+	display: table-cell;
+	vertical-align: middle;
+	width: 62px;
+	height: 62px;
+}
+
+.upload-box-inner {
+	display: block;
+	vertical-align: middle;
+	max-height: 52px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.upload-box-inner-icon {
+	display: block;
+	height: 26px;
+	line-height: 26px;
+}
+
+.upload-before .upload-box-inner-icon .upload-box-inner-icon {
+	background: url(img/upload-add-icon.png) no-repeat 50% 50% transparent;
+}
+
+.upload-box-inner-num {
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.upload-before .upload-box-inner-num {
+color: #639CFB;
+}
+
+.upload-border {
+	position: absolute;
+	display: block;
+	width: 74px;
+	height: 74px;
+	left: -5px;
+	top: -5px;
+	z-index: -4;
+	overflow: hidden;
+	background: #ECECEC;
+}
+.upload-before .upload-border, .upload-done .upload-border {
+	background: transparent;
+}
+
+.upload-edit {
+	width: 20px;
+	height: 20px;
+	background: url(img/upload-hover-icon.png) no-repeat right bottom transparent;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 15;
+	display: none;
+}
+
+.upload-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 64px;
+	height: 64px;
+	z-index: -1;
+	overflow: hidden;
+	background: #FFF;
+}
+.upload-img-out {
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+.upload-done .upload-img img {
+	display: block;
+	margin: 0 auto;
+}
+
+.upload-done .upload-box {
+	display: none;
+}
+.upload-before .upload-border, .upload-done .upload-border {
+	background: transparent;
+}
+
+.upload-done .upload-img {
+	display: block;
+}
+.upload-before .upload-box-inner-icon {
+	background: url(img/upload-add-icon.png) no-repeat 50% 50% transparent;
+}
+.upload-container{
+	padding-left: 140px;
+	margin-top: 10px;
+}
+
+.op_app_progress{
+	width: 600px;
+	float:left;
+	/* height: 37px; */
+	height: 50px;
+	/* border: 1px solid #999; */
+	position: relative;
+	overflow: hidden;
+	border-radius: 2px;
+	/* background: #ccc; */
+}
+
+.op_app_progress:before{
+	content: ' ';
+	width: 100%;
+	height: 37px;
+	z-index: 100;
+}
+.op_app_progress .step li {
+	position: absolute;
+	background: url(img/app_progress_bk.png) no-repeat right 5px;
+	_background-image: url(img/app_progress_bk_ie6.png);
+	text-align: right;
+	line-height: 36px;
+	/* color: #0E8ED3; */
+	color: #6F6F6F;
+	font-size: 15px;
+	font-weight: bold;
+	-webkit-transition: width ease .5s;
+	-o-transition: width ease .5s;
+	-moz-transition: width ease .5s;
+	/* overflow: hidden; */
+}
+
+.op_app_progress .step .last{/* margin-left:10px; */}
+.op_app_progress.n2 .no1{width:50%;}
+.op_app_progress.n2 .no2{width:100%;}
+.op_app_progress.n3 .no1{width:34%;*width:35%;}
+.op_app_progress.n3 .no2{width:67%;}
+.op_app_progress.n3 .no3{width:100%;}
+.op_app_progress.n4 .no1{width:33.33%;*width:26%;}
+.op_app_progress.n4 .no2{width:66.66%;}
+.op_app_progress.n4 .no3{width:100%;}
+.op_app_progress.n4 .no4{width:100%;}
+.op_app_progress.n5 .no1{width:26px;*width:26px;}
+.op_app_progress.n5 .no2{width:34%;}
+.op_app_progress.n5 .no3{width:67%;}
+.op_app_progress.n5 .no4{width:100%;}
+.op_app_progress.n5 .no5{width:100%;}
+.op_app_progress_3.n5 .no1{}
+.op_app_progress_3.n5 .no2{width:50%;}
+.op_app_progress_3.n5 .step li span{width:150px;}
+.op_app_progress .step .no1{background-position:right -54px;}
+.op_app_progress.p2 .step .no2,.op_app_progress.p3 .step .no2,
+.op_app_progress.p4 .step .no2,.op_app_progress.p5 .step .no2{
+	background-position:right -54px;}
+.op_app_progress.p3 .step .no3,
+.op_app_progress.p4 .step .no3,
+.op_app_progress.p5 .step .no3{
+	background-position:right -54px;}
+.op_app_progress.p4 .step .no4,
+.op_app_progress.p5 .step .no4{background-position:right -54px;}
+.op_app_progress.p5 .step .no5{background-position:right -54px;}
+.op_app_progress.noanimate li{width:0!important;}
+.op_app_progress.n5{width:540px;}
+.op_app_progress.n5.p5{background:#338DC0;}
+.file-up-btn{margin: 6px 0px 0px 2px !important;}
+.op_app_progress.n5 .step li span{
+	display:inline-block;width:100px;text-align:center;
+	text-align: right;
+	margin-top: 25px;
+}
+.op_app_progress.n5 .step li.no1 span{
+	text-align: left;
+}
+.op_app_progress.n5 .step .last span{/* padding-right:5px; */}
+.op_app_progress.n52{width:658px;}
+.op_app_progress.n52 .step span{padding-right:25px;}
+.op_app_progress.n52 .step .last span{padding-right:34px;}
+.op_app_progress.n4{width:450px;}
+.op_app_progress.n4.p4{background:#4BA0D0;}
+.op_app_progress.n4 .step li span{display:inline-block;width:93px;text-align:center;margin-right:30px;}
+.op_app_progress.n4 .step .last span{padding-right:5px;}
+.op_app_progress.n3{width:600px;}.op_app_progress.n3.p3{background:#66b2dd;}
+.op_app_progress.n3 .step li span{display:inline-block;width:200px;text-align:center;margin-right:10px;}
+.op_app_progress.small{width:292px;}.op_app_progress.small .step li span{width:91px;}
+.op_app_progress.small .step .last span{padding-right:5px;}
+.op_app_progress.n2{width:460px;}
+.op_app_progress.n2.p2{background:#66b2dd;}
+.op_app_progress.n2 .step li span{display:inline-block;width:200px;text-align:center;margin-right:10px;}
+.op_app_progress.p1  .no1{color:#0E8ED3}
+.op_app_progress.p2 .no1,.op_app_progress.p2 .no2{color:#0E8ED3}
+.op_app_progress.p3  .no1 span,.op_app_progress.p3 .step .no2 span,.op_app_progress.p3 .step .no3 span{color:#0E8ED3}
+.op_app_progress.p4  .no1 span,.op_app_progress.p4 .step .no2 span,.op_app_progress.p4 .step .no3 span,.op_app_progress.p4 .step .no4 span{color:#0E8ED3}
+
+.upload{display:inline-block;position:relative;width:64px;height:100px;z-index:10}.upload-done.upload{border:1px solid #DDD}.upload-box{position:absolute;top:0;left:0;height:64px;width:64px;background-color:#FFF;overflow:hidden;z-index:-2;text-align:center}.upload-before .upload-box{border:1px dashed #639CFB;width:62px;height:62px}.upload-before.upload-hover .upload-box{border:1px solid #639CFB;width:62px;height:62px}.upload-process .upload-box,.upload-success .upload-box,.upload-error .upload-box{border:none}.upload-done .upload-box{display:none}.upload-box-out{display:table-cell;vertical-align:middle;width:62px;height:62px}.upload-box-inner{display:block;vertical-align:middle;max-height:52px;overflow:hidden;padding:5px}.upload-done .upload-box-inner{display:none}.upload-box-inner-icon{display:block;height:26px;line-height:26px}.upload-before .upload-box-inner-icon{background:url("http://apps.bdimg.com/developer/static/1403061854/console/base/img/upload-add-icon.png") no-repeat 50% 50% transparent}.upload-process .upload-box-inner-icon{background:none;font-family:'寰蒋闆呴粦','HiraginoSansGB-W3','STHeitiSC-Light';font-size:16px;text-align:center}.upload-success .upload-box-inner-icon{background:url("http://apps.bdimg.com/developer/static/1403061854/console/base/img/upload-suc-icon.png") no-repeat 50% 50% transparent}.upload-error .upload-box-inner-icon{background:url("http://apps.bdimg.com/developer/static/1403061854/console/base/img/upload-err-icon.png") no-repeat 50% 50% transparent}.upload-box-inner-num{line-height:16px;font-size:12px;text-align:center}.upload-before .upload-box-inner-num{color:#639CFB}.upload-border{position:absolute;display:block;width:74px;height:74px;left:-5px;top:-5px;z-index:-4;overflow:hidden;background:#ECECEC}.upload-before .upload-border,.upload-done .upload-border{background:transparent}.upload-before.upload-hover .upload-border,.upload-done.upload-hover .upload-border{background:#ECECEC}.upload-border-inner{position:absolute;display:block;width:74px;height:74px;left:0;top:100%;z-index:-3;background:#6cb449}.upload-error .upload-border-inner{background:#AE4A4A}.upload-error.upload-hover .upload-border-inner{background:#6cb449}.upload-done.upload-hover .upload-border-inner{top:0 !important}.upload-edit{width:20px;height:20px;background:url("http://apps.bdimg.com/developer/static/1403061854/console/base/img/upload-hover-icon.png") no-repeat right bottom transparent;position:absolute;right:0;bottom:0;z-index:15;display:none}.upload-done.upload-hover .upload-edit,.upload-error.upload-hover .upload-edit{display:inline-block}.upload-img{position:absolute;top:0;left:0;display:none;width:64px;height:64px;z-index:-1;overflow:hidden;background:#FFF}.upload-done .upload-img{display:block}.upload-img-out{width:64px;height:64px;vertical-align:middle;text-align:center;display:table-cell}.upload-done .upload-img img{display:block;margin:0 auto}.upload-handler{display:inline-block;width:64px;text-align:center;margin-top:10px;vertical-align:bottom}.upload-handler a{text-decoration:none;cursor:pointer}.upload_flash{display:inline-block;width:60px;height:26px;position:relative;border:1px solid #C6C6C6;border-radius:2px 2px 2px 2px;cursor:pointer}.upload-error.upload_flash{border:1px solid #AE4A4A}.upload_flash-text,.upload_flash-border,.upload_flash-border-inner{display:block;position:absolute;width:60px;height:26px}.upload_flash-text{text-align:center;font-size:12px;font-weight:normal;line-height:26px;color:#333333;z-index:-2}.upload_flash-border{background:#FFF;z-index:-4;overflow:hidden}.upload-before .upload_flash-border{background:#F5F5F5}.upload_flash.upload-hover .upload_flash-border{background:#FFF}.upload_flash-border-inner{z-index:-3;background:#639CFB;right:100%}
+.upload-done.upload{
+	border:none;
+}
+.upload-delete{
+	display:none;
+}
+.upload-done .upload-delete{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 64px;
+	display: block;
+}
+
+.select_arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: solid transparent;
+	border-top-color: #999;
+	_border-style: solid dashed dashed dashed;
+	border-width: 5px;
+	overflow: hidden;
+	left: 232px;
+	top: 12px;
+}
+
+.form-body .label_select_layer {
+	position: absolute;
+	padding: 10px 20px;
+	border: 1px solid #e8e8e8;
+	background: #fafafa;
+	left: 0;
+	top: 28px;
+	z-index: 100;
+}
+
+.form-body .taglist_item {
+	width: 400px;
+	padding: 5px 0;
+	border-bottom: 1px dotted #c9c9c9;
+}
+
+.form-body .taglist_note{
+	float: left;
+	width: 70px;
+	margin-right: 5px;
+	color: #666;
+	font-weight: bold;
+	text-align: right;
+}
+.form-body .taglist_layer{
+	position: relative;
+	overflow: hidden;
+	zoom: 1;
+}
+.form-body .taglist_label{
+	position: relative;
+	width: 450px;
+	margin-right: -450px;
+}
+.form-body .taglist_item_label{
+	float: left;
+	width: 75px;
+	padding: 0 3px 1px 0;
+	line-height: 22px;
+}
+.form-body .taglist_item_link{
+	display: inline-block;
+	height: 22px;
+	padding: 0 7px;
+	_overflow: hidden;
+}
+
+.form-body .label_tag_selected .taglist_item_link, .form-body .label_tag_selected .taglist_item_link:hover {
+	background: #369;
+	color: #fff;
+}
+.form-body dl{
+	display: block;
+}
+
+
+.up-pic-btn{
+	background:#26A3E6;width:106px;height:33px;
+}
+.apk-up-btn{
+	background:#39A8F0; height:29px; line-height:29px; width:100px; position:absolute;z-index:0;
+}
+.disabled .apk-up-btn{
+	background:gray;
+}
+.disabled .up-pic-btn{
+	background:#d2d2d2 !important;
+}
+.disabled input, .disabled textarea{
+	background: #d2d2d2;
+}
+.disabled .upload-delete{
+	display:none;
+}
+.disabled .file-up-btn{
+	background: #d2d2d2 !important;
+}
+.disabled .file-up-btn.nodisable{
+	background: #26A3E6 !important;
+}
+
+.icon-create, .icon-create-gray, .icon-android-create, .icon-iphone-black, .icon-ipad-black, .icon-android-black {
+	width: 16px;
+	height: 16px;
+	background-image: url(img/service-icos.png);
+	background-repeat: no-repeat;
+	vertical-align: -2px;
+	display: inline-block;
+}
+
+.icon-create{background-position:-26px 2px}
+
+.icon-android-black {
+	background-position: -29px -56px;
+}
+
+.icon-iphone-black {
+	background-position: -54px -28px;
+}
+.icon-create{background-position:-26px 2px}
+.icon-ipad-black{background-position:-54px -56px}
+
+.version_name{
+	color: #26A3E6;
+	position: absolute;
+	width:330px;
+	overflow:hidden;
+}
+.app-version .version-title{
+	position: relative;
+}
+.platform_type, .app_status{
+	/*position: absolute;*/
+	float:right;
+	margin-right:10px;
+}
+.version_name{
+	left: 10px;
+}
+.platform_type{
+	/* width:115px; */
+	width:130px;
+}
+
+.status-error .icon, .status-warning .icon, .status-success .icon, .status-unsubmit .icon {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	background-image: url(img/status-icons.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.statisticsBtn {
+	margin-top:20px;
+	margin-bottom:20px;	
+}
+.statisticsBtn .group-btn {
+	margin-right:15px;
+}
+.status-error{color:#ae4a4a}
+.status-error .icon{background-position:0 0}
+.status-warning{color:#de981f}
+.status-warning .icon{background-position:0 -32px}
+.status-success{color:#468847}
+.status-success .icon{background-position:0 -48px}
+.status-unsubmit{color:#999}
+.status-unsubmit .icon{background-position:0 -16px}
+

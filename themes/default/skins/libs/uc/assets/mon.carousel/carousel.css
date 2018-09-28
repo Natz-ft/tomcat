@@ -1,0 +1,86 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.carousel:hover .caro-arrow {
+    display: block;
+}
+
+.carousel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel .caro-main {
+    width: 100%;
+}
+
+.carousel .caro-main ul {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .caro-main ul li {
+    display: none;
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+.carousel .caro-main ul li:first-child {
+    display: list-item;
+}
+
+.carousel .caro-tab {
+    position: absolute;
+    bottom: 30px;
+    left: 43%;
+}
+
+.carousel .caro-tab ul li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: rgba(195, 195, 195, 0.74);
+    background-color/*\**/: #ccc \9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carousel .caro-tab .active {
+    background: #fff;
+}
+
+.carousel .caro-arrow {
+    display: none;
+}
+
+.carousel .caro-arrow div {
+    position: absolute;
+    top: 40%;
+    width: 36px;
+    height: 60px;
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.carousel .caro-arrow-left {
+    left: 20px;
+    background-position: 0 12px;
+}
+
+.carousel .caro-arrow-right {
+    right: 20px;
+    background-position: -46px 12px;
+}
+
+.carousel .caro-arrow div:hover {
+    background-position-y: -52px;
+}

@@ -1,0 +1,275 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+	form, fieldset, input, p, blockquote, th, td, header, footer, section,
+	article, nav {
+	margin: 0;
+	padding: 0;
+}
+
+.ui-widget-content {
+	padding: 2px;
+	color: #7C7C7C;
+	background: none repeat scroll 0 0 #EEEEEE;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	filter: none;
+	padding: 2px 10px;
+	border: 1px solid #E78F08;
+	background: none repeat scroll 0 0 #F5B329;
+}
+
+.ui-dialog .ui-dialog-title {
+	margin: 0;
+}
+
+.ui-dialog .ui-dialog-title img {
+	width: 16px;
+	height: 16px;
+	margin: 5px 8px -2px 3px;
+	*margin: 3px 6px -1px 3px;
+	_margin: 3px 6px -1px 3px;
+	display: inline-block;
+}
+
+.reveal-modal {
+	visibility: hidden;
+	top: 100px;
+	left: 50%;
+	margin-left: -300px;
+	width: 510px;
+	background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+	position: absolute;
+	z-index: 101;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.reveal-modal .close-reveal-modal, .reveal-modal .close-reveal-modal:hover,
+	.app_create_box .create_header, .app_type .icon_net, .app_type .icon_inner,
+	.app_type .icon_phone, .btn_box .btn_create, .btn_box .btn_cancle {
+	background: url(../../img/dev/createApp.png) no-repeat;
+}
+
+.reveal-modal .close-reveal-modal, .reveal-modal .close-reveal-modal:hover
+	{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin: 10px 15px 0 0;
+	background-position: -1px -68px;
+}
+
+.reveal-modal .close-reveal-modal:hover {
+	width: 15px;
+	height: 15px;
+	background-position: 0px -88px;
+}
+
+.app_create_box {
+	float: left;
+	padding: 2px 20px;
+}
+
+.app_create_box .create_header {
+	float: left;
+	width: 500px;
+	height: 37px;
+	margin: 5px;
+	background-position: 0 -110px;
+}
+
+.app_create_box .create_header span {
+	font-size: 12px;
+	color: #848484;
+	float: left;
+	margin: 8px 0 0 10px;
+	font-weight: bold;
+}
+
+.app_create_box dl, .app_create_box dt, .app_create_box dd, .app_type .type_box,
+	.app_create_box .app_type, .app_create_box .app_type a, .app_type i,
+	.btn_box .btn_create, .btn_box .btn_cancle, .app_type input {
+	float: left;
+}
+
+.app_create_box dl {
+	float: left;
+	color: #4D4D4D;
+	margin-top: 5px;
+}
+
+.app_create_box dt {
+	font-size: 14px;
+	color: #848484;
+	font-weight: bold;
+}
+
+.app_create_box dt {
+	width: 80px;
+}
+
+.app_create_box .app_type {
+	
+}
+
+.app_type .type_box {
+	width: 115px;
+	margin-right: 30px;
+}
+
+.app_create_box a {
+	color: #8A8A8A;
+	cursor: pointer;
+}
+
+.type_box input {
+	margin: 5px 8px 0 25px;
+}
+
+.app_type .icon_net, .app_type .icon_inner, .app_type .icon_phone {
+	width: 118px;
+	height: 118px;
+	margin: 5px;
+}
+
+.app_type .icon_net {
+	background-position: 0 -156px;
+}
+
+.app_type .icon_net.on {
+	background-position: 0 -285px;
+}
+
+.app_type .icon_inner {
+	background-position: -130px -156px;
+}
+
+.app_type .icon_inner.on {
+	background-position: -130px -285px;
+}
+
+.app_type .icon_phone {
+	background-position: -265px -156px;
+}
+
+.app_type .icon_phone.on {
+	background-position: -265px -285px;
+}
+
+.app_create_box .app_name {
+	width: 300px;
+	height: 20px;
+	border: 1px solid #999999;
+}
+
+.app_create_box .btn_box {
+	width: 300px;
+	float: left;
+	margin-left: 150px;
+}
+
+.btn_box .btn_create, .btn_box .btn_cancle {
+	float: left;
+	width: 73px;
+	height: 26px;
+	margin-left: 10px;
+}
+
+.btn_box .btn_create {
+	background-position: 0 0;
+}
+
+.btn_box .btn_create:hover {
+	background-position: 0 -34px;
+}
+
+.btn_box .btn_cancle {
+	background-position: -89px 0;
+}
+
+.btn_box .btn_cancle:hover {
+	background-position: -89px -34px;
+}
+
+.app_create_box dd {
+	width: 440px;
+	min-height: 30px;
+	text-align: left;
+}
+
+.app_create_box dd .input {
+	width: 300px;
+	height: 20px;
+}
+
+.app_create_box dd .form-common-tip {
+	
+}
+
+.wi-title span {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/* 提示消息 */
+.msgbox_layer_wrap {
+	left: 0;
+	position: fixed;
+	_position: absolute;
+	_top: expression(documentElement.clientHeight/ 2 + documentElement.scrollTop +
+		 "px");
+	text-align: center;
+	top: 46%;
+	width: 100%;
+	z-index: 65533;
+}
+
+.msgbox_layer {
+	background-position: 0 -161px;
+	background-repeat: repeat-x;
+	margin: 0 auto;
+	padding: 0 18px 0 9px;
+	position: relative;
+}
+
+.msgbox_layer {
+	background-image: url("../../img/dev/gb_tip_layer.png");
+	background-repeat: repeat;
+	color: #606060;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 54px;
+	line-height: 54px;
+}
+
+.msgbox_layer .gtl_ico_clear {
+	background-position: -6px 0;
+	left: -5px;
+	position: absolute;
+	top: 0;
+	width: 5px;
+}
+
+.msgbox_layer .gtl_ico_clear, .msgbox_layer .gtl_end {
+	background-image: url("../../img/dev/gb_tip_layer.png");
+	background-repeat: no-repeat;
+	color: #606060;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 54px;
+	line-height: 54px;
+}
+
+.msgbox_layer .gtl_end {
+	background-position: 0 0;
+	position: absolute;
+	right: -6px;
+	top: 0;
+	width: 6px;
+}

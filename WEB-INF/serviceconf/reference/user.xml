@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="user" description="用户中心" protocol="netty" ip="178.27.2.14" port="1201" >
+	<reference id="userService" interface="com.inspur.data.user.service.UserService"/>
+	<reference id="regionInfoService" interface="com.inspur.uc.api.organization.RegionInfoService"/>
+	<reference id="organizationService" interface="com.inspur.uc.api.organization.OrganizationService"/>
+	<reference id="auditLogService" interface="com.inspur.uc.api.audit.AuditLogService"/>
+	<reference id="uc.IUserDomain" interface="com.inspur.uc.api.user.IUserDomain"/>
+	<reference id="uc.IUserExtendDomain" interface="com.inspur.uc.api.user.IUserExtendDomain"/>
+	<reference id="uc.IUserLoginDomain" interface="com.inspur.uc.api.user.IUserLoginDomain"/>
+	<reference id="uc.ISecurityPasswordDomain" interface="com.inspur.uc.api.security.ISecurityPasswordDomain"/>
+	<reference id="uc.IFollowDomain" interface="com.inspur.uc.api.relation.IFollowDomain"/>
+	<reference id="uc.IFriendsDomain" interface="com.inspur.uc.api.relation.IFriendsDomain"/>
+	<reference id="uc.IUserBindDomain" interface="com.inspur.uc.api.user.IUserBindDomain"/>
+	<reference id="uc.IPersonDomain" interface="com.inspur.uc.api.user.IPersonDomain"/>
+	<reference id="uc.IUserOrganDomain" interface="com.inspur.uc.api.relation.IUserOrganDomain"/>
+	<reference id="uc.IFileDomain" interface="com.inspur.uc.api.file.IFileDomain"/>
+	<reference id="uc.IRelationDomain" interface="com.inspur.uc.api.relation.IRelationDomain"/>
+	<reference id="uc.IOrganDomain" interface="com.inspur.uc.api.user.IOrganDomain"/>
+	<reference id="uc.IUserOutBindDomain" interface="com.inspur.uc.api.user.IUserOutBindDomain"/>
+	<reference id="uc.IResourceDomain" interface="com.inspur.uc.api.privilege.IResourceDomain"/>
+	<reference id="uc.IPrivilegeDomain" interface="com.inspur.uc.api.privilege.IPrivilegeDomain"/>
+	<reference id="uc.IValidationDomain" interface="com.inspur.uc.api.validation.IValidationDomain"/>
+	<reference id="uc.IHistoryDomain" interface="com.inspur.uc.api.history.IHistoryDomain"/>
+	<reference id="uc.IMenuDomain" interface="com.inspur.uc.api.menu.IMenuDomain"/>
+	<reference id="uc.IRoleDomain" interface="com.inspur.uc.api.role.IRoleDomain"/>
+	<reference id="uc.IWidgetDomain" interface="com.inspur.portal.widget.IWidgetDomain"/>
+	<reference id="ucDataPermissionService" interface="com.inspur.uc.api.privilege.service.UcDataPermissionService"/>
+	<reference id="uc.IUCUserOpenService" interface="com.inspur.openserivce.IUCUserOpenService"/>
+	
+	<!-- 新开发审计 -->
+	<reference id="newAuditLogService" interface="com.inspur.uc.api.audit.NewAuditLogService"/>
+	
+	<!-- 字典 -->
+    <reference id="dictService" interface="com.inspur.portal.service.base.DictService"/>
+    <reference id="systemConfigService" interface="com.inspur.portal.service.base.SystemConfigService"/>
+    
+</module>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans classpath:/org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+            http://www.springframework.org/schema/aop classpath:/org/springframework/aop/config/spring-aop-3.1.xsd
+            http://www.springframework.org/schema/tx classpath:/org/springframework/transaction/config/spring-tx-3.1.xsd"
+	default-lazy-init="true">
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="locations">
+			<list>
+				<value>classpath:cache.properties</value>
+			</list>
+		</property>
+	</bean>
+	<!-- 定义memcached的缓存对象，业务中所有的关于memcached的操作均通过该对象进行 -->
+	<bean id="memCache" class="com.inspur.data.common.cache.mem.MemClusterCache"
+		init-method="initMemCache">
+		<!-- memcahced server列表，（eg:10.110.1.101:11211,10.110.1.102:11211,10.110.1.103:11211） -->
+		<property name="servers" value="${global.cache.server}" ></property>
+		<!-- 是否故障转移 默认为true -->
+		<property name="failover" value="${global.cache.failover}" ></property>
+		<!-- 每个服务器初始化连接数，默认值为25 -->
+		<property name="initConn" value="${global.cache.initConn}" ></property>
+		<!-- 每个服务器最小连接数 -->
+		<property name="minConn" value="${global.cache.minConn}" ></property>
+		<!-- 每个服务器最大连接数 -->
+		<property name="maxConn" value="${global.cache.maxConn}" ></property>
+		<!-- 守护线程的启动时间,如果要关闭守护线程设置为0 -->
+		<property name="maintSleep" value="${global.cache.maintSleep}" ></property>
+		<!-- 是否启用nagle算法 -->
+		<property name="nagle" value="${global.cache.nagle}" ></property>
+		<!-- socket读取超时时间 -->
+		<property name="socketTO" value="${global.cache.socketTO}" ></property>
+		<!-- 是否对server的可用性进行检测,默认值为false 如果设置为true会极大的影响缓存性能 -->
+		<property name="aliveCheck" value="${global.cache.aliveCheck}" ></property>
+		<!-- hash算法，0代表使用jdk的hash算法， 如果要支持不同jdk请设置为 2（自带的hash算法）， 如果有多台cache服务器，而且考虑到动态添加cache服务器时，请设置 
+			3 -->
+		<property name="hashingAlg" value="${global.cache.hashingAlg}" ></property>
+		<!-- socket链接超时时间 -->
+		<property name="socketConnectTO" value="${global.cache.socketConnectTO}" ></property>
+		<!-- 分布式缓存权重，权重数量和servers数量相同，总和等于10.(eg：3,3,4)如果为空则代表平均分配 -->
+		<property name="weights" value="${global.cache.weights}" ></property>
+
+		<!-- 是否支持从节点 该属性设置为true时，没有绝对的主节点和从节点，正常情况下所有服务器共同承担缓存服务器， 在一台服务器出现异常时其他服务器共同承担增加的访问压力， 
+			但会增加一倍的缓存空间开销。 默认为true -->
+		<property name="allowSecondaryNode" value="${global.cache.allowSecondaryNode}" ></property>
+		<!-- 在allowSecondaryNode设置为true的环境下，如果从子节点获取获取到了对应key的值，重新设置到 主节点的，该缓存的存活周期，单位（秒） 
+			如未设置该属性，则在主节点恢复该缓存后将会永久存在，可能造成数据的不一致性 默认为1800秒(30分钟） -->
+		<property name="restoreDelay" value="${global.cache.restoreDelay}" ></property>
+		<!-- 是否启用数据库配置表来进行缓存集群配置,默认为false，如果要使用数据库配置缓存集群参数，该参数需设置为true -->
+		<property name="dbConfigs" value="${global.cache.dbConfigs}" ></property>
+	</bean>
+
+	<!-- 定义本地缓存实现 -->
+	<bean id="localCache" class="com.inspur.data.common.cache.local.LocalCache"
+		init-method="initCache">
+		<!-- 是否定义守护线程来主动删除过期缓存？默认为true 如设置为false，表示只有在get的时候根据key来删除过期数据 如设置为false，本地缓存将可能存在大量的过期数据，占用更多的内存空间。 
+			建议设置为true -->
+		<property name="autoDelete" value="${global.localCache.autoDelete}" />
+		<!-- 守护线程启动时间，默认为3000毫秒 该属性只有在autoDelte设置为true的时候生效 -->
+		<property name="maintSleep" value="${global.localCache.maintSleep}" />
+	</bean>
+	
+	<bean id="baseMemcached" class="org.loushang.memcache.base.BaseClient">
+		<property name="addressList">
+			<list>
+				<value>${global.cache.host}</value>
+			</list>
+		</property>
+		<property name="duration">
+			<value>${global.cache.duration}</value>
+		</property>
+		<property name="isUseString">
+			<value>${global.cache.isUseString}</value>
+		</property>
+	</bean>
+	
+	<bean id="affixClient" class="org.loushang.memcache.affix.AffixClient">
+		<property name="memcachedClient" ref="baseMemcached"></property>
+		<property name="prefix" value="${cache.prefix}"></property><!-- 缓存key统一添加前缀uc_ -->
+	</bean>
+	
+	<bean id="cache.instance" class="com.inspur.ucweb.cache.impl.MemcachedImpl">
+		<property name="client" ref="affixClient"></property>
+	</bean>
+	
+	<bean id="SpringContextHolder" class="com.inspur.utils.SpringContextHolder" ></bean>
+</beans>

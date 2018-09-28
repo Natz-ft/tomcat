@@ -1,0 +1,223 @@
+@CHARSET "UTF-8";
+.content-wrap {
+	min-height: 500px;
+}
+.form-ct { 
+	padding: 16px 20px 0 48px;
+}
+.form-title {
+	padding: 8px 0;
+	border-bottom: 0 none;
+	background: url(img/form-title-bg.png) repeat-x 0 center;
+}
+.form-title span {
+	display: block;
+	float: left;
+	height: 100%;
+	background-color: #FFF;
+}
+.form-title span.title-edit {
+	float: right;
+}
+.form-title span.title-return {
+	float: right;
+}
+.form-title .title-icon {
+	width: 16px;
+	height: 16px;
+	margin-top: 7px;
+	background-position: -30px -32px;
+}
+.form-title .title-txt {
+	color: #269DBD;
+	font-weight: normal;
+	padding: 0 5px 0 12px;
+}
+.form-title .title-edit {
+	width: 30px;
+	height: 30px;
+	background-position: -130px -246px;
+	cursor: pointer;
+}
+.form-title .title-edit:hover {
+	background-position: -70px -246px;
+}
+
+.form-title .title-return {
+	width: 30px;
+	height: 30px;
+	background-position: -130px -428px;
+	cursor: pointer;
+}
+.form-title .title-return:hover {
+	background-position: -70px -428px;
+}
+.form-body dt {
+	width: 98px;
+	padding-right: 20px;
+}
+
+.app-type,.app-type .menu-icons,.app-type .txt {
+	float: left;
+}
+.app-type {
+	margin-right: 33px;
+}
+.app-type .menu-icons {
+	width: 35px;
+	height: 30px;
+	margin-right: 8px;
+}
+.app-type .menu-icons.mobile {
+	width: 18px;
+	background-position: -7px -221px;
+}
+.app-type.on .menu-icons.mobile {
+	background-position: -35px -221px;
+}
+.app-type .menu-icons.insite {
+	background-position: -1px -261px;
+}
+.app-type.on .menu-icons.insite {
+	background-position: -36px -261px;
+}
+.app-type .menu-icons.outsite {
+	background-position: -1px -301px;
+}
+.app-type.on .menu-icons.outsite {
+	background-position: -36px -301px;
+}
+.app-type .txt {
+	font-size: 14px;
+	line-height: 30px;
+}
+.tagMatches{
+	line-height:24px;
+}
+.tagMatches SPAN {
+	padding: 0px 4px;
+	margin: 2px 0;
+	margin-right: 4px;
+	background-color: #26A3E6;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+}
+.test-body {
+	margin: 1px 40px 20px;
+	padding: 6px 10px;
+	line-height: 21px;
+	font: 12px/1.5 "Microsoft YaHei",Arial,Helvetica,sans-serif,Simsun;
+}
+.test-content {
+	margin: 20px 40px 20px;
+	line-height: 21px;
+	font: 12px/1.125 Arial,Helvetica,sans-serif;
+}
+.list-title {
+	margin-top:50px;
+	margin-left:10px;
+	font-size:15px;
+	font-family: Arial,Helvetica,sans-serif
+}
+.list-noname{
+	margin: 0 40px 20px;
+	line-height: 33px;
+	text-align: center;
+	border: 1px solid #e7e7e7;
+	background: #feffe5
+}
+.user_pic{
+	background: #eff6fd;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(239, 246, 253);
+	line-height: 25px;
+	vertical-align: baseline;
+	height: 25px;
+}
+.list_testname{
+	margin-top:20px;
+	display:inline-block;
+}
+.list_detail:hover{
+	background-color: rgb(239, 246, 253);
+	float:left;    
+}
+.list_detail{
+	border: solid 2px #f1f1f1;
+	height:35px
+}
+.list_detail img{
+width: 35px;
+height: 35px;
+overflow: hidden;
+}
+.list_detail span{
+line-height:35px;
+height:35px
+}
+.list_delte_icons{
+	display:inline-block;
+	width:35px;
+	height:20px;
+	float:right;
+	background: url("img/oam-menu-icons.png");
+	background-position:-60px -313px;
+	cursor: pointer;
+}
+.li_display{
+	display:inline-block;
+}
+
+div#subServicePanel {
+	
+}
+
+div#subServicePanel span {
+	display: inline-block;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+div#subServicePanel span._c_1_ {
+	width: 40px;
+	text-align: center;
+	margin-left: 10px;
+	height: 30px;
+	overflow; hidden;
+}
+
+div#subServicePanel span._c_2_ {
+	width: 200px;
+	height: 30px;
+	overflow; hidden;
+}
+
+div#subServicePanel span._c_3_ {
+	width: 120px;
+	text-align: center;
+	height: 30px;
+	overflow; hidden;
+}
+
+div#subServicePanel input {
+	line-height: 30px;
+	overflow: hidden;
+	margin-right: 10px;
+	vertical-align: center;
+}
+
+div#subServicePanel input.sure_btn {
+	width: 60px;
+	border: 0px;
+	cursor: pointer;
+	margin-top: 20px;
+}

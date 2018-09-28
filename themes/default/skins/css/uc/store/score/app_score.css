@@ -1,0 +1,143 @@
+.app-score-box {
+	position: relative;
+}
+.app-score-box .app_score {
+	font-size: 14px;
+}
+.app-score-box .app_score .avg-score-num{
+	line-height: 25px;
+	font-size: 22px;
+	text-align:left;
+}
+.app-score-box .app_score .avg_score {
+	float: left;
+	width: 168px;
+	text-align: left;
+	margin: 10px 2px 10px 2px;
+	_margin: 10px 1px 10px 2px;
+}
+.app-score-box .app_score .avg_score p {
+	display: block;
+}
+.app-score-box .app_score .avg_score .i2 {
+	font-size: 36px;
+	color: #90D015;
+	height: 44px;
+	line-height: 44px;
+	overflow: hidden;
+}
+.app-score-box .star_bar {
+	float: left;
+	width: 180px;
+	margin: 0px;
+	padding-left:3px;
+}
+.app-score-box .star_bar li {
+	float: left;
+	height: 22px;
+	vertical-align: bottom;
+	width:100%;
+}
+.app-score-box .star_bar .i1,.app-score-box .star_bar .i11,.app-score-box .star_bar .i12,.app-score-box .star_bar .i13,.app-score-box .star_bar .i14,.app-score-box .star_bar .i15 {
+	float: left;
+	width: 55px;
+	text-align: right;
+	padding-right: 10px;
+	display: block;
+	margin-top: 3px;
+	height: 15px;
+	background: url("img/score-sprites.png") no-repeat 0 -27px;
+}
+.app-score-box .star_bar .i15,.app-score-box .star_bar .i14,.app-score-box .star_bar .i13,.app-score-box .star_bar .i12,.app-score-box .star_bar .i11 {
+	margin-top: 1px;
+	height: 12px;
+	background: url("img/score-sprites.png") no-repeat 0 -16px;
+}
+.app-score-box .star_bar .i14 {
+	width:38px;
+}
+.app-score-box .star_bar .i13 {
+	width:26px;
+}
+.app-score-box .star_bar .i12 {
+	width:15px;
+}
+.app-score-box .star_bar .i11 {
+	width:2px;
+}
+.app-score-box .star_bar .i2 {
+	float: left;
+	width: 50px;
+	height: 18px;
+	background-color: #CFCFCF;
+}
+.app-score-box .star_bar .i3 {
+	float: left;
+	padding-left: 2px;
+	height: 18px;
+	line-height: 18px;
+}
+.app_gscore .score_word {
+	display: inline-block;
+	min-width:83px !important;
+	width: auto;
+	height: 17px;
+	text-align: center;
+	padding: 5px 10px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	/* margin-left:530px;
+	margin-top:80px; */
+}
+.app-score-box .star_bar .score_per5,
+.app-score-box .star_bar .score_per4,
+.app-score-box .star_bar .score_per3,
+.app-score-box .star_bar .score_per2,
+.app-score-box .star_bar .score_per1 {
+	display: block;
+	width: 0%;
+	height: 18px;
+}
+.app-score-box .star_bar .score_per1 {
+	background-color: #D5642C;
+}
+.app-score-box .star_bar .score_per2 {
+	background-color: #EF9E11;
+}
+.app-score-box .star_bar .score_per3 {
+	background-color: #E2EE29;
+}
+.app-score-box .star_bar .score_per4 {
+	background-color: #90D015;
+}
+.app-score-box .star_bar .score_per5 {
+	background-color: #62B428;
+}
+.app-score-box .star_bar .black_star {
+	display: block;
+	float: right;
+	width: 18px;
+	margin-top: -3px;
+	height: 18px;
+	background: url("img/bigstar_black.png") no-repeat 0 -20px;
+}
+
+
+.app-score-box .app_gscore {
+    color: #333333;
+    float: left;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-top: 40px;
+    padding: 0;
+}
+.app-score-box .app_gscore dt {
+    text-align: right;
+    width: 80px;
+}
+.app-score-box .app_gscore dt, .app-score-box .app_gscore dd {
+    float: left;
+    height: 17px;
+    line-height: 17px;
+    padding: 4px 0;
+}

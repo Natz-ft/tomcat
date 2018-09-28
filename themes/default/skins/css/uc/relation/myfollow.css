@@ -1,0 +1,222 @@
+.m_sum a:hover{
+	color:#FE640A;
+}
+.mylistBox{
+	padding-left: 20px;
+}
+.myfollow_item{	
+	width: 224px;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px 0px #ededed;
+	margin: 20px 20px 0px 0px;
+	_margin: 20px 10px 0px 0px;
+	float: left;
+}
+myfollow_item:hover,.myfollow_item_hover{
+	margin: 19px 19px -1px -1px;
+	_margin: 20px 10px 0px 0px;
+	border: 2px solid orange;
+	_border: 1px solid orange;
+}
+.myfollow_item .photo{
+	width: 56px;
+	height: 56px;
+	float: left;
+	border:1px solid #dcdcdc;
+	border-radius: 2px;
+	overflow:hidden;
+}
+.myfollow_item .photo img{
+	width: 56px;
+	height: 56px;
+}
+.myfollow_item .info{
+	line-height: 18px;
+	margin: 0px 0px 0px 9px;
+	float: left;
+	height: 60px;
+	overflow: hidden;
+}
+.myfollow_item .info LI{
+	text-overflow: ellipsis;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 153px;
+	_height:20px;
+	line-height:20px;
+}
+.myfollow_item .info LI .info-name,.myfollow_item .info LI .group{
+	display:inline-block;
+	max-width:115px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.myfollow_item .info LI .is-verified-icon{
+	vertical-align:-3px;
+}
+.info-atten .info-atten-icon{
+	_vertical-align:2px;
+}
+.myfollow_item .info LI .info-name{
+	cursor: pointer;
+	text-decoration:none;
+	color:#000;
+	height:16px;
+}
+.myfollow_item .info LI .info-name:hover{
+	/*color:#FE640A;*/
+}
+.myfollow_item .info LI .info-group{
+	display: inline-block;
+	clear:both;
+}
+.myfollow_item .info LI .info-group:hover{
+	color:#FE640A;
+	text-decoration:underline;
+}
+.myfollow_item .info LI .info-group .info-group-des{
+	display: inline-block;
+	max-width:100px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float:left;
+}
+.myfollow_item .m_arrow{
+    width: 9px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+	float:left;
+	margin-left:2px;
+}
+
+.myfollow_item .m_arrow em {
+    display: block;
+    width:9px;
+    height:6px;
+    margin-top:6px;
+    background:url(../../images/main/m_arrow.png) no-repeat 0 0;
+}
+.myfollow_item .m_arrow em.down{
+	background-position:0px -6px;
+}
+.myfollow_item .m_arrow em.up{
+	background-position:0px 0px;
+}
+.myfollow_item .info-intro,.myfollow_item .info-intro-hover{
+	width: 224px;
+	height: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 5px 0px 0px 0px;
+	clear: both;
+}
+.myfollow_item .info-intro-hover a:hover{
+	color:#FE640A;
+	text-decoration:underline;
+}
+.myfollow_item .info-intro{
+	display: block;
+	_display: none;
+}
+.myfollow_item .info-intro-hover{
+	display: none;
+	_display: block;
+}
+.myfollow_item .vline{
+	margin: 0px 10px;
+	color:#D9D9D9;
+}
+.myfollow_item .info-intro{
+	color:#808080;
+}
+
+/*分组弹出框样式 开始*/
+.layer_group_list{
+	border: 1px solid #ccc;
+	padding: 15px 10px;
+	background: #fff;
+	color: #333;
+	border-radius: 2px;
+	width:312px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.layer_group_list .lgl_title {
+	font-weight:bold;
+	padding:0px 10px;
+	border-bottom:1px solid #F2F2F2;
+}
+.layer_group_list UL{
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+}
+.layer_group_list UL LI{
+	position: static;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+	float: none;
+}
+.layer_group_list UL LI A{
+	padding: 5px 10px;
+	display: block;
+	white-space: nowrap;
+}
+.layer_group_list .lgl_all_list{
+	padding: 5px;
+	width: 302px;
+}
+.layer_group_list .lgl_all_list LI{
+	width: 50%;
+	float: left;
+}
+.layer_group_list .lgl_all_list LI A{
+	padding: 5px;
+	zoom: 1;
+	overflow: hidden;
+	height:12px;
+	line-height:12px;
+	margin-top:5px;
+	color: #333;
+}
+.layer_group_list .lgl_all_list LI A:hover{
+	background:#e6e6e6;
+}
+.layer_group_list .lgl_all_list LI .input_checkbox{
+	float: left;
+	vertical-align: -2px;
+	margin-right:5px;
+}
+.layer_group_list .lgl_all_list LI LABEL{
+	width: 115px;
+	height: 15px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	float: left;
+}
+.layer_group_list .lgl_opt{
+	border-top:1px solid #F2F2F2;
+}
+.layer_succ_tip{
+	background: none repeat scroll 0 0 #F6FFF5;
+    border: 1px solid #BCD1B8;
+    color: #666666;
+    line-height: 12px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 5px 7px 4px 10px;
+    margin :5px 0px 0px 0px;
+}

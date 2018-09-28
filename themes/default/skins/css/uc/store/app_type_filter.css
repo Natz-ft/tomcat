@@ -1,0 +1,45 @@
+/*应用类型过滤*/
+a, .m-link a, a.m-link {
+    color: #727271;
+}
+.app-filter-box {
+	/* min-height: 120px; */
+	padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom:1px dashed #ccc;
+}
+.app-filter-box dl {
+    margin: 5px 0 15px 0;
+    overflow: hidden;
+    padding-left: 6em;
+    z-index: 1;
+    zoom:1;
+}
+.app-filter-box dt {
+    clear: left;
+    color: #333333;
+    float: left;
+    line-height: 26px;
+    margin-left: -6em;
+    margin-right: 0;
+    padding-left: 20px;
+}
+.app-filter-box dt, .app-filter-box dd {
+    float: left;
+    zoom:1;
+}
+.app-filter-box dd a {
+    display: inline-block;
+    line-height: 24px;
+    margin: 0 3px;
+    padding: 0 10px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 2;
+    zoom:1;
+}
+.app-filter-box a.selected, .app-filter-box a.selected:hover {
+    background-color: #23B3DA;
+    color: #fff;
+    text-decoration: none;
+}

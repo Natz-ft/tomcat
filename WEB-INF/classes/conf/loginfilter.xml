@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>	
+ 	<!-- 单点登录完成后的会话处理器 -->	
+	<bean id="login.User" class="com.inspur.utils.LoginUserImpl" />
+	
+	<!-- 基于Cookie的单点登录处理器 -->
+	<bean id="login.Passport.Cookie" class="org.loushang.internet.filter.login.PassportCookie" />
+	
+	<!-- 基于SAML的单点登录处理器 -->
+	<bean id="login.Passport.Saml" class="org.loushang.internet.filter.login.PassportSaml" />
+</beans>

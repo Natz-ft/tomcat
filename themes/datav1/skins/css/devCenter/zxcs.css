@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+body {
+	background-color: #f9f9f9;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.content .mini_navi_box {
+	padding-left: 20px;
+	line-height: 40px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #f0f0f0;
+	background: #f9f9f9;
+	overflow: hidden;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+.content .mini_navi_box ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.content .mini_navi_box ul li {
+	float: left;
+	margin: 0 15px;
+	margin-top: -10px;
+}
+
+.content .mini_navi_box ul li a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.content .mini_navi_box ul li a:hover {
+	color: #FF3300;
+}
+
+.content .main_top {
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 44px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #D7D7D7;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FAFAFA',
+		endColorStr='#F1F1F1', gradientType='0');
+	background: -moz-linear-gradient(center top, #FAFAFA, #F1F1F1) repeat
+		scroll 0 0 transparent;
+	background: -o-linear-gradient(center top, #FAFAFA, #F1F1F1) repeat
+		scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAFAFA),
+		to(#F1F1F1));
+}
+
+.content .content_main {
+	border-bottom: 1px solid #dcdddd;
+	border-left: 1px solid #dcdddd;
+	border-right: 1px solid #dcdddd;
+	height: 500px;
+	background-color: #FFF;
+}
+
+.content .content_main  .main_left {
+	float: left;
+	width: 280px;
+	color: #444444;
+	position: relative;
+	background-color: #F7F7F7;
+	font-size: 14px;
+	line-height: 28px;
+	height: 500px;
+}
+
+.content .content_main .main_left .left_n {
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.line {
+	background: none repeat scroll 0 0 #E2E2E2;
+	border-bottom: 1px solid #FFFFFF;
+	height: 1px;
+	margin: 10px 0;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.fwcs {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	margin: 10px 0;
+	margin-right: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+.ts {
+	width: 76px;
+	height: 25px;
+	float: right;
+	margin-right: 20px;
+	background-image: url(../img/dy2.png);
+}
+
+.ts:hover {
+	background-image: url(../img/dy1.png);
+}
+
+.content .content_main  .main_right {
+	width: 680px;
+	float: right;
+	font-size: 14px;
+	color: #666;
+}
+
+.content .content_main  .main_right .right_1 {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.content .content_main  .main_right .right_1 .right_1n {
+	height: 100px;
+	border: 1px solid #D1D1D1;
+}
+
+.content .content_main  .main_right .right_2 {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.content .content_main  .main_right .right_2 .right_2n {
+	height: 220px;
+	border: 1px solid #D1D1D1;
+}
+/*隐藏*/
+.content .content_main  .main_right1 {
+	width: 680px;
+	float: right;
+	font-size: 14px;
+	color: #666;
+}
+
+.content .content_main  .main_right1 .right1_1 {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.content .content_main  .main_right1 .right1_1 .right1_1n {
+	height: 100px;
+	border: 1px solid #D1D1D1;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.content .content_main  .main_right1 .right1_2 {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.content .content_main  .main_right1 .right1_2 a {
+	color: #333;
+}
+
+.content .content_main  .main_right1 .right1_2 a:hover {
+	color: #F60;
+}
+
+.content .content_main  .main_right1 .right1_2 .right1_2n {
+	height: 220px;
+	border: 1px solid #D1D1D1;
+	overflow: auto;
+}
+/*放大*/
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 240%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity = 80);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	width: 880px;
+	height: 600px;;
+	border: 1px solid #CCC;
+	background-color: white;
+	z-index: 1002;
+}
+
+.white_content .fd_top {
+	font-size: 16px;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 20px;
+	border-bottom: 1px solid #D7D7D7;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FAFAFA',
+		endColorStr='#94d3ed', gradientType='0');
+	background: -moz-linear-gradient(center top, #FAFAFA, #94d3ed) repeat
+		scroll 0 0 transparent;
+	background: -o-linear-gradient(center top, #FAFAFA, #94d3ed) repeat
+		scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAFAFA),
+		to(#94d3ed));
+}
+
+.white_content .fd_main {
+	height: 500px;
+	padding-left: 30px;
+	overflow: auto;
+}
+
+.white_content .fd_footer {
+	background-color: #f0f0f0;
+	height: 55px;
+}
+
+.white_content .fd_footer .qd {
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+/*列表*/
+.black_overlay1 {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 240%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity = 80);
+}
+
+.white_content1 {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	width: 880px;
+	height: 600px;;
+	border: 1px solid #CCC;
+	background-color: white;
+	z-index: 1002;
+}
+
+.white_content1 .fd_top1 {
+	font-size: 16px;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 20px;
+	border-bottom: 1px solid #D7D7D7;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FAFAFA',
+		endColorStr='#94d3ed', gradientType='0');
+	background: -moz-linear-gradient(center top, #FAFAFA, #94d3ed) repeat
+		scroll 0 0 transparent;
+	background: -o-linear-gradient(center top, #FAFAFA, #94d3ed) repeat
+		scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAFAFA),
+		to(#94d3ed));
+}
+
+.white_content1 .fd_main1 {
+	height: 500px;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 30px;
+	overflow: auto;
+}

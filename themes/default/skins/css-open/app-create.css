@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+.body-wrap {
+	padding-top: 30px;
+}
+.content-wrap {
+	padding: 39px 0 0;
+	margin: 14px 0 0 0;
+}
+.form-box {
+	width: 808px;
+}
+.form-box-title {
+	width: 162px;
+	height: 46px;
+	top: -23px;
+	margin-left: -81px;
+	background-position: 0 -75px;
+}
+.form-body {
+	padding: 53px 0 78px;
+}
+.form-body dt {
+	width: 256px;
+}
+.form-body .input {
+	width: 404px;
+	padding: 3px 1px 1px 3px;
+	border-color: #999;
+}
+.form-body .pseudo-input{
+	width: 404px;
+	height:22px;
+	padding: 3px 1px 1px 3px;
+	border:1px solid #ccc;
+	display:block;
+	font:12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+}
+.form-body select {
+	width: 195px;
+	height: 28px;
+	font: 13px "宋体";
+	padding-right: 0;
+	border-color: #ABADB3;
+}
+.tagMatches{
+	line-height:24px;
+	display:block;
+}
+.tagMatches SPAN {
+	padding: 0px 4px;
+	margin: 2px 0;
+	margin-right: 4px;
+	background-color: #26A3E6;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+}

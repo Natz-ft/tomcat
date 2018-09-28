@@ -1,0 +1,195 @@
+.main{
+    width: 100%;
+    padding: 1em 0;
+    overflow: hidden;
+}
+
+.sidebar{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    /*
+    background-color:#fff;
+    border: 1px solid #ececec;
+    border-bottom-color: #ddd;
+    border-radius:4px;
+    -webkit-box-shadow:none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+    */
+}
+.sidebar.side-r{
+    float: right;
+}
+.container{
+    display:block;
+    overflow:hidden;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.sidebar ~ .container{
+    margin-left: 320px;
+    margin-right: 0;
+}
+.sidebar.side-r ~ .container{
+    margin-left: 0;
+    margin-right:320px;
+}
+.format-xml {
+    background-color: #DAA520;
+}
+
+.format-xls {
+    background-color: #5cb85c;
+}
+
+.format-lbs {
+    background-color: #5cc59c;
+}
+
+.format-json {
+    background-color: #f87e5a;
+}
+
+.format-csv {
+    background-color: #5f9ed8;
+}
+
+/*椤甸潰椤堕儴*/
+.sy_header{height: 31px;background-color: #f9f9f9;color:#666;font-size: 12px;font-family: "瀹嬩綋";}
+.sy_content {
+    margin: auto;
+    padding: 0px;
+    width: 1190px;
+}
+.sy_header .sy_content div span a{text-decoration:none;color: #666;}
+.sy_header .sy_content .sy_headerleft{float: left;margin-top: 8px;}
+.sy_header .sy_content .sy_headerleft span{margin-right: 0px;}
+.sy_header .sy_content .sy_headeright{float: right;margin-top: 8px;}
+.sy_header .sy_content .sy_headeright span{margin-left: 5px;}
+
+.sy_line{height: 1px;background-color: #5c97c8;}
+
+.sidebar .right-title {
+    margin-bottom:.5em;
+    border-bottom:1px solid #dadada;
+    line-height:2;
+    font-size:16px;
+    font-family:"Microsoft Yahei";
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.sidebar .right-title span{
+    padding: 0 10px;
+    display: inline-block;
+    border-bottom: 2px solid #cc0000;
+}
+/**鍙充晶-鏁拌**/
+.sidebar .cata-datasay {
+    margin-bottom:20px;
+}
+.sidebar .cata-datasay .datasay-header .datasay-follow {
+    float:right;
+    font-size:14px;
+    cursor:pointer;
+}
+.sidebar .cata-datasay .datasay-header .datasay-follow i {
+    font-size:12px;
+    margin-right:5px;
+}
+.sidebar .cata-datasay .datasay-header .datasay-follow:hover {
+    color:#2f6589;
+}
+.sidebar .cata-datasay .datasay-header .datasay-follow:hover i {
+    color:#2f6589;
+}
+.sidebar .cata-datasay .datasay-body {
+    margin:0 5px;
+    font-size:12px;
+    line-height:20px;
+}
+.sidebar .cata-datasay .datasay-body .datasay-title a {
+    font-size:14px;
+    color:#333;
+}
+.sidebar .cata-datasay .datasay-body .datasay-title a:hover {
+    color:#2f6589;
+}
+.sidebar .cata-datasay .datasay-body .datasay-date {
+    color:#666;
+}
+.sidebar .cata-datasay .datasay-body .datasay-content a {
+    color:#999;
+    line-height:18px;
+}
+.sidebar .cata-datasay .datasay-body .datasay-content a:hover {
+    color:#2f6589;
+}
+
+.sidebar .app-list ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.sidebar .app-list ul li {
+    float:left;
+    width:80px;
+    height:80px;
+    padding:5px;
+    margin:5px 0 5px 10px;
+    text-align:center;
+    cursor:pointer;
+}
+.sidebar .app-list ul li i {
+    font-size:3em;
+    color:#97c4e3;
+}
+.sidebar .app-list ul li .app-name {
+    font-size:12px;
+    color:#666;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.sidebar .app-list ul li:hover {
+    background-color:#ecf5fc;
+}
+.sidebar .app-list ul li:hover i {
+    color:#306688;
+}
+.sidebar .app-list ul li:hover .app-name {
+    color:#306688;
+}
+
+/**鍙充晶-鐑棬鏍囩**/
+.keyword-list {
+    width:240px;
+    height:250px;
+    position:relative;
+    font-size:12px;
+    color:#333;
+    margin:0 auto;
+    text-align:center;
+}
+.keyword-list a {
+    position:absolute;
+    top:0;
+    left:0;
+    color:#0287ca;
+    text-decoration:none;
+    padding:3px 6px;
+    font-family:"Microsoft Yahei";
+}
+.keyword-list a:hover {
+    color:#306688;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+/**鍙充晶-鎺ㄨ崘搴旂敤**/
+.sidebar .app-list ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}

@@ -1,0 +1,315 @@
+img {
+	border: 0;
+}
+
+.kfz_title {
+	width: 100%;
+	height: 285px;
+	background-color: #2398f8;
+}
+
+.kfz_banner {
+	width: 980px;
+	height: 285px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../../img/dev/img/kfzzx_banner1.jpg");
+	position: relative;
+}
+
+.kfz_banner img {
+	position: absolute;
+	right: 50px;
+}
+
+.kfz_banner .kfz_tjapp {
+	position: absolute;
+	z-index: 100;
+	left: 668px;
+	top: 198px;
+	width: 170px;
+	height: 36px;
+}
+
+.kfz_main {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	margin-bottom: 20px;
+}
+
+.kfz_update {
+	width: 980px;
+	height: 36px;
+	background-image: url("../../img/dev/img/update.jpg");
+	margin: 0 auto 20px auto;
+}
+
+.kfz_update div {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.kfz_update .kfz_scroll {
+	width: 820px;
+	height: 26px;
+	margin-left: 140px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.kfz_update .kfz_scroll a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.kfz_update .kfz_scroll a:hover {
+	text-decoration: underline;
+}
+
+.kfz_update .kfz_scroll .kfz_sbegin {
+	display: inline;
+}
+
+.kfz_update .kfz_scroll .kfz_send {
+	display: inline;
+}
+
+.kfz_main .kfz_middle {
+	overflow: hidden;
+}
+
+.kfz_main .kfz_intro {
+	width: 670px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+.kfz_main .kfz_intro  ul {
+	padding: 0;
+	list-style: none;
+}
+
+.kfz_main .kfz_intro  ul li {
+	display: inline-block;
+	width: 305px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.kfz_main .kfz_intro  ul li {
+	*display: inline;
+}
+
+.kfz_main .kfz_intro .kfz_bico {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.kfz_main .kfz_intro .bico1 {
+	background-image: url("../../img/dev/img/b_ico1.png");
+}
+
+.kfz_main .kfz_intro .bico2 {
+	background-image: url("../../img/dev/img/b_ico2.png");
+}
+
+.kfz_main .kfz_intro .bico3 {
+	background-image: url("../../img/dev/img/b_ico3.png");
+}
+
+.kfz_main .kfz_intro .bico4 {
+	background-image: url("../../img/dev/img/b_ico4.png");
+}
+
+.kfz_main .kfz_intro .kfz_doc {
+	float: left;
+	width: 225px;
+	height: 80px;
+	margin-left: 20px;
+}
+
+.kfz_main .kfz_intro .kfz_doc a {
+	text-decoration: none;
+}
+
+.kfz_main .kfz_intro .kfz_doc .kfz_btitle {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.kfz_main .kfz_intro .kfz_doc .kfz_btitle a {
+	color: #000;
+}
+
+.kfz_main .kfz_intro .kfz_doc .kfz_btitle a:hover {
+	color: #008dd5;
+}
+
+.kfz_main .kfz_intro .kfz_doc .kfz_detail {
+	font-size: 14px;
+}
+
+.kfz_main .kfz_intro .kfz_doc .kfz_detail a {
+	color: #999;
+}
+
+.kfz_main .kfz_intro .kfz_doc .kfz_detail a:hover {
+	color: #5CACEE;
+}
+
+.kfz_main .kfz_interface {
+	width: 280px;
+	height: 200px;
+	float: left;
+	margin-top: 16px;
+	padding-left: 20px;
+}
+
+.kfz_main .kfz_interface .kfz_facetitle {
+	font-size: 16px;
+}
+
+.kfz_main .kfz_interface .kfz_facetitle a {
+	text-decoration: none;
+	color: #333;
+}
+
+.kfz_main .kfz_interface .kfz_facetitle a:hover {
+	color: orange;
+}
+
+.kfz_main .kfz_interface .kfz_facelist {
+	font-size: 14px;
+}
+
+.kfz_main .kfz_interface .kfz_facelist ul {
+	padding: 0;
+	list-style: none;
+	margin: 14px auto;
+}
+
+.kfz_main .kfz_interface .kfz_facelist ul li {
+	margin-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 280px;
+	list-style: none;
+}
+
+.kfz_main .kfz_interface .kfz_facelist ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+.kfz_main .kfz_interface .kfz_facelist ul li a:hover {
+	color: orange;
+}
+
+.kfz_main .kfz_interface .kfz_facelist .kfz_flist {
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+	background: url("../../img/dev/img/list.png") no-repeat 8px 13px;
+	*background-position: 8px 9px;
+}
+
+.kfz_main .kfz_interface .kfz_facebutton {
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.kfz_main .kfz_interface .kfz_facebutton span {
+	display: inline-block;
+	width: 280px;
+	height: 115px;
+	background-image: url("../../img/dev/img/btn_zc_on.jpg");
+}
+
+.kfz_main .kfz_interface .kfz_facebutton img {
+	width: 115px;
+	height: 37px;
+	margin-right: 10px;
+}
+
+.kfz_main .kfz_opera {
+	width: 980px;
+}
+
+.kfz_main .kfz_opera .kfz_otitle {
+	width: 980px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+.kfz_main .kfz_opera .kfz_odetail {
+	width: 935px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain {
+	float: left;
+	width: 135px;
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .kfz_oimg {
+	width: 128px;
+	height: 83px;
+	background-color: #F8F8FF;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .oimg1 {
+	background-image: url("../../img/dev/img/y_ico1.png");
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .oimg2 {
+	background-image: url("../../img/dev/img/y_ico2.png");
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .oimg3 {
+	background-image: url("../../img/dev/img/y_ico3.png");
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .oimg4 {
+	background-image: url("../../img/dev/img/y_ico4.png");
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .oimg5 {
+	background-image: url("../../img/dev/img/y_ico5.png");
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .kfz_oico {
+	background: url("../../img/dev/img/sico.png") no-repeat;
+	width: 24px;
+	height: 19px;
+	margin-top: 6px;
+	color: red;
+	float: left;
+	padding-left: 6px;
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_omain .kfz_otxt {
+	font-size: 16px;
+	color: #666;
+	float: left;
+	margin: 6px 0 0 6px;
+}
+
+.kfz_main .kfz_opera .kfz_odetail .kfz_arrow {
+	width: 65px;
+	height: 112px;
+	background: url("../../img/dev/img/arrow.png") no-repeat center 30px;
+	float: left;
+}

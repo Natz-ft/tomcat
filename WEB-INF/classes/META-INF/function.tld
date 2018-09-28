@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+  <tlib-version>1.0</tlib-version>
+<short-name>function</short-name>
+<!-- 定义该标签库的URI -->
+<uri>/tags/website-function</uri>
+	<function>
+		<name>getUrl</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getUrl( java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getLink</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getLink( java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getHome</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getHome()</function-signature>   
+    </function>
+    <function>
+		<name>getContentImage</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getContentImage(java.lang.String,int,int)</function-signature>   
+    </function>	
+    <function>
+		<name>dateFormat</name>
+		<function-class>org.loushang.internet.util.DateTool</function-class>
+		<function-signature>java.lang.String  dateFormat( java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>dateFormat2</name>
+		<function-class>org.loushang.internet.util.DateTool</function-class>
+		<function-signature>java.lang.String  dateFormat( java.lang.String, java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>convertToString</name>
+		<function-class>org.loushang.internet.util.JsonUtils</function-class>
+		<function-signature>java.lang.String  convertToString( java.lang.Object)</function-signature>   
+    </function>
+    <function>
+		<name>getFileUrl</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getFileUrl()</function-signature>   
+    </function>
+    <function>
+		<name>getModuleValue</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getModuleValue(java.lang.String)</function-signature>   
+    </function>
+    
+    <function>
+		<name>getDocUrl</name>
+		<function-class>com.inspur.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getDocUrl(java.lang.String)</function-signature>   
+    </function>
+    
+    <function>
+		<name>getImgUrl</name>
+		<function-class>com.inspur.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getImgUrl(java.lang.String)</function-signature>   
+    </function>
+ 
+    <!-- 获取登录相关的key -->
+    <function>
+		<name>getLoginKey</name>
+		<function-class>com.inspur.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getLoginKey(java.lang.String)</function-signature>   
+    </function>
+    
+    <function>
+		<name>getConfValue</name>
+		<function-class>com.inspur.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getConfValue(java.lang.String)</function-signature>   
+    </function>
+    <!--获取API明细地址 -->
+    <function>
+		<name>getAPIDetail</name>
+		<function-class>com.inspur.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getAPIDetail(java.lang.String)</function-signature>   
+    </function>
+    <!--获取全局配置 -->
+    <function>
+		<name>getGlobalKey</name>
+		<function-class>com.inspur.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getGlobalKey(java.lang.String)</function-signature>   
+    </function>
+    
+    <!-- 切割字符串，将字符串切割成指定的长度，后面的用省略号补充 -->
+    <function>
+		<name>subString</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  subString(java.lang.String,int)</function-signature>   
+    </function>
+    <!-- 切割字符串，将字符串切割成指定的长度，后面的直接去掉 -->
+    <function>
+		<name>subString1</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  subString1(java.lang.String,int)</function-signature>   
+    </function>
+    <!-- 切割字符串，将字符串切割成指定的长度，后面加两个省略号 -->
+    <function>
+		<name>subString2</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  subString2(java.lang.String,int)</function-signature>   
+    </function>
+    <!-- 去除html标签 -->
+    <function>
+		<name>rmHtmlTag</name>
+		<function-class>org.loushang.internet.util.HtmlTagUtil</function-class>
+		<function-signature>java.lang.String  rmHtmlTag(java.lang.String)</function-signature>   
+    </function>
+    
+    <!-- 将字符串转换为数字 -->
+    <function>
+		<name>convertNumber</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  convertNumber(java.lang.String)</function-signature>   
+    </function>
+    <!-- 获取list的长度 -->
+    <function>
+		<name>listLen</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.Integer  listLen(java.util.List)</function-signature>   
+    </function>
+    <!-- 获取list的长度 -->
+    <function>
+		<name>mapLen</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.Integer  mapLen(java.util.Map)</function-signature>   
+    </function>
+    <!-- JsonUtils转换 -->
+    <function>
+		<name>objectToJson</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  objectToJson(java.lang.Object)</function-signature>   
+    </function>
+    <!-- 判断字符串中是否包含 -->
+    <function>
+		<name>isExist</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  isExist(java.lang.String,java.lang.String)</function-signature>   
+    </function>
+    <!-- 判断字符串中是否包含某个字符串 -->
+    <function>
+		<name>isExists</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  isExists(java.lang.String,java.lang.String)</function-signature>   
+    </function>
+    <!-- 判断List中是否包含某个字符串 -->
+    <function>
+		<name>isExistsArray</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  isExistsArray(java.lang.String,java.util.List)</function-signature>   
+    </function>
+    <!-- 去掉字符串最后一个逗号 -->
+    <function>
+		<name>noLastComma</name>
+		<function-class>org.loushang.internet.util.StringUtils</function-class>
+		<function-signature>java.lang.String  noLastComma(java.lang.String)</function-signature>   
+    </function>
+    <!-- 获取各中心地址 -->
+    <function>
+		<name>getFrameConf</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getFrameConf(java.lang.String)</function-signature>   
+    </function>
+    
+    <!-- UC项目function -->
+    
+    <!-- 根据uid和url判断按钮操作权限 -->
+	<function>
+		<name>haspermission</name>
+		<function-class>org.loushang.internet.tld.OperatePermission</function-class>
+		<function-signature>java.lang.String haspermission(java.lang.String,java.lang.String)</function-signature>   
+    </function>
+	<function>
+		<name>permissionUrls</name>
+		<function-class>org.loushang.internet.tld.OperatePermission</function-class>
+		<function-signature>java.lang.String permissionUrls(java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>getHttpsLink</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getHttpsLink( java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getInnerLink</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getInnerLink( java.lang.String )</function-signature>   
+    </function>
+     <function>
+		<name>getOtherLink</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getOtherLink( java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getCurrentUrl</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getCurrentUrl()</function-signature>   
+    </function>
+    <function>
+		<name>phoneReplaced</name>
+		<function-class>com.inspur.ucweb.utils.ToolUtil</function-class>
+		<function-signature>java.lang.String  phoneReplaced(java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>getEmailReplaced</name>
+		<function-class>com.inspur.ucweb.utils.ToolUtil</function-class>
+		<function-signature>java.lang.String  getEmailReplaced(java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>getCertNumReplaced</name>
+		<function-class>com.inspur.ucweb.utils.ToolUtil</function-class>
+		<function-signature>java.lang.String  getCertNumReplaced(java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>formatDateBySeconds</name>
+		<function-class>com.inspur.data.common.utils.PhpUtil</function-class>
+		<function-signature>java.lang.String  formatDateBySeconds(java.lang.String,java.lang.String)</function-signature>   
+    </function>    
+    <!-- 获取当前地址二级域名 -->
+    <function>
+		<name>getCitySite</name>
+		<function-class>org.loushang.internet.util.el.Function</function-class>
+		<function-signature>java.lang.String  getCitySite()</function-signature>   
+    </function>
+    <!-- 根据key获取login.properties中的值 -->
+    <function>
+		<name>getLoginConf</name>
+		<function-class>com.inspur.data.common.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getLoginConf(java.lang.String)</function-signature>    
+    </function>
+    <!-- 获取指定大小的图片完整地址 -->
+    <function>
+		<name>getAppIconBySize</name>
+		<function-class>com.inspur.ucweb.screen.store.Util.AppPicUtil</function-class>
+		<function-signature>java.lang.String  getAppIconBySize(java.lang.String,java.lang.String)</function-signature>   
+    </function>
+    <!-- 指定字符分割字符串，并取第几段字符串 ，暂放在phputil里-->
+    <function>
+		<name>subStringByInterval</name>
+		<function-class> com.inspur.data.common.utils.ObjectUtils</function-class>
+		<function-signature>java.lang.String  subStringByInterval(java.lang.String,java.lang.String,int)</function-signature>   
+    </function>
+    <!-- 合并dev时添加 -->
+    <function>
+		<name>getConfValues</name>
+		<function-class>com.inspur.data.common.utils.ConfUtil</function-class>
+		<function-signature>java.lang.String  getConfValue(java.lang.String)</function-signature>   
+    </function>
+    <!-- 获取conf.properties的配置 -->
+     <function>
+		<name>getConfValue2</name>
+		<function-class>com.inspur.utils.ViewTool</function-class>
+		<function-signature>java.lang.String  getConfValue(java.lang.String,java.lang.String)</function-signature>   
+    </function>
+</taglib>

@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {  background-color:#f9f9f9; margin:0 auto; font-family: "宋体";
+	font-size: 12px;}
+a{ text-decoration:none;}
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top:10px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+.content .mini_navi_box {
+  padding-left: 20px;
+  line-height:40px;
+  margin:0 auto;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  background: #f9f9f9;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+.content .mini_navi_box ul{ list-style:none; padding:0px;}
+.content .mini_navi_box ul li{ float:left; margin:0 15px; margin-top:-10px;}
+.content .mini_navi_box ul li a{ text-decoration:none; color: #333333;}
+.content .mini_navi_box ul li a:hover{ color:#FF3300;}
+
+.content .content_main{
+ margin-top:10px;
+
+}
+.list_body {
+	BORDER-BOTTOM: #d7d7d7 1px solid; BORDER-LEFT: #d7d7d7 1px solid; MIN-HEIGHT: 300px; BACKGROUND: #fcfcfc 0px 0px; BORDER-TOP: #d7d7d7 1px solid; BORDER-RIGHT: #d7d7d7 1px solid; border-radius: 5px 5px 5px 5px
+}
+
+.wi-wtitle {
+	BORDER-BOTTOM: #d7d7d7 1px solid; POSITION: relative; TEXT-ALIGN: center; FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FAFAFA',endColorStr='#F1F1F1',gradientType='0'); LINE-HEIGHT: 44px; COLOR: #4c4c4c; FONT-SIZE: 16px; FONT-WEIGHT: bold; border-radius: 5px 5px 0 0
+}
+.btn-imitate {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; OUTLINE-WIDTH: 0px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: #f5f5f6; BORDER-TOP: #e5e5e5 1px solid; CURSOR: pointer; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 5px; border-radius: 2px; box-shadow: inset 0px 1px #fff
+}
+A.btn-imitate {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; OUTLINE-WIDTH: 0px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: #f5f5f6; BORDER-TOP: #e5e5e5 1px solid; CURSOR: pointer; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 5px; border-radius: 2px; box-shadow: inset 0px 1px #fff
+}
+.btn-imitate:hover {
+	BORDER-BOTTOM-COLOR: #d9d9d9; BORDER-TOP-COLOR: #d9d9d9; BACKGROUND: #efeeee; BORDER-RIGHT-COLOR: #d9d9d9; BORDER-LEFT-COLOR: #d9d9d9
+}
+A.btn-imitate:hover {
+	BORDER-BOTTOM-COLOR: #d9d9d9; BORDER-TOP-COLOR: #d9d9d9; BACKGROUND: #efeeee; BORDER-RIGHT-COLOR: #d9d9d9; BORDER-LEFT-COLOR: #d9d9d9
+}
+
+.btn-right {
+	POSITION: absolute; LINE-HEIGHT: 16px; HEIGHT: 16px; RIGHT: 10px; TOP: -2px; _top: -2px
+}
+.btn-blue {
+	BORDER-BOTTOM: #4690d6 1px solid; BORDER-LEFT: #4690d6 1px solid; BACKGROUND-COLOR: #71b2eb; FONT-SIZE: 12px; BORDER-TOP: #4690d6 1px solid; CURSOR: pointer; FONT-WEIGHT: normal; BORDER-RIGHT: #4690d6 1px solid; box-shadow: 0 1px 0 #B1CEEA inset
+}
+A.btn-blue {
+	BORDER-BOTTOM: #4690d6 1px solid; BORDER-LEFT: #4690d6 1px solid; BACKGROUND-COLOR: #71b2eb; FONT-SIZE: 12px; BORDER-TOP: #4690d6 1px solid; CURSOR: pointer; FONT-WEIGHT: normal; BORDER-RIGHT: #4690d6 1px solid; box-shadow: 0 1px 0 #B1CEEA inset; color:#FFFFFF;
+}
+.btn-blue:hover {
+	BORDER-BOTTOM-COLOR: #509ae0; BACKGROUND-COLOR: #7bbcf5; BORDER-TOP-COLOR: #509ae0; BORDER-RIGHT-COLOR: #509ae0; BORDER-LEFT-COLOR: #509ae0; TEXT-DECORATION: none
+}
+A.btn-blue:hover {
+	BORDER-BOTTOM-COLOR: #509ae0; BACKGROUND-COLOR: #7bbcf5; BORDER-TOP-COLOR: #509ae0; BORDER-RIGHT-COLOR: #509ae0; BORDER-LEFT-COLOR: #509ae0; TEXT-DECORATION: none
+}
+
+
+.api-moheader {
+	BORDER-BOTTOM: rgb(221,221,221) 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-LEFT: 20px;
+	margin-right:20px; 
+	FONT-SIZE: 18px; FONT-WEIGHT: bold; PADDING-TOP: 8px
+}
+.api-mod-desc {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-LEFT: 30px; FONT-SIZE: 16px; PADDING-TOP: 10px
+}
+
+
+
+.mod-text{ width:880px;}
+
+TABLE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0px auto; BORDER-SPACING: 0; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.table-box {
+	BORDER-LEFT: #c1dad7 1px solid; WIDTH: 100%; FONT-FAMILY: 宋体, Arial
+}
+.table-box TH {
+	BORDER-BOTTOM: #c1dad7 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #c1dad7 1px; PADDING-BOTTOM: 6px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; LETTER-SPACING: 2px; PADDING-RIGHT: 0px; FONT: bold 13px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; BACKGROUND: rgb(243,250,255); COLOR: #4f6b72; BORDER-TOP: #c1dad7 1px solid; BORDER-RIGHT: #c1dad7 1px solid; PADDING-TOP: 6px
+}
+.table-box TD {
+	BORDER-BOTTOM: #c1dad7 1px solid; PADDING-BOTTOM: 7px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #fff; COLOR: #4f6b72; FONT-SIZE: 12px; BORDER-RIGHT: #c1dad7 1px solid; PADDING-TOP: 7px
+}
+.table-box .tr {
+	TEXT-ALIGN: left
+}
+.api-mod-desc .basea{ font-size:12px;}
+.api-mod-desc .basea:hover{ color:#ee7600;}

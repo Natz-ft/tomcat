@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+.my-app {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	height: 230px;
+	border-bottom: 1px dashed #EAE5E5;
+}
+
+.my-app .my-app-header {
+	padding: 0;
+	height: 34px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.my-app p span {
+	width: 133px;
+	display: inline-block;
+	text-align: center;
+	padding: 4px 0;
+	border-bottom: 1px solid #e1e1e1;
+	float: left;
+	font-size: 15px;
+	cursor: pointer;
+	color: #535353;
+}
+
+.my-app p span.current {
+	border-bottom: none;
+	color: #52B8ED;
+	width: 133px;
+	cursor: default;
+}
+
+.my-app p b {
+	width: 1px;
+	height: 32px;
+	background: #e1e1e1;
+	overflow: hidden;
+	text-indent: -2em;
+	float: left;
+}
+
+.my-app div {
+	padding: 5px 0;
+	height: 175px;
+	overflow: hidden;
+}
+
+.my-app p.noused,.my-app p.nofavo {
+	padding: 0 10px;
+	width: 243px;
+	height: auto;
+	background: #fff;
+	color: #666;
+}
+
+.my-app p.noused {
+	background:url(img/arr.gif) no-repeat 8px 6px #fff !important;
+	text-indent: .5em;
+	margin-bottom: 5px;
+}
+
+.my-app div ul {
+	float: left;
+	width: 100%;
+}
+
+.my-app div ul li.popular-recommend {
+	width: 120px;
+	_width: 122px;
+	padding: 0 0 0 7px;
+	position: relative;
+}
+
+li.popular-recommend {
+	margin: 6px 0 6px 4px;
+	_margin: 6px 0 6px 3px;
+	float: left;
+}
+
+li.popular-recommend img {
+	margin: 0 3px 0 0;
+	vertical-align: middle;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+
+.app-name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 95px;
+	display: inline-block;
+	margin-top: -1px;
+}
+
+.seemore {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.needLogin {
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	text-align: center;
+}

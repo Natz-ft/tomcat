@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+body {
+	background: url(../../../../img/appcenter/map/enforcelaw/bg.png);
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.head {
+	margin: 0 auto;
+	height: 185px;
+	background-image: url(../../../../img/appcenter/map/enforcelaw/head.png);
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top: 10px;
+	overflow: hidden;
+}
+/* 搜索*/
+.content .top {
+	width: 980px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.content .top .top_b {
+	float: left;
+	width: 237px;
+	height: 36px;
+	background: url(../../../../img/appcenter/map/enforcelaw/zfsj_0.png);
+	margin-left: 25px;
+}
+
+.content .top .sousuo_search {
+	float: right;
+	margin-right: 25px;
+	width: 621px;
+	height: 36px;
+	background-image: url(../../../../img/appcenter/map/enforcelaw/a_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.content .top .sousuo_schtitle {
+	float: left;
+	width: 98px;
+	height: 36px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+
+.content .top .sousuo_schtitle .sousuo_schtext {
+	float: left;
+	padding: 7px 2px 10px 10px;
+	width: 70px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schtext span {
+	margin-right: 5px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schdown {
+	position: relative;
+	width: 16px;
+	height: 36px;
+	float: right;
+	background-image:
+		url(../../../../img/appcenter/map/enforcelaw/top_arrow_search.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 16px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist {
+	position: absolute;
+	z-index: 100;
+	left: 1px;
+	border: 1px solid #a9a9a9;
+	text-align: left;
+	width: 97px;
+	background-color: #f4f4f4;
+	margin-top: 4px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul li {
+	padding: 5px 0;
+	padding-left: 12px;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul a {
+	color: #333;
+	text-decoration: none;
+}
+
+.content .top .sousuo_schtitle .sousuo_schlist ul li:hover {
+	background-color: #ccc;
+}
+
+.content .top .sousuo_schinput {
+	float: left;
+	width: 390px;
+	height: 34px;
+	position: relative;
+	margin-left: 3px;
+}
+
+.content .top .sousuo_schinput .sousuo_inputext {
+	width: 394px;
+	height: 30px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding-left: 15px;
+}
+
+.content .top .sousuo_schbutton {
+	float: left;
+	width: 105px;
+	height: 36px;
+	position: relative;
+	left: 20px;
+}
+
+.content .top .sousuo_schbutton div {
+	width: 104px;
+	height: 36px;
+	border: 0;
+}
+
+/* xuanze*/
+
+/* main*/
+.content .main {
+	width: 978px;
+	background: #f9f9f9;
+	border: 1px #d5d5d5 solid;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+
+.content .main  .table {
+	width: 860px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.content .main  .table table {
+	border-collapse: collapse;
+	border: solid #999;
+	border-width: 1px 0 0 1px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content .main  .table	table th, table td {
+	border: solid #999;
+	border-width: 0 1px 1px 0;
+	padding: 2px;
+}
+
+.content .main  .table table tr {
+	height: 28px;
+}
+
+.content .main  .table a {
+	color: #00F;
+}
+
+/* 页码*/

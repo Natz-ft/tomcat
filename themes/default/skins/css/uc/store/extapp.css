@@ -1,0 +1,105 @@
+.left_main_bg {
+	background-color: #f0f0f0;
+}
+iframe.ext_app_iframe{
+	width:100%;
+	height:615px;
+	overflow:hidden;
+}
+.app-info-box{
+	padding:10px 20px;
+	border-bottom:1px solid #E2E2E2;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.app-info-box .base-info{
+	border-right:solid 1px #E2E2E2;
+	color:#333;
+	float:left;
+	padding:0 10px 0 5px;
+}
+.app-info-box .base-info img{
+	width:64px;
+	height:64px;
+	float:left;
+	border:0 none;
+}
+.app-info-box .base-info p{
+	margin-left:75px;
+}
+.hotapp-list-dis li{
+	padding:4px 5px;
+	overflow:hidden;
+}
+.hotapp-list-dis li span.list-num{
+	width: 18px;
+	height: 18px;
+	display:inline-block;
+	background: #D2D2D2;
+	color: white;
+	border-radius: 3px;
+	text-align: center;
+}
+.hotapp-list-dis li img{
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	margin:5px;
+	margin-left:2px;
+}
+.hotapp-list-dis .app-item-info{
+	width:105px;
+	overflow:hidden;
+	_height:45px;
+	float:right;
+	padding-top:5px;
+}
+.cont_right .hotapp-list-dis .app-item-info{
+	width:105px;
+}
+.hotapp-list-dis .app-item-info a{
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	_width:100px;
+}
+.hotapp-list-dis li a.unLine:hover img {
+	transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+.app-header-nav.dark{
+	background:#d7d7d7;
+}
+.app-header-nav.dark h3{
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	padding: 10px 20px;
+	color:#333;
+}
+.big_star b.star {
+	background: url(img/bigstar_white.png) no-repeat 0 0;
+}
+.cont_right {
+	float: right;
+	width: 190px;
+	border: 0 none;
+	position: relative;
+}
+.f14px{
+	font-size:14px;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.app-star-box {
+	float: left;
+	margin-left: 15px;
+	width: 200px;
+}
+.right {
+float: right;
+}

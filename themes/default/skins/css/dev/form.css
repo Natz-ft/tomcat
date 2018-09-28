@@ -1,0 +1,222 @@
+input,select,textarea{
+	font: 12px/1.5 "Microsoft YaHei", Arial, Helvetica, sans-serif, Simsun;
+	outline: none;
+}
+.form-ct{
+	padding:20px 45px;
+	text-align:left;
+}
+.form-ct .form-tips{
+	float:right;
+	display:block;
+	width:390px;
+	overflow:hidden;
+	margin-left:10px;
+}
+.form-title{
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+	border-bottom: 1px solid #ECECEC;
+}
+.form-title span,.form-title h3{
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+
+.form-body{
+	padding:10px 0px ;
+}
+.form-body dl{
+	color: #666;
+	padding: 5px 0;
+	_margin:2px 0px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.form-body dt, .form-body dd {
+	height: 30px;
+	line-height: 30px;
+    font-size: 14px;
+}
+.form-body dt{
+	padding-right: 5px; /*文字距离输入框过劲。*/
+	float:left;
+	width:140px;
+	text-align:right;
+	height: 30px;
+	line-height: 30px;
+	color: #666;
+}
+/*表单项必填标记*/
+.form-body dt .required {
+	font-size: 14px;
+	color: #FC6104;
+	padding-right: 7px;
+	vertical-align: -3px;
+}
+.form-body dd{
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+/*改变radio、checkbox等居中的问题*/
+.form-body .vmiddle{
+	display: inline-block;
+	margin-right: 3px;
+    vertical-align: -2px;
+}
+/*改变两个单选按钮文字间的距离*/
+.form-body label.labelr{
+	 margin-right: 25px;
+}
+.form-body .input,.form-body textarea, .form-body .textarea {
+	/* float: left; */
+	color: #333;
+	margin: 2px;
+	padding: 3px 2px 1px;
+	border: 1px solid #D2D2D2;
+	*display:block;
+	*float:left;
+}
+.form-body select{
+	color: #666;
+    height: 25px;
+    line-height: 24px;
+    padding: 3px;
+    margin: 3px 2px;
+	text-align: center;
+    border-color: #D2D2D2;
+    max-width:200px;
+}
+.form-body textarea,.form-body .textarea {
+	width: 330px;
+	height: 100px;
+	resize: none;
+}
+.form-body .input {
+	width: 330px;
+	height: 22px;
+}
+.form-body .conbox_textarea {
+	height: 110px;
+}
+.form-body .checkbox {
+	vertical-align: middle;
+}
+.form-body .Validform_checktip {
+	display: inline-block;
+	font-size: 12px;
+	color: #999;
+}
+.form-body .dd_tip,.form-body .dd-tip{
+	padding-left: 10px;
+	float: left;
+	width: auto;
+	max-width:330px;
+}
+
+/*注册规则说明样式*/
+dd.check_rule{
+	font-size:12px;
+	position: relative;
+	text-align: left;
+	color: #999;
+	left: 150px;
+	width: 400px;
+	float: left;
+	/*padding: 0px 0px 15px 0px*/;
+}
+/*----校验的样式 开始----*/
+.form-body .form-tip span{
+	font-size:12px;	
+}
+.form-body .form-tip span.invalid {
+	color: #FF0000;
+	background: url(img/validate/invalid.png) no-repeat left 0px;
+}
+.form-body .form-tip span.valid {
+	display:inline-block;
+	width:18px;
+	height:18px;
+	margin: 6px 0;
+	
+	color: #71B83D;
+	background: url(img/validate/valid.png) no-repeat left 0px;
+}
+.form-body .form-tip {
+	float: left;
+	padding-left: 10px;
+	width: auto;
+	max-width: 330px;
+}
+.form-body .form-common-tip {
+	color: #999;
+	font-size: 12px;
+	margin-top: 2px;
+	padding-left: 4px;
+	line-height: 24px;
+}
+.form-body .form-tip span {
+	padding-left: 18px;
+}
+.form-body .form-tip span.init {
+	background:none;
+}
+.form-body .form-tip span.loading {
+	color: #71B83D;
+	display:block;
+	background:url(img/validate/loading.gif) no-repeat left 1px;
+}
+/* 表单中可能需换行的文本内容样式 */
+.form-body dd label,
+.form-body .form-tip span {
+	display: inline-block;
+	min-height: 20px;
+	line-height: 20px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.form-body .btns-opt {
+	text-align: center;
+	padding: 34px 0;
+}
+.form-body .subtn {
+	color: #FFF;
+	font: 14px "宋体";
+	padding: 6px 15px 7px;
+	background: #26A3E6;
+}
+
+/*文件上传input样式*/
+.file-up-btn,.file_up_btn,
+.form-body dd .file-up-btn,.form-body dd .file_up_btn{
+	position: relative;
+	display: block;
+	width: 106px;
+	height: 33px;
+	line-height: 33px;
+	color: #FFF;
+	text-align: center;
+	background-color: #1E81C2;;
+}
+.file-up-btn input[type='file'],.file_up_btn input[type='file']{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.jq-ie7 .file-up-btn input[type='file'],.jq-ie7 .file_up_btn input[type='file'] {
+	left: -20px;
+}
+
+/*----校验的样式 结束----*/

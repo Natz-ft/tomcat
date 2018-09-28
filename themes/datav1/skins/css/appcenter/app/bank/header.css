@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	font-family: "宋体";
+	color: #333;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.sy_content {
+	margin: auto;
+	padding: 0px;
+	width: 980px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.sy_header {
+	height: 31px;
+	background-color: #f9f9f9;
+	color: #666;
+	font-size: 12px;
+	font-family: "宋体";
+}
+
+.sy_header .sy_content div span a {
+	text-decoration: none;
+	color: #666;
+}
+
+.sy_header .sy_content .sy_headerleft {
+	float: left;
+	margin-top: 8px;
+}
+
+.sy_header .sy_content .sy_headerleft span {
+	margin-right: 0px;
+}
+
+.sy_header .sy_content .sy_headeright {
+	float: right;
+	margin-top: 8px;
+}
+
+.sy_header .sy_content .sy_headeright span {
+	margin-left: 5px;
+}
+
+.sy_line {
+	height: 1px;
+	background-color: #5c97c8;
+}
+
+.sy_title {
+	background-image: url("../../img/layout/top_bg.jpg");
+	background-repeat: repeat;
+	font-family: "微软雅黑";
+}
+
+.sy_title .sy_content {
+	height: 101px;
+	background-image: url("../../img/layout/top_bg_header.png");
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.sy_title .sy_flash {
+	float: left;
+	width: 381px;
+	height: 101px;
+	overflow: hidden;
+}
+
+.sy_title .sy_flash object {
+	margin-top: 5px;
+}
+
+.sy_title .sy_logo {
+	float: left;
+	width: 107px;
+	height: 101px;
+	background-image: url("../../img/layout/top_logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sy_title .sy_keyword {
+	float: left;
+	width: 274px;
+	height: 101px;
+	margin-left: 15px;
+	background-image: url("../../img/layout/top_title.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sy_title .sy_search {
+	float: right;
+	width: 441px;
+	height: 101px;
+	background-image: url("../../img/layout/top_bg_search.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sy_title .sy_schtitle {
+	float: left;
+	width: 98px;
+	height: 40px;
+	position: relative;
+	top: 30px;
+	text-align: center;
+	font-size: 15px;
+	color: #333;
+}
+
+.sy_title .sy_schtitle div {
+	padding: 11px 2px 10px 10px;
+}
+
+.sy_title .sy_schtitle div span {
+	margin-right: 10px;
+	display: inline-block;
+	min-width: 60px;
+}
+
+.sy_title .sy_schtitle div a img {
+	margin-bottom: 2px;
+	border: 0;
+}
+
+.sy_title .sy_schinput {
+	float: left;
+	width: 238px;
+	height: 40px;
+	position: relative;
+	top: 30px;
+	*top: 29px;
+}
+
+.sy_title .sy_schinput .sy_inputext {
+	width: 225px;
+	height: 35px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.sy_title .sy_schbutton {
+	float: left;
+	width: 105px;
+	height: 41px;
+	position: relative;
+	top: 30px;
+}
+
+.sy_title .sy_schbutton div {
+	width: 104px;
+	height: 41px;
+	border: 0;
+	background-image: url("../../img/layout/top_btn_search.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sy_title .sy_schtitle .ytyj_schlist {
+	position: absolute;
+	z-index: 100;
+	top: 40px;
+	left: 2px;
+	border: 1px solid #a9a9a9;
+	border-top: 0;
+	text-align: left;
+	width: 95px;
+	background-color: #f4f4f4;
+	padding: 0;
+}
+
+.sy_title .sy_schtitle .ytyj_schlist ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.sy_title .sy_schtitle .ytyj_schlist ul li {
+	padding: 5px 0;
+	padding-left: 20px;
+	min-width: 75px;
+	border-top: 1px solid #ddd;
+}
+
+.sy_title .sy_schtitle .ytyj_schlist ul a {
+	color: #333;
+	text-decoration: none;
+}
+
+.sy_title .sy_schtitle .ytyj_schlist ul li:hover {
+	background-color: #ccc;
+}
+
+.sy_nav {
+	height: 39px;
+	background-image: url(../../../../img/appcenter/app/bank/top_bg_nav.jpg);
+	background-repeat: repeat-x;
+	color: #fff;
+}
+
+.sy_nav .sy_content {
+	height: 39px;
+}
+
+.sy_nav .sy_content ul {
+	padding: 0px;
+	margin: 0;
+}
+
+.sy_nav	.sy_content ul li {
+	height: 15px;
+	float: left;
+	list-style: none;
+	padding: 13px 19px 11px 19px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+
+.sy_nav	.sy_content ul li:hover {
+	background-image:
+		url(../../../../img/appcenter/app/bank/top_nav_hover2.jpg);
+	background-repeat: repeat-x;
+}
+
+.sy_nav	.sy_content_header_select {
+	background-image:
+		url(../../../../img/appcenter/app/bank/top_nav_hover2.jpg);
+	background-repeat: repeat-x;
+}
+
+.bankapp_con .bankapp_main .bank_maintop {
+	background-image:
+		url(../../../../img/appcenter/app/bank/bankapptop_bg.png);
+	height: 80px;
+}

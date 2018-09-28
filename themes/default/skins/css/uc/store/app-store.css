@@ -1,0 +1,257 @@
+@CHARSET "UTF-8";
+.body-wrap {
+	padding-top: 15px;
+}
+.content-right {
+	float: right;
+	width: 269px;
+}
+.content-left {
+	margin-right: 284px;
+}
+
+#banner-slides .slide {
+	width: 716px;
+	height: 266px;
+}
+#banner-slides {
+	position: relative;
+	overflow: hidden;
+}
+#banner-slides .slidesjs-navigation {
+	display: block;
+	width: 0;
+	height: 27px;
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	padding-left: 25px;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	overflow: hidden;
+	z-index: 99;
+}
+#banner-slides .slidesjs-navigation:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+#banner-slides .slidesjs-previous {
+	left: 11px;
+	background-position: -22px -190px;
+}
+#banner-slides .slidesjs-next {
+	right: 15px;
+	background-position: -95px -190px;
+}
+
+.ibtn_b.myapps {
+	display: block;
+	width: 113px;
+	margin: 0 auto;
+}
+/*应用推荐*/
+.recommend-list {
+	padding: 20px 18px 12px;
+	*padding: 15px 18px 7px;
+}
+.recommend-list .list-title {
+	height: 20px;
+	line-height: 20px;
+}
+.recommend-item {
+	height: 16px;
+	line-height: 16px;
+	padding: 6px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.recommend-appic {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 4px;
+}
+
+.banner-cont {
+	width: 100%;
+	height: 90px;
+}
+.banner-cont .pic {
+	width: 100%;
+	height: 100%;
+}
+/*应用分类*/
+.appcates-list {
+	*padding-bottom: 12px;
+}
+.appcates-item {
+	width: 58px;
+	float: left;
+	margin: 12px 15px;
+	overflow: hidden;
+}
+.appcates-icon {
+	display: block;
+	width: 35px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+.appcates-title {
+	display: block;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+}
+.appcates-item a:hover .appcates-title {
+	color: #333;
+}
+.appcates-icon.i0 {
+	background-position: -160px 0;
+}
+.appcates-icon.i1 {
+	background-position: -160px -30px;
+}
+.appcates-icon.i2 {
+	background-position: -160px -60px;
+}
+.appcates-icon.i3 {
+	background-position: -160px -90px;
+}
+.appcates-icon.i4 {
+	background-position: -160px -120px;
+}
+.appcates-icon.i5 {
+	background-position: -160px -150px;
+}
+.appcates-icon.i6 {
+	background-position: -160px -180px;
+}
+.appcates-icon.i7 {
+	background-position: -160px -210px;
+}
+.appcates-icon.i8 {
+	background-position: -160px -240px;
+}
+.appcates-icon.i9 {
+	background-position: -160px -270px;
+}
+.appcates-icon.i10 {
+	background-position: -160px -300px;
+}
+.appcates-icon.i11 {
+	background-position: -160px -330px;
+}
+/*热门应用*/
+.appsnew-list,.appshot-list {
+	padding: 0 17px 15px;
+}
+.appshot-item {
+	float: left;
+	width: 136px;
+	padding: 20px 0 7px;
+	text-align: center;
+}
+.appshot-item .appic {
+	display: block;
+	width: 62px;
+	height: 62px;
+	margin: 0 auto;
+}
+.appshot-item .appname {
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+.appshot-item .appscore {
+	margin-top: 2px;
+}
+/*月使用排行*/
+.appstatis-order-list {
+	padding: 3px 11px 6px;
+	*padding: 0 11px 6px;
+}
+.jq-ie .appstatis-order-list {
+	padding: 5px 11px 6px;
+	*padding: 0 11px 6px;
+}
+.appstatis-order-item {
+	padding: 9px 0;
+	border-bottom: 1px dashed #E6E6E6;
+}
+.appstatis-order-item.last {
+	border-bottom: 0 none;
+}
+.appstatis-order-item .no {
+	display: block;
+	width: 15px;
+	height: 13px;
+	line-height: 13px;
+	float: left;
+	margin: 2px 0 0 2px;
+	color: #FFF;
+	text-align: center;
+	background: #C0C1C3;
+	border: 1px solid #ACAEB2;
+}
+.appstatis-order-item .simple,
+.appstatis-order-item.hover .detail {
+	display: block;
+}
+.appstatis-order-item .detail,
+.appstatis-order-item.hover .simple {
+	display: none;
+}
+.appstatis-order-item .simple .no {
+	margin-top: 3px;
+}
+.appstatis-order-item.hot .no {
+	background: #ED4138;
+	border-color: #DB2B28;
+}
+.appstatis-order-item .appname {
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.appstatis-order-item .simple-info {
+	height: 22px;
+	line-height: 20px;
+	margin-left: 28px;
+	cursor: default;
+}
+.appstatis-order-item .simple-info .appname {
+	display: block;
+	margin-right: 42px;
+}
+.appstatis-order-item .simple-info .statis-count {
+	float: right;
+}
+.appstatis-order-item .detail-info {
+	margin-left: 30px;
+}
+.appstatis-order-item .detail-info .appic {
+	display: block;
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+.appstatis-order-item .detail-info .appname,
+.appstatis-order-item .detail-info .statis-count {
+	margin-left: 63px;
+}
+.appstatis-order-item .detail-info .appname {
+	padding-top: 2px;
+	line-height: 24px;
+}
+.appstatis-order-item .detail-info .statis-count {
+	color: #999;
+	font-size: 13px;
+	line-height: 20px;
+}

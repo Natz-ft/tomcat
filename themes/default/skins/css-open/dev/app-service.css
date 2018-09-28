@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+.content-wrap {
+	padding: 5px 0 50px;
+}
+.cont-title .opt {
+	margin: 10px 9px 0 0;
+}
+.service-title {
+	margin: 0 2px;
+	padding: 6px 0 6px 25px;
+	/*height: 30px;*/
+	line-height: 30px;
+	font-size: 15px;
+	border-bottom: 1px solid #F1F1F1;
+}
+.service-title.bottom {
+	border-bottom: 0 none;
+}
+.service-title .labelr {
+	color: black;
+	padding-left: 6px;
+	margin-right: 31px;
+}
+.service-title .btn-del {
+	color: #999;
+}
+.service-title .btn-del .menu-icons {
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	background-position: -138px -283px;
+	vertical-align: -2px;
+}
+.service-title .btn-del:hover {
+	color: #333;
+}
+.service-title .btn-del:hover .menu-icons {
+	background-position: -78px -283px;
+}
+.check-all {
+	vertical-align: -1px;
+}
+.service-list {
+	padding: 0 25px;
+}
+.service-item {
+	font-family: "宋体";
+	padding: 14px 0 9px;
+	border-bottom: 1px dashed #D9D9D9;
+	overflow: hidden;
+	*zoom: 1;
+}
+.service-item .checkbox,.service-item .c1
+,.service-item .c2,.service-item .c3 {
+	float: left;
+}
+.service-item .c1 {
+	width: 490px;
+}
+.service-item .c2 {
+	width: 108px;
+	height: 48px;
+	line-height: 48px;
+	color: #565656;
+	font-size: 13px;
+}
+.service-item .c3 {
+	width: 110px;
+	height: 48px;
+}
+.service-item .checkbox {
+	margin: 6px 8px 0 3px;
+}
+.service-item .service-name,.service-item .service-info {
+	float: left;
+	line-height: 24px;
+}
+.service-item .service-name {
+	display: inline-block;
+	height: 24px;
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+}
+.service-item .service-name:hover {
+	color: #20A0E5;
+	text-decoration: none;
+}
+.service-item .service-info {
+	width: 100%;
+	color: #666;
+}
+.service-item .btn-del {
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin: 9px 20px 0 0;
+	background-position: -130px -276px;
+}
+.service-item .btn-del:hover {
+	background-position: -70px -276px;
+}
+.group_title{
+
+}
+.group_title a{
+	display: inline-block;
+	padding: 0 5px;
+}
+.group_title a.on, .group_title a:hover{
+	background: #23B3DA;
+	color:#fff;
+}
+.group_second_title{
+	margin-top: 10px;
+}
+.group_second_title a{
+	display: inline-block;
+	padding: 0 5px;
+	font-size: smaller;
+	
+}
+
+.group_second_title a.on, .group_second_title a:hover{
+	background: #23B3DA;
+	color:#fff;
+}
+.cont-title {
+height: 43px;
+border-bottom: 1px solid #F1F1F1;
+}
+.cont-title .title {
+font-size: 18px;
+line-height: 43px;
+padding-left: 24px;
+}
+.cont-title .title, .cont-title .title2 .num {
+color: #23B3DA;
+}
+.cont-title .title, .cont-title .title2 {
+display: inline-block;
+height: 100%;
+float: left;
+}
+.cont-title .title2 {
+color: #555;
+font-size: 14px;
+line-height: 45px;
+padding-left: 22px;
+}
+.cont-title .title, .cont-title .title2 {
+display: inline-block;
+height: 100%;
+float: left;
+}
+
+.applyBtn{
+	display: block;
+	float: right;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	color: #FFF;
+	font-family: "宋体";
+	font-size: 14px;
+	text-align: center;
+	margin-top: 8px;
+	background: #23B3DA;
+}

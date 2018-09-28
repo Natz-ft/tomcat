@@ -1,0 +1,45 @@
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8" buffer="none" %>
+<%@ taglib uri="/tags/website" prefix="website" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri="/tags/website-function" prefix="fn"%>
+<website:style href="libs/assets/mon.carousel/carousel.css" rel="stylesheet" />
+<website:style href="css/index.css" rel="stylesheet" />
+<website:script src="libs/assets/mon.carousel/carousel.js" />
+<website:script src="js/index.js" />
+<div class="m-carousel">
+    <div class="carousel" id="caro">
+        <div class="m-slogan">
+            <div>成都市公共数据开放平台</div>
+            <p>已开放：<em>${catalogCount}</em>个数据集；<em>${orgCount}</em>个部门，<em>${cataDataCount}</em>条数据，<em>${apiCount}</em>个API，<em>${appCount}</em>个应用</p>
+        </div>
+        <div class="caro-main">
+            <ul>
+                <li class="caro-banner1"></li>
+                <li class="caro-banner2"></li>
+            </ul>
+        </div>
+        <div class="caro-tab">
+            <ul>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="caro-arrow">
+            <div class="caro-arrow-left"></div>
+            <div class="caro-arrow-right"></div>
+        </div>
+    </div>
+</div>
+<a class="try-modal"  target="_blank" href="http://www.dcjingsai.com/static_page/openDataIndex.html">
+    <div class="try-reco"></div>
+</a>
+<div class="fixed-modal fixed-m-right" style="display:none">
+    <div class="fixed-v-txt">成都市公共信息资源开放平台（试运行）
+    </div>
+    <a class="fixed-reco" target="_blank" href="${fn:getLink('interact/index.htm')}">我有意见</a>
+</div>
+
+<website:widget path="index/group.jsp" />
+<website:widget path="index/hotCatalogList.jsp" />
+<website:widget path="index/hotAppList.jsp" />

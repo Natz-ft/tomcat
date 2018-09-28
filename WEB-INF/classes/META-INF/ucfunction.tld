@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+  <tlib-version>1.0</tlib-version>
+<short-name>function</short-name>
+<!-- 定义该标签库的URI -->
+<uri>/tags/uc-function</uri>
+	 <!-- 获取应用评分比例 -->
+    <function>
+		<name>getStarPercent</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String  getStarPercent(int)</function-signature>   
+    </function>
+     <!-- 获取应用图标 -->
+    <function>
+		<name>getAppicon</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String  getAppicon(java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getDistrictBSFW</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String  getDistrictBSFW(java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getDistrictUC</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String  getDistrictUC(java.lang.String )</function-signature>   
+    </function>
+    <function>
+		<name>getAC</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getAC()</function-signature>   
+    </function>
+    <function>
+		<name>getBSFW</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getBSFW()</function-signature>   
+    </function>
+     <function>
+		<name>getRC</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getRC()</function-signature>   
+    </function>
+    <function>
+		<name>getRCNote</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getRCNote()</function-signature>   
+    </function>
+    <function>
+		<name>convertHtmlToString</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String convertHtmlToString(java.lang.String )</function-signature>   
+    </function>
+     <function>
+		<name>getUC</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getUC()</function-signature>   
+    </function>
+    <function>
+		<name>getRCService</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getRCService()</function-signature>   
+    </function>
+    <function>
+		<name>getProp</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getProp(java.lang.String,java.lang.String)</function-signature>   
+    </function>
+    <function>
+		<name>getConfig</name>
+		<function-class>com.inspur.ucweb.utils.ViewTool</function-class>
+		<function-signature>java.lang.String getConfig(java.lang.String)</function-signature>   
+    </function>
+    
+</taglib>

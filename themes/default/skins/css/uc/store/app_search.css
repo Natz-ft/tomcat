@@ -1,0 +1,297 @@
+﻿/**********************搜索应用***********************************************/
+body #container-wrap {
+	width: 1000px;
+	background-color:#fff;
+	margin:0 auto;
+	border:0 none;
+	margin-top:15px;
+}
+#container-wrap .search-nav-title{
+	font-size:14px;
+	color:#333;
+	font-weight:bold;
+	height:28px;
+	line-height:28px;
+	font-family: "宋体",Arial,Helvetica,sans-serif,Simsun,STXihei,"Microsoft YaHei";
+}
+#container-wrap .search-nav-title .smspace {
+	width: 7px;
+	height: 12px;
+	background-position: -8px -16px;
+	display: inline-block;
+}
+#container-wrap .search-num{
+	font-size:14px;
+	color:#999;
+	height:28px;
+	line-height:28px;
+	margin:10px 0;
+}
+#container-wrap .content-wrap{
+	min-height:400px;
+	padding:10px 0px;
+	margin-left: 215px;
+	border: none;
+	background-color: none;
+}
+
+#container-wrap .content-right{
+	float: right;
+	width: 230px;
+}
+#container-wrap .search-detail-content{
+	float: left;
+	width: 720px;
+}
+#container-wrap .search-group{
+	padding: 2px 2px 5px;
+	border-bottom: 3px solid #F2F2F2;
+	width:97%;
+}
+#container-wrap .search-group a{
+	width: 75px;
+	display:inline-block;
+	line-height:24px;
+	height:24px;
+	font-size:14px;
+	text-align:center;
+	color:#797A77;
+}
+#container-wrap .search-group a.all{
+	width:50px;
+}
+#container-wrap .search-group a.on-group{
+	color:#fff;
+	background-color:#20A0E5;
+}
+
+/* .app-list-view-h{
+    width: 800px;
+    margin: 0 auto;
+}
+.app-list-view-h li {
+    display: block;
+    float: left;
+    width: 230px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 10px 10px 20px;
+}
+.app-list-view-h .app-item-icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+.app-list-view-h .app-item-icon:hover{
+	filter:alpha(opacity=80); IE滤镜，透明度80%
+	-moz-opacity:0.8; Firefox私有，透明度80%
+	opacity:0.8;其他，透明度80%
+}
+.app-list-view-h li a.app-name {
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	_width: 150px;
+}
+.app-list-view-h .app-tags {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+
+
+
+
+/**********************搜索应用***********************************************/
+.app-list-view-h{
+    width: 100%;
+    margin: 0 auto;
+}
+.app-list-view-h li {
+    float: left;
+	overflow: hidden;
+	position: relative;
+	padding: 10px 20px 10px 20px;
+	width: 215px;
+}
+.app-list-view-h .app-item-icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+.app-list-view-h .app-item-icon:hover{
+	filter:alpha(opacity=80); /*IE滤镜，透明度80%*/
+	-moz-opacity:0.8; /*Firefox私有，透明度80%*/
+	opacity:0.8;/*其他，透明度80%*/
+}
+.app-list-view-h li a.app-name {
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	_width: 150px;
+}
+.app-list-view-h .app-tags {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.app-score-box .app_score{
+	height: 130Px;border-bottom: 1px solid #EEE;
+}
+.app-score-box .detail-icon-div {
+	float: left;
+	width: 100px;
+	height: 120px;
+	margin:  15px 15px 5px 20px;
+}
+.app-score-box .detail-icon-div .detail-icon{
+	width: 90px;
+	height: 90px;
+	border-radius: 5px 5px 5px 5px;
+	margin-left:5px;
+}
+.app-score-box .detail-icon-div a{
+	display: block;
+	display:block;
+	float:left;
+	width:100px;
+}
+.app-score-box .detail-icon-div a span{
+	color: #333333;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display:block;
+	float:left;
+	width:100px;
+	text-align: center;
+}
+.content-wrap{
+	margin-top:10px;
+}
+.menu-item-title{
+	text-indent: 40px;
+}
+
+/*************/
+@CHARSET "UTF-8";
+.appsnew-list {
+	padding: 7px 20px 10px 1px;
+}
+.appsnew-item {
+	padding: 13px 0 11px;
+	border-bottom: 1px dashed #D0D0D0;
+}
+.appsnew-item.last {
+	border-bottom: 0 none;
+}
+.appsnew-icon {
+	display: block;
+	width: 65px;
+	height: 66px;
+	float: left;
+}
+.appsnew-cont {
+	margin-left: 10px;
+	height: 70px;
+	float: left;
+	width: 510px;
+	margin-right: 25px;
+}
+.appsnew-item .enter-app{
+	float: left;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	width: 75px;
+	text-align: center;
+	background-color: #E6E4E0;
+	border: 1px solid #CACACA;
+	font-size:13px;
+	margin-top:20px;
+}
+.appsnew-item .enter-app:hover{
+	color:#333;
+	font-weight:bold;
+}
+.appsnew-title {
+	height: 24px;
+	line-height: 24px;
+}
+.appsnew-cont .txt {
+	float: left;
+	font-size: 16px;
+	width:100%;
+	height:24px;
+	line-height:24px;
+	color:#333;
+}
+.appsnew-title .star-grade {
+	margin-left: 5px;
+	*vertical-align: middle;
+}
+.appsnew-title .count {
+	float: right;
+	color: #999;
+}
+.appsnew-desc {
+	height: 24px;
+	line-height: 24px;
+	padding-right: 35px;
+}
+.appsnew-desc .intro {
+	display: block;
+	color: #999;
+	margin-right: 8px;
+	float: left;
+	max-width: 90%;
+}
+
+.pt10.box-shadow-t{
+	background: #FFF;
+	border: 1px solid #E9E6E6;
+	font-family: "Microsoft YaHei",simsun,Arial;
+}
+a.morelink, a.morelink:hover{
+	color: #52B8ED;
+	float:left;
+}
+/************星星评分************/
+.star-grade,.star-grade-perc {
+	background: url("../../css-store/img/score-sprites.png") no-repeat scroll 0 -27px transparent;
+    *display: inline; *zoom: 1;
+}
+.star-grade {
+	display: inline-block;
+	width: 60px;
+	vertical-align: middle;
+	height: 12px;
+	overflow: hidden;
+	margin: 2px 0 4px 0;
+	text-align:left;
+}
+.star-grade-perc {
+	background-position: 0 -15px;
+	display: block;
+	height: 12px;
+	overflow: hidden;
+}
+.pt10.box-shadow-t{
+	border:0;
+}

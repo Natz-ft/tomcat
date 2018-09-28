@@ -1,0 +1,132 @@
+.nav-box
+{
+	/*padding-bottom: 8px*/;
+	padding-left: 0px;
+	padding-right: 20px;
+	/*background: #0658a1*/;
+	/*background:#81bbfb*/;
+	/*padding-top: 8px*/;
+	background:url(../images/themes/qingdao/nav-bg.png) repeat-x 0px 0px #81bbfb;
+	_background:url(../images/themes/qingdao/nav-bg.jpg) repeat-x 0px 0px #81bbfb;
+	
+}
+.nav-box .nav-bar
+{
+	float: left;
+}
+.nav-box .nav-bar .nav-act
+{
+	float: left;
+	margin:0 12px;
+}
+.nav-box .nav-bar .nav-act A
+{
+	line-height: 35px;
+	display: block;
+	height: 35px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(69, 96, 110, .25);
+}
+.nav-box .nav-bar .nav-act2.nav-act A
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+.nav-box .nav-bar .nav-vline
+{
+	/*margin-top: 10px;
+	width: 20px;
+	float: left;
+	height: 15px;
+	overflow: hidden;
+	border-right: #95afbd 1px solid*/;
+    background: url("../images/themes/qingdao/nav-sep.png") no-repeat scroll right 2px transparent;
+    float: left;
+    height: 15px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 2px;
+}
+.search-area{
+	margin:8px 0px;
+}
+.search-box{
+	position:relative;
+	background-color: #cde9ec;
+	border:1px solid #5eabd9;
+	width:240px;
+	height:26px;
+	float:left;
+}
+ .search-box label{
+ 	padding-left: 5px;
+	position: absolute;
+	color: #444;
+	cursor: text;
+	background-color: #cde9ec;
+	width: 230px;
+	height: 24px;
+	margin: 1px;
+}
+.search-box .search-text{
+	border: 0 none;
+	padding-left: 5px;
+	background-color: #cde9ec;
+	color: #333;
+	margin: 1px;
+	outline: 0 none;
+	width: 230px;
+	height: 24px;
+}
+.search-box .search-btn{
+	position: absolute;
+	width:60px;
+ 	height:22px;
+	border:0 none;
+	color:#fff;
+	cursor:pointer;
+	background:url(../images/btn/sousuo.png) no-repeat 0 -22px;
+	top:0;
+	right:0;
+	margin-top:2px;
+	margin-right:2px;
+	font-weight: 500;
+}
+ .search-box .search-btn:hover{
+	 background-position:0 0;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid #bbb;
+	background-color: white;
+	overflow: hidden;
+	z-index: 999999999999;
+	margin-left:-2px;
+	margin-top:3px;
+}
+.ac_results strong{
+	font-size:15px;
+}
+.ac_results li {
+	margin: 0px;
+	padding: 5px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 14px;
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+}
+
+.ac_odd {
+}
+
+.ac_over {
+	background-color: #ebebeb;
+}

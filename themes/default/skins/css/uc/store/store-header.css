@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+body{
+	background:#fbf8f1;
+}
+.header-wrap {
+	width: 100%;
+	height: 92px;
+	padding-bottom: 1px;
+	position:relative;
+	background: #FFF url(img/store-header-bline.png) repeat-x 0 bottom;
+}
+.header-top {
+	width: 1000px;
+	height: 100%;
+	position:relative;
+	margin: 0 auto;
+}
+.header-top .logo {
+	float: left;
+	width: 280px;
+	height: 75px;
+	margin: 17px 0 0 16px;
+	background-position: 0 0;
+}
+.header-top .header-cont,.header-top .userinfo {
+	float: right;
+}
+.header-top .userinfo {
+	height: 22px;
+	padding: 8px 6px 10px 0;
+}
+.header-top .userinfo .pmap,
+.header-top .userinfo .username,
+.header-top .userinfo .fontstyle,
+.header-top .userinfo .vline {
+	display: inline-block;
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.header-top .userinfo .username a,.header-top .pmap .dropdown a {
+color: #000;
+}
+.header-top .userinfo  .logout{
+	float:left;
+}
+.header-top .userinfo .pmap,.header-top .userinfo .username {
+	position: relative;
+	margin-right: 10px;
+	cursor: default;
+	*z-index: 999;
+}
+.header-top .userinfo .username{
+	margin-right:0;
+}
+.header-top .userinfo .pmap .downarrow,.header-top .userinfo .username .downarrow{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 3px;
+	vertical-align: -1px;
+	*vertical-align: 0;
+	background-position: -3px -63px;
+}
+.header-top .userinfo a:hover {
+	color: #20A0E5;
+	text-decoration: none;
+}
+.header-top .userinfo .vline {
+	width: 1px;
+	height: 12px;
+	margin: 5px 10px;
+	background: #555;
+}
+.header-top .userinfo .pmap .dropdown,.header-top .userinfo .username .dropdown_usermenu,
+.pmap .dropdown .arrow,.username .dropdown_usermenu .arrow {
+	position: absolute;
+	z-index: 1000;
+}
+.header-top .userinfo .pmap .dropdown{
+	display: none;
+	left: 50%;
+	top: 20px;
+	width: 100px;
+	margin-left: -55px;
+	padding-top: 10px;
+}
+.header-top .userinfo .username .dropdown_usermenu{
+	display: none;
+	/* left: 50%; */
+	top: 20px;
+	width: 100px;
+	/* margin-left: -55px;*/
+	padding-top: 10px; 
+}
+.pmap .dropdown .arrow,.username .dropdown_usermenu .arrow {
+	width: 21px;
+	height: 10px;
+	left: 50%;
+	top: 2px;
+	margin-left: -11px;
+	background-position: 0 -96px;
+}
+.pmap .dropdown ul,.username .dropdown_usermenu ul {
+	padding: 10px 0;
+	background: #FFF;
+	border: 1px solid #BEBEBE;
+	-moz-box-shadow: -1px 1px 1px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+.pmap .dropdown .drop-item,.username .dropdown_usermenu .drop-item {
+	display: block;
+	width: 100%;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+}
+.pmap .dropdown .drop-item:hover,.username .dropdown_usermenu .drop-item:hover {
+	background: #EEE;
+}
+.header-top .userinfo .pmap:hover .txt,.header-top .userinfo .username:hover .txt {
+	color: #20A0E5;
+}
+.header-top .userinfo .pmap:hover .downarrow,.header-top .userinfo .username:hover .downarrow {
+	background-position: -3px -79px;
+}
+.header-top .userinfo .pmap:hover .dropdown,.header-top .userinfo .username:hover .dropdown_usermenu{
+	display: block;
+}
+.header-top #search-box{
+	position:absolute;
+	width: 419px;
+	height: 33px;
+	padding: 2px;
+	margin-top: 1px;
+	background: #23B3DA;
+	bottom:15px;
+	right:0;
+}
+#search-box  .input, #search-box  .btn, #search-box  .icons {
+	display: block;
+	float: left;
+}
+#search-box  .icons {
+	display: block;
+	position: absolute;
+}
+#search-box  .icons.search {
+	width: 20px;
+	height: 16px;
+	left: 5px;
+	top: 11px;
+	background-position: 0 -198px;
+}
+#search-box  .input {
+	width: 283px;
+	height: 20px;
+	line-height: 20px;
+	padding: 7px 24px 6px 28px;
+	border: 0 none;
+	outline: none;
+}
+#search-box .area .btn {
+	width: 84px;
+	height: 33px;
+	line-height: 33px;
+	color: #FFF;
+	font-size: 15px;
+	text-align: center;
+}

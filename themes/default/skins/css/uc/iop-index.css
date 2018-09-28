@@ -1,0 +1,319 @@
+@CHARSET "UTF-8";
+.banner-wrap {
+	width: 100%;
+	background: #B7CFE2;
+}
+.banner-wrap .banner {
+	width: 100%;
+	height: 378px;
+}
+.banner-wrap .banner .banner-img1 {
+	width: 100%;
+	height: 100%;
+	background: url(img/iop/iop-banner-img1.jpg) no-repeat center 0;
+}
+
+.parts-wrap {
+	width: 1010px;
+	margin: 20px auto 0;
+	padding-bottom: 24px;
+	border: 1px solid #F0EFEF;
+	background: #FFF;
+}
+.parts-wrap .parts-header {
+	position: relative;
+	width: 945px;
+	margin: 0 auto;
+	padding-bottom: 14px;
+	background: url(img/iop/iop-parts-header-line.png) repeat-x 0 122px;
+}
+.parts-wrap .parts-header .downarrow {
+	display: block;
+	width: 100%;
+	height: 14px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: url(img/iop/iop-parts-header-arrow.png) no-repeat center 0;
+}
+.parts-wrap .parts-logo {
+	dispaly: block;
+	width: 300px;
+	height: 88px;
+	margin-left: 363px;
+	background: url(img/iop/iop-parts-logo.png) no-repeat 0 0;
+}
+.parts-wrap.prosev .parts-logo {
+	background-position: 0 0;
+}
+.parts-wrap.coorcase .parts-logo {
+	background-position: 0 -88px;
+}
+.parts-wrap.advopro .parts-logo {
+	background-position: 0 -176px;
+}
+.parts-wrap .parts-desc {
+	width: 100%;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	padding: 9px 0 11px;
+	color: #777;
+	font-size: 15px;
+}
+
+.parts-wrap.prosev .parts-body {
+	margin-top: 28px;
+}
+.parts-wrap .ioproducts {
+	width: 932px;
+	height: 81px;
+	margin: 0 auto;
+	padding-bottom: 509px;
+}
+.parts-wrap .ioproduct {
+	position: relative;
+	float: left;
+	width: 147px;
+	height: 100%;
+	margin-right: 10px;
+	background: #999;
+	cursor: default;
+}
+.parts-wrap .ioproduct.last {
+	margin-right: 0;
+}
+.parts-wrap .ioproduct .ptxt {
+	display: inline-block;
+	width: 131px;
+	height: 41px;
+	line-height: 41px;
+	padding: 19px 0 21px 16px;
+	color: #FFF;
+	font-size: 18px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.parts-wrap .ioproduct .ptxt:hover {
+	text-decoration: none;
+}
+.parts-wrap .ioproduct .ptxt .no {
+	display: block;
+	float: left;
+	width: 33px;
+	height: 41px;
+	margin-right: 3px;
+	background: url(img/iop/iop-product-no.png) no-repeat 0 0;
+}
+.parts-wrap .ioproduct.tqing .ptxt .no {
+	background-position: 0 0;
+}
+.parts-wrap .ioproduct.tji .ptxt .no {
+	background-position: 0 -41px;
+}
+.parts-wrap .ioproduct.tmai .ptxt .no {
+	background-position: 0 -83px;
+}
+.parts-wrap .ioproduct.tjie .ptxt .no {
+	background-position: 0 -124px;
+}
+.parts-wrap .ioproduct.tque .ptxt .no {
+	background-position: 0 -164px;
+}
+.parts-wrap .ioproduct.tlai .ptxt .no {
+	background-position: 0 -206px;
+}
+.parts-wrap .ioproduct .downarrow {
+	display: none;
+	width: 15px;
+	height: 8px;
+	position: absolute;
+	left: 66px;
+	bottom: -8px;
+	background: url(img/iop/iop-product-arrow.png) no-repeat 0 0;
+}
+.parts-wrap .ioproduct.hover {
+	background: #0C93E5;
+}
+.parts-wrap .ioproduct.hover .downarrow {
+	display: block;
+}
+.parts-wrap .ioproduct .product_intro {
+	display: none;
+	width: 930px;
+	height: 495px;
+	position: absolute;
+	left: 0;
+	top: 93px;
+	border: 1px solid #EDEDED;
+	background: #F7F7F7;
+}
+.ioproduct .product_intro .title {
+	width: 892px;
+	height: 28px;
+	margin: 13px auto 0;
+	overflow: hidden;
+	*zoom: 1;
+}
+.ioproduct .product_intro .title .highlight,
+.ioproduct .product_intro .title .brokenline,
+.ioproduct .product_intro .title .explaintxt {
+	display: block;
+	float: left;
+}
+.ioproduct .product_intro .title .highlight {
+	height: 27px;
+	line-height: 27px;
+	color: #2B9AE6;
+	font-size: 23px;
+	margin-top: 1px;
+	
+}
+.ioproduct .product_intro .title .brokenline {
+	width: 43px;
+	height: 2px;
+	margin-top: 16px;
+	background: #767676;
+}
+.ioproduct .product_intro .title .explaintxt {
+	height: 24px;
+	line-height: 24px;
+	color: #333;
+	font-size: 19px;
+	margin-top: 4px;
+}
+.ioproduct .product_intro .title .enter_btn {
+	display: block;
+	float: right;
+	width: 69px;
+	height: 28px;
+	line-height: 28px;
+	color: #FFF;
+	font-size: 14px;
+	background: #0C93E5;
+	text-align: center;
+}
+.ioproduct .product_intro .introimg {
+	display: block;
+	width: 611px;
+	height: 302px;
+	margin: 38px auto;
+}
+.ioproduct .product_intro .infotxt {
+	width: 818px;
+	margin: 0 auto;
+	color: #555;
+	font-size: 14px;
+	line-height: 28px;
+	text-indent: 2em;
+}
+.ioproduct .infotxt a.more_link {
+	color: #DE2427;
+}
+
+.parts-wrap.coorcase .parts-body {
+	margin-top: 22px;
+}
+.parts-wrap .coorcases {
+	width: 945px;
+	margin: 0 auto;
+	padding-bottom: 7px;
+}
+.parts-wrap .case_item {
+	float: left;
+	width: 288px;
+	margin-right: 40px;
+}
+.parts-wrap .case_item.last {
+	margin-right: 0;
+}
+.parts-wrap .case_item .iconimg {
+	width: 100%;
+	height: 198px;
+	background: url(img/iop/case-photo-border.png) no-repeat 0 0;
+}
+.parts-wrap .case_item .iconimg img {
+	padding: 8px;
+	width: 270px;
+	height: 181px;
+}
+.parts-wrap .case_item .name {
+	width: 287px;
+	height: 19px;
+	line-height: 19px;
+	color: #333;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 10px 0 7px;
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+}
+.parts-wrap .case_item .onlinetime {
+	width: 287px;
+	height: 13px;
+	line-height: 13px;
+	color: #888;
+	font-size: 12px;
+	margin: 2px auto 0;
+	padding: 8px 0;
+	text-align: center;
+	border-top: 1px solid #CCC;
+}
+.parts-wrap .case_item .intro {
+	width: 277px;
+	line-height: 25px;
+	color: #333;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.parts-wrap .case_item .intro .more_link {
+	color: #2E6EA2;
+}
+
+.parts-wrap.advopro .parts-body {
+	margin-top: 16px;
+}
+.parts-wrap .davantage_img {
+	display: block;
+	width: 941px;
+	height: 404px;
+	margin: 0 auto;
+}
+
+.menu-float {
+	display: none;
+	width: 93px;
+	margin-left: 513px;
+	position: fixed;
+	left: 50%;
+	top: 203px;
+}
+.menu-float .menu-item {
+	display: block;
+	width: 91px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #555;
+	font-size: 14px;
+	border: 1px solid #E3E3E3;
+	background: #FFF;
+}
+.menu-float .menu-item:hover {
+	color: #FF9500;
+	text-decoration: none;
+}
+.menu-float .menu-item-gap {
+	width: 93px;
+	height: 7px;
+	background: url(img/iop/float-menu-item-gap.png) no-repeat center 0;
+}
+.menu-float .menu-item.qrcode {
+	width: 77px;
+	height: 77px;
+	padding: 7px;
+}
+.menu-float .menu-item.qrcode img {
+	width: 100%;
+	height: 100%;
+}

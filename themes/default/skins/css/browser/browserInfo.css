@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#we {
+	line-height: 1.2;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+#please {
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#browsers {
+	font-size: 15px;
+}
+
+#browsers a {
+	display: inline-block;
+	height: 23px;
+	margin: 10px;
+	padding-top: 81px;
+	width: 76px;
+	background: url("../../css/img/browser.jpg") no-repeat;
+	color: #58954E;
+	text-decoration: none;
+}
+
+#browsers a:hover {
+	text-decoration: underline;
+}
+
+#browsers .br1 {
+	background-position: 6px 1px;
+}
+
+#browsers .br2 {
+	background-position: -80px 1px;
+}
+
+#browsers .br3 {
+	background-position: -170px 1px;
+}
+
+#browsers .br4 {
+	background-position: -260px 1px;
+}

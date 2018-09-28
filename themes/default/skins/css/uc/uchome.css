@@ -1,0 +1,63 @@
+a{outline: none;} 
+body.page-home{
+  		 padding:0px;
+  		 background:url(../images/bg/bg.jpg) no-repeat fixed center 0;
+}
+.header-holder{
+	background:none repeat scroll 0 0 transparent;
+	position:relative;
+	z-index:0;
+	height: 92px;
+}
+.header{
+	height: 100%;
+}
+.header .main-nav {
+	position:absolute;right:0px;top:0px;
+	margin:15px 0px 0px 0px;
+	height:20px;
+}
+.header .sub-nav{
+	position:absolute;right:0px;bottom:0px;
+}
+.header .main-nav ul li{
+	float:left;
+	margin-right:15px;
+	display:block;
+	height:20px;
+	line-height:20px;
+}
+.header .main-nav ul li.quit{
+	margin-right:0px;
+}
+.header .main-nav ul li a{
+	font-size:14px;
+	font-weight:bold;
+	color:#007CBB;
+	text-decoration:none;
+}
+.header .main-nav ul li a.home{
+	padding-left:20px;
+	 background:url("../images/home/header-icon-home.png") no-repeat scroll 0 center transparent;
+}
+.header .main-nav ul li.quit a{
+	color:#4D4D4B;
+	font-weight:normal;
+}
+.header .main-nav ul li a:hover{
+	color:orange;
+}
+.header .main-nav ul li.quit a:hover{
+	color:#4D4D4B;
+	text-decoration:underline;
+}
+.header .person{
+	padding:0px;
+}
+.header .sub-nav .person a{
+	color:#4D4D4B;
+}
+.uc-header-logo-img{
+	height:92px;
+	width:549px;
+}

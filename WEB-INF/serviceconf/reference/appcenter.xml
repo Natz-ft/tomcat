@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="appcenter" description="应用商店" protocol="netty" ip="178.27.2.14" port="1205">
+	<reference id="iAppAdminService" interface="com.inspur.api.ac.IAppAdminService"  serviceName="AppAdminService"/>
+	<reference id="appService" interface="com.inspur.api.ac.IAppService"/>
+	<reference id="appStatisticService" interface="com.inspur.api.ac.IAppStatisticService"/>
+	<!-- 2016-04-06   康继昌引入，评分评论接口 -->
+	<reference id="AppEvaluateService" interface="com.inspur.api.ac.IAppEvaluateService" serviceName="AppEvaluateService"/>
+	<!-- 2016-05-16   龙鸿文引入，开发者服务接口 -->
+	<reference id="developerService" interface="com.inspur.api.ac.IDeveloperService" serviceName="AppDeveloperService"/>
+	
+	<!-- 应用评论统计接口 -->
+	<reference id="statisticsService" interface="com.inspur.api.ac.monitor.statistics.IStatisticsService" serviceName="StatisticsService"></reference>
+</module>

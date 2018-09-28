@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+body {
+	background-color: #f9f9f9;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.head {
+	margin: 0 auto;
+	height: 185px;
+	background-image: url(img/head.png);
+}
+
+.banner {
+	height: 209px;
+	background: #37baff;
+	text-align: center;
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	margin-top: 10px;
+	overflow: hidden;
+}
+/* main*/
+.content .main {
+	float: left;
+	width: 680px;
+	border: 1px solid #dbdee1;
+	margin-top: 5px;
+	padding-bottom: 25px;
+	background-color: #FFFFFF;
+}
+
+.content .main .tab {
+	height: 36px;
+	margin-top: -13px;
+}
+
+.content .main .tab ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.content .main .tab ul li {
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	line-height: 36px;
+	width: 169px;
+	background: url(../../img/news/b_4.png);
+	border-right: 1px solid #dbdee1;
+	vertical-align: middle;
+}
+
+.content .main .tab ul li img {
+	width: auto;
+	height: auto;
+	margin-right: 5px;
+	vertical-align: sub;
+}
+
+.li_bg {
+	background: url(../../img/news/b_2.png) !important;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	width: 168px !important;
+}
+
+/* 平台公告*/
+.content .main .tab_ptgg {
+	width: 632px;
+	margin: auto;
+	margin-top: 25px;
+	font: 14px;
+	font-family: "宋体";
+	line-height: 36px;
+}
+
+.content .main .tab_ptgg ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.content .main .tab_ptgg ul li {
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+	margin-top: 5px;
+	background: url(../../img/news/b_3.png) no-repeat left;
+	padding-left: 20px;
+	border-bottom: 1px dotted #dbdee1;
+}
+
+.content .main .tab_ptgg ul li a:hover {
+	color: #008dd5;
+}
+
+.content .main .tab_ptgg .ptgg_n {
+	float: left;
+}
+
+.content .main .tab_ptgg .ptgg_time {
+	float: right;
+}
+
+/* 页码*/
+.digg {
+	margin: 3px;
+	margin-top: 20px;
+	padding: 3px;
+	text-align: center;
+}
+
+.digg a {
+	border: #eeeeee 1px solid;
+	text-decoration: none;
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	color: #0166ab;
+}
+
+.digg a:hover {
+	border: #036cb4 1px solid;
+}
+
+.digg a:active {
+	border: #0166ab 1px solid;
+	color: #fff;
+	background-color: #036cb4;
+}
+
+.digg span.current {
+	border: #0166ab 1px solid;
+	padding: 2px 5px 2px 5px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #036cb4;
+}
+
+.digg span.disabled {
+	
+}
+
+/* side*/
+.content .side {
+	font-size: 12px;
+	line-height: 24px;
+	float: right;
+	width: 284px;
+	margin-top: 5px;
+	background-color: #ebecec;
+	padding-bottom: 12px;
+}
+
+.content .side .side_top {
+	height: 50px;
+	background-image: url(../../img/news/c_1.png);
+}
+
+.content .side .side_top .side_guanzhu {
+	float: right;
+	width: 58px;
+	height: 23px;
+	background: url(../../img/news/c_2.png);
+	margin-right: 25px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+/*.content .side .side_top .side_guanzhu:hover{ background:url(../../img/news/c_02.png);}	*/
+.content .side .side_zhu {
+	margin: auto;
+	margin-top: 10px;
+	width: 264px;
+	background: #FFF;
+	border: 1px solid #dbdee1;
+	border-radius: 5px;
+}
+
+.content .side .side_zhu .side_zhu_top {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dbdee1;
+}
+
+.content .side .side_zhu .side_zhu_top .top_main {
+	width: 240px;
+	margin: auto;
+}
+
+.content .side .side_zhu .side_zhu_top .top_main .top_main_b {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.content .side .side_zhu .side_zhu_top .top_main .top_main_b a:hover {
+	color: #008dd5;
+}
+
+.content .side .side_zhu .side_zhu_top .top_main .top_main_1 {
+	margin-top: 10px;
+	line-height: 20px;
+	color: #898989;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.content .side .side_zhu .side_zhu_top .top_main .ydqw {
+	margin-top: 6px;
+}
+
+.content .side .side_zhu .side_zhu_main {
+	width: 240px;
+	margin: auto;
+	font-family: "微软雅黑";
+}
+
+.content .side .side_zhu .side_zhu_main ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.content .side .side_zhu .side_zhu_main ul li {
+	border-bottom: 1px solid #eeeeee;
+	height: 44px;
+	line-height: 44px;
+	padding-top: 5px;
+}
+
+.content .side .side_zhu .side_zhu_main ul li:hover {
+	background-image: url(../../img/news/c_bg.png);
+}
+
+.content .side .side_zhu .side_zhu_main .side_main_z {
+	float: left;
+	margin-left: 10px;
+}
+
+.content .side .side_zhu .side_zhu_main .side_main_t {
+	float: right;
+	margin-right: 10px;
+	height: 43px;
+}
+
+/* 头 脚*/
+.ytyj_content {
+	margin: auto;
+	padding: 0px;
+	width: 980px;
+}
+
+.ytyj_header {
+	height: 31px;
+	background-color: #f9f9f9;
+	color: #666;
+}
+
+.ytyj_header .ytyj_content div span a {
+	text-decoration: none;
+	color: #666;
+}
+
+.ytyj_header .ytyj_content .ytyj_headerleft {
+	float: left;
+	margin-top: 8px;
+}
+
+.ytyj_header .ytyj_content .ytyj_headerleft span {
+	margin-right: 5px;
+}
+
+.ytyj_header .ytyj_content .ytyj_headeright {
+	float: right;
+	margin-top: 8px;
+}
+
+.ytyj_header .ytyj_content .ytyj_headeright span {
+	margin-left: 5px;
+}
+
+.ytyj_line {
+	height: 1px;
+	background-color: #5c97c8;
+}
+
+.ytyj_title {
+	background-color: #fff;
+	font-family: "微软雅黑";
+}
+
+.ytyj_title .ytyj_content {
+	height: 101px;
+	background-image: url(img/top_bg_header.jpg);
+}
+
+.ytyj_title .ytyj_logo {
+	float: left;
+	width: 107px;
+	height: 101px;
+	background-image: url(img/top_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ytyj_title .ytyj_keyword {
+	float: left;
+	width: 274px;
+	height: 101px;
+	margin-left: 15px;
+	background-image: url(img/top_title.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ytyj_title .ytyj_search {
+	float: right;
+	width: 441px;
+	height: 101px;
+	background-image: url(img/top_bg_search.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ytyj_title .ytyj_schtitle {
+	float: left;
+	width: 98px;
+	height: 40px;
+	position: relative;
+	top: 30px;
+	text-align: center;
+	font-size: 15px;
+	color: #333;
+}
+
+.ytyj_title .ytyj_schtitle .ytyj_schtext {
+	float: left;
+	padding: 11px 2px 10px 10px;
+	width: 70px;
+}
+
+.ytyj_title .ytyj_schtitle .ytyj_schtext span {
+	margin-right: 5px;
+}
+
+.ytyj_title .ytyj_schtitle .ytyj_schdown {
+	width: 16px;
+	height: 40px;
+	float: right;
+	background-image: url(img/top_arrow_search.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 19px;
+}
+
+.ytyj_title .ytyj_schinput {
+	float: left;
+	width: 238px;
+	height: 40px;
+	position: relative;
+	top: 30px;
+}
+
+.ytyj_title .ytyj_schinput .ytyj_inputext {
+	width: 225px;
+	height: 35px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.ytyj_title .ytyj_schbutton {
+	float: left;
+	width: 105px;
+	height: 41px;
+	position: relative;
+	top: 30px;
+}
+
+.ytyj_title .ytyj_schbutton div {
+	width: 104px;
+	height: 41px;
+	border: 0;
+	background-image: url(img/top_btn_search.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ytyj_nav {
+	height: 40px;
+	background-image: url(img/top_bg_nav.jpg);
+	background-repeat: repeat-x;
+	color: #fff;
+}
+
+.ytyj_nav .ytyj_content {
+	height: 40px;
+}
+
+.ytyj_nav .ytyj_content ul {
+	padding: 0px;
+	margin: 0;
+}
+
+.ytyj_nav	.ytyj_content ul li {
+	height: 15px;
+	float: left;
+	list-style: none;
+	padding: 13px 19px 11px 19px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ytyj_nav	.ytyj_content ul li:hover {
+	background-image: url(img/top_nav_hover2.jpg);
+	background-repeat: repeat-x;
+}
+
+.ytyj_footer {
+	font-size: 12px;
+	height: 111px;
+	background-image: url(img/footer_bg.jpg);
+	background-repeat: repeat-x;
+	margin-top: 20px;
+}
+
+.ytyj_footer .ytyj_content {
+	text-align: center;
+	color: #666;
+}
+
+.ytyj_footer .ytyj_content .ytyj_footerup {
+	padding-top: 20px;
+}
+
+.ytyj_footer .ytyj_content .ytyj_footerup span {
+	margin: 0 13px 0 13px;
+}
+
+.ytyj_footer .ytyj_content .ytyj_footerup span a {
+	text-decoration: none;
+	color: #666;
+}
+
+.ytyj_footer .ytyj_content .ytyj_footermiddle {
+	height: 2px;
+	margin: 8px 0 8px 0;
+	background-image: url(img/footer_line.jpg);
+	background-repeat: repeat-x;
+}
+
+.ytyj_footer .ytyj_content .ytyj_footerbottom p span {
+	margin: 0 5px 0 5px;
+}

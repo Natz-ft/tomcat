@@ -1,0 +1,27 @@
+/*公用按钮*/
+.btn_b,.btn_w,.btn_o,.btn_g,.btn_wo,.btn_wg{background: url(img/btn/cc-btn-sprites.png) no-repeat left top;_background-image:url(img/btn/cc-btn-sprites.gif);}
+.btn_b,.btn_w,.btn_o,.btn_g,.btn_wo,.btn_wg{display: inline-block;height:24px;width:69px;border:0 none;line-height: 24px;text-align:center;padding:0;text-decoration:none;vertical-align:middle;cursor:pointer;color:#fff}
+
+.btn_o{background-position:0px -25px;}
+.btn_o:hover,.btn_wo:hover{background-position:-70px -25px;}
+.btn_o:active,.btn_wo:active{background-position:-140px -25px;}
+
+.btn_b{background-position:0px 0px;}
+.btn_b:hover{background-position:-70px 0px;text-decoration: none;}
+.btn_b:active{background-position:-140px 0px;}
+
+.btn_g{background-position:0px -50px;}
+.btn_g:hover,.btn_wg:hover{background-position:-70px -50px;text-decoration: none;
+color: #fff;}
+.btn_g:active,.btn_wg:active{background-position:-140px -50px;}
+
+.btn_w,.btn_wo,.btn_wg{color:#333;background-position:0px -75px;}
+.btn_w:hover{background-position:-70px -75px;}
+.btn_w:active{background-position:-140px -75px;}
+
+/*返回顶部样式*/
+#topcontrol{z-index:999}
+a.top_stick, a.top_stick:active, a.top_stick:visited{text-align:center;background:#E8F6FE;filter:alpha(opacity=90);opacity:0.9;cursor:pointer;display:inline-block;border:1px solid #CCC;font-size:0;height:97px;border-radius:5px;width:30px;text-decoration:none;}
+a.top_stick p{width:14px;font-size:13px;line-height:14px;margin-left:2px;*margin-left:0px;padding-left:6px;padding-top:5px;*padding-left:0px;text-align:center;height:75px}
+a.top_stick:hover{background-color: rgba(223, 243, 253, 0.7);*background:#E8F6FE;text-decoration:none;filter:alpha(opacity=70);border:1px solid #CCC;}
+a.top_stick div{height:16px;background:url(images/gotop.jpg) no-repeat center 0;margin-top:6px;}

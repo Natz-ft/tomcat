@@ -1,0 +1,43 @@
+.app-list-view-h{
+	width: 100%;
+	overflow: hidden;
+}
+.app-list-view-h li {
+	display: block;
+	float: left;
+	_float: left;
+	overflow: hidden;
+	_overflow: hidden;
+	position: relative;
+	padding: 10px;
+	padding-left: 20px;
+	width: 215px;
+	_width: 215px;
+	height: 80px;
+}
+
+
+.app-list-view-h .app-item-icon {
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-right: 10px;
+}
+
+.app-list-view-h li a.app-name {
+	display: block;
+	overflow: hidden;
+	_overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	_width: 130px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+}
+
+.app-list-view-h .app-grade {
+	margin-left: 5px;
+	_margin-left: 5px;
+	_vertical-align: 2px;
+}

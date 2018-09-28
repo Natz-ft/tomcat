@@ -1,0 +1,379 @@
+body {
+	background-color: #fafafa;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.header {
+	position: relative;
+	z-index: 3;
+}
+
+.nav {
+	position: relative;
+	z-index: 2;
+}
+
+.main {
+	padding: 0;
+	z-index: 1;
+	overflow: visible;
+	position: relative;
+}
+
+.auto-height {
+	height: auto !important;
+	max-height: none !important;
+}
+.sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: none;
+    width: 280px;
+    height: 100%; 
+    /* max-height:500px; */
+    background:#fafafa;
+    padding: 10px 0px 10px;
+}
+
+.sidebar.side-fixed {
+	position: fixed;
+	padding: 10px 0;
+}
+
+.sidebar .side-main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0 10px;
+	overflow-x: hidden !important;
+	outline-style: none !important;
+}
+
+.sidebar .side-title {
+	height: 40px;
+	padding: 0 15px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #3498db;
+	border-radius: 4px;
+}
+
+.sidebar .side-title em {
+	margin-right: 5px;
+	font-style: normal;
+}
+
+.sidebar .side-title .side-remove {
+	display: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.sidebar .side-title .side-remove .fa {
+	margin-right: 5px;
+}
+
+.sidebar .side-content {
+	padding: 15px 0;
+}
+
+.sidebar .side-content .form-label {
+	width: 80px;
+}
+
+.sidebar .side-content .form-content {
+	margin-left: 80px;
+}
+
+.sidebar .side-checked {
+	display: none;
+	margin-bottom: 5px;
+}
+
+.sidebar .side-checked>ul {
+	overflow: hidden;
+}
+
+.sidebar .side-checked>ul>li {
+	display: none;
+	border-radius: 3px;
+	background-color: #63baf4;
+	color: #ffffff;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	line-height: 12px;
+	font-size: 12px;
+	padding: 6px 13px 7px 19px;
+	position: relative;
+	vertical-align: middle;
+	zoom: 1;
+	-webkit-transition: 0.14s linear;
+	-moz-transition: 0.14s linear;
+	-o-transition: 0.14s linear;
+	transition: 0.14s linear;
+	-webkit-backface-visibility: hidden;
+}
+
+.sidebar .side-checked>ul>li:after {
+	display: none;
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	color: #ffffff;
+	content: "\f00d";
+	font-family: "FontAwesome";
+}
+
+.sidebar .side-checked>ul>li:hover {
+	background-color: #3498db;
+	color: #ffffff;
+	padding-left: 12px;
+	padding-right: 20px;
+}
+
+.sidebar .side-checked>ul>li:hover:after {
+	display: block;
+}
+
+.sidebar .side-sort .fa {
+	font-size: 16px;
+	cursor: pointer;
+	color: #999;
+}
+
+.sidebar .side-sort .fa:hover {
+	color: #333;
+}
+
+.sidebar .side-search {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.sidebar .side-search input {
+	width: 100%;
+	padding-right: 30px;
+	border-radius: 3px;
+}
+
+.sidebar .side-search .fa {
+	position: absolute;
+	right: 8px;
+	top: 10px;
+	font-size: 18px;
+	color: #999;
+	cursor: pointer;
+}
+
+.sidebar .side-search input:focus ~ .fa {
+	color: #666;
+}
+
+.sidebar .side-search .fa:hover {
+	color: #333 !important;
+}
+
+.sidebar .side-filter .filter-title {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #666;
+}
+
+.sidebar .side-filter .filter-list {
+	margin-bottom: 15px;
+}
+
+.sidebar .side-filter .filter-list>ul {
+	max-height: 140px;
+	overflow: hidden;
+}
+
+.sidebar .side-filter .filter-list>ul>li {
+	padding-left: 20px;
+	line-height: 2;
+	border-left: 3px solid #ccc;
+	cursor: pointer;
+	color: #666;
+}
+
+.sidebar .side-filter .filter-list>ul>li em {
+	float: right;
+	font-style: normal;
+	font-size: 12px;
+}
+
+.sidebar .side-filter .filter-list>ul>li:hover, .sidebar .side-filter .filter-list>ul>li.active
+	{
+	color: #cc0000;
+	border-left-color: #cc0000;
+}
+
+.sidebar .side-filter .filter-more {
+	margin-top: 5px;
+	padding-left: 10px;
+	font-style: italic;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.sidebar .side-filter .filter-more .fa {
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.sidebar .side-filter .filter-more:after {
+	content: "查看更多";
+}
+
+.sidebar .side-filter .auto-height ~ .filter-more:after {
+	content: "收起";
+}
+
+.sidebar .side-filter .filter-more:hover {
+	color: #cc0000;
+}
+
+.content {
+	margin-left: 280px;
+	padding: 10px;
+	min-height: 330px;
+}
+
+.m-cata-list>ul {
+	overflow: hidden;
+}
+
+.m-cata-list>ul>li.cata-item {
+	float: left;
+	width: 49%;
+	margin: 0 .5% 10px;
+	border-left: 3px solid transparent;
+	transition: color 0.25s, background-color linear 0.25s, border-color
+		linear 0.25s, box-shadow ease-in-out 0.25s;
+}
+
+.m-cata-list>ul>li:hover {
+	border-left-color: #cc0000;
+}
+
+.m-cata-list .cata-item .item-option {
+	float: right;
+	width: 92px;
+	padding-left: 15px;
+}
+
+.m-cata-list .cata-item .item-option>ul>li {
+	line-height: 2;
+	font-size: 12px;
+	letter-spacing: .5px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.m-cata-list .cata-item .item-option>ul>li.active {
+	color: #008dd5;
+}
+
+.m-cata-list .cata-item .item-option>ul>li:hover {
+	/* color: #2F6589; */
+	
+}
+
+.m-cata-list .cata-item .item-option>ul>li i {
+	margin-right: 5px;
+}
+
+.m-cata-list .cata-item .item-option ~ .item-content {
+	margin-right: 80px;
+	padding-right: 10px;
+	border-right: 1px solid #ececec;
+}
+
+.m-cata-list .cata-item .item-option ~ .item-content .item-header {
+	border-bottom: none;
+}
+
+.m-cata-list .cata-item .item-option ~ .item-content .item-format {
+	float: none;
+	margin-top: 0;
+}
+
+.m-cata-list .cata-item .item-option ~ .item-content .item-header .item-title
+	{
+	margin-right: 0;
+}
+
+@media screen and (max-width:1260px) {
+	.m-cata-list>ul>li.cata-item {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.detail-base-list {
+	background-color: #fff;
+}
+
+.detail-base-list .info-list {
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.detail-base-list .info-list ul li {
+	font-family: "Microsoft Yahei";
+	color: #2578c4;
+	overflow: hidden;
+	margin-bottom: 1px;
+	width: 50%;
+	float: left;
+}
+
+.detail-base-list .info-list ul li .info-header {
+	width: 150px;
+	float: left;
+	padding: 20px 10px;
+	background-color: #f7f7f7;
+	text-align: center;
+	color: #555;
+}
+
+.detail-base-list .info-list ul li .info-body {
+	margin-left: 151px;
+	padding: 20px 20px;
+	background-color: #fbfbfb;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dataTables_wrapper .table-scrollable {
+	overflow: scroll;
+	overflow-y: hidden;
+}
+
+#catalog_table td {
+	white-space: nowrap;
+}
+/* ���� */
+.detail-header .bdshare-button-style0-16 .bds_more {
+	background-image: none;
+	float: none;
+	padding: 0px;
+	font-size: 13px;
+	color: #1890cf;
+}
+
+.sidebar.side-fixed {
+	position: absolute;
+	max-height: none;
+}
